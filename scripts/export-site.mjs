@@ -23,11 +23,12 @@ function archive(base,paths,destination){
 }
 const design=JSON.parse(readFileSync(resolve(root,'design.lock.json')));
 for(const [path,hash]of Object.entries(design.files))if(sha(readFileSync(resolve(root,design.path,path)))!==hash)throw Error('Changed design resource: '+path);
-const inputs=['browser','engine','docs','licenses'].flatMap(p=>files(resolve(root,p))).concat(['README.md','LICENSE','source.lock.json','design.lock.json','package.json'].map(p=>resolve(root,p)));
-const id='0.0.1-'+sha(inputs.map(p=>relative(root,p)+'\0'+sha(readFileSync(p))).join('\n')).slice(0,16),base='/releases/'+id;
+const inputs=['browser','engine','dictionaries','docs','licenses'].flatMap(p=>files(resolve(root,p))).concat(['README.md','LICENSE','source.lock.json','design.lock.json','dictionary-sources.lock.json','package.json'].map(p=>resolve(root,p)));
+const version=JSON.parse(readFileSync(resolve(root,'package.json'))).version;
+const id=version+'-'+sha(inputs.map(p=>relative(root,p)+'\0'+sha(readFileSync(p))).join('\n')).slice(0,16),base='/releases/'+id;
 rmSync(site,{recursive:true,force:true});mkdirSync(site,{recursive:true});
 const put=(name,data)=>{const path=resolve(site,name);mkdirSync(dirname(path),{recursive:true});writeFileSync(path,data);};
-for(const directory of ['browser','engine'])cpSync(resolve(root,directory),resolve(site,'.'+base,directory),{recursive:true});
+for(const directory of ['browser','engine','dictionaries'])cpSync(resolve(root,directory),resolve(site,'.'+base,directory),{recursive:true});
 const template=readFileSync(resolve(root,'browser/index.html'),'utf8');
 const home=template.replaceAll('__BASE__',base).replaceAll('__RELEASE__',id);put('index.html',home);
 for(const page of ['about','licenses']){
@@ -39,12 +40,12 @@ put('sw.js',readFileSync(resolve(root,'browser/sw.js')));
 put('icon.svg',readFileSync(resolve(root,'browser/icon.svg')));
 put('manifest.webmanifest',JSON.stringify({id:'/',name:'Morph — Greek & Latin morphology',short_name:'Morph',start_url:'/',scope:'/',display:'standalone',background_color:'#F4F5F0',theme_color:'#F4F5F0',icons:[192,512].map(size=>({src:base+`/browser/icon-${size}.png`,sizes:`${size}x${size}`,type:'image/png',purpose:'any'}))},null,2));
 put('_headers',`/*\n  Content-Security-Policy: ${csp}\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/releases/*\n  Cache-Control: public, max-age=31536000, immutable\n`+['/','/about/*','/licenses/*','/release.json','/manifest.webmanifest','/sw.js'].map(path=>`${path}\n  Cache-Control: no-cache\n`).join(''));
-const manifest={schema:1,id,version:'0.0.1',files:files(site).filter(p=>!['_headers','sw.js'].includes(relative(site,p))).map(p=>({url:relative(site,p)==='index.html'?'/':'/'+relative(site,p).replace(/\/index\.html$/,'/'),bytes:readFileSync(p).length,sha256:sha(readFileSync(p))}))};
+const manifest={schema:1,id,version,files:files(site).filter(p=>!['_headers','sw.js'].includes(relative(site,p))).map(p=>({url:relative(site,p)==='index.html'?'/':'/'+relative(site,p).replace(/\/index\.html$/,'/'),bytes:readFileSync(p).length,sha256:sha(readFileSync(p))}))};
 put('.'+base+'/release.json',JSON.stringify(manifest,null,2)+'\n');
 put('release.json',JSON.stringify(manifest,null,2)+'\n');
-mkdirSync(resolve(site,'downloads'),{recursive:true});
+const artifacts=resolve(root,'build/releases',version);mkdirSync(artifacts,{recursive:true});
 // Source delivery includes the frozen original archive and complete build inputs.
-archive(root,['README.md','LICENSE','.gitignore','package.json','source.lock.json','design.lock.json','CITATION.cff','wrangler.jsonc'].map(p=>resolve(root,p)).concat(['.github','browser','engine','scripts','tests','vendor','licenses','docs','evidence','patches'].flatMap(p=>files(resolve(root,p)))),resolve(site,'downloads/morph-0.0.1-source.tar.gz'));
+archive(root,['README.md','LICENSE','.gitignore','package.json','source.lock.json','design.lock.json','dictionary-sources.lock.json','CITATION.cff','wrangler.jsonc'].map(p=>resolve(root,p)).concat(['.github','browser','engine','dictionaries','scripts','tests','vendor','licenses','docs','evidence','patches'].flatMap(p=>files(resolve(root,p)))),resolve(artifacts,`morph-${version}-source.tar.gz`));
 // The static export has no recursive copy of its own downloads.
-archive(site,files(site).filter(p=>!relative(site,p).startsWith('downloads/')),resolve(site,'downloads/morph-0.0.1-static.tar.gz'));
+archive(site,files(site).filter(p=>!relative(site,p).startsWith('downloads/')),resolve(artifacts,`morph-${version}-static.tar.gz`));
 console.log(JSON.stringify({release:id,files:manifest.files.length,offlineBytes:manifest.files.reduce((n,f)=>n+f.bytes,0),site}));

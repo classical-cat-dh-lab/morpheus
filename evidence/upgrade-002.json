@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "checks": [
+    "Interrupted 0.0.2 dictionary download preserves usable 0.0.1 launch",
+    "An open 0.0.1 page still runs its own immutable engine after activation",
+    "Activated 0.0.2 opens offline with both complete dictionaries"
+  ],
+  "passed": true
+}

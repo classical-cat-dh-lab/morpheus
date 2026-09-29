@@ -1,5 +1,6 @@
 import {identity} from '../engine/identity.mjs';
-import {prepareInput, fromBeta} from './input.mjs';
+import {prepareInput} from './input.mjs';
+import {renderReading} from './reading.mjs';
 import {getPreference, setPreference} from './preferences.mjs';
 
 const $ = id => document.getElementById(id);
@@ -36,45 +37,6 @@ $('back-top').onclick = () => { $('input').focus({preventScroll:true}); window.s
 $('import').onchange = async () => { const file = $('import').files[0]; if (!file) return; if (file.size > 262144) return status('Choose a text file no larger than 256 KiB.', true); $('input').value = await file.text(); $('input').focus(); $('import').value = ''; };
 
 function node(tag, text, className) { const element = document.createElement(tag); if (text !== undefined) element.textContent = text; if (className) element.className = className; return element; }
-function displayResult(prepared, result) {
-  const output = decode(result.stdout), queues = new Map();
-  for (const match of output.matchAll(/^([^\n]+)\n((?:<NL>[\s\S]*?<\/NL>)+)\n/gm)) {
-    const analyses = [...match[2].matchAll(/<NL>([\s\S]*?)<\/NL>/g)].map(x => x[1]);
-    const key = match[1]; if (!queues.has(key)) queues.set(key, []); queues.get(key).push(analyses);
-  }
-  $('results').replaceChildren();
-  let hits = 0;
-  for (const item of prepared.records) {
-    const key = item.input.trim().split(/\s/)[0].replace(/\d+$/, '');
-    const analyses = queues.get(key)?.shift() ?? [];
-    if (analyses.length) hits++;
-    const details = node('details', undefined, 'result'); details.open = prepared.records.length === 1;
-    const summary = node('summary'); const form = node('span', item.original, 'form'); form.lang = prepared.language === 'grc' ? 'grc' : 'la';
-    summary.append(form, node('span', analyses.length ? `${analyses.length} ${analyses.length === 1 ? 'analysis' : 'analyses'}` : 'No analysis', 'count'));
-    details.append(summary);
-    if (!analyses.length) details.append(node('p', 'No analysis in this Morpheus data edition.', 'unknown'));
-    else {
-      const list = node('ol', undefined, 'analyses');
-      for (const analysis of analyses) {
-        const li = node('li', undefined, 'analysis');
-        const match = analysis.match(/^([A-Z])\s+(\S+)\s+([\s\S]*)$/);
-        if (!match) li.append(node('pre', analysis));
-        else {
-          const lemma = node('span', prepared.language === 'grc' && match[1] !== 'E' ? fromBeta(match[2]) : match[2], 'lemma'); lemma.lang = match[1] === 'E' ? 'en' : form.lang;
-          const fields = match[3].split('\t');
-          li.append(lemma, node('p', `${({N:'Nominal',V:'Verb',P:'Participle',I:'Indeclinable',E:'English lemma'})[match[1]] ?? match[1]} · ${fields[0].trim()}`, 'grammar'));
-          const tags = fields.slice(1).filter(Boolean).join(' · '); if (tags) li.append(node('p', tags, 'tags'));
-        }
-        list.append(li);
-      }
-      details.append(list);
-    }
-    details.addEventListener('toggle', () => { if (details.open) for (const other of $('results').children) if (other !== details) other.open = false; });
-    $('results').append(details);
-  }
-  $('back-top').hidden = prepared.records.length < 4;
-  return hits;
-}
 
 $('lookup').onsubmit = event => {
   event.preventDefault(); finish(); const id = String(++sequence); record = null; $('raw').hidden = true; $('results').replaceChildren(); $('back-top').hidden = true;
@@ -100,7 +62,7 @@ $('lookup').onsubmit = event => {
     $('engine-info').textContent = `Protocol ${result.protocol}; profile ${result.profile}; ${result.termination.kind}${result.termination.code === undefined ? '' : ' ' + result.termination.code}.`;
     $('raw').hidden = !$('show-raw').checked;
     if (result.termination.kind !== 'exit' || result.termination.code !== 0) return status('Morpheus did not finish successfully. Original output is available in display options.', true);
-    const hits = displayResult(prepared, result); status(`Complete: ${hits} of ${prepared.records.length} ${prepared.records.length === 1 ? 'word' : 'words'} analyzed.`);
+    const hits = renderReading($('results'), prepared, result); $('back-top').hidden = prepared.records.length < 4; status(`Complete: ${hits} of ${prepared.records.length} ${prepared.records.length === 1 ? 'word' : 'words'} analyzed.`);
   };
   worker.postMessage(request);
 };

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this software and acknowledge the original Perseus Morpheus."
 type: software
 title: "Morph: a browser preservation of Perseus Morpheus"
-version: 0.0.1
+version: 0.0.2
 authors:
   - family-names: Fang
     given-names: Xinjie
@@ -13,5 +13,5 @@ repository-code: "https://github.com/classical-cat-dh-lab/morpheus"
 url: "https://morph.latingreek.org"
 license-url: "https://creativecommons.org/licenses/by-sa/3.0/us/"
 abstract: "A local, offline-capable browser application preserving the original Perseus Morpheus C morphology engine for Ancient Greek and Latin."
-doi: "10.5281/zenodo.23042201"
-date-released: 2026-09-29
+doi: "10.5281/zenodo.23043494"
+date-released: 2026-09-30

@@ -1,4 +1,4 @@
-Morph 0.0.1 — CC BY-SA 3.0 US, except separately licensed components.
+Morph 0.0.2 — CC BY-SA 3.0 US, except separately licensed components.
 
 Original Morpheus: Gregory Crane and contributors, Perseus Digital Library,
 Tufts University. Original notice: licenses/perseus-original.md.
@@ -18,6 +18,11 @@ Classical Cat Digital Humanities Lab.
 
 Exceptions retain their own notices: Emscripten runtime (MIT/UIUC and component
 terms), musl sorting implementation (MIT), and bundled fonts (SIL OFL).
+The LSJ and Lewis & Short XML files in vendor/lexica and derived dictionaries/
+packs retain CC BY-SA 4.0, separately from the code. See
+dictionary-sources.lock.json, licenses/perseus-lsj.md, licenses/perseus-ls.md
+and licenses/CC-BY-SA-4.0.txt. Original XML headers and notices are retained.
+
 See licenses/emscripten.txt, licenses/musl.txt, vendor/runtime/qsort.c and
 browser/design/fonts/licenses/. No font is relicensed by this declaration.
 
