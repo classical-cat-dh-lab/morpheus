@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#F4F5F0">
+  <meta name="morph-release" content="__RELEASE__">
+  <meta name="description" content="Ancient Greek and Latin morphology, running on your device. A preservation of Perseus Morpheus.">
+  <title>Morph — Greek &amp; Latin morphology</title>
+  <link rel="icon" href="__BASE__/browser/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="__BASE__/browser/icon-180.png">
+  <link rel="stylesheet" href="__BASE__/browser/design/dist/tokens.css">
+  <link rel="stylesheet" href="__BASE__/browser/design/dist/fonts.css">
+  <link rel="stylesheet" href="__BASE__/browser/style.css">
+  <script type="module" src="__BASE__/browser/app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#lookup">Skip to lookup</a>
+  <header class="site-header"><div><a class="wordmark" href="/">Morph</a><span class="edition">0.0.1 · Engineering edition</span></div><button id="theme-toggle" type="button" aria-label="Switch to dark theme">Dark</button></header>
+  <main id="main">
+    <section aria-labelledby="title">
+      <h1 id="title">Greek &amp; Latin morphology</h1>
+      <p class="intro">Perseus Morpheus, running on your device.</p>
+      <form id="lookup">
+        <div class="input-controls"><label>Language <select id="language"><option value="grc">Ancient Greek</option><option value="lat">Latin</option></select></label><label>Input <select id="mode"><option value="unicode">Reading text (Unicode)</option><option value="original">Original engine input</option></select></label></div>
+        <label class="sr-only" for="input">Words to analyze</label>
+        <textarea id="input" rows="3" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="λόγος, ἄνθρωπος, λύω" aria-describedby="input-help"></textarea>
+        <p class="help" id="input-help">Enter a word or a passage. Punctuation separates words; accents and breathings are preserved.</p>
+        <div class="actions"><button id="analyze" class="primary" type="submit">Analyze</button><button id="cancel" type="button" hidden>Stop</button><button id="clear" type="button">New lookup</button><label class="file-button">Import text<input id="import" type="file" accept=".txt,.words,text/plain"></label></div>
+        <details class="options"><summary>Lookup &amp; display options</summary><div class="option-list"><label><input id="ignore-accents" type="checkbox">Ignore Greek accents (original Morpheus option)</label><label><input id="ignore-case" type="checkbox">Ignore case</label><label><input id="show-raw" type="checkbox">Show original output and input record</label></div></details>
+      </form>
+      <p id="status" role="status" aria-live="polite">Ready.</p>
+    </section>
+    <section id="results" aria-label="Analysis results"></section>
+    <button id="back-top" type="button" hidden>Back to top</button>
+    <details id="raw" hidden><summary>Original output &amp; input record</summary><div class="actions"><button id="download-output" type="button">Download original output</button><button id="download-record" type="button">Download execution record</button></div><h2>Delivered input</h2><pre id="delivered"></pre><h2>Standard output</h2><pre id="stdout"></pre><h2>Standard error</h2><pre id="stderr"></pre><p id="engine-info" class="help"></p></details>
+    <section class="offline" aria-labelledby="offline-title"><h2 id="offline-title">Keep a copy</h2><p class="help">Save the complete application and morphology data for offline use.</p><div class="actions"><button id="offline-save" type="button" disabled>Save for offline</button><button id="offline-cancel" type="button" hidden>Cancel download</button></div><p id="offline-status" class="help" role="status">Checking offline support…</p></section>
+  </main>
+  <footer><p>A preservation project by Classical Cat Digital Humanities Lab.</p><nav aria-label="Project information"><a href="/about/">About &amp; limitations</a><a href="/licenses/">Licenses &amp; credits</a><a href="https://github.com/classical-cat-dh-lab/morpheus">Source</a><a href="/downloads/morph-0.0.1-source.tar.gz">Download source</a><a href="/downloads/morph-0.0.1-static.tar.gz">Download application</a></nav></footer>
+</body></html>

@@ -1,0 +1,10 @@
+{
+  "name": "@classical-cat/morph",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "exports": {".": "./engine/runtime.mjs", "./input": "./browser/input.mjs"},
+  "scripts": {"test": "node --test tests/*.test.mjs", "site": "node scripts/export-site.mjs", "serve": "node scripts/serve.mjs", "verify": "npm test && npm run site"},
+  "engines": {"node": ">=22"}
+}

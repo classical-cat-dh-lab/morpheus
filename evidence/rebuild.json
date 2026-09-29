@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "scope": "Independent clean builds from the same source and compiler/data recipe; final link uses a host-neutral relative output path.",
+  "runtimeDataIdentity": "9309f9ae824ff8e2f0db3636e4896a959381c4b5540d314281d688e4451b226f",
+  "runtimeDataRebuiltIdentically": true,
+  "wasmSha256": "c91ddc0e424197e3d3cd4e4d396979367f0d37101f608bdd6e9205b841914273",
+  "wasmRebuiltIdentically": true
+}

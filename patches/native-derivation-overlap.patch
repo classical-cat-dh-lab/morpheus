@@ -1,0 +1,11 @@
+--- a/src/gkdict/derivio.c
++++ b/src/gkdict/derivio.c
+@@ -377,7 +377,7 @@
+ 			s++;
+ 			while(*s&&*s!=':') s++;
+ 			if(*s) s++;
+-			strcpy(derivsuff,s);
++			memmove(derivsuff,s,strlen(s)+1);
+ 			p = derivsuff;
+ 			while(*p) {
+ 				if( *p == ':' ) *p = ' ';

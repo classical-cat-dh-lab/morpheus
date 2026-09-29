@@ -1,0 +1,5298 @@
+{
+  "schemaVersion": 1,
+  "status": "0.0.1 retained-source engineering reconstruction",
+  "source": {
+    "repository": "PerseusDL/morpheus",
+    "revision": "b1b33c56ef2338fe0dcd1893628ed638f00c0986",
+    "archiveSha256": "5de32ffaf97ee0c9ccf5a3a1ebaab140b227236b1a95094c26392d388d3c0836"
+  },
+  "runtimeDataIdentity": "9309f9ae824ff8e2f0db3636e4896a959381c4b5540d314281d688e4451b226f",
+  "runtimeFiles": [
+    {
+      "path": "Greek/derivs/ascii/aL_stem.asc",
+      "bytes": 129,
+      "sha256": "19292d2773f5d983984ca687619bf839af76b9d74d0cacaf370e6ea04e6e3d8e"
+    },
+    {
+      "path": "Greek/derivs/ascii/a_stem.asc",
+      "bytes": 1976,
+      "sha256": "a5aebc90feae9202ce827a98830ad97ea71be49b8e4e3ab8700ed5ed688d4c4b"
+    },
+    {
+      "path": "Greek/derivs/ascii/ainw.asc",
+      "bytes": 477,
+      "sha256": "6ea661236fd37bcfc2314a2a1d962c37b6fa444eb6174510381186fea5bf115e"
+    },
+    {
+      "path": "Greek/derivs/ascii/airw.asc",
+      "bytes": 301,
+      "sha256": "dc9c6885ca0c4e85743d518b7b68bfb678cb1f22dfa721af4f83575f2f543dfb"
+    },
+    {
+      "path": "Greek/derivs/ascii/aiw.asc",
+      "bytes": 172,
+      "sha256": "8c101f8b3d3ed6eaedf1d796d6f2ebf38a099e9b4c37d7296fe696c497fc43c9"
+    },
+    {
+      "path": "Greek/derivs/ascii/allw.asc",
+      "bytes": 264,
+      "sha256": "5598ca75db0f7d5b1b78ae62f7deecd5e26a2ae918ed0d80bf21207fddac259f"
+    },
+    {
+      "path": "Greek/derivs/ascii/anw.asc",
+      "bytes": 415,
+      "sha256": "3cceead1624cc8c2ca23850d6f5baa8f4585dfda00a0de8bfec668bce60a3b3d"
+    },
+    {
+      "path": "Greek/derivs/ascii/av_stem.asc",
+      "bytes": 283,
+      "sha256": "5a7973956911eefa0eb655e323d1b07b8fe20add813dc0891256bad91d1dea69"
+    },
+    {
+      "path": "Greek/derivs/ascii/aw_denom.asc",
+      "bytes": 1525,
+      "sha256": "c8c60b9ad92deb370415541b57df9668f95c38414015f9dc5eb78518c0c123e4"
+    },
+    {
+      "path": "Greek/derivs/ascii/azw.asc",
+      "bytes": 363,
+      "sha256": "cc1cc9258331c213803bcf46c63a473b11459f00ebf92d25cd683cd2a2ea1ab1"
+    },
+    {
+      "path": "Greek/derivs/ascii/e_stem.asc",
+      "bytes": 1112,
+      "sha256": "fe2e82fd173c032fdfd1af3994456b0916fe787e018b63591263c3d7acd11fa1"
+    },
+    {
+      "path": "Greek/derivs/ascii/e_suppl.asc",
+      "bytes": 646,
+      "sha256": "d71daed4f02c5c0d7556c763ab9d3099d55d8033687b1bea11a1f43189422f37"
+    },
+    {
+      "path": "Greek/derivs/ascii/einw.asc",
+      "bytes": 77,
+      "sha256": "de9edc07dc759bd056dfe1f1130b184e80f59346d56339219e76d22617b69c0b"
+    },
+    {
+      "path": "Greek/derivs/ascii/eirw.asc",
+      "bytes": 228,
+      "sha256": "b216af47ea7a403149529f1ec43e350fb1811ffbfd1996378beaba8bc12eab36"
+    },
+    {
+      "path": "Greek/derivs/ascii/ellw.asc",
+      "bytes": 169,
+      "sha256": "a565d2f082bae558f3f40f5af180200e9377669007780662e3b0cd463b870e52"
+    },
+    {
+      "path": "Greek/derivs/ascii/euw.asc",
+      "bytes": 178,
+      "sha256": "4c03d11907e2ef286bda78995312439645c1541f12201c0013a973d0b5245c82"
+    },
+    {
+      "path": "Greek/derivs/ascii/ev_stem.asc",
+      "bytes": 707,
+      "sha256": "32b6d94b6c4a6eb49e1a28345199514266a56fce3216e15a4413fd11568807d7"
+    },
+    {
+      "path": "Greek/derivs/ascii/ew_denom.asc",
+      "bytes": 1180,
+      "sha256": "cd0cec3b4a143e506e89f713035381a5f598c3649361d7c552d22fe7e97b084d"
+    },
+    {
+      "path": "Greek/derivs/ascii/iaw_denom.asc",
+      "bytes": 605,
+      "sha256": "53daabbc4ec351eec49c07cd078002ebd945d5f9dadd227b727470386cfec607"
+    },
+    {
+      "path": "Greek/derivs/ascii/illw.asc",
+      "bytes": 108,
+      "sha256": "96fdee5634d38bc3ad247b023b4ead02bf0e4d78e6d48adabf925b1f546e51a2"
+    },
+    {
+      "path": "Greek/derivs/ascii/inw.asc",
+      "bytes": 185,
+      "sha256": "0e93bbda6c12d854f08cf0b7a947ecb5207007e0b671782a6dee4a9c36ce565c"
+    },
+    {
+      "path": "Greek/derivs/ascii/iskw.asc",
+      "bytes": 46,
+      "sha256": "f77800196926dd42538244f990b8a3ab10e8779d8196475f70fc76a74ece3932"
+    },
+    {
+      "path": "Greek/derivs/ascii/izw.asc",
+      "bytes": 667,
+      "sha256": "0726e2a053029adede20808b8e6fceb16b7488e496947e7ce87b55bdcd6bac30"
+    },
+    {
+      "path": "Greek/derivs/ascii/ndw.asc",
+      "bytes": 98,
+      "sha256": "cb13ef3784943ffeeba96233d25496a3f27f76972dc6d51133f3133fb7c350ff"
+    },
+    {
+      "path": "Greek/derivs/ascii/nhmi.asc",
+      "bytes": 76,
+      "sha256": "a788946fa58ec1a2990900832d7195c44d0b5d495230a7e1d08ccfcbe437af93"
+    },
+    {
+      "path": "Greek/derivs/ascii/numi.asc",
+      "bytes": 163,
+      "sha256": "8d7202a24eccf6241714ab58919e95144cf922bcc0a17e73f06dbe9d265f0710"
+    },
+    {
+      "path": "Greek/derivs/ascii/nw.asc",
+      "bytes": 40,
+      "sha256": "3c83392255ca6ab53f567a587cb4865a95421d2b2393c3eb593a1916c619ad44"
+    },
+    {
+      "path": "Greek/derivs/ascii/o_stem.asc",
+      "bytes": 720,
+      "sha256": "3d72eea6cd39dfaafb1750dc204483f918d9f9dd75069839ff940263a7074777"
+    },
+    {
+      "path": "Greek/derivs/ascii/ow_denom.asc",
+      "bytes": 172,
+      "sha256": "7f558fb3cabb266e99e8c59150add8b20b437ed90d8fb2bd3f9c3110fd4e2204"
+    },
+    {
+      "path": "Greek/derivs/ascii/ozw.asc",
+      "bytes": 232,
+      "sha256": "ec80ee49c43547d34b87b24a7341037d001cd41ad005726536494b74e9fa3ed2"
+    },
+    {
+      "path": "Greek/derivs/ascii/ptw.asc",
+      "bytes": 182,
+      "sha256": "9a13ae873a788071fa0afbe0bbc94bfc5fcba0af49e48875178447663005ce7b"
+    },
+    {
+      "path": "Greek/derivs/ascii/reg_conj.asc",
+      "bytes": 311,
+      "sha256": "32e005391a8e19240327adac8686d769b10c61dee4ce3a43f0f5e6e6509161b0"
+    },
+    {
+      "path": "Greek/derivs/ascii/skw.asc",
+      "bytes": 199,
+      "sha256": "92c4c8f2454024046f4f8cf723f05883320ef215327395459a16ace7d74d8bfe"
+    },
+    {
+      "path": "Greek/derivs/ascii/ss.asc",
+      "bytes": 178,
+      "sha256": "a40c183a9b5a82e5d7f3588427c608940053bab65907e25ced287974933a75ad"
+    },
+    {
+      "path": "Greek/derivs/ascii/ullw.asc",
+      "bytes": 100,
+      "sha256": "6f4d52a9528745be3633778730604f627135d17292f8daea933de6a68f4abc94"
+    },
+    {
+      "path": "Greek/derivs/ascii/unw.asc",
+      "bytes": 154,
+      "sha256": "557e19cc00227e6c6fe6a39149b3b04e50b50246e153126ff534ec94ff11040e"
+    },
+    {
+      "path": "Greek/derivs/ascii/urw.asc",
+      "bytes": 161,
+      "sha256": "09876f4d5a26e293549ed9084569821d21a71caf084a8af5e127a664e06c8511"
+    },
+    {
+      "path": "Greek/derivs/ascii/uzw.asc",
+      "bytes": 260,
+      "sha256": "428278f6966bede5955a9146d293dd212f404c811297593a9d3735023664bf97"
+    },
+    {
+      "path": "Greek/derivs/indices/derivind",
+      "bytes": 6032,
+      "sha256": "eb2c7c3de0da6f7073eb8d4baf7ac26a417570809557c6690405fe8fd38f2f8c"
+    },
+    {
+      "path": "Greek/derivs/out/aL_stem.out",
+      "bytes": 356,
+      "sha256": "5cbacb46ffa790f362698989cd948615553ce6e72d64368a85a482bdcc69375f"
+    },
+    {
+      "path": "Greek/derivs/out/a_stem.out",
+      "bytes": 4184,
+      "sha256": "b369df01eb6de7bd00d8dbeb8e20167d35c986eb7e6cd93d076a2debd23ab243"
+    },
+    {
+      "path": "Greek/derivs/out/ainw.out",
+      "bytes": 1163,
+      "sha256": "704e48b9ad0b5159e37b7b9027606283d5b61b01f423f3fb3f3002a734d00eb3"
+    },
+    {
+      "path": "Greek/derivs/out/airw.out",
+      "bytes": 792,
+      "sha256": "46ec23b8aab068569ddb8b2e61ad2de4c966fe8c644f76b67499711c5de363c3"
+    },
+    {
+      "path": "Greek/derivs/out/aiw.out",
+      "bytes": 588,
+      "sha256": "7902529a1bf228faa1593c5e87d34af3c26811b63d96f4fd503ecc7771e16207"
+    },
+    {
+      "path": "Greek/derivs/out/allw.out",
+      "bytes": 704,
+      "sha256": "9d7c788a67f6f3337c0f6b08c1ef56d3b09f438d00ef09c003b4c8429557bc53"
+    },
+    {
+      "path": "Greek/derivs/out/anw.out",
+      "bytes": 994,
+      "sha256": "802e3651e0d18ca4a7cb501469283a67438ebb70e6e4bd99dea0a9c8c4ce4939"
+    },
+    {
+      "path": "Greek/derivs/out/av_stem.out",
+      "bytes": 762,
+      "sha256": "667329dbe0dc5789b9a5ecb18830469bdfba6e880dd2f0444bf9a666f3ca2fd7"
+    },
+    {
+      "path": "Greek/derivs/out/aw_denom.out",
+      "bytes": 2386,
+      "sha256": "2b5c0908a87d958afd73bd662444bd28072a6da70e24030536291062c1304e9b"
+    },
+    {
+      "path": "Greek/derivs/out/azw.out",
+      "bytes": 1168,
+      "sha256": "b7ac77774718907a25d57af175c18ea06cd9dadd30867f90285de94a67f02375"
+    },
+    {
+      "path": "Greek/derivs/out/e_stem.out",
+      "bytes": 2560,
+      "sha256": "7ba6a14629e34c5483e1fe11fe234046173b7c58ff571ee55fcc021ac36694d4"
+    },
+    {
+      "path": "Greek/derivs/out/e_suppl.out",
+      "bytes": 1226,
+      "sha256": "3c8dd9a4fa9b21c13976421af239cdba29aa988ed81559866e6ceb2902c7efb4"
+    },
+    {
+      "path": "Greek/derivs/out/einw.out",
+      "bytes": 228,
+      "sha256": "e43cb119bccc29bbdaf23e460ff731c1ba000d7fbd3dc19174d6d3b57e2e3e8d"
+    },
+    {
+      "path": "Greek/derivs/out/eirw.out",
+      "bytes": 704,
+      "sha256": "2f4a960cc8a4243e6bedaeaf155ca1878aa1fd3596c176ad4656ab9a05cb16ec"
+    },
+    {
+      "path": "Greek/derivs/out/ellw.out",
+      "bytes": 530,
+      "sha256": "83952efa94c443b9e0cb28688221dc7e700e7b6eab830ad51ad32d4db7937168"
+    },
+    {
+      "path": "Greek/derivs/out/euw.out",
+      "bytes": 588,
+      "sha256": "1dbf8d394df8e978fafa18457f18148b37dfef2a88f571a85e2f4439b575d899"
+    },
+    {
+      "path": "Greek/derivs/out/ev_stem.out",
+      "bytes": 1806,
+      "sha256": "b0803088df499bbf717f65436cd67c4092faa148ae22dc29a20e80926b64fbc8"
+    },
+    {
+      "path": "Greek/derivs/out/ew_denom.out",
+      "bytes": 1980,
+      "sha256": "f0e58193bb6789fe18ec4c9de4539d3d7a832e1dd11ee25348f14838085c36b6"
+    },
+    {
+      "path": "Greek/derivs/out/iaw_denom.out",
+      "bytes": 1110,
+      "sha256": "2bc621613b29dbc2d5263b50475ce1be7a3bc1c6536a557e82315cf203900074"
+    },
+    {
+      "path": "Greek/derivs/out/illw.out",
+      "bytes": 356,
+      "sha256": "e7d9d6f41636d6e413ff1ad0ebb3bb720de715634a779ebcd9a8214c0d7f09a0"
+    },
+    {
+      "path": "Greek/derivs/out/inw.out",
+      "bytes": 588,
+      "sha256": "0c1f99f838d318d6274096025d0bbaf6787a330709467e774bddb82e1e2d36e2"
+    },
+    {
+      "path": "Greek/derivs/out/iskw.out",
+      "bytes": 182,
+      "sha256": "0f984bdcf308ed1fd8893e046bb39058321258382b73f2f5ccdc0033a6179b3d"
+    },
+    {
+      "path": "Greek/derivs/out/izw.out",
+      "bytes": 1922,
+      "sha256": "292b01cd28a9bb26d99ea630932b38475f5bcfbcbde19de4c65bc1e6f191f14e"
+    },
+    {
+      "path": "Greek/derivs/out/ndw.out",
+      "bytes": 356,
+      "sha256": "35aea01d0bfc4397d119e830016303c0e25adde3fc7c166adde4b44e046acd29"
+    },
+    {
+      "path": "Greek/derivs/out/nhmi.out",
+      "bytes": 240,
+      "sha256": "6c53f206eb659b68dfb6adb235fb78c76cda88fe1e9b6303294879142e53122d"
+    },
+    {
+      "path": "Greek/derivs/out/numi.out",
+      "bytes": 530,
+      "sha256": "51a8b38427599e5a682fc5f04d88c34654d7d57dc2bf47df567e04626ddc2a54"
+    },
+    {
+      "path": "Greek/derivs/out/nw.out",
+      "bytes": 182,
+      "sha256": "1464bc68ef181c36c9712ec01613a28eccca21dfbe15f83f1cab98e18cf906cb"
+    },
+    {
+      "path": "Greek/derivs/out/o_stem.out",
+      "bytes": 2038,
+      "sha256": "8688b6e5c81b97fd21b771b665ccc571a8efc42cc48742c67a5653477a80d614"
+    },
+    {
+      "path": "Greek/derivs/out/ow_denom.out",
+      "bytes": 472,
+      "sha256": "539edfe649e80fb6dfe3a5b2ee795217b9ef78dd8d420aee2638a59974bc75ec"
+    },
+    {
+      "path": "Greek/derivs/out/ozw.out",
+      "bytes": 762,
+      "sha256": "7cd39d2931f7774fdca069102008004e2cd0b206bc6b34ac9dcdb315d13ad923"
+    },
+    {
+      "path": "Greek/derivs/out/ptw.out",
+      "bytes": 646,
+      "sha256": "06af9106e6886a9cacc4b4d61ee16b7a229feba1f74fa131cddba148af8989fd"
+    },
+    {
+      "path": "Greek/derivs/out/reg_conj.out",
+      "bytes": 820,
+      "sha256": "a6caeb4df869892295d6d17abe7fae32e6bbbde1d0ea8be5965fb8ed2dc7c216"
+    },
+    {
+      "path": "Greek/derivs/out/skw.out",
+      "bytes": 704,
+      "sha256": "195d9f409ffa2c06644f5dcc7cb5c1510864d49a9cca66d315b12f6131b2fc8f"
+    },
+    {
+      "path": "Greek/derivs/out/ss.out",
+      "bytes": 646,
+      "sha256": "a24659529c1a76e2a45620b989f71acf0d0ed5fcde94166ccfa101c29b4eed19"
+    },
+    {
+      "path": "Greek/derivs/out/ullw.out",
+      "bytes": 356,
+      "sha256": "47ef85aceca3edd247e30d42fb4d96ab54c762858e3655bb5c5673e9437c1b80"
+    },
+    {
+      "path": "Greek/derivs/out/unw.out",
+      "bytes": 503,
+      "sha256": "5973bb30e0cba6ca80a3163151b7baf09b4d34c3ba60109780a00c35b7f36517"
+    },
+    {
+      "path": "Greek/derivs/out/urw.out",
+      "bytes": 530,
+      "sha256": "9dc6be96f8217f0330e4b333103c8fcd0979c5a9423a862a68e6bba1cb763ced"
+    },
+    {
+      "path": "Greek/derivs/out/uzw.out",
+      "bytes": 878,
+      "sha256": "97e296131e7fd6121da7a373f66a2f8ed80c7ea169a24ef943ff4d33ed336613"
+    },
+    {
+      "path": "Greek/derivs/source/aL_stem.deriv",
+      "bytes": 69,
+      "sha256": "688ce4475fff7012548ebc851460353bfa6c461ddada081402d4a1130bd6cf16"
+    },
+    {
+      "path": "Greek/derivs/source/a_stem.deriv",
+      "bytes": 856,
+      "sha256": "a1f0adbdebd45111b6d353a7773444e9d9d81864362444dacacfbc1032f306b0"
+    },
+    {
+      "path": "Greek/derivs/source/ainw.deriv",
+      "bytes": 196,
+      "sha256": "074279a0d5cca7804e0a37db031553dc84eae80d84d667efac05c240b01e7d2e"
+    },
+    {
+      "path": "Greek/derivs/source/airw.deriv",
+      "bytes": 126,
+      "sha256": "8d2b0d74c7f0fcc3d91a840991586caaaa3b562f607799db91a288af827a8be1"
+    },
+    {
+      "path": "Greek/derivs/source/aiw.deriv",
+      "bytes": 112,
+      "sha256": "9bc34221b050c67b4feba12f4ffe96007fa81f0fba487c7c5563a3b4d1b4cf99"
+    },
+    {
+      "path": "Greek/derivs/source/allw.deriv",
+      "bytes": 130,
+      "sha256": "78b2d1a3de4988b2f258e736a1819ddbfc312eaa79b3bed9082b81f7e4a87e2b"
+    },
+    {
+      "path": "Greek/derivs/source/anw.deriv",
+      "bytes": 111,
+      "sha256": "25f6d3f9890010060dcbde2e03b3c041202ff947a98896b44e67bc9fe4461c3f"
+    },
+    {
+      "path": "Greek/derivs/source/av_stem.deriv",
+      "bytes": 165,
+      "sha256": "38ccc4f6cb2baddd1324a98bce3277f09ce2f863fac7068182ce4bc1ce85609b"
+    },
+    {
+      "path": "Greek/derivs/source/aw_denom.deriv",
+      "bytes": 520,
+      "sha256": "04f7a00934ec85d8c14da5ef2d8a9b4d6f2633eafb4e26794c660b729c6023a2"
+    },
+    {
+      "path": "Greek/derivs/source/azw.deriv",
+      "bytes": 238,
+      "sha256": "c4868ab36556c2f82d5dde90514755aaf07bdf51838c636ee12427af077aae2d"
+    },
+    {
+      "path": "Greek/derivs/source/cw.deriv",
+      "bytes": 73,
+      "sha256": "9edfd87f41259fe8d7ec44d4797a51e271c834eed85033888c17264ce4d1637b"
+    },
+    {
+      "path": "Greek/derivs/source/e_stem.deriv",
+      "bytes": 375,
+      "sha256": "a9b0b3c91c75776b860e3fc8766185d0aedf065c52b0949a29944721638102cd"
+    },
+    {
+      "path": "Greek/derivs/source/e_suppl.deriv",
+      "bytes": 236,
+      "sha256": "756ba1badddfbd16ae33f2993694b93a2a592665c2bbdaf2906653173f775e6a"
+    },
+    {
+      "path": "Greek/derivs/source/einw.deriv",
+      "bytes": 49,
+      "sha256": "6ada201da648dc82f032aaf25de6f7c5bf2c2e42a00247e15b6ae286a609890e"
+    },
+    {
+      "path": "Greek/derivs/source/eirw.deriv",
+      "bytes": 155,
+      "sha256": "abdeed84be7f2152002570547bb46a437c32c92755c75515954b764e12ddc40e"
+    },
+    {
+      "path": "Greek/derivs/source/ellw.deriv",
+      "bytes": 115,
+      "sha256": "f3914c3f8d607d24a10c1e180f185abdb494062700e34f662cb024eaa17b3cb8"
+    },
+    {
+      "path": "Greek/derivs/source/es_denom.deriv",
+      "bytes": 108,
+      "sha256": "b4b4bda0f0c9cb878060c7bbd056b36fb557b33abc93e5147d0a64e73d1db41f"
+    },
+    {
+      "path": "Greek/derivs/source/euw.deriv",
+      "bytes": 128,
+      "sha256": "79d5496331b41a29e0ab331f5d8e0dcd19a45d55a0161dbe59bd4c04220a8067"
+    },
+    {
+      "path": "Greek/derivs/source/ev_stem.deriv",
+      "bytes": 367,
+      "sha256": "1c78a5c4690bc558409bc54c913f10dac821d4ba2fcee4a16c36d9124cbed5d4"
+    },
+    {
+      "path": "Greek/derivs/source/ew_denom.deriv",
+      "bytes": 404,
+      "sha256": "a72c771d232476b942dfd4f881a76aecac177beb19c057a9f22662a3387a4237"
+    },
+    {
+      "path": "Greek/derivs/source/iaw_denom.deriv",
+      "bytes": 403,
+      "sha256": "283a4c1b6ea08fc14b692fb46d582d09c9143341ddf8c5361ef3b6f0f5e6c4e3"
+    },
+    {
+      "path": "Greek/derivs/source/illw.deriv",
+      "bytes": 66,
+      "sha256": "1b8e4ab83841778fe187f8f96b902442ecc166d202f64eaf6b71c495c449a32f"
+    },
+    {
+      "path": "Greek/derivs/source/inw.deriv",
+      "bytes": 133,
+      "sha256": "27a6b5b2bb13c8fecbd0ceeaa5ad607f122147fba08896ce283e004555e0ee51"
+    },
+    {
+      "path": "Greek/derivs/source/iskw.deriv",
+      "bytes": 25,
+      "sha256": "99ff0d14139ce66a19e79133433f42d21dc85093770c9a4c447a01f2a8e78201"
+    },
+    {
+      "path": "Greek/derivs/source/izw.deriv",
+      "bytes": 523,
+      "sha256": "ab62baf24817846c692d46ada7354449eacc855ae892455cec51bc8214ff452a"
+    },
+    {
+      "path": "Greek/derivs/source/ndw.deriv",
+      "bytes": 68,
+      "sha256": "5161217f189cce1bc5f80d0ae4c6f877ebeb7ec9c5fd42909ce3f5a60cd98231"
+    },
+    {
+      "path": "Greek/derivs/source/nhmi.deriv",
+      "bytes": 48,
+      "sha256": "686a5e4bcce3bcbc2e716ea97f2e7743923ee111538410150fd7854bbb6fa58e"
+    },
+    {
+      "path": "Greek/derivs/source/numi.deriv",
+      "bytes": 108,
+      "sha256": "bbe20769ab44dc29afa4523629da099e46eb62bbd599ac3fa891ea7cbe0dab6a"
+    },
+    {
+      "path": "Greek/derivs/source/nw.deriv",
+      "bytes": 25,
+      "sha256": "5dda3618840f26d4771175f122cf93583cac0a2b84bccecfb373828ab7fc5acb"
+    },
+    {
+      "path": "Greek/derivs/source/o_stem.deriv",
+      "bytes": 431,
+      "sha256": "0da69055bdd34868051b6d1bb00bad61e1dae4536c5ee43fabd6592bda6ee99b"
+    },
+    {
+      "path": "Greek/derivs/source/ow_denom.deriv",
+      "bytes": 91,
+      "sha256": "b28fbaa59f166698715917bc31e57f439206c108af19391a06f95de2c7b0d493"
+    },
+    {
+      "path": "Greek/derivs/source/ow_fact.deriv",
+      "bytes": 63,
+      "sha256": "f4e9b34dd0975e700c7d9c2893b2d5382820a32db89a68a59bb967735cc4cb4c"
+    },
+    {
+      "path": "Greek/derivs/source/ow_instr.deriv",
+      "bytes": 63,
+      "sha256": "f4e9b34dd0975e700c7d9c2893b2d5382820a32db89a68a59bb967735cc4cb4c"
+    },
+    {
+      "path": "Greek/derivs/source/ozw.deriv",
+      "bytes": 166,
+      "sha256": "e359aa6fec25579b13e7be80fb2a8454cbc64275baa445b96e190014f7d241b9"
+    },
+    {
+      "path": "Greek/derivs/source/ptw.deriv",
+      "bytes": 127,
+      "sha256": "26f515d0779c31ee88af06b0a4070b7282cfb8b433bacf2209e49d3b71a5aa00"
+    },
+    {
+      "path": "Greek/derivs/source/reg_conj.deriv",
+      "bytes": 168,
+      "sha256": "cbeefa101552ce4987c9267684e645670e320d46d304a1dd11f26332d06af4f9"
+    },
+    {
+      "path": "Greek/derivs/source/skw.deriv",
+      "bytes": 138,
+      "sha256": "be69b650552707fb7155aed45e2d6867fbc96f1cf4f91343500390c1619876a8"
+    },
+    {
+      "path": "Greek/derivs/source/ss.deriv",
+      "bytes": 131,
+      "sha256": "33e3c48e7a2136a8482a2ea8d6ba2a9426132fb46f222cef7a121e2450ece246"
+    },
+    {
+      "path": "Greek/derivs/source/ullw.deriv",
+      "bytes": 58,
+      "sha256": "509c53f69bcbd9504963942c1998bf52b6d86a3f5794454ba4fe16f2d1085772"
+    },
+    {
+      "path": "Greek/derivs/source/unw.deriv",
+      "bytes": 108,
+      "sha256": "baa086661fe0522d289416854c76b29cacdbe8e71af442e6bed1a149ca0c8aac"
+    },
+    {
+      "path": "Greek/derivs/source/urw.deriv",
+      "bytes": 115,
+      "sha256": "a8fbbbc23d809044a09f43d8f04e2412d71f464b024af04aebe349c53de0fba0"
+    },
+    {
+      "path": "Greek/derivs/source/uzw.deriv",
+      "bytes": 183,
+      "sha256": "1b04d1374babcedadf266f0bf52143e427dbfbd512853d36b2de5b085bab576a"
+    },
+    {
+      "path": "Greek/derivs/source/ww.deriv",
+      "bytes": 72,
+      "sha256": "24f192f8c97f08b1ddf55077c68cf69cafeb76520fa6fe718c0c973e3b5497c1"
+    },
+    {
+      "path": "Greek/endtables/ascii/a_hs.asc",
+      "bytes": 799,
+      "sha256": "ca6026cf09b7167967ee10718d49767ad873af3a43226d64b689717ec4805d29"
+    },
+    {
+      "path": "Greek/endtables/ascii/ah_ahs.asc",
+      "bytes": 1956,
+      "sha256": "5ed31dbedf23439be54ef96f83470295415e164a32ffe6142591ccce08f3c91f"
+    },
+    {
+      "path": "Greek/endtables/ascii/ajw_pr.asc",
+      "bytes": 39307,
+      "sha256": "bd91782fee73600f3d7ec343b0b1746331e778e997d2acac4ab70cbaaeb4cea2"
+    },
+    {
+      "path": "Greek/endtables/ascii/ami_aor.asc",
+      "bytes": 16174,
+      "sha256": "ae47f6e517c59291a9c3d9dc58a653f902c9fe84f3361ab757e278a09fd65277"
+    },
+    {
+      "path": "Greek/endtables/ascii/ami_pr.asc",
+      "bytes": 13856,
+      "sha256": "52de3127d9b32e4d7fa9f901923d0d16bb5a31ad6fd5554a23eb057839df8024"
+    },
+    {
+      "path": "Greek/endtables/ascii/ami_short.asc",
+      "bytes": 9661,
+      "sha256": "5ed1725dad4b54970db686932178f4c22c919dc69702177f4e139f319abefdcc"
+    },
+    {
+      "path": "Greek/endtables/ascii/aor1.asc",
+      "bytes": 11441,
+      "sha256": "70e138a1f7c82814073fa13153330a50e92493a6acd214121ab320345e5a9def"
+    },
+    {
+      "path": "Greek/endtables/ascii/aor2.asc",
+      "bytes": 11947,
+      "sha256": "1813b7af2cb3f262e924d4d9897c8644a9639e87604f2cd3a18542449a2b950f"
+    },
+    {
+      "path": "Greek/endtables/ascii/aor2_pass.asc",
+      "bytes": 17401,
+      "sha256": "dfedbd5fcc2613f5be41db14f17be604976c43431013ef9780d0fca309b8e601"
+    },
+    {
+      "path": "Greek/endtables/ascii/aor_pass.asc",
+      "bytes": 13155,
+      "sha256": "19c7ba9371094d655d20bdf2c8bbacb2aa61162fb71250601972c24c5860594e"
+    },
+    {
+      "path": "Greek/endtables/ascii/aos_aou.asc",
+      "bytes": 303,
+      "sha256": "89845030b847067fcf73dbf0cb25ff4991ece4481260e6a53ad9f9733865e7bd"
+    },
+    {
+      "path": "Greek/endtables/ascii/ar_atos.asc",
+      "bytes": 697,
+      "sha256": "b5e3da71a9419da962e226984233c433c886b59ebc97e9deed5a14ce5faaa7be"
+    },
+    {
+      "path": "Greek/endtables/ascii/art_adj.asc",
+      "bytes": 2379,
+      "sha256": "ba1a5462047d4bb70f1ca19c0a68f8475b5074af9d0e27e95a108e02029aa7ed"
+    },
+    {
+      "path": "Greek/endtables/ascii/as_a.asc",
+      "bytes": 111,
+      "sha256": "bbd860399b6d3f2298a2b836e77f0a00a1a52509986fc84b6ad9811b1a70e877"
+    },
+    {
+      "path": "Greek/endtables/ascii/as_aina_an.asc",
+      "bytes": 1950,
+      "sha256": "bbe89cdd06dff019dadc6af3ee64f9751521dea87c50a6abdf7772579d0b65ae"
+    },
+    {
+      "path": "Greek/endtables/ascii/as_antos.asc",
+      "bytes": 911,
+      "sha256": "2aa2280f890827595985b82d4e80a46578061bb411d4643c1c79569060e1c1cc"
+    },
+    {
+      "path": "Greek/endtables/ascii/as_aos.asc",
+      "bytes": 2391,
+      "sha256": "0cd76429449801408ef9a54a1d289294a6c442e775be08376226ee3ef16d2eb1"
+    },
+    {
+      "path": "Greek/endtables/ascii/as_asa_an.asc",
+      "bytes": 2795,
+      "sha256": "4a5aa6c0591d87189201ee1c325e931031aadb4bfe56a7a5541eb3dc7172357b"
+    },
+    {
+      "path": "Greek/endtables/ascii/as_atos.asc",
+      "bytes": 1617,
+      "sha256": "2931b00f572326ebccadd4affa304a4b8db12436f058eb829eb40a492b8b727f"
+    },
+    {
+      "path": "Greek/endtables/ascii/ath_h_aor.asc",
+      "bytes": 15634,
+      "sha256": "6bcecad1df9aa425a2eba6322dc0d42657611a450a629cca2087736b13163bd4"
+    },
+    {
+      "path": "Greek/endtables/ascii/ath_primary.asc",
+      "bytes": 10565,
+      "sha256": "5a627bcc263d03fa6e70f6d8c96d62949dc56030c6b9460cac47bc2c96e9821e"
+    },
+    {
+      "path": "Greek/endtables/ascii/ath_secondary.asc",
+      "bytes": 6003,
+      "sha256": "006abbbe48000845f453396ba9a8cc10087ca9989885e029fc2023eadf1f101e"
+    },
+    {
+      "path": "Greek/endtables/ascii/ath_u_aor.asc",
+      "bytes": 8649,
+      "sha256": "92eb876f52bd7435ed1b0f75e37a3e55af8e41e321e67ff34ffe388683989221"
+    },
+    {
+      "path": "Greek/endtables/ascii/ath_w_aor.asc",
+      "bytes": 7619,
+      "sha256": "34e7325936756ab58f0a1ad52ab8f0c368608f17c5f61a52a52dc784b5eba93a"
+    },
+    {
+      "path": "Greek/endtables/ascii/aw_fut.asc",
+      "bytes": 31569,
+      "sha256": "1296fb9e8014d1f1eedd92bc00f189ada4c5ca2ddb1da2cec97d6dcc31d33000"
+    },
+    {
+      "path": "Greek/endtables/ascii/aw_pr.asc",
+      "bytes": 46087,
+      "sha256": "1f45ff583adfd58e79c88adf6925e796d961bfc3f942db9e6c3be5a7bd4553fa"
+    },
+    {
+      "path": "Greek/endtables/ascii/c_ggos.asc",
+      "bytes": 671,
+      "sha256": "eaf51e2b6d770b2c10f8fe7d2e282c2451708d3bf0280bf526925960eca2f34a"
+    },
+    {
+      "path": "Greek/endtables/ascii/c_gos.asc",
+      "bytes": 629,
+      "sha256": "87baef4650083228479b6b6dfa8d2b00545068515677cbe4d0af4803ea2cbaa5"
+    },
+    {
+      "path": "Greek/endtables/ascii/c_kos.asc",
+      "bytes": 627,
+      "sha256": "ab991286c3d1c6d19bffb943c604183cc3cf17d50072af5856e18ac19aa7b12b"
+    },
+    {
+      "path": "Greek/endtables/ascii/c_ktos.asc",
+      "bytes": 707,
+      "sha256": "53ce5baab0f2820ce983622f46b2ba34f07824d8750b077948beb59b4e2fed62"
+    },
+    {
+      "path": "Greek/endtables/ascii/c_xos.asc",
+      "bytes": 629,
+      "sha256": "b4765f806cce03ba639cdbfcdb4c4bea997586765368050805c848d14d72577c"
+    },
+    {
+      "path": "Greek/endtables/ascii/eas_ea.asc",
+      "bytes": 111,
+      "sha256": "7efa216c7f0eca0e28ac9846c279eb95ca3e5834f0533b5f57a0e9a10b4519e1"
+    },
+    {
+      "path": "Greek/endtables/ascii/eh_ehs.asc",
+      "bytes": 1721,
+      "sha256": "7de6a40d94f5b817c8a172c5585d69c6a12aeb060fe03b6fbe67b8dc6b459bb3"
+    },
+    {
+      "path": "Greek/endtables/ascii/ehs_eou.asc",
+      "bytes": 2134,
+      "sha256": "f24f8448e6d4215612b61d4c2d054a103203b5c02130558260b19e996658339c"
+    },
+    {
+      "path": "Greek/endtables/ascii/eis_enos.asc",
+      "bytes": 718,
+      "sha256": "2d5453b7e1af8f2aadf279ae8076147ee8d4389cf0d285348188f2454cd2e72d"
+    },
+    {
+      "path": "Greek/endtables/ascii/eis_essa.asc",
+      "bytes": 1880,
+      "sha256": "bedb031078cde4fd913432b00c9746f9981677804b9a808cbf4b2a325d74029f"
+    },
+    {
+      "path": "Greek/endtables/ascii/emi_aor.asc",
+      "bytes": 14768,
+      "sha256": "e10b6256bdbbc898d00dadc332e7982a7b0f4f60a0548a72fed1899d63fec5dd"
+    },
+    {
+      "path": "Greek/endtables/ascii/emi_pr.asc",
+      "bytes": 10364,
+      "sha256": "2fcc5c5205bde702f050683ad5bd3549c2932428c94b888652a51672d40f0767"
+    },
+    {
+      "path": "Greek/endtables/ascii/eos_eh_eon.asc",
+      "bytes": 7132,
+      "sha256": "26c78bfe3dc1851fe50e6e9d91abaa0eac54301ada5ae742e24fb177ada01494"
+    },
+    {
+      "path": "Greek/endtables/ascii/eos_eou.asc",
+      "bytes": 3427,
+      "sha256": "f1cf5a4206303083513270c2b64715c67146f97d537bea6eac728c15bed8b8da"
+    },
+    {
+      "path": "Greek/endtables/ascii/eus_ews.asc",
+      "bytes": 2259,
+      "sha256": "755970ad3f7e3710f7203a10ce0fd7638464caa5af5a2744ebaf7516a6a8bafa"
+    },
+    {
+      "path": "Greek/endtables/ascii/evw_pr.asc",
+      "bytes": 18626,
+      "sha256": "9b20300f942d8a5c800288907ea7fac61d9eed244a84c8eb433c69a5369b1a9f"
+    },
+    {
+      "path": "Greek/endtables/ascii/ew_fut.asc",
+      "bytes": 31126,
+      "sha256": "e005cb982fb2de74198657734114efc283cd3a8d811a690fb2ffe57f1376dcd3"
+    },
+    {
+      "path": "Greek/endtables/ascii/ew_pr.asc",
+      "bytes": 45975,
+      "sha256": "ae960497939838fc03cc73444db55ca7051ba5c3716de1fafcb57f86d50781d9"
+    },
+    {
+      "path": "Greek/endtables/ascii/ewn_ewnos.asc",
+      "bytes": 780,
+      "sha256": "71d60926081c6e7a521ab6d07d0dbaa877c64417fb0c2ed9eb618eb3314577ce"
+    },
+    {
+      "path": "Greek/endtables/ascii/fut_perf.asc",
+      "bytes": 8896,
+      "sha256": "168410cc7994ed233e06a8cd2bc88526e93a6bcaeb43f659d121f52f3954b899"
+    },
+    {
+      "path": "Greek/endtables/ascii/gc_gos.asc",
+      "bytes": 672,
+      "sha256": "3b318c9227237c3f7a579d0181ef4f56c53ca71c0133279d3cab28a935d3a6c0"
+    },
+    {
+      "path": "Greek/endtables/ascii/h_hs.asc",
+      "bytes": 1093,
+      "sha256": "0d10852eb295d65c3fedae3bdace27e174cf55b83bf890f62021cdee006b3006"
+    },
+    {
+      "path": "Greek/endtables/ascii/hc_ekos.asc",
+      "bytes": 696,
+      "sha256": "87833e61ae75040e1d877da9a39d996816c8235cd1845e75c3e9163e893a46a6"
+    },
+    {
+      "path": "Greek/endtables/ascii/heis_hessa.asc",
+      "bytes": 4800,
+      "sha256": "6e9db1939fb0d5533607d6192e46de6530ae800617e794467dba1d51b8be118a"
+    },
+    {
+      "path": "Greek/endtables/ascii/hn_eina_en.asc",
+      "bytes": 1949,
+      "sha256": "4d6a538f978c3b7ffaefa8e700065410188c69a8f5ed1ac8bf20c8081af06464"
+    },
+    {
+      "path": "Greek/endtables/ascii/hn_enos.asc",
+      "bytes": 740,
+      "sha256": "0a84f92dfe4d9efd03748bd8d0a73681f52e5b0a11f457f304e969843bec7be9"
+    },
+    {
+      "path": "Greek/endtables/ascii/hr_eros.asc",
+      "bytes": 919,
+      "sha256": "db5acd44ec8d10165f6a123a38fb554a4f643d75272a269898e356ed08d94027"
+    },
+    {
+      "path": "Greek/endtables/ascii/hr_ros.asc",
+      "bytes": 267,
+      "sha256": "0fd39b090b20357076f10281db4ff4f5ff5b6a47865c500c660e358ddae33728"
+    },
+    {
+      "path": "Greek/endtables/ascii/hs_entos.asc",
+      "bytes": 735,
+      "sha256": "31350b07b588c6bcd220d05fd0d206750e32ae82c35b54746316c521987d7b6f"
+    },
+    {
+      "path": "Greek/endtables/ascii/hs_eos.asc",
+      "bytes": 2297,
+      "sha256": "e0cb201a2c099292bf311580946aaf3af29fa9dae3e9d7d706d77c71d577285b"
+    },
+    {
+      "path": "Greek/endtables/ascii/hs_es.asc",
+      "bytes": 7580,
+      "sha256": "e5ce1539376a2e2de47f1606dccfe7d15d500e56317c1ce713392ea44d03ae42"
+    },
+    {
+      "path": "Greek/endtables/ascii/hs_ou.asc",
+      "bytes": 1299,
+      "sha256": "731c03e969271b4653b6b2d2072e3a9d635ec0340bd66ba295c9609043cb0736"
+    },
+    {
+      "path": "Greek/endtables/ascii/irreg_mi.asc",
+      "bytes": 10565,
+      "sha256": "5a627bcc263d03fa6e70f6d8c96d62949dc56030c6b9460cac47bc2c96e9821e"
+    },
+    {
+      "path": "Greek/endtables/ascii/is_ews.asc",
+      "bytes": 3318,
+      "sha256": "d2cf6b3bcc39fbace2cb9bc3944fc3791083ea0417e7bd549f2a9d16c87b95b0"
+    },
+    {
+      "path": "Greek/endtables/ascii/is_iCdos.asc",
+      "bytes": 898,
+      "sha256": "4ad880d489c67f1868073bb3d300fb3f02a71f40cbb039053b3964f0d763858e"
+    },
+    {
+      "path": "Greek/endtables/ascii/is_idos.asc",
+      "bytes": 901,
+      "sha256": "93feaff5f666abef3db947e44c9241c9ac19aafafe894f9b3a8efde8fc0c1fdc"
+    },
+    {
+      "path": "Greek/endtables/ascii/is_idos_adj.asc",
+      "bytes": 1297,
+      "sha256": "ee1eae9d8780584a23e5455ff45e7fb1ef90564bc860b5b6b9bf381c057ebbe9"
+    },
+    {
+      "path": "Greek/endtables/ascii/is_itos.asc",
+      "bytes": 802,
+      "sha256": "05d767636a53a66604adca02e2095644047c9598a9715d19e4ba19f5fa10cfa2"
+    },
+    {
+      "path": "Greek/endtables/ascii/is_itos_adj.asc",
+      "bytes": 973,
+      "sha256": "84da961917782f5673654896ee66114a1c7d88ff78afc035c2f3fdb219fd971e"
+    },
+    {
+      "path": "Greek/endtables/ascii/klehs_kleous.asc",
+      "bytes": 1354,
+      "sha256": "029ca4bf2fad789cd1d632c3c243bfeacefea09809686a198d4564e7089e7425"
+    },
+    {
+      "path": "Greek/endtables/ascii/ma_matos.asc",
+      "bytes": 734,
+      "sha256": "47aa6d4f5f240fd2acde4a33146fa39fcb0e4b38e7fd1563a4dad55448419ee2"
+    },
+    {
+      "path": "Greek/endtables/ascii/n_nos.asc",
+      "bytes": 629,
+      "sha256": "a7b75121e1a43250c682fcc13ce495c41134e963845a5ac1c14ebec149c75986"
+    },
+    {
+      "path": "Greek/endtables/ascii/n_nos_adj.asc",
+      "bytes": 796,
+      "sha256": "5cdc18820aef94e4be77b226357e341432622ad67745a92748f1ec84618e8392"
+    },
+    {
+      "path": "Greek/endtables/ascii/n_ntos.asc",
+      "bytes": 662,
+      "sha256": "4317134fa6f0d9d7d4ebba1e6aebecfca4ea0965661e7ce70f565e4c1e81c611"
+    },
+    {
+      "path": "Greek/endtables/ascii/oeis_oentos.asc",
+      "bytes": 3689,
+      "sha256": "944c826ff4cc7c70dcb752b7b40a40478d264bb0c4e41b63c037b9043c16a554"
+    },
+    {
+      "path": "Greek/endtables/ascii/oeis_oessa.asc",
+      "bytes": 10685,
+      "sha256": "b9a8187c0a9fe5014620448b07ebb81016b561944eb7cc8dcc47952a6e6305e6"
+    },
+    {
+      "path": "Greek/endtables/ascii/omi_aor.asc",
+      "bytes": 10721,
+      "sha256": "8145863dc38d5d4a8f9498224c2cdb87723a8db6f5756baf1e0a924285b62832"
+    },
+    {
+      "path": "Greek/endtables/ascii/omi_pr.asc",
+      "bytes": 11369,
+      "sha256": "6e5bcc4b7428acabeb4384059e6a859d942dcc1080cd708fd630411493f5bcc5"
+    },
+    {
+      "path": "Greek/endtables/ascii/oos_oh_oon.asc",
+      "bytes": 5126,
+      "sha256": "ac2a85636568488f898e5a44997410d48d88b9aa67be918e1083f87919edf250"
+    },
+    {
+      "path": "Greek/endtables/ascii/oos_oon.asc",
+      "bytes": 3745,
+      "sha256": "b2e8a07e62a20b5184d56901e6fd9767ca61f3c2ec06d2ce67768ab7320e4589"
+    },
+    {
+      "path": "Greek/endtables/ascii/oos_oou.asc",
+      "bytes": 1734,
+      "sha256": "f50aca53058187ee5e781b0df61d327ca2eb446ddb53fea98cfb06e01f6280b6"
+    },
+    {
+      "path": "Greek/endtables/ascii/os_h_on.asc",
+      "bytes": 13494,
+      "sha256": "b1cbebd3c79333306b14c74ef35280590a9dde8db5e8a4f6a69fc52cd9423c61"
+    },
+    {
+      "path": "Greek/endtables/ascii/os_on.asc",
+      "bytes": 11901,
+      "sha256": "2def716756077cda1f9b044bd1c566e8629153f8bb5461aada610de17199ec60"
+    },
+    {
+      "path": "Greek/endtables/ascii/os_ou.asc",
+      "bytes": 810,
+      "sha256": "874d2bd830a8160f2c963754ac7980d057d4e0c2fd08c97153d023750c9099da"
+    },
+    {
+      "path": "Greek/endtables/ascii/ous_ontos.asc",
+      "bytes": 890,
+      "sha256": "f090a7cf95dd2337b6dd02a181933a18d06c1b4e2a127fb5e7f187978ad3a5cb"
+    },
+    {
+      "path": "Greek/endtables/ascii/ow_pr.asc",
+      "bytes": 34877,
+      "sha256": "2e8a02c17f401f2bc25f0cfdbd7e487819c1ea20c6183e59bc690d4524fb313c"
+    },
+    {
+      "path": "Greek/endtables/ascii/perf2_act.asc",
+      "bytes": 6972,
+      "sha256": "a2a29223dbc4b29ff740029db463d828617b549eed47d0acbaed63ebccd0c144"
+    },
+    {
+      "path": "Greek/endtables/ascii/perf_act.asc",
+      "bytes": 6224,
+      "sha256": "619b233982d9a097b9a149a3915141f7ac73804a45a5e52d06b655ee752be18e"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_d.asc",
+      "bytes": 6892,
+      "sha256": "80ec5fe1df64cd99b101fbb346a1b6665fb7cf77b8d24fe5fb10337ef94dac1c"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_g.asc",
+      "bytes": 3555,
+      "sha256": "9083cdda710c4e2888127e2d348c6687e79ecfaf0efb006ce5fdc7ff19332754"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_gg.asc",
+      "bytes": 3525,
+      "sha256": "902a628557c0a66eae8b6cb12914e54d3a2e0ff8776b9d2b545f89c08f377bf9"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_gx.asc",
+      "bytes": 3526,
+      "sha256": "7c62d39ba935f73db55a60660bc81e2b9ed4f877f56984a8341fdc8df8a654a3"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_l.asc",
+      "bytes": 3458,
+      "sha256": "ac15d7d347f8edd423b876ef3f527e96e8964ffcb2515f980b5accfe988bdd58"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_mp.asc",
+      "bytes": 3526,
+      "sha256": "5f473274dbed752f625e4f4dbd7b55ff4a6f3843a654b9adc92d65de847cbaaf"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_n.asc",
+      "bytes": 3303,
+      "sha256": "1c5e9f04f2c0ca1f44ae8909107b4b211d126027219787c78ce67689ab4b3dcb"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_p.asc",
+      "bytes": 3546,
+      "sha256": "cb2beffb597632255785023aaf49d072cd6cadb302b3bd9d8473533b31c535b6"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_r.asc",
+      "bytes": 3537,
+      "sha256": "f6c8f199ad6fbe402c9892dea57b50d97081fd798e24bc931a7d72c8b308ec12"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_s.asc",
+      "bytes": 3445,
+      "sha256": "f161d2c99f9718f003a64a241e5c70b84d29621e84370f97e18653b555077e6f"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_un.asc",
+      "bytes": 3584,
+      "sha256": "12666d9f0dc5ba5a5a6bb2a05f4a44e49f06c2c23bb064322221e95c8fd7007f"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_v.asc",
+      "bytes": 3445,
+      "sha256": "4b1b5f51129d178aaae94a56e65221aa8a4a89f47f454aac61a7817132f4f7da"
+    },
+    {
+      "path": "Greek/endtables/ascii/perfp_vow.asc",
+      "bytes": 3843,
+      "sha256": "17e89d9e9b72e5b18d22a1480c851fad3e25362ecfb11b8b0a9e66afe936c177"
+    },
+    {
+      "path": "Greek/endtables/ascii/pous_podos.asc",
+      "bytes": 1337,
+      "sha256": "196d801d0b9751ce05162df81b17b960ef7aab373368877a8537cb8ed2a8d850"
+    },
+    {
+      "path": "Greek/endtables/ascii/qric_trixos.asc",
+      "bytes": 1079,
+      "sha256": "9d51f1a0732622cc8f3974ef7abbe81f833cabdf3288ffcc7d506fe5506199dc"
+    },
+    {
+      "path": "Greek/endtables/ascii/r_ros.asc",
+      "bytes": 683,
+      "sha256": "4b073d74b4e801d6b235e80a235c4d1611852a31c3faa53667d559507e8d89c7"
+    },
+    {
+      "path": "Greek/endtables/ascii/r_rtos.asc",
+      "bytes": 662,
+      "sha256": "d553e94e52bbe2f78d4a1c7ba2f33c6de2a10edd6ce1d55390e266ba2f2131ce"
+    },
+    {
+      "path": "Greek/endtables/ascii/r_tos.asc",
+      "bytes": 598,
+      "sha256": "214a44d72c697abe7dc14f817c65468e7bca35881894924532fa0c854841c9a2"
+    },
+    {
+      "path": "Greek/endtables/ascii/reg_fut.asc",
+      "bytes": 28503,
+      "sha256": "3fe7bb31b06fd279d8effd0a9574cb1adc488277efe4f09fa326c718d5007a1d"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_dos.asc",
+      "bytes": 891,
+      "sha256": "75b5bfef484c46ca762a888ee1c459d888a8c446454fa47410e0077ab34dc413"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_nos.asc",
+      "bytes": 629,
+      "sha256": "4d84c4af6c1e79716fc2b6e075f0d14a632451a632119e4d993315c11b7e7a24"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_ntos.asc",
+      "bytes": 662,
+      "sha256": "eb7d1e47a6017ab55ca6107d22d8b4149385000bfc45610789e1a3562c173566"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_os.asc",
+      "bytes": 622,
+      "sha256": "801c2c406d4c98dff0833b01bc8a9fd3d4df83a68f1338a3ecac2ff7f9841416"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_qos.asc",
+      "bytes": 647,
+      "sha256": "71d3bbe195ab1fe0cdabfa3d4e6ee1419d88c083c40e5ea6ec1732b7bf5beb3d"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_ros.asc",
+      "bytes": 660,
+      "sha256": "be17cbc2dc121c773e3dc6eaa01e414f5ce6f06827abfd06b97cf9ab6be5a522"
+    },
+    {
+      "path": "Greek/endtables/ascii/s_tos.asc",
+      "bytes": 625,
+      "sha256": "021ca877b3a0c59cd1e37e58d73344507dced89751e49d582a16a9d3045b358c"
+    },
+    {
+      "path": "Greek/endtables/ascii/t_tos.asc",
+      "bytes": 638,
+      "sha256": "7ada6831fa83bb9e7e5dc9938d166ca82c6d3d8757de97e880d427397b84c422"
+    },
+    {
+      "path": "Greek/endtables/ascii/uLs_uos.asc",
+      "bytes": 743,
+      "sha256": "abbaa2d04c27ce124626e2b63aea69b12434e72cb65094cbd90ecb6219528cea"
+    },
+    {
+      "path": "Greek/endtables/ascii/umi_pr.asc",
+      "bytes": 11252,
+      "sha256": "440a83b9e2db2e62ab43e2aa7cf02e901cc5296a8e55e6af443dc7c44193a6ba"
+    },
+    {
+      "path": "Greek/endtables/ascii/us_eia_u.asc",
+      "bytes": 5411,
+      "sha256": "10d0ec45bab0060eb980fba8e177df4aa2f665b5a2af24113e2fd6c4597c39bb"
+    },
+    {
+      "path": "Greek/endtables/ascii/us_ews.asc",
+      "bytes": 1795,
+      "sha256": "a7718e1552845ec8e8581faaacdca72ed772c3800eefa4d9a490d01a8822fed6"
+    },
+    {
+      "path": "Greek/endtables/ascii/us_u.asc",
+      "bytes": 840,
+      "sha256": "8d9c3800ab2df355ad6217f8fbb2837da18b2c8981873bde687261ec2fe27a25"
+    },
+    {
+      "path": "Greek/endtables/ascii/us_uos.asc",
+      "bytes": 801,
+      "sha256": "f8176bbf1784b442f343af343abff58d03c343e28b3b6dcb8bab6b859e9dfece"
+    },
+    {
+      "path": "Greek/endtables/ascii/verb_adj1.asc",
+      "bytes": 930,
+      "sha256": "26a0cf915aea86922e5a57a075ed5dcd31be01793b80198b9e76210687b47e4c"
+    },
+    {
+      "path": "Greek/endtables/ascii/verb_adj2.asc",
+      "bytes": 2160,
+      "sha256": "34c9e5f2c4baefefa7d856b23c17003fcf3969688e452b6f8a5ed13ff5b8f5c6"
+    },
+    {
+      "path": "Greek/endtables/ascii/wCn_wCntos.asc",
+      "bytes": 132,
+      "sha256": "9b276df6ddac11cb764808beb899b18f5c21262b86d7bf5ed575348858ee43ad"
+    },
+    {
+      "path": "Greek/endtables/ascii/w_oos.asc",
+      "bytes": 2303,
+      "sha256": "990f32885d4340bf325e4b669871391aa65238970cf5968bc2c961f2ef888560"
+    },
+    {
+      "path": "Greek/endtables/ascii/w_stem.asc",
+      "bytes": 13222,
+      "sha256": "423d159b954e3a0c74ec008e1d8e7282fcd26902a8a16b26c5b19632065aea36"
+    },
+    {
+      "path": "Greek/endtables/ascii/wn_nos.asc",
+      "bytes": 767,
+      "sha256": "e05d440a9d19786b4aaa0bc49985c243af9a7cd0f9e085418392a9b02943f3e5"
+    },
+    {
+      "path": "Greek/endtables/ascii/wn_on.asc",
+      "bytes": 5680,
+      "sha256": "ed118b0dc9e503ba95a5576a2e5dacd51ded727d3ad743e9684bef991ff5c736"
+    },
+    {
+      "path": "Greek/endtables/ascii/wn_on_comp.asc",
+      "bytes": 1196,
+      "sha256": "b39d64c0567ac9f809ce3b575c80d7a8d3c93e5237b0af13650afc14b8082f39"
+    },
+    {
+      "path": "Greek/endtables/ascii/wn_onos.asc",
+      "bytes": 753,
+      "sha256": "7674bbd5d1677363e92cc99976b0c3112ce8b02c0bf2ef54b5be0ad71c8f38b2"
+    },
+    {
+      "path": "Greek/endtables/ascii/wn_ontos.asc",
+      "bytes": 890,
+      "sha256": "58bc2832e3bdc2e015973312a82f7902291750c0bcc8540bf0873f515cd07822"
+    },
+    {
+      "path": "Greek/endtables/ascii/wn_ousa_on.asc",
+      "bytes": 2996,
+      "sha256": "b00330ca1399b499d0bf131f32c881096c4bf53d2b20065ea42deb893b950fff"
+    },
+    {
+      "path": "Greek/endtables/ascii/wr_oros.asc",
+      "bytes": 718,
+      "sha256": "f54e253fb865153f32d45c13074cf6e348b1cc98f6eb7a8716af581825bd97ec"
+    },
+    {
+      "path": "Greek/endtables/ascii/ws_oos.asc",
+      "bytes": 2287,
+      "sha256": "9ffb48aefe103ca47e81940fe9b6d8a8997907cee289a82b1cea3c91bec2cf25"
+    },
+    {
+      "path": "Greek/endtables/ascii/ws_w.asc",
+      "bytes": 386,
+      "sha256": "0410cb6be2d651a6e78cfe9807cacda8bba34e36c6a0715d7c0c31bc2c131328"
+    },
+    {
+      "path": "Greek/endtables/ascii/ws_w_long.asc",
+      "bytes": 158,
+      "sha256": "4437c7e5021738bc4cf2322edfcf1c53d93dd0927ea2265808d9a88565a78fc4"
+    },
+    {
+      "path": "Greek/endtables/ascii/ws_wn.asc",
+      "bytes": 565,
+      "sha256": "22e79ddf687c6dedd02ca1bbf2aa5cd442574ab28bb636a2982664be72d15ef8"
+    },
+    {
+      "path": "Greek/endtables/ascii/ws_wn_long.asc",
+      "bytes": 3634,
+      "sha256": "9012602f31f8869336dcfc3f97959b6fa3e011eed4dd8d45deca5bcbc49eb9b8"
+    },
+    {
+      "path": "Greek/endtables/ascii/ws_wos.asc",
+      "bytes": 781,
+      "sha256": "aaa6b6edcf443cdec05c7aad3f3aaf53f0247b92cd6c08f07169d049173d3ba4"
+    },
+    {
+      "path": "Greek/endtables/ascii/ww_pr.asc",
+      "bytes": 47843,
+      "sha256": "8e91e9370f4c1cbe3ef55779d375ad894cbcea4edc8c7eba9e02312c1c88fce9"
+    },
+    {
+      "path": "Greek/endtables/ascii/y_bos.asc",
+      "bytes": 627,
+      "sha256": "e20bb8b257e34f3621689c6b9d9fbb3a3883dfdda785d9d08a78468941749d89"
+    },
+    {
+      "path": "Greek/endtables/ascii/y_fos.asc",
+      "bytes": 636,
+      "sha256": "8d4c6cfb09f911f636f71cb88e2ec6926d8f8e46e9c2a58bc90e168b89c5c303"
+    },
+    {
+      "path": "Greek/endtables/ascii/y_pos.asc",
+      "bytes": 627,
+      "sha256": "5211d95ee1bd4a80e873372d16d5d58717eda5309d972eec36fc5349d2813f7b"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_imp_act.end",
+      "bytes": 39,
+      "sha256": "2fcc36286f1eb44e20e56682a864cd6774101dcd6275f8993da608c0f3f07b2d"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_imp_mid.end",
+      "bytes": 77,
+      "sha256": "656814da4672722047b63ff979f694b82d91bb011cfcc957a90a647b115c5bf2"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_ind_act.end",
+      "bytes": 146,
+      "sha256": "212bfbb48cc49eed214b551895799eb82c064fc03e4eb3a7c0740bf6a7febfa6"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_ind_mp.end",
+      "bytes": 253,
+      "sha256": "77306fe4b2d7853299ae645dcc5a2efe32df7cc74ce783101891d5f661e354a5"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_inf_act.end",
+      "bytes": 7,
+      "sha256": "522afe996bebe141b4fc1722cb917b27f0872ebac4b5adec7221d4a1764d02e5"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_inf_mid.end",
+      "bytes": 13,
+      "sha256": "4d530d72df3f604bbd014bec4772a1b0e802b4073603458ecc00efbf6d925130"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_opt_act.end",
+      "bytes": 228,
+      "sha256": "f08be1f3d967a1db11a86f5667c9fc3917c61e57333cac06d6b679f850d54abd"
+    },
+    {
+      "path": "Greek/endtables/basics/a1_opt_mid.end",
+      "bytes": 210,
+      "sha256": "0d4b15cbf0b468b0869e99b23bcb20e94898ad338661f750e37f188e356c2be3"
+    },
+    {
+      "path": "Greek/endtables/basics/adj1.end",
+      "bytes": 178,
+      "sha256": "3dae670e5c21138152dc1c7fe764c1d1693c682bb20b6438c0208ec3f21234a8"
+    },
+    {
+      "path": "Greek/endtables/basics/adj3.end",
+      "bytes": 122,
+      "sha256": "2deb09b58a0786b04a5dbdf415f319168a7521a155bb1fc0b22404c9dd1bdbda"
+    },
+    {
+      "path": "Greek/endtables/basics/as_asa_an.end",
+      "bytes": 82,
+      "sha256": "b0842bb19c5107a548a3e141f74db3947883b4b16b2add481c2b35ead3372c55"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_act_1.end",
+      "bytes": 141,
+      "sha256": "5653437dcdd44242a2c8e6b424eb388dbf1bc0d7a5e5c95dbaa0ddf14127bbc1"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_act_2.end",
+      "bytes": 131,
+      "sha256": "b0e40ce01dbfe9ef343b8c48818c0b59f958c470a97a6e76c87cd90b3746c793"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_imp_a.end",
+      "bytes": 72,
+      "sha256": "6af20da7b1c12e8cc416e99748aaba3ab8be278ba56fb626049b6ce583472171"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_imp_act.end",
+      "bytes": 59,
+      "sha256": "08895e21f729b727d466599218a70fb8f2675bdd6143188400b01591df25b1f9"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_imp_mp.end",
+      "bytes": 69,
+      "sha256": "484946f6d189928619f890b8ec94343d0f7666633fe03016e46b20f8f3806feb"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_inf_a.end",
+      "bytes": 12,
+      "sha256": "b8e087ab4b964734aad6ca6480d96df3ea287e781c6a48dfbab06ff3f9cd81e8"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_inf_act.end",
+      "bytes": 28,
+      "sha256": "eadcc78945ea286701384bda1652a04f5ec12c00fe71f5eddffdaf72118da336"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_inf_mp.end",
+      "bytes": 13,
+      "sha256": "65657d41d7ca344b06a66876d8b9680620c2ae26a792352cdfdc6f94ea34a7a3"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_mp_1.end",
+      "bytes": 123,
+      "sha256": "fc44caf8c03e72bf6866cee02d3db9dd535a7fd4eb51ff262536f3bdb4f29014"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_mp_2.end",
+      "bytes": 120,
+      "sha256": "600e56779bae70f6bddf3a5f6e7c9d1967cfcf04c6e252deb765094cd48ecbfa"
+    },
+    {
+      "path": "Greek/endtables/basics/ath_mp_pr.end",
+      "bytes": 70,
+      "sha256": "a030d5d7e8c7a82a2aadcf0a70b10084dd912d22bb39a7b5d0bd8694b470a6d5"
+    },
+    {
+      "path": "Greek/endtables/basics/de_suff.end",
+      "bytes": 4,
+      "sha256": "fb69f9e3b3639d0fd8c7d267f4cac79500a57e1a897619885ba6450a898a283b"
+    },
+    {
+      "path": "Greek/endtables/basics/decl1.end",
+      "bytes": 468,
+      "sha256": "77ed2e64bceb870ed38beefa79780e1c6d99ed06d8d8a6ce4a6be7642772f9f3"
+    },
+    {
+      "path": "Greek/endtables/basics/decl1_masc.end",
+      "bytes": 263,
+      "sha256": "5d28d8c023faa239c6f75c8e6d3e4f5752d64292a865e9377088ce67b49e2eb6"
+    },
+    {
+      "path": "Greek/endtables/basics/decl1_sh.end",
+      "bytes": 59,
+      "sha256": "b91fd5583868c74765d9a48dee9a7927217789608844c8dfc7bde28d0e448d69"
+    },
+    {
+      "path": "Greek/endtables/basics/decl2.end",
+      "bytes": 664,
+      "sha256": "2e2cbce1727c28a5c81bc708be206a4c20f6ab8906e9fe08ea15d3bf4d54d72a"
+    },
+    {
+      "path": "Greek/endtables/basics/decl3.end",
+      "bytes": 248,
+      "sha256": "5e40c41a3d8ff21d6fab931ff04e4acc00e8f1299e2a0623a302e851f15356f9"
+    },
+    {
+      "path": "Greek/endtables/basics/ihn_opt.end",
+      "bytes": 186,
+      "sha256": "99256df6e836def483005d18b7da1f959a32e057d752440a8c268e0d4e91a92f"
+    },
+    {
+      "path": "Greek/endtables/basics/imen_opt.end",
+      "bytes": 64,
+      "sha256": "8d158f6c789831321cf155a1df7079d230a7fa1230e769d149d7080a8e27228e"
+    },
+    {
+      "path": "Greek/endtables/basics/imhn_opt.end",
+      "bytes": 191,
+      "sha256": "253fa36e9d5817504aa23122ca0b80cb321d86ccf70b8f0de0702adc0846c2cf"
+    },
+    {
+      "path": "Greek/endtables/basics/imp_ind_a.end",
+      "bytes": 141,
+      "sha256": "6938724f93f3ef01e3207134a83e5fabc9c9ff3a20f3323c9621aac4e80bcafb"
+    },
+    {
+      "path": "Greek/endtables/basics/imp_ind_mp.end",
+      "bytes": 257,
+      "sha256": "ae3e6a3d436f692a9f1b8a833302dec48e7e2cd5df70d499016d9d9a1282d300"
+    },
+    {
+      "path": "Greek/endtables/basics/iota_intens.end",
+      "bytes": 15,
+      "sha256": "f088c61de6e289ac9cf803a4438bef7f2f1e8905631a7628e1a4508b2ff3f58e"
+    },
+    {
+      "path": "Greek/endtables/basics/iterat_act.end",
+      "bytes": 48,
+      "sha256": "776525c74bc8840648f7b4967b1685ea2bf6a45ec01708b9e0b9c3fc2361bc0d"
+    },
+    {
+      "path": "Greek/endtables/basics/iterat_mp.end",
+      "bytes": 48,
+      "sha256": "10bd77eb24e958add8403110cc97808f4a5faea8b8feac7ff59de721915ab553"
+    },
+    {
+      "path": "Greek/endtables/basics/long_sub_act.end",
+      "bytes": 258,
+      "sha256": "176001b871bc70cd46ba41720ab66596e9a295276d7d5c781b3723e4c03b63d4"
+    },
+    {
+      "path": "Greek/endtables/basics/perfp_part.end",
+      "bytes": 34,
+      "sha256": "992a96c2900eb9a7a191f9cda6ab23cefcf815e04fa495274ea08b927b368f67"
+    },
+    {
+      "path": "Greek/endtables/basics/pr.end",
+      "bytes": 161,
+      "sha256": "8b8b512d30250f8d9bdce36f0ada4d6f3406a183c09ab7cf73f4e04389f9c160"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_imp_act.end",
+      "bytes": 96,
+      "sha256": "5d8ae217ceb2083cdc46a5a798624a5b8e147c4a8357fc7d0fc02d1145a0e6fc"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_imp_mp.end",
+      "bytes": 128,
+      "sha256": "2179730e64d13e085ebb28dc31281220c688f072b8598eedb4459c4cb56025b9"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_ind_act.end",
+      "bytes": 339,
+      "sha256": "af708e6a3012df528c67a83171ca85baf6544a7c20c941c76f96497898c167a6"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_ind_mp.end",
+      "bytes": 218,
+      "sha256": "69f6113c9b18d8eb7dc0ba1a05ba22d010388ae42834397f7efdbc63cb331174"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_inf_act.end",
+      "bytes": 70,
+      "sha256": "aff87f296a83d5d673b4b1b81a35e73448a9243071975bb4803493a2016ca675"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_inf_ath.end",
+      "bytes": 16,
+      "sha256": "9a8837cb7a9641344f4c2eb92c70ff45790a8ddb2f667234d9fb0fce08455103"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_inf_mp.end",
+      "bytes": 10,
+      "sha256": "72bdac29fe5fe2389eda03aab034732f070963b85e1e7b215b433a8a7f7e6ad6"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_opt_act.end",
+      "bytes": 128,
+      "sha256": "f814d4c4d07c6cd33b9ce3f097c6e33179f2945b4ee2afd12471110dcb2ec361"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_opt_mp.end",
+      "bytes": 214,
+      "sha256": "55721083680a9f832ecb7642a08b2c1828c90b151aa9b7ee7077647bcd53f59a"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_sub_act.end",
+      "bytes": 15,
+      "sha256": "7d75689f4c672f182fb6c24757b5837869ce6451e14ece83a66d53bbee7096ae"
+    },
+    {
+      "path": "Greek/endtables/basics/pr_sub_mp.end",
+      "bytes": 216,
+      "sha256": "8b7452e3fc07589083fd6bae9d0270438c52a5658259427f8f953a34c33df8a0"
+    },
+    {
+      "path": "Greek/endtables/basics/s_sa_n.end",
+      "bytes": 75,
+      "sha256": "89e2be597ca590729f25c5eac2ff0984d51adbc70b9d7e9011b9dda439fa1d0b"
+    },
+    {
+      "path": "Greek/endtables/basics/sh_sub_act.end",
+      "bytes": 135,
+      "sha256": "eb0ab35a8e591677f9df9def2cde033dbdfd0f450c3e186dbf0145889698a59c"
+    },
+    {
+      "path": "Greek/endtables/basics/sh_sub_mp.end",
+      "bytes": 150,
+      "sha256": "744805de4d1fbfb0f3be2c9d50a3e6a4810b152598470a869f8a1068b9a00f8b"
+    },
+    {
+      "path": "Greek/endtables/basics/wn_ousa_on.end",
+      "bytes": 144,
+      "sha256": "2f3d5f6820a10353590568fb846c1974b82286de53590d8fbc20ae4be49bf90f"
+    },
+    {
+      "path": "Greek/endtables/basics/ws_w_sh.end",
+      "bytes": 88,
+      "sha256": "1e7c5033a671c77b11f500bba81b0570eef2beeedad8498d03065f7e524c084d"
+    },
+    {
+      "path": "Greek/endtables/indices/nendind",
+      "bytes": 34547,
+      "sha256": "f8c359ca0fe353c358b9c27a9322686f9d5017660edad02e34fa1eaa0c425fc8"
+    },
+    {
+      "path": "Greek/endtables/indices/vbendind",
+      "bytes": 76518,
+      "sha256": "52f63b85d170ad84957d98f00fe43e93a2d194141829cd6874d2df8735e3b5f4"
+    },
+    {
+      "path": "Greek/endtables/out/a_hs.out",
+      "bytes": 1342,
+      "sha256": "819c36ccf144898bba21ab9d622753ffb99b91f2e1bee0a784a97151f687a1c4"
+    },
+    {
+      "path": "Greek/endtables/out/ah_ahs.out",
+      "bytes": 2936,
+      "sha256": "41fdc60807a7635057a728b67263360b8cd07d6f52eb0ff6cfb33b8269390c8b"
+    },
+    {
+      "path": "Greek/endtables/out/ajw_pr.out",
+      "bytes": 42388,
+      "sha256": "3dcde6c237c4a16562c37753d47e5cf3114d30e732f8b2ec43f0d74072edee8d"
+    },
+    {
+      "path": "Greek/endtables/out/ami_aor.out",
+      "bytes": 19833,
+      "sha256": "16d1071e26fa9dc91d55a2076afc11fcd6c2bfcb279665967d722f41178f6454"
+    },
+    {
+      "path": "Greek/endtables/out/ami_pr.out",
+      "bytes": 17038,
+      "sha256": "41d9832ce34d91029939237cf299ac5fb6dd7cccab7d7a500f83fbe1b0574f3e"
+    },
+    {
+      "path": "Greek/endtables/out/ami_short.out",
+      "bytes": 11123,
+      "sha256": "0e413ebcadb757bf9c25cb06056b2a4e0959f8d74bcbca040b4d7e794032b095"
+    },
+    {
+      "path": "Greek/endtables/out/aor1.out",
+      "bytes": 13710,
+      "sha256": "c42cea10c36ccca0ab7b4e470cfe74c257c5ff87f7c372789f4510dcc7537555"
+    },
+    {
+      "path": "Greek/endtables/out/aor2.out",
+      "bytes": 15413,
+      "sha256": "c38d9eeb806b5c6ef7f9103447f489e4a7a7fe372aaf519b2104c6f1fc63f0a3"
+    },
+    {
+      "path": "Greek/endtables/out/aor2_pass.out",
+      "bytes": 19313,
+      "sha256": "5713fc6d1f6d9f27ea0227f7685425eb300eda014f3a78865f56e119495a2d85"
+    },
+    {
+      "path": "Greek/endtables/out/aor_pass.out",
+      "bytes": 14568,
+      "sha256": "6862919bfeab86de5e4c74cb62b3238869335794383b4a6046bf200cda27fb99"
+    },
+    {
+      "path": "Greek/endtables/out/aos_aou.out",
+      "bytes": 557,
+      "sha256": "c242b1eabed4f94aa559323c0491fa0780f799e09d953c5833b13c0dc8d718c1"
+    },
+    {
+      "path": "Greek/endtables/out/ar_atos.out",
+      "bytes": 1205,
+      "sha256": "092b95dcf5bdffe4819a89d6eada1873a5bfda0b31706873456e8ba4cefc7a44"
+    },
+    {
+      "path": "Greek/endtables/out/art_adj.out",
+      "bytes": 3725,
+      "sha256": "28fe4317da4d9ec601190542b0449836e7c3478445f80b910fc3290948c3d548"
+    },
+    {
+      "path": "Greek/endtables/out/as_a.out",
+      "bytes": 240,
+      "sha256": "d9a89fff648e0d86c24c60f0fbaea8a0bbd83df0a490d63d2f951273f0a63557"
+    },
+    {
+      "path": "Greek/endtables/out/as_aina_an.out",
+      "bytes": 2738,
+      "sha256": "87c2372eb74d52dee19aaf281215722278d408c03e7db48cbf2ef1f2704ef330"
+    },
+    {
+      "path": "Greek/endtables/out/as_antos.out",
+      "bytes": 1457,
+      "sha256": "b0f3c51d516a6f9f29e11d9c102397f54f9431d90f796347a18b85d4d4a44fd9"
+    },
+    {
+      "path": "Greek/endtables/out/as_aos.out",
+      "bytes": 3473,
+      "sha256": "4f4e782f035cb8850f199b19965bafad8417ec8cf82fdb2c99fe56a96fd39f3d"
+    },
+    {
+      "path": "Greek/endtables/out/as_asa_an.out",
+      "bytes": 3528,
+      "sha256": "962cf5d1e3e75488b611932cae88769423bc0442a56de6338ba93cddaceab26f"
+    },
+    {
+      "path": "Greek/endtables/out/as_atos.out",
+      "bytes": 2465,
+      "sha256": "9d5651b174cf8772c743d8db5900b316adf5c8937bba86277ee1b09ac90f2ba7"
+    },
+    {
+      "path": "Greek/endtables/out/ath_h_aor.out",
+      "bytes": 18273,
+      "sha256": "7f86291d3fdb654d20fb88ecd1945d135cf53ba631679a1d9cc8d70e800653c1"
+    },
+    {
+      "path": "Greek/endtables/out/ath_primary.out",
+      "bytes": 12033,
+      "sha256": "0f5236e6535364a1dc093ae0763f32457f7be8ddeaa5750accd3bb4e96f110cd"
+    },
+    {
+      "path": "Greek/endtables/out/ath_secondary.out",
+      "bytes": 7158,
+      "sha256": "2dc2886d43374ed3e2e3f77da5504b537493948b056076a4ed2df71a2cb543d1"
+    },
+    {
+      "path": "Greek/endtables/out/ath_u_aor.out",
+      "bytes": 10083,
+      "sha256": "e4b3dcd145c9dbdc411b3f8454c1d91ecf812dfd42d6f901d1d0b9d587bfe0bb"
+    },
+    {
+      "path": "Greek/endtables/out/ath_w_aor.out",
+      "bytes": 9238,
+      "sha256": "0655d43f3e50204ea382edf0fe2bac5a042cc64a069e55b6e361a7da1ca1c7f4"
+    },
+    {
+      "path": "Greek/endtables/out/aw_fut.out",
+      "bytes": 34588,
+      "sha256": "eefa4486f92341fbc275facbcf4584dd759e31eb12d3c61b425ef47d304ed5dc"
+    },
+    {
+      "path": "Greek/endtables/out/aw_pr.out",
+      "bytes": 52788,
+      "sha256": "aef99839ae255d45f3e7231d4126008ada94a712747ee90bd4260d42ee2d3592"
+    },
+    {
+      "path": "Greek/endtables/out/c_ggos.out",
+      "bytes": 1205,
+      "sha256": "ed5f3294493a7cb0b440b54635854e0bd3eeb79fec5326c0717abbc0bab4e2d5"
+    },
+    {
+      "path": "Greek/endtables/out/c_gos.out",
+      "bytes": 1205,
+      "sha256": "3d88313d088bd0f559c5d183209412cd4bc8c5e11590ae301b108d284f2019c1"
+    },
+    {
+      "path": "Greek/endtables/out/c_kos.out",
+      "bytes": 1205,
+      "sha256": "7a8d6a9ef4873fe7b68a205bf98b637fd27564305d80cac88006d3a960af2ae5"
+    },
+    {
+      "path": "Greek/endtables/out/c_ktos.out",
+      "bytes": 1268,
+      "sha256": "21a214d985430873529e8d276aa2d573f28f9126925764bbfc3453dcb96c261f"
+    },
+    {
+      "path": "Greek/endtables/out/c_xos.out",
+      "bytes": 1205,
+      "sha256": "0f507396a0814ffdbfaa08921d529528dc6acc110bc4e40f5b21a6c7ed4cf533"
+    },
+    {
+      "path": "Greek/endtables/out/eas_ea.out",
+      "bytes": 240,
+      "sha256": "ac5f57803fdf3b5b28ee3753efbe52bd66a1c0eb9edeab568e6f1c0ecabe7d21"
+    },
+    {
+      "path": "Greek/endtables/out/eh_ehs.out",
+      "bytes": 2468,
+      "sha256": "3de7688f8539c8d2b9e5a9187b2d75194d31560c7b84bbbe50953724dfffee01"
+    },
+    {
+      "path": "Greek/endtables/out/ehs_eou.out",
+      "bytes": 3119,
+      "sha256": "b4107fc136073a0825a2c689201d2cf5d179c5b4dbb5bb648a59e5c18956e6c8"
+    },
+    {
+      "path": "Greek/endtables/out/eis_enos.out",
+      "bytes": 1205,
+      "sha256": "5af2dc5484f5dd7e7fcc2e927cd829e6e3dfa6aa9ce2832235ff1925ecd2e2cc"
+    },
+    {
+      "path": "Greek/endtables/out/eis_essa.out",
+      "bytes": 2738,
+      "sha256": "92e8db80eed491a64b775344592e4dc5fa1405fb18e2960f67f67c7668d2fbac"
+    },
+    {
+      "path": "Greek/endtables/out/emi_aor.out",
+      "bytes": 18013,
+      "sha256": "cdf24ee9e5e3e7eebbb42013ed75594106acedd298c2c22d46391fac86d588ca"
+    },
+    {
+      "path": "Greek/endtables/out/emi_pr.out",
+      "bytes": 13788,
+      "sha256": "b7ee182132c1faff8e51eaae8ef4b20f1d5e2e894198e35657efbcee5f9ba213"
+    },
+    {
+      "path": "Greek/endtables/out/eos_eh_eon.out",
+      "bytes": 8954,
+      "sha256": "8de946426fcc81ebbf3d95d22a549c91ce514ac0abcfab18122a58c696bc5a8c"
+    },
+    {
+      "path": "Greek/endtables/out/eos_eou.out",
+      "bytes": 3729,
+      "sha256": "215059088603187554013cf943f04c22ee1ca687cf1eab04ffd39b552706f2af"
+    },
+    {
+      "path": "Greek/endtables/out/eus_ews.out",
+      "bytes": 3536,
+      "sha256": "86c3c59cce887070c9541c6b73ff1eb3085d846f26010a68dd749bc41bdf0f15"
+    },
+    {
+      "path": "Greek/endtables/out/evw_pr.out",
+      "bytes": 21133,
+      "sha256": "9db4a00041050f33a6fb9afca2d28167cf781ccac38d5b9bf4839342fd31bb52"
+    },
+    {
+      "path": "Greek/endtables/out/ew_fut.out",
+      "bytes": 30493,
+      "sha256": "47995ac0bfb1e6eda51e502a2310bcd7b1016d540e8604ff91f81124c7bb7fbc"
+    },
+    {
+      "path": "Greek/endtables/out/ew_pr.out",
+      "bytes": 47068,
+      "sha256": "c79b02ac8f28222f765a17db68962fe5f7a5e052a5c25d14cac44c402581a66f"
+    },
+    {
+      "path": "Greek/endtables/out/ewn_ewnos.out",
+      "bytes": 1205,
+      "sha256": "af53378c36b4fb5023c228edaaecc6b4183d29a0cb3d15b906ff9e2632b511dd"
+    },
+    {
+      "path": "Greek/endtables/out/fut_perf.out",
+      "bytes": 9823,
+      "sha256": "0392dfcbc181b84f3e31f0a491972fbaf6c43efb50dab3525a2a86e9b2a8b657"
+    },
+    {
+      "path": "Greek/endtables/out/gc_gos.out",
+      "bytes": 1205,
+      "sha256": "f71452e9a27cdb4b589e990d7cb4078507a47de0aff23424b7161e1144607dbc"
+    },
+    {
+      "path": "Greek/endtables/out/h_hs.out",
+      "bytes": 1574,
+      "sha256": "5dcf97e0536a5757c6e86ae52f3b9c04ea0d41afa0c9eed5ea1b8424dd65d2ff"
+    },
+    {
+      "path": "Greek/endtables/out/hc_ekos.out",
+      "bytes": 1205,
+      "sha256": "b685c6c8d8fe544d3510b9d3c072123bb9e885aa69b8b9ab3fc07c678ac17059"
+    },
+    {
+      "path": "Greek/endtables/out/heis_hessa.out",
+      "bytes": 5858,
+      "sha256": "6a7c7e8e7c49b662ae2b166aff98da8bd2cf769debe92af1496bd856502ed0ea"
+    },
+    {
+      "path": "Greek/endtables/out/hn_eina_en.out",
+      "bytes": 2738,
+      "sha256": "40c53b1d9f93ce717f332acd0bc627c7358de72d219481d9d1800a4d11ad0bd9"
+    },
+    {
+      "path": "Greek/endtables/out/hn_enos.out",
+      "bytes": 1268,
+      "sha256": "ae160122723f9e7fd26369446c4449769fa78673b708b4734bac7f9b5fe0f39d"
+    },
+    {
+      "path": "Greek/endtables/out/hr_eros.out",
+      "bytes": 1646,
+      "sha256": "0a9e16237a0c70ac42af1a30e479b0094a6724945e36a7aca14e08d83ed85b00"
+    },
+    {
+      "path": "Greek/endtables/out/hr_ros.out",
+      "bytes": 638,
+      "sha256": "b6f50166e23cfd1c487df7e9eb198be389c881c8d3b5403d5a0686d1a9ab2a0b"
+    },
+    {
+      "path": "Greek/endtables/out/hs_entos.out",
+      "bytes": 1205,
+      "sha256": "c16eb2afec8da265c7bb35251d6c3483049571af49e51b2a83a085f3b8e5b548"
+    },
+    {
+      "path": "Greek/endtables/out/hs_eos.out",
+      "bytes": 3158,
+      "sha256": "10b310ea647e4dea4b6d5f696570a27e71f25a96df83e6f1db8c163038fc9d1f"
+    },
+    {
+      "path": "Greek/endtables/out/hs_es.out",
+      "bytes": 9416,
+      "sha256": "518f33be8fd0e23b658ec08a6bb690ec8a012bd51960b12ab40e9e5e0f48a3d7"
+    },
+    {
+      "path": "Greek/endtables/out/hs_ou.out",
+      "bytes": 2154,
+      "sha256": "7ff2969beefb922445cc519795edbcd73db1a70ecb15f1b325f1d6811eb24288"
+    },
+    {
+      "path": "Greek/endtables/out/irreg_mi.out",
+      "bytes": 12033,
+      "sha256": "0f5236e6535364a1dc093ae0763f32457f7be8ddeaa5750accd3bb4e96f110cd"
+    },
+    {
+      "path": "Greek/endtables/out/is_ews.out",
+      "bytes": 4796,
+      "sha256": "21dd1da3e0ea8b2fafb2e5ad1cb0a288c2fc62e90a74268db83bbec41de5a047"
+    },
+    {
+      "path": "Greek/endtables/out/is_iCdos.out",
+      "bytes": 1457,
+      "sha256": "6ad8bb726a723bf29b832f3c2bbc8ca3e8f5134f17cbb6385c3458278a0fdf8c"
+    },
+    {
+      "path": "Greek/endtables/out/is_idos.out",
+      "bytes": 1583,
+      "sha256": "de3ed11ecd6713ada031ad3fb1819e37532853149fb1ffb49de7730ac87802fc"
+    },
+    {
+      "path": "Greek/endtables/out/is_idos_adj.out",
+      "bytes": 1736,
+      "sha256": "db53bae3ee0114c18e0961dda852416cd26bdf0be1097088b68a863ecff66404"
+    },
+    {
+      "path": "Greek/endtables/out/is_itos.out",
+      "bytes": 1394,
+      "sha256": "bf510397939f39e91096f3bc7b50f38edebfbd103b9b66ea377100c33157b690"
+    },
+    {
+      "path": "Greek/endtables/out/is_itos_adj.out",
+      "bytes": 1352,
+      "sha256": "499ffc3b6e3b8ef8761259a82489769b37639c8e66315e16421f8e76fc0c7683"
+    },
+    {
+      "path": "Greek/endtables/out/klehs_kleous.out",
+      "bytes": 1772,
+      "sha256": "427a85e7e257957746c7808c90e68abae588bba9dfd89c77a901f62457a552cd"
+    },
+    {
+      "path": "Greek/endtables/out/ma_matos.out",
+      "bytes": 1205,
+      "sha256": "1dd263794a1f86f0d85bbafdfbdd21e30c6e1a266484202130f6cce060a75699"
+    },
+    {
+      "path": "Greek/endtables/out/n_nos.out",
+      "bytes": 1205,
+      "sha256": "0aa08fea1ad1c3dea5575fd73385cb1cd1bb1018a646fe4c828ca34db85ee41f"
+    },
+    {
+      "path": "Greek/endtables/out/n_nos_adj.out",
+      "bytes": 1178,
+      "sha256": "bf059870edc4105a56c9faacf8fbfa83601eaf31f78b094a75df36707cb3741b"
+    },
+    {
+      "path": "Greek/endtables/out/n_ntos.out",
+      "bytes": 1205,
+      "sha256": "072e99c89c278751e15c5983c1e172e7d1ee20129666d4a8db1faa0cc25f443f"
+    },
+    {
+      "path": "Greek/endtables/out/oeis_oentos.out",
+      "bytes": 3851,
+      "sha256": "1539f89cdc21bf872fd2a4577b05da34f3e58c71864c9f49d366e5db50e7dac4"
+    },
+    {
+      "path": "Greek/endtables/out/oeis_oessa.out",
+      "bytes": 12163,
+      "sha256": "75da3e824a01ad1278014b643b0d6c270599563c0d0c34b8bbdee040899715d6"
+    },
+    {
+      "path": "Greek/endtables/out/omi_aor.out",
+      "bytes": 13463,
+      "sha256": "ed6d49498d8cc9d812d3a5d9067397bc28620cebd8cefd5cbe6bcdb7a11f3bc3"
+    },
+    {
+      "path": "Greek/endtables/out/omi_pr.out",
+      "bytes": 14633,
+      "sha256": "bc6de08701b60aa52ae9ecbe30c8096b014ab7b0c7102b9c8fc422b786ef1e8b"
+    },
+    {
+      "path": "Greek/endtables/out/oos_oh_oon.out",
+      "bytes": 6560,
+      "sha256": "f1295a13b1c17d6ef091438650998692ff76a763948fae1fd76aa849690e5aff"
+    },
+    {
+      "path": "Greek/endtables/out/oos_oon.out",
+      "bytes": 4808,
+      "sha256": "581b51cfca5e721b8291cf2fa99a14ddbbcc36f9c85f29ac12fd87369070c0ec"
+    },
+    {
+      "path": "Greek/endtables/out/oos_oou.out",
+      "bytes": 2143,
+      "sha256": "0af0e38040c277c9e2386074bed271ccc050ffc17bc7a6ac85764436814ea97a"
+    },
+    {
+      "path": "Greek/endtables/out/os_h_on.out",
+      "bytes": 14939,
+      "sha256": "a8a53b89f2f7ab23dd5312f7586e53c3f43e8ae4858c83f51ff97b838da6e7a3"
+    },
+    {
+      "path": "Greek/endtables/out/os_on.out",
+      "bytes": 13175,
+      "sha256": "2328a1d2b831a4100dc0704a7bd59db5163bc1a0443874d0e78407951f7d6fe1"
+    },
+    {
+      "path": "Greek/endtables/out/os_ou.out",
+      "bytes": 1228,
+      "sha256": "e95c79fbc88d153fa109e846753312c1b749ef36a5fba3be1cb0e46dc6faa38d"
+    },
+    {
+      "path": "Greek/endtables/out/ous_ontos.out",
+      "bytes": 1331,
+      "sha256": "7c99d03ba81b319852cbf0e1d5bb24a23263ed8f66866a8c2aad22d5545ee33d"
+    },
+    {
+      "path": "Greek/endtables/out/ow_pr.out",
+      "bytes": 38033,
+      "sha256": "bbd9cdd8c5a307c990211c75dad720d951339af803d5b073f53f5179c3a9658d"
+    },
+    {
+      "path": "Greek/endtables/out/perf2_act.out",
+      "bytes": 8393,
+      "sha256": "f686c2263abd0cb755244c98c6780eb7579695f0cf2c8357dc6bfd5a527279d7"
+    },
+    {
+      "path": "Greek/endtables/out/perf_act.out",
+      "bytes": 7634,
+      "sha256": "0ada013faa68c131282577042ad2b5e82c3dd67af57a55c56ffe1a562064c39b"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_d.out",
+      "bytes": 8198,
+      "sha256": "b143ab09b3b32c0c02babda091ca09960c3dd192925a407a64b18c9754b17e0e"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_g.out",
+      "bytes": 4363,
+      "sha256": "88eaa04b1c3f6e45b4081b54dbe2c2ffe4a0513137a244faea7d7b6c61bea4be"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_gg.out",
+      "bytes": 4233,
+      "sha256": "d0e5737d60ce45570e907c3da393576763b0b0077143681ff14dd1edb706dba2"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_gx.out",
+      "bytes": 4233,
+      "sha256": "c627c2f4ae7c0a666e16b7301d25deeebdfc82904f7a6287692949e0841a24dc"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_l.out",
+      "bytes": 4233,
+      "sha256": "86b71e4243dfe60ebcc50eb2582b52faa27b2136c2b1a8fcd2f5bd1cf180c94e"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_mp.out",
+      "bytes": 4233,
+      "sha256": "e7304aa66cc7e7f7426bd0f37422ee4ff302c94646a96bbbaf93f3e42e25850b"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_n.out",
+      "bytes": 3973,
+      "sha256": "300ecef53df2ee2b31b6c7c91e06dea8d3865f1769dc88133b7a826164730e6f"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_p.out",
+      "bytes": 4363,
+      "sha256": "7121153dedb8c64c6055bf748c860a4cfab82f36570bfec72c31e6fd5deb0f39"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_r.out",
+      "bytes": 4363,
+      "sha256": "3a78a8d9a654acc82aaa3de75ea195c9c7f3ab8550fda10ecaff67970b72bd5d"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_s.out",
+      "bytes": 4233,
+      "sha256": "626edd21e45cbd72f6ff002c0848572372f8e0821534e0df435abb0aab31306e"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_un.out",
+      "bytes": 4233,
+      "sha256": "41108ec328e6a33e77530d72938b0dd62ae71c1be2f6d9fd6fc44b0c97fdf468"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_v.out",
+      "bytes": 4233,
+      "sha256": "fe4356dbf2284ebfb4db5f80c0d80b0fdd41091ffb4ce04d8d6ce3d2fddd9ef7"
+    },
+    {
+      "path": "Greek/endtables/out/perfp_vow.out",
+      "bytes": 4472,
+      "sha256": "0955366bba7a6e2efbe0a84d99f6893512b5412da8a67b6e51914953c2068ee8"
+    },
+    {
+      "path": "Greek/endtables/out/pous_podos.out",
+      "bytes": 1698,
+      "sha256": "62f1110d9dbdefe78e7f3aa56b381bd1978aa9da3121bd046cbb92f73bbdfba5"
+    },
+    {
+      "path": "Greek/endtables/out/qric_trixos.out",
+      "bytes": 1142,
+      "sha256": "fb1771c462d920cf3e927f1db5d18c0a7440bf99f84f634d3d6c7d1fa699e0c6"
+    },
+    {
+      "path": "Greek/endtables/out/r_ros.out",
+      "bytes": 1331,
+      "sha256": "52cad8be21d006ab493b1cf4cce9405745d25a99bd524376f8b73efa63ffe8c2"
+    },
+    {
+      "path": "Greek/endtables/out/r_rtos.out",
+      "bytes": 1205,
+      "sha256": "fd5dc0cd2b87598ec4415173e7f10ba9412c8536985ad0bd21fb7c10aa6d0ce6"
+    },
+    {
+      "path": "Greek/endtables/out/r_tos.out",
+      "bytes": 1016,
+      "sha256": "f648e54734657786508b992f7c6f65a1803db87d196f2166a19c621be94f60cf"
+    },
+    {
+      "path": "Greek/endtables/out/reg_fut.out",
+      "bytes": 29892,
+      "sha256": "1b3f74e1a07cafea969d4119007228cd07db7f118ff089b7e23bc9d1301bc858"
+    },
+    {
+      "path": "Greek/endtables/out/s_dos.out",
+      "bytes": 1646,
+      "sha256": "6db5e92fc385a29340e9991a82b16710cd0e4b0d01613f01311a704476c8daa8"
+    },
+    {
+      "path": "Greek/endtables/out/s_nos.out",
+      "bytes": 1205,
+      "sha256": "604151a7ca647361f71417fdf7e8e2f0a2f4d071147854f465b1c988b7dc32ec"
+    },
+    {
+      "path": "Greek/endtables/out/s_ntos.out",
+      "bytes": 1205,
+      "sha256": "0de227b3bd3a537cd1ed14d92c5193c95b9af32bb9fac3bb1da7bc104cbab26e"
+    },
+    {
+      "path": "Greek/endtables/out/s_os.out",
+      "bytes": 1268,
+      "sha256": "54d054753f7661eb1070ca6b3b58779bb3408b8d2934d508e420aaee8c16c331"
+    },
+    {
+      "path": "Greek/endtables/out/s_qos.out",
+      "bytes": 1268,
+      "sha256": "ae2bf15a2e4b7833869a35157d3fb2d9ee403e13d74fd7fa691cde9a3cf1c5db"
+    },
+    {
+      "path": "Greek/endtables/out/s_ros.out",
+      "bytes": 1268,
+      "sha256": "7714aa0e981674b5c039d890cf4b36e47e98c1236cefcf5b877d11e63b4ac8c5"
+    },
+    {
+      "path": "Greek/endtables/out/s_tos.out",
+      "bytes": 1205,
+      "sha256": "eef343aff57902dd25ab9e2547e59e7efdd3229b4ca4d67e59da1bae0f982b33"
+    },
+    {
+      "path": "Greek/endtables/out/t_tos.out",
+      "bytes": 1205,
+      "sha256": "4fdc7f911b69fdf56bd2f9cde1fdd48dba687d967c4ef357bdd88adb04d1bf58"
+    },
+    {
+      "path": "Greek/endtables/out/uLs_uos.out",
+      "bytes": 1331,
+      "sha256": "10143d0fd983c2d4394ced698ba7894726e09aa3bcb9ac17ef51a70cb269a939"
+    },
+    {
+      "path": "Greek/endtables/out/umi_pr.out",
+      "bytes": 14048,
+      "sha256": "2cde2edd68e609bd1b7a904cb569c13ffd3eb2ccd92c5f3e27d9b1df3ddd900f"
+    },
+    {
+      "path": "Greek/endtables/out/us_eia_u.out",
+      "bytes": 7288,
+      "sha256": "ffb80e6d0cf086fab4959e65d7bbdc55d03581939ca9152cf7629e62ab670fc9"
+    },
+    {
+      "path": "Greek/endtables/out/us_ews.out",
+      "bytes": 2591,
+      "sha256": "49cea598adb1c48c9451ec83ea50a9d8c0c19d5036cb923b20b9479a3e3d086c"
+    },
+    {
+      "path": "Greek/endtables/out/us_u.out",
+      "bytes": 1438,
+      "sha256": "6b5638f6ad3313cb2b8d3cb8f63bfe54afc2b65d190efd169c15402e3a9f7856"
+    },
+    {
+      "path": "Greek/endtables/out/us_uos.out",
+      "bytes": 1457,
+      "sha256": "802c7a09e4a017218294f68de5d446876c9a1056622efd47c87c95075ef51aa6"
+    },
+    {
+      "path": "Greek/endtables/out/verb_adj1.out",
+      "bytes": 1268,
+      "sha256": "e891b7d89f135ae016779d468e7441554457bd5a56dd31eeffe35560cc9b2280"
+    },
+    {
+      "path": "Greek/endtables/out/verb_adj2.out",
+      "bytes": 3095,
+      "sha256": "ada47e92f2a382adf051106f4e6d46b68e828555b224ddc7a80cee12c7bdbf5e"
+    },
+    {
+      "path": "Greek/endtables/out/wCn_wCntos.out",
+      "bytes": 260,
+      "sha256": "dbc1b8c963297672814b9f171bcc42a92dbc306e2e14ef5b3a2015de4da429b8"
+    },
+    {
+      "path": "Greek/endtables/out/w_oos.out",
+      "bytes": 3473,
+      "sha256": "78277f3ab857df00ef7f423c2e8ac7e4c5fa1d1a148f7a9c21ddfbf34adb1420"
+    },
+    {
+      "path": "Greek/endtables/out/w_stem.out",
+      "bytes": 15260,
+      "sha256": "5e3547e275954b97d9fdae0e9ef7b8deeba761bbd8964a04172218a9218a3936"
+    },
+    {
+      "path": "Greek/endtables/out/wn_nos.out",
+      "bytes": 1142,
+      "sha256": "768db2e9124203fc0380120cffdfa06e6ec32fbd7b2c5ad567337070d5c8ea4b"
+    },
+    {
+      "path": "Greek/endtables/out/wn_on.out",
+      "bytes": 7548,
+      "sha256": "f73da51532646a98cff1b98f98ce99c6a6a2cbf4329d8e97a6049602889a9c11"
+    },
+    {
+      "path": "Greek/endtables/out/wn_on_comp.out",
+      "bytes": 1736,
+      "sha256": "6aa3cd4a3b25f5548829a9adbe9985d482a47848778d3e1efd8f2efb49283607"
+    },
+    {
+      "path": "Greek/endtables/out/wn_onos.out",
+      "bytes": 1331,
+      "sha256": "d771d27e311d727f66be16efe6db1cd40bf52602f0225161261debd898df2fcf"
+    },
+    {
+      "path": "Greek/endtables/out/wn_ontos.out",
+      "bytes": 1394,
+      "sha256": "8bad4a64519f4415cb3c8c2405ff4fd76b513275b1d178e2df4d1ee0d8f5f19a"
+    },
+    {
+      "path": "Greek/endtables/out/wn_ousa_on.out",
+      "bytes": 3778,
+      "sha256": "f085a7100d104472b0f8074003a167f564e2c96d88bc4a11dc3011f429170d7f"
+    },
+    {
+      "path": "Greek/endtables/out/wr_oros.out",
+      "bytes": 1268,
+      "sha256": "bd340e71e13d99024c4b2fbff0320096561b6c90b3abb9ac5e6e6be197d5541c"
+    },
+    {
+      "path": "Greek/endtables/out/ws_oos.out",
+      "bytes": 3536,
+      "sha256": "828790cc5f6fcde43bb3c4190ad0ea2d9dc16f6a7ba9c9a3cb7734a6e7d0a210"
+    },
+    {
+      "path": "Greek/endtables/out/ws_w.out",
+      "bytes": 638,
+      "sha256": "14db98b6d20c3f952705cd217c76c316aa76b78b8066b6d598c62ba0c683aaab"
+    },
+    {
+      "path": "Greek/endtables/out/ws_w_long.out",
+      "bytes": 260,
+      "sha256": "2f7cf1b23d287e3cb4a25d301760eac9f3531b68aefbaa0818ecf51177b5bbb2"
+    },
+    {
+      "path": "Greek/endtables/out/ws_wn.out",
+      "bytes": 953,
+      "sha256": "30854a66a802d3315721735b9108013d1bf28c9d1383b8a18942cf942a29d6a4"
+    },
+    {
+      "path": "Greek/endtables/out/ws_wn_long.out",
+      "bytes": 4292,
+      "sha256": "84cb6bb39524b997be78391d9b8c0a948ae851afba4175382e941ac4a28add14"
+    },
+    {
+      "path": "Greek/endtables/out/ws_wos.out",
+      "bytes": 1394,
+      "sha256": "2d43b68376e9aeade0062696834af22e1f076fb13eeea7775bbf08d0d03e2dc6"
+    },
+    {
+      "path": "Greek/endtables/out/ww_pr.out",
+      "bytes": 53633,
+      "sha256": "97f33fba51dc46f10e0bfcf8a6dc793db705d99582138636dc48e5a3e4f147d6"
+    },
+    {
+      "path": "Greek/endtables/out/y_bos.out",
+      "bytes": 1205,
+      "sha256": "3d842504b87362ab64fd5505222017af7fcb43a18fd5dd9b8095bdfd4912c7f3"
+    },
+    {
+      "path": "Greek/endtables/out/y_fos.out",
+      "bytes": 1205,
+      "sha256": "8e5cc925d5bc1dd71871eadcc815af89f9f83e3a45185c6d2aa89209dce8e2d6"
+    },
+    {
+      "path": "Greek/endtables/out/y_pos.out",
+      "bytes": 1205,
+      "sha256": "9e7a6200242b16ec61c990d5048bec442fec0ce351c44a917f732a9beb16f735"
+    },
+    {
+      "path": "Greek/endtables/source/a_hs.end",
+      "bytes": 15,
+      "sha256": "44a66b1bdb8d486976793a4ed5edb36cd5fde8d439b454f555b89d48f4f1bd1a"
+    },
+    {
+      "path": "Greek/endtables/source/ah_ahs.end",
+      "bytes": 74,
+      "sha256": "0535449daa2a6e2787e8ab781aa2d4e493a59b6a1c56fccafc586434eabbc9e3"
+    },
+    {
+      "path": "Greek/endtables/source/ajw_pr.end",
+      "bytes": 744,
+      "sha256": "2f9edf00c6fb767bd6ca6608d8580b8e1958ad6a1513776c2e32e025a71a6f34"
+    },
+    {
+      "path": "Greek/endtables/source/ami_aor.end",
+      "bytes": 929,
+      "sha256": "0540b4a6228d7302bb495e430638002634c7b8efc5f1c3437fb205f335d68278"
+    },
+    {
+      "path": "Greek/endtables/source/ami_pr.end",
+      "bytes": 1237,
+      "sha256": "4db7135a5c55631cf41ce7ba8f9437c1feb3bd516829dec4d1d781782c2209cb"
+    },
+    {
+      "path": "Greek/endtables/source/ami_short.end",
+      "bytes": 739,
+      "sha256": "7358a5595ecff83c3d2085ccc499d3a903edf9029e593d661d6dc6458a2e84d1"
+    },
+    {
+      "path": "Greek/endtables/source/aor1.end",
+      "bytes": 668,
+      "sha256": "8e88ed117cc5e46af237c147867cc142b152de3665701958d3f3dfe28bbfa2af"
+    },
+    {
+      "path": "Greek/endtables/source/aor2.end",
+      "bytes": 701,
+      "sha256": "5f6608e6d046d1c82bd90bc45b380a43b195df3f424525b8fddcebd987e4b4d9"
+    },
+    {
+      "path": "Greek/endtables/source/aor2_pass.end",
+      "bytes": 901,
+      "sha256": "8fe960d839ca27d8828e610cb92c758bfc39bc75a03191238ea14d0d1a6de69f"
+    },
+    {
+      "path": "Greek/endtables/source/aor_pass.end",
+      "bytes": 741,
+      "sha256": "8f649ab25a9227a3cbba2fda3be26eb6b3d590ad9bc0ed1c0358476079fd0d24"
+    },
+    {
+      "path": "Greek/endtables/source/aos_aou.end",
+      "bytes": 44,
+      "sha256": "f9970bea20879f76bbf1d61f9fa72c9fc415fff3b975cfe0e94d5f1bab131b12"
+    },
+    {
+      "path": "Greek/endtables/source/ar_atos.end",
+      "bytes": 44,
+      "sha256": "2b3ae8fc876488c9844d5197d56da6da74b748ea2f85fec837936e62b05ddd11"
+    },
+    {
+      "path": "Greek/endtables/source/art_adj.end",
+      "bytes": 92,
+      "sha256": "51f87ab7addec8a270b5c4c277a58a2d1dda809af07eff4959a87dd6ea234dc5"
+    },
+    {
+      "path": "Greek/endtables/source/as_a.end",
+      "bytes": 83,
+      "sha256": "16c565c4431c7a66606957d3a00ba7afec53cd3e4aab28391c984843b8ec869b"
+    },
+    {
+      "path": "Greek/endtables/source/as_aina_an.end",
+      "bytes": 145,
+      "sha256": "0e56e161f7d2104246352c9cff7d08c3a7ed756bf6644e38d1a498682ec8ae22"
+    },
+    {
+      "path": "Greek/endtables/source/as_antos.end",
+      "bytes": 120,
+      "sha256": "cb96d163598a0faa573bbfdc2316d6f58f62736a64c84682e75e3b279a360769"
+    },
+    {
+      "path": "Greek/endtables/source/as_aos.end",
+      "bytes": 110,
+      "sha256": "089c1220e4a7b442a1f3890932348a1546c7564c1fda1f77c94f600bbc3a04ed"
+    },
+    {
+      "path": "Greek/endtables/source/as_asa_an.end",
+      "bytes": 21,
+      "sha256": "b9838a78094a2893a9484a1c61e05ab76aab107569a8a42fc47a63a7dd09fcd0"
+    },
+    {
+      "path": "Greek/endtables/source/as_atos.end",
+      "bytes": 138,
+      "sha256": "99f195eb57145fa351a9fd0a7fcd80d402f238e984f27e9c43ae059f117230c5"
+    },
+    {
+      "path": "Greek/endtables/source/ath_h_aor.end",
+      "bytes": 1191,
+      "sha256": "6dbde96540836ebe493569623bf1830f9fe1588ad7d6400f4e8a454286ca6669"
+    },
+    {
+      "path": "Greek/endtables/source/ath_primary.end",
+      "bytes": 531,
+      "sha256": "2e03857a4feb5b868d1f27d3670ad75b6079477d097df9e78a7fdf2f6fbda9cf"
+    },
+    {
+      "path": "Greek/endtables/source/ath_secondary.end",
+      "bytes": 578,
+      "sha256": "d9bcb3bdde80c40e591028854d710145f0d95dc195de56a600a862b9e850aa8f"
+    },
+    {
+      "path": "Greek/endtables/source/ath_u_aor.end",
+      "bytes": 490,
+      "sha256": "9f179d92e492ec76a1fdc05869746e537c4f569cf26a0baf3d67bfeaf1e7dff6"
+    },
+    {
+      "path": "Greek/endtables/source/ath_w_aor.end",
+      "bytes": 842,
+      "sha256": "5e65a1b048ac9c45fb4d0e213dca9b627c76516920a4dc0c8be4f4cb5a1fbea1"
+    },
+    {
+      "path": "Greek/endtables/source/aw_fut.end",
+      "bytes": 252,
+      "sha256": "19f51755cfb6c532067e1724672982defb0a6ecf0953a6f62b850dcbd88954ba"
+    },
+    {
+      "path": "Greek/endtables/source/aw_pr.end",
+      "bytes": 1260,
+      "sha256": "eeb52aa73199dc77eac731f891e72a3b032154cd1abbc9b9cb072114ffa6c852"
+    },
+    {
+      "path": "Greek/endtables/source/c_ggos.end",
+      "bytes": 41,
+      "sha256": "5b27cfeba92df96b817af94407bdec2806e9f9705beb1cfb89bd42916e4a7ed9"
+    },
+    {
+      "path": "Greek/endtables/source/c_gos.end",
+      "bytes": 34,
+      "sha256": "14b8ef6c0342b543119de88ee4bf53b42a9baaa06cfda3e79e305bd8d0f26d96"
+    },
+    {
+      "path": "Greek/endtables/source/c_kos.end",
+      "bytes": 34,
+      "sha256": "f8926e4a24eee14cbd2671fa01af0b436e796c1b87a2d66961d406c45aed96b2"
+    },
+    {
+      "path": "Greek/endtables/source/c_ktos.end",
+      "bytes": 75,
+      "sha256": "da96b02a733e4a065927707e6d32be55df1921c7f34c33f7129daeb7135ea475"
+    },
+    {
+      "path": "Greek/endtables/source/c_xos.end",
+      "bytes": 34,
+      "sha256": "eb169302b52987e5f3d4beaae3054c62e2e43753fec712fc75d3ec4cebe650d9"
+    },
+    {
+      "path": "Greek/endtables/source/conj3.end",
+      "bytes": 65,
+      "sha256": "3b43bd96def0d0772c6036f0bcac78a01495aa95b2f6f6e44ca723333ecfeadb"
+    },
+    {
+      "path": "Greek/endtables/source/conj3io.end",
+      "bytes": 66,
+      "sha256": "a4bfd5d908a9584312ea396334480b41020a5c92a90e74fd8576d6a9294823d9"
+    },
+    {
+      "path": "Greek/endtables/source/conj4.end",
+      "bytes": 70,
+      "sha256": "6d240f22b5ce65f690649b563d1036d428d7f69ea08a6d53ceb9afd3f0b0780c"
+    },
+    {
+      "path": "Greek/endtables/source/eas_ea.end",
+      "bytes": 181,
+      "sha256": "7f90221c5d9ce6a6e0cc98f761c0a890f73aef5cfd6a3f0c61b93c92890274b9"
+    },
+    {
+      "path": "Greek/endtables/source/eh_ehs.end",
+      "bytes": 46,
+      "sha256": "6c70b08776f03bcea42878e280e8091bf4be1111ae05cf36e90184c0952597ad"
+    },
+    {
+      "path": "Greek/endtables/source/ehs_eou.end",
+      "bytes": 270,
+      "sha256": "4c8505ec47813665fa6f25bcf3cc8e83957fedc76e5fbf5a3490cc2141193d68"
+    },
+    {
+      "path": "Greek/endtables/source/eis_enos.end",
+      "bytes": 47,
+      "sha256": "57e46ed43861cca628dc7bf45c7b6fe840d26d5bfd1db8d440064a112d9becd0"
+    },
+    {
+      "path": "Greek/endtables/source/eis_essa.end",
+      "bytes": 134,
+      "sha256": "64e3023da8a107a418e1dc4d68c3bc122ed3b9a7a4f546b7d474d87c0331b7de"
+    },
+    {
+      "path": "Greek/endtables/source/emi_aor.end",
+      "bytes": 1027,
+      "sha256": "d93716649d577a3d6f53521e07b6716c0e303ff668e939229e4b39f2b91b950d"
+    },
+    {
+      "path": "Greek/endtables/source/emi_pr.end",
+      "bytes": 1262,
+      "sha256": "53b0347cda918f5f908b71782f96c6ee876a11ca5fd29e59b9fa239f62b7671d"
+    },
+    {
+      "path": "Greek/endtables/source/eos_eh_eon.end",
+      "bytes": 138,
+      "sha256": "a91b3e9803e0a5a3f34b4180a93c93d66580af7e46da0d4f74ddc93e44cf2885"
+    },
+    {
+      "path": "Greek/endtables/source/eos_eou.end",
+      "bytes": 146,
+      "sha256": "fbd40e7167848c781b9692f936d8dad7784f318918c4eb6a9b437d3c91a432f9"
+    },
+    {
+      "path": "Greek/endtables/source/eus_ews.end",
+      "bytes": 994,
+      "sha256": "24557cd29bf05d9df5b6c68d8a5682b3bf9569486b2a17f66f7eda5d387cb833"
+    },
+    {
+      "path": "Greek/endtables/source/evw_pr.end",
+      "bytes": 688,
+      "sha256": "c1977c866c0e44b48827dc63acdb2b7a084321589dfc35225e2185b5023c802c"
+    },
+    {
+      "path": "Greek/endtables/source/ew_fut.end",
+      "bytes": 380,
+      "sha256": "2ca7964ed7937f5c5eb74e2bffa4bdf6d366ec1d377359f6d1150b78fc69eb7a"
+    },
+    {
+      "path": "Greek/endtables/source/ew_pr.end",
+      "bytes": 1002,
+      "sha256": "5ee1924fca79d573f48ba570bf4dc3b351a90b2189f07c26dffb584cd72329a2"
+    },
+    {
+      "path": "Greek/endtables/source/ewn_ewnos.end",
+      "bytes": 48,
+      "sha256": "440139f844908a523141f814e8ccd757b12c771762bceec25f5c346d7b6d4cbf"
+    },
+    {
+      "path": "Greek/endtables/source/fut_perf.end",
+      "bytes": 328,
+      "sha256": "3efad229b531dc95c11957569cf0143959b0a41cf2358693ad282fcd65c15cd0"
+    },
+    {
+      "path": "Greek/endtables/source/gc_gos.end",
+      "bytes": 42,
+      "sha256": "1299e9e05ab7b1e6965bb3efe0a89c8ac1a386079e829f64dda5ec21d6c49cdd"
+    },
+    {
+      "path": "Greek/endtables/source/h_hs.end",
+      "bytes": 16,
+      "sha256": "2a4610ee3f869e0b287eb237bc88ca2c16f47df91f4388dfb623237ffa96d645"
+    },
+    {
+      "path": "Greek/endtables/source/hc_ekos.end",
+      "bytes": 44,
+      "sha256": "48621c01d90abbf7bcdc385654dacd6c103b8f68fde65227491294b1260e962e"
+    },
+    {
+      "path": "Greek/endtables/source/heis_hessa.end",
+      "bytes": 489,
+      "sha256": "5366d446a7d370ca377fb3a9c735c469eba40cb0cbd32abf4a4d705eb565f95f"
+    },
+    {
+      "path": "Greek/endtables/source/hn_eina_en.end",
+      "bytes": 144,
+      "sha256": "e63565ca45c28ce9afec652ed416bd871269acecdbc78784b0ecf48a62ead91a"
+    },
+    {
+      "path": "Greek/endtables/source/hn_enos.end",
+      "bytes": 79,
+      "sha256": "9577de4d13aa377cbc021d7e41c714110efce84ec24af540d2b9c8861171c407"
+    },
+    {
+      "path": "Greek/endtables/source/hr_eros.end",
+      "bytes": 131,
+      "sha256": "be3af5101370b1c3cd35b08176551ae9e31cca3d00207079572377e353571bfd"
+    },
+    {
+      "path": "Greek/endtables/source/hr_ros.end",
+      "bytes": 158,
+      "sha256": "001b1a5adc4b384f67f97cbb6fdb29c07f5a739edaca550cfc761a42ef5c225e"
+    },
+    {
+      "path": "Greek/endtables/source/hs_entos.end",
+      "bytes": 81,
+      "sha256": "a0db690a494ed58353be9e39265faad274e637f0339e49ee8d7603e29790ccb7"
+    },
+    {
+      "path": "Greek/endtables/source/hs_eos.end",
+      "bytes": 214,
+      "sha256": "f9a6215b8ac50023757d54d2773c7d09936d39baf0258411cdc259456789e2f3"
+    },
+    {
+      "path": "Greek/endtables/source/hs_es.end",
+      "bytes": 324,
+      "sha256": "27fed0e6bb9443f0d64d44187b3196310f3f8402a45dafcfe5a1734bd9478839"
+    },
+    {
+      "path": "Greek/endtables/source/hs_ou.end",
+      "bytes": 358,
+      "sha256": "2491d9a3d3addddd668527e11961c5cc937984e54cebcfe12b7394ce4d3c340f"
+    },
+    {
+      "path": "Greek/endtables/source/irreg_mi.end",
+      "bytes": 531,
+      "sha256": "2e03857a4feb5b868d1f27d3670ad75b6079477d097df9e78a7fdf2f6fbda9cf"
+    },
+    {
+      "path": "Greek/endtables/source/is_ews.end",
+      "bytes": 552,
+      "sha256": "6f8ebe2ed2550b78b8dc0e842d7deb72f5a15afb2051ac4d55fec87a50f6afb7"
+    },
+    {
+      "path": "Greek/endtables/source/is_iCdos.end",
+      "bytes": 48,
+      "sha256": "27aca420918e4c241c79e0aa50ffa74b0138422b7183c8d0a7f42f3f4987e9a9"
+    },
+    {
+      "path": "Greek/endtables/source/is_idos.end",
+      "bytes": 81,
+      "sha256": "8e2adf251da576d3fbb18db0ce620fbe979668a7a26d6a2ae9a0507e662fbc92"
+    },
+    {
+      "path": "Greek/endtables/source/is_idos_adj.end",
+      "bytes": 201,
+      "sha256": "deb5de68bacf1f7f154d953f2d6399f7c9c35a41bf7476457170c07b32fee55c"
+    },
+    {
+      "path": "Greek/endtables/source/is_ios.end",
+      "bytes": 167,
+      "sha256": "cca3d15ca76ebc13bb7f1060bc9cf9a4e9db9991048f6014e76d9cde9f3df450"
+    },
+    {
+      "path": "Greek/endtables/source/is_itos.end",
+      "bytes": 127,
+      "sha256": "40225eda86d4c360c48cf5d843b9a71053c2180ea8fc5a656af41be945ecc16d"
+    },
+    {
+      "path": "Greek/endtables/source/is_itos_adj.end",
+      "bytes": 156,
+      "sha256": "1fb5bd81f13c40c352f8b27b74ccadaafdd300af9499f39c6a563ed5d8190f96"
+    },
+    {
+      "path": "Greek/endtables/source/klehs_kleous.end",
+      "bytes": 668,
+      "sha256": "bb78347179a4af8e062dc6091789c332d73e4a0983c787f6c06397dec02c2ed1"
+    },
+    {
+      "path": "Greek/endtables/source/ma_matos.end",
+      "bytes": 47,
+      "sha256": "73bd2da02a7df02323105407bf9f0e35c6530577a8773a370b4a928adbbe15b7"
+    },
+    {
+      "path": "Greek/endtables/source/n_nos.end",
+      "bytes": 34,
+      "sha256": "60923875efda1b9ade45ae0befc34c61974ebefa7504a822db56e2d965dfb1dd"
+    },
+    {
+      "path": "Greek/endtables/source/n_nos_adj.end",
+      "bytes": 55,
+      "sha256": "0f638233251be731e2d4ea3b3d3045b0e24dab25710d2f887421728d28294d6d"
+    },
+    {
+      "path": "Greek/endtables/source/n_ntos.end",
+      "bytes": 38,
+      "sha256": "c5dc9483f22b48a76734fad5abd60e11a7c50818eccf76ef0ca9f6970c05d6f3"
+    },
+    {
+      "path": "Greek/endtables/source/oeis_oentos.end",
+      "bytes": 172,
+      "sha256": "a22966eb06441b5d53cdd9d3420645116e60a98fe2454ff3af361db43d3516a3"
+    },
+    {
+      "path": "Greek/endtables/source/oeis_oessa.end",
+      "bytes": 258,
+      "sha256": "b5b05a9452bda62db0452ace1860db5d0121f4bb2e8c4c92962b2a7b69f20640"
+    },
+    {
+      "path": "Greek/endtables/source/omi_aor.end",
+      "bytes": 902,
+      "sha256": "646909f165136ff6d539fa52d462e612f90b3d5f5bad286f316d109275a39079"
+    },
+    {
+      "path": "Greek/endtables/source/omi_pr.end",
+      "bytes": 1154,
+      "sha256": "a053a5ea352c2742052131895040d1b79f633595608a72dfaa8b3185fc947b93"
+    },
+    {
+      "path": "Greek/endtables/source/oos_oh_oon.end",
+      "bytes": 262,
+      "sha256": "d6d629d75dff2a8b21d7d0f44ec8ea4b61e8f1794f31e252f3701746db891b40"
+    },
+    {
+      "path": "Greek/endtables/source/oos_oon.end",
+      "bytes": 608,
+      "sha256": "d005f1fe746b9a64c29a7a2df832c7f55fc0d6ef64e6054e52018e6adf7be97a"
+    },
+    {
+      "path": "Greek/endtables/source/oos_oou.end",
+      "bytes": 548,
+      "sha256": "55559bb9b498d58db87a958f4ea9a4006a5736914c79f188a5c00038ffc442c1"
+    },
+    {
+      "path": "Greek/endtables/source/os_h_on.end",
+      "bytes": 374,
+      "sha256": "763ad927bb4a2a33a1b02b5b2b527da79b5baeae5784b1f05f765b7684018477"
+    },
+    {
+      "path": "Greek/endtables/source/os_on.end",
+      "bytes": 309,
+      "sha256": "b96e1d40dab8d99faa07e12cb7634682673e84830f08ef43675e0cf263cff1ce"
+    },
+    {
+      "path": "Greek/endtables/source/os_ou.end",
+      "bytes": 13,
+      "sha256": "56fcaa386869af6cf7b33f67b19b6856451f572567852599c56ee87742eff29e"
+    },
+    {
+      "path": "Greek/endtables/source/ous_ontos.end",
+      "bytes": 46,
+      "sha256": "2e2b31f01a91baf53c8d5dae2b19e91a7e8b75c83d3728d191770285dc0ff6b5"
+    },
+    {
+      "path": "Greek/endtables/source/ow_pr.end",
+      "bytes": 816,
+      "sha256": "41e0a5663315537d03fa7fe93ae1f8f7ae165ae4e47094c994bd909a808a71a4"
+    },
+    {
+      "path": "Greek/endtables/source/perf2_act.end",
+      "bytes": 810,
+      "sha256": "94a5341ff6ec5526afcc36cc8756d07343f22e09fc27d8347bd3b4513c53d4b5"
+    },
+    {
+      "path": "Greek/endtables/source/perf_act.end",
+      "bytes": 1097,
+      "sha256": "58ae9c705510b3b9f00677efcee7ea57572dd9db64ac2bc15502f947c4e94c34"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_d.end",
+      "bytes": 290,
+      "sha256": "7db62023322693d68af7c22c7fbcf9a1c0fa5c23d56a3749599266b68ed4b117"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_g.end",
+      "bytes": 279,
+      "sha256": "049cb47e7502fe92cb84a2999c4f25d811b23296a1dcae55b451fbd865e1fba7"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_gg.end",
+      "bytes": 191,
+      "sha256": "0d9285a9352be080e95f96b42d2ceed0720df17c631129c769a5407a453e1e3e"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_gx.end",
+      "bytes": 194,
+      "sha256": "b7737a2c6ffd117aa60307564d6b70634add34d398f2943e051b2525d23650c5"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_l.end",
+      "bytes": 184,
+      "sha256": "c570c2d72af3f13f5b181966db920aba7a9ee5f41a3780a68dd07622d6ae891d"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_mp.end",
+      "bytes": 194,
+      "sha256": "f5c44f795169cd1a731d8885d97c6381e4995b1716a4236245d02f06e3bb2d09"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_n.end",
+      "bytes": 455,
+      "sha256": "4c31b14cef8bb12b034e3af749a692920f690e469be8e330890c9fcd128e1338"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_p.end",
+      "bytes": 279,
+      "sha256": "e8a366a17faed29b7507c637ffd1f7896fff279c415bf3baa8203e32a3e3b221"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_r.end",
+      "bytes": 260,
+      "sha256": "e93a8a7fd705e2547fd6d7b1aba29351abf88d4115781ac5b60ef4be242f4d73"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_s.end",
+      "bytes": 191,
+      "sha256": "f4621cbe9541675da9ce19de08f02af906f98f7baba9deb6a34ae59b649bd261"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_un.end",
+      "bytes": 194,
+      "sha256": "223a74910c776d25ae9d1366dc825da04b36eacdbb9d01c499e137a58c9f5f61"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_v.end",
+      "bytes": 191,
+      "sha256": "7c8cb1812fe2b9e55bb5cb99bcb4e6d2ab4d8ddc04714bf15612dcc0f1cd471e"
+    },
+    {
+      "path": "Greek/endtables/source/perfp_vow.end",
+      "bytes": 378,
+      "sha256": "ed254f542ba32da5798e00530b5b7a34994da8fbca963a0f5def87fc20a1e281"
+    },
+    {
+      "path": "Greek/endtables/source/pous_podos.end",
+      "bytes": 187,
+      "sha256": "c9e211bb63b5fdf03011ac8b14be370fbf6844633fdcb2ca4cc82857faf4e854"
+    },
+    {
+      "path": "Greek/endtables/source/qric_trixos.end",
+      "bytes": 70,
+      "sha256": "0dc528f687c0510189cadb2909d90a0e5a3945f3f4b67ac1cc354a63ca5d1e0d"
+    },
+    {
+      "path": "Greek/endtables/source/r_ros.end",
+      "bytes": 69,
+      "sha256": "8d3e988d4fe55886a526fd48db9ea9afc850557271a0993dc6c95f9e7c0e930f"
+    },
+    {
+      "path": "Greek/endtables/source/r_rtos.end",
+      "bytes": 33,
+      "sha256": "5fc682fb51b3081314bf8c6953a08ba3d59cfe10436c85266afc5894682142d1"
+    },
+    {
+      "path": "Greek/endtables/source/r_tos.end",
+      "bytes": 39,
+      "sha256": "bd3b830ce526bc9c13e4965004803c5885368e7510a5cc05f89a29162efc338d"
+    },
+    {
+      "path": "Greek/endtables/source/reg_fut.end",
+      "bytes": 582,
+      "sha256": "76ecfec2fc41ae779dbdeb0725355ea054a368fd4948677b2c9121349bdb99bc"
+    },
+    {
+      "path": "Greek/endtables/source/s_dos.end",
+      "bytes": 84,
+      "sha256": "ecca992f26cd09d0661342ebe140557eb54c078fc13d7c1fee1e485f77a9776e"
+    },
+    {
+      "path": "Greek/endtables/source/s_nos.end",
+      "bytes": 34,
+      "sha256": "540d7e4b3a1e8208fc9e3fe59b41d5060b9fd4ac8d55e9b2946a1256b9e40004"
+    },
+    {
+      "path": "Greek/endtables/source/s_ntos.end",
+      "bytes": 36,
+      "sha256": "5a225537a9fe0b648b85acedffb00a53a4f1a1984572db66129bf724af933568"
+    },
+    {
+      "path": "Greek/endtables/source/s_os.end",
+      "bytes": 53,
+      "sha256": "eca8aab7949c7060c547a9587573872168b8ae08a36a99b2b7efbc9b9a158d42"
+    },
+    {
+      "path": "Greek/endtables/source/s_qos.end",
+      "bytes": 45,
+      "sha256": "3889289f9ba5e1b6de9ee1b2f15fcdb809eb8afec85ed71e1a97be804e986413"
+    },
+    {
+      "path": "Greek/endtables/source/s_ros.end",
+      "bytes": 55,
+      "sha256": "06adae72e57186ff7ea6cfaf6b4fba7017bf91a8d995aad5c880eb5977041396"
+    },
+    {
+      "path": "Greek/endtables/source/s_tos.end",
+      "bytes": 30,
+      "sha256": "f61c66f9be5cd87a4cb38f83ae89a176f981b747431ec0aef51bc8d119052581"
+    },
+    {
+      "path": "Greek/endtables/source/t_tos.end",
+      "bytes": 42,
+      "sha256": "f54b87bcc1680d9f0105759703a9c673a36313a3a6a4ca4370ad19d1c65e0bde"
+    },
+    {
+      "path": "Greek/endtables/source/uLs_uos.end",
+      "bytes": 244,
+      "sha256": "84d9ad5ed2870794b29d1b7bcfc68989b217c6d34255e1511b544fe306e3d126"
+    },
+    {
+      "path": "Greek/endtables/source/umi_pr.end",
+      "bytes": 970,
+      "sha256": "e71100967042a4882d2b63ceccd1787e125e9b12e6338c263cd94d6fd5543a6f"
+    },
+    {
+      "path": "Greek/endtables/source/us_eia_u.end",
+      "bytes": 531,
+      "sha256": "5f7c5d1711c6c596f14cee1b5ed7651834cd56efc8a1be182a613929c75213fa"
+    },
+    {
+      "path": "Greek/endtables/source/us_ews.end",
+      "bytes": 384,
+      "sha256": "f6b354519d18eacdde86e8b2637af78c49ca958367dcb2dd0d267d169182a186"
+    },
+    {
+      "path": "Greek/endtables/source/us_u.end",
+      "bytes": 292,
+      "sha256": "fbc5336f10f2ab8216e77ab7f3341e4644b3f9c64f0bdc0651e9ab1dea5cc35e"
+    },
+    {
+      "path": "Greek/endtables/source/us_uos.end",
+      "bytes": 149,
+      "sha256": "23cc46b4d55b820e2d7e132b045254d42f680190ab6c00736edd050fca2a51ed"
+    },
+    {
+      "path": "Greek/endtables/source/us_uos2.end",
+      "bytes": 203,
+      "sha256": "9b02920d8876534720fc9baf808ad845e5652f668ab51927eca8d6dbc6259a9d"
+    },
+    {
+      "path": "Greek/endtables/source/verb_adj.end",
+      "bytes": 28,
+      "sha256": "dcc161804b7558710a32fd3daad79c8c663f789a02c700833a491facffbdfcf6"
+    },
+    {
+      "path": "Greek/endtables/source/verb_adj1.end",
+      "bytes": 29,
+      "sha256": "ad9129ca8748254d50395a1f9d9e57cfa943327eb97af99ba617d0d0944c3572"
+    },
+    {
+      "path": "Greek/endtables/source/verb_adj2.end",
+      "bytes": 72,
+      "sha256": "4fd3ae180f7a00a2440ec31bf951c28014130509758c436d8ca629ba594927d9"
+    },
+    {
+      "path": "Greek/endtables/source/vh_vhs.end",
+      "bytes": 20,
+      "sha256": "b9946ccb3ab32da3fa0d3395ca9880233eb3b0b05faf801cfaee48bfa9fb7134"
+    },
+    {
+      "path": "Greek/endtables/source/wCn_wCntos.end",
+      "bytes": 98,
+      "sha256": "663c752810647f14882b18893c4b5e7959f9d9fb149c0f849898232a079b5bc7"
+    },
+    {
+      "path": "Greek/endtables/source/w_oos.end",
+      "bytes": 79,
+      "sha256": "080ecaf1506fcdbd89b318b14b5623c3b22a069c0871574bcb65a76b89f16971"
+    },
+    {
+      "path": "Greek/endtables/source/w_stem.end",
+      "bytes": 648,
+      "sha256": "c9a9db16f0938b602c51673814cf37b52dec54461c1139e83651d34b6317ee9b"
+    },
+    {
+      "path": "Greek/endtables/source/wn_nos.end",
+      "bytes": 51,
+      "sha256": "65d6c99657cbd759f1e6ffbe0e6191a724149fae65aa14ccf8ff0c5722cc6880"
+    },
+    {
+      "path": "Greek/endtables/source/wn_on.end",
+      "bytes": 230,
+      "sha256": "c02da2a39903fbfc0b880af77d44394945e9fd1d9d6b471d7bef7db920f212bb"
+    },
+    {
+      "path": "Greek/endtables/source/wn_on_comp.end",
+      "bytes": 350,
+      "sha256": "a02ae4593c58db0777306f4b3d98ab382aa9af7218645191ad3f32c108232cf1"
+    },
+    {
+      "path": "Greek/endtables/source/wn_onos.end",
+      "bytes": 85,
+      "sha256": "5e69f1da790def2457d039aa7ca7efdda33d935c4514015f13471d3666a93a0e"
+    },
+    {
+      "path": "Greek/endtables/source/wn_ontos.end",
+      "bytes": 59,
+      "sha256": "816764977753dd4b061a11b116a5b4ca1309f194dbe369aaab3f7875ce84ebad"
+    },
+    {
+      "path": "Greek/endtables/source/wn_ousa_on.end",
+      "bytes": 23,
+      "sha256": "b260834c6a8e8bb328dcc239fa12018a77e554e3be14adb93963fb5c459fdac2"
+    },
+    {
+      "path": "Greek/endtables/source/wr_oros.end",
+      "bytes": 55,
+      "sha256": "b0e94f9c44b387cb6c0954daf6d9b0f7a0085bf1d9695b35a0b55604e39c1f14"
+    },
+    {
+      "path": "Greek/endtables/source/ws_oos.end",
+      "bytes": 111,
+      "sha256": "d8fc80d28399b2d0262c1ca6ccd5603685be243e49c76cb59d52283e0eb3cbd7"
+    },
+    {
+      "path": "Greek/endtables/source/ws_w.end",
+      "bytes": 88,
+      "sha256": "b1dcf1b9f53496b93602ea0f51715dae88405bab86440b3472c75f28583ac8fe"
+    },
+    {
+      "path": "Greek/endtables/source/ws_w_long.end",
+      "bytes": 130,
+      "sha256": "fee8de17b74e5049a884ce18da72e3e0b9586ea1472c10fe1908b0cdfba9cf45"
+    },
+    {
+      "path": "Greek/endtables/source/ws_wn.end",
+      "bytes": 426,
+      "sha256": "6f26cc36d7fa6a5ad32fa8edd0c191a6cc7c94d72ddb0e50536cd01e6513c120"
+    },
+    {
+      "path": "Greek/endtables/source/ws_wn_long.end",
+      "bytes": 19,
+      "sha256": "52820ac88521c9589921d116642274ecb36f419b8cae101d4a32541588660252"
+    },
+    {
+      "path": "Greek/endtables/source/ws_wos.end",
+      "bytes": 122,
+      "sha256": "9e33a48c720bc70ad57bf5810069b8b1917070e18b57bd40227404f9d746bb43"
+    },
+    {
+      "path": "Greek/endtables/source/ww_pr.end",
+      "bytes": 1092,
+      "sha256": "2321bdc4c2662f912d90c0f9f4a95e5ceef44dbac8b10794e42b911dbb5929c1"
+    },
+    {
+      "path": "Greek/endtables/source/y_bos.end",
+      "bytes": 34,
+      "sha256": "698670e224b09443690a91dff1a670e0b87d145b8cdefd5cac701f2f6c9f8b3a"
+    },
+    {
+      "path": "Greek/endtables/source/y_fos.end",
+      "bytes": 42,
+      "sha256": "77cb5f5e7d8e7c60dbe59fe9b9d480fb5db32e79856485d9c8765be0f87ae509"
+    },
+    {
+      "path": "Greek/endtables/source/y_pos.end",
+      "bytes": 34,
+      "sha256": "a84072dc1dd04350578dd14c1145dcd1acfe3126ec1e001d10d6d534d8ddd39b"
+    },
+    {
+      "path": "Greek/rule_files/conseuph.old",
+      "bytes": 987,
+      "sha256": "d5869a3041cdb58032b9d9d826b44c24d1497e32e894530e45a6a686292bae2f"
+    },
+    {
+      "path": "Greek/rule_files/conseuph.table",
+      "bytes": 961,
+      "sha256": "5a57e9a548bddae833e6543cf641a4322144c93bb70769f934ac5371b3ea2dd3"
+    },
+    {
+      "path": "Greek/rule_files/derivtypes.table",
+      "bytes": 739,
+      "sha256": "a3c902d80ea8eab9f61e7196ecca704497607090029b9a453f96126cb299233f"
+    },
+    {
+      "path": "Greek/rule_files/domainlist.table",
+      "bytes": 1797,
+      "sha256": "470801ee001f9e75d2818f8667a42c0a379418ea893543f83c64f56440ec5bcc"
+    },
+    {
+      "path": "Greek/rule_files/ppasslist.table",
+      "bytes": 167,
+      "sha256": "2c026e5f432e9e822d3f096e7956049ba7efe97d77e04e1683cfdf00f158d0ac"
+    },
+    {
+      "path": "Greek/rule_files/raw_prev.bak",
+      "bytes": 2796,
+      "sha256": "649cfadf6117513be93f4e80da3015e10fdd890728bdeb4dbbffe613bcae8261"
+    },
+    {
+      "path": "Greek/rule_files/raw_preverbs.table",
+      "bytes": 2796,
+      "sha256": "584f03e37cd9962e551e24137b85f543e0bca86244b84455b63d3e87f1918d8a"
+    },
+    {
+      "path": "Greek/rule_files/stemtypes.table",
+      "bytes": 3013,
+      "sha256": "a2cacb657dc6c2c8bd1eb54864365469bfe9800c581e417c5c519beec07b705c"
+    },
+    {
+      "path": "Greek/rule_files/vowcontr.old",
+      "bytes": 2320,
+      "sha256": "e2cd75056dfe6781fca4029b44ccd55e35392e21d4f618cdba7e43550c24eef0"
+    },
+    {
+      "path": "Greek/rule_files/vowcontr.table",
+      "bytes": 2333,
+      "sha256": "c874d95be8dbbc23c156cd8380807004461cad576a39e700e5c4727ea1b5c107"
+    },
+    {
+      "path": "Greek/steminds/entitylist.txt",
+      "bytes": 241513,
+      "sha256": "cb4705256ef113a7a24cf500bda4ad7e31c36648ef2f34cb4661241a53989468"
+    },
+    {
+      "path": "Greek/steminds/nomind",
+      "bytes": 4052444,
+      "sha256": "54a92e4230da28d3e5cd207bccf4af8b2f96b0d1fb6b9ad515772d5d1ca08993"
+    },
+    {
+      "path": "Greek/steminds/nomind.lindex",
+      "bytes": 103824,
+      "sha256": "6ced9c83d26eb535ffaaf0fe2dd851bf2f95e62b4c9e017cc96a3807c512b9b0"
+    },
+    {
+      "path": "Greek/steminds/vbind",
+      "bytes": 1521688,
+      "sha256": "40dcc7a4c6097fd4c9dca3695b67b14968c560b4ef9452ad3ee22e7c69d03e7d"
+    },
+    {
+      "path": "Greek/steminds/vbind.lindex",
+      "bytes": 46476,
+      "sha256": "165d997c71c9f08e37e9ed7b46755230043e3b0035408f774ca9f826272447fe"
+    },
+    {
+      "path": "Greek/stemsrc/vbs.cmp.ml",
+      "bytes": 193759,
+      "sha256": "e5e31787a96f77f07e56d9ebe04fe443b60ec9b66b49bbc920448c030eb89268"
+    },
+    {
+      "path": "Latin/derivs/ascii/are_vb.asc",
+      "bytes": 52,
+      "sha256": "12ddab3e7a4604576a7ea6445489ad1984dfceb3e1dd36d9b68094fad4714a3a"
+    },
+    {
+      "path": "Latin/derivs/ascii/ire_vb.asc",
+      "bytes": 73,
+      "sha256": "6a9cbcc4bae4cb459ef08bcaf22d59dc8c5f4a7f0efe2bc793ab44dfbe92c70e"
+    },
+    {
+      "path": "Latin/derivs/ascii/reg_conj.asc",
+      "bytes": 162,
+      "sha256": "ac34bd616085046b31682586c643094fee25abf08995d98eedc0b94943e30d81"
+    },
+    {
+      "path": "Latin/derivs/indices/derivind",
+      "bytes": 117,
+      "sha256": "f7de4d510eb46174cdbf8e5f1f52fcc03aca47f6e28e72ae288fbbe988783685"
+    },
+    {
+      "path": "Latin/derivs/out/are_vb.out",
+      "bytes": 173,
+      "sha256": "35f43a1abf74c3e94d09199bd673e894d074983af5e71f5a8dd813a9137c18ab"
+    },
+    {
+      "path": "Latin/derivs/out/ire_vb.out",
+      "bytes": 228,
+      "sha256": "77c5be50507ac071ad7b3f70ee0bff2ade4e369a794617a6996947d972566697"
+    },
+    {
+      "path": "Latin/derivs/out/reg_conj.out",
+      "bytes": 448,
+      "sha256": "7d31c5cf9540af66111b870330b091e59fdd8c07fdeaa6e24fabc7f2ac8d39ac"
+    },
+    {
+      "path": "Latin/derivs/source/are_vb.deriv",
+      "bytes": 25,
+      "sha256": "2a5c3622a3e9a4ac2e864d522cc43f1c60e1d6d4c603e13801265318dbcf5478"
+    },
+    {
+      "path": "Latin/derivs/source/ire_vb.deriv",
+      "bytes": 37,
+      "sha256": "fc637efe48b8df8d2249fdec6f9de426f7ac38e463ba9a7c99e4e4d0a9eedf19"
+    },
+    {
+      "path": "Latin/derivs/source/reg_conj.deriv",
+      "bytes": 74,
+      "sha256": "e87dc2b7ce8637d497e07cfea1f437e5342dbe97b2491d860b37899ea1e159d9"
+    },
+    {
+      "path": "Latin/endtables/ascii/0_a_um.asc",
+      "bytes": 3576,
+      "sha256": "4cbecdbd0ef42477ecfc7fb43f99159ad4a0e7bd2d9c205e766d1f4ac1745808"
+    },
+    {
+      "path": "Latin/endtables/ascii/0_adj3.asc",
+      "bytes": 356,
+      "sha256": "a146abe828de99e1f85c690d93fc59b99b90abdd031bdeb047546b41b65f6b75"
+    },
+    {
+      "path": "Latin/endtables/ascii/0_i.asc",
+      "bytes": 347,
+      "sha256": "ff5a2f2175d14880ce18e5e55881c052d4e797a74c84735fc64005b7c80041e4"
+    },
+    {
+      "path": "Latin/endtables/ascii/0_is.asc",
+      "bytes": 248,
+      "sha256": "0aa78715f45535e5ef08dd361de485c61c7ba001e847ff19bf6a3fb8dfa05c04"
+    },
+    {
+      "path": "Latin/endtables/ascii/0_ius_adj.asc",
+      "bytes": 652,
+      "sha256": "180a89e3fd6d84144bb80dd4ef7db707dd05e81d0ec2310a328e76e8c2406e13"
+    },
+    {
+      "path": "Latin/endtables/ascii/a_ae.asc",
+      "bytes": 187,
+      "sha256": "a387956f6807770d01c92f1aa4800437c23a5bf577ff4552c4f801572f7bd81b"
+    },
+    {
+      "path": "Latin/endtables/ascii/an_aLnis.asc",
+      "bytes": 331,
+      "sha256": "2f70c8040c2ebe1af8939390be0d6988ab1586083d3068cec2fe41bb505cb156"
+    },
+    {
+      "path": "Latin/endtables/ascii/ans_adj.asc",
+      "bytes": 3556,
+      "sha256": "631f1be5bbbfbe12493711f295b8f6bb4a8f894eeb297c094ebb583bb231ce65"
+    },
+    {
+      "path": "Latin/endtables/ascii/ans_antis.asc",
+      "bytes": 622,
+      "sha256": "9fe1d9b6970851d1c81fb2b0974b6518d529e2eea6a1b233b8acbad372771614"
+    },
+    {
+      "path": "Latin/endtables/ascii/as_adis.asc",
+      "bytes": 315,
+      "sha256": "31e4c3661a98585417fbb16fc3529c42855dd9ba56355e32deaf0443376891bc"
+    },
+    {
+      "path": "Latin/endtables/ascii/as_ae.asc",
+      "bytes": 280,
+      "sha256": "9fa08834015c238e4b668d7773a7eecc39f876981b6a7ad39df7aaa7074ba01b"
+    },
+    {
+      "path": "Latin/endtables/ascii/as_antis.asc",
+      "bytes": 332,
+      "sha256": "6d1a1e24d1282d574155b042bd56b657bbd6ae193a1df9c519785e1237b79929"
+    },
+    {
+      "path": "Latin/endtables/ascii/avperf.asc",
+      "bytes": 2664,
+      "sha256": "5a2565746cd85ed3675b0d26d25ce0e9c2b7914dccd0740cc0fa9ef74878d1bf"
+    },
+    {
+      "path": "Latin/endtables/ascii/ax_adj.asc",
+      "bytes": 3242,
+      "sha256": "10023900f1c48d8ec7ef0e215e716114606aef00a3d42d7abf10f352bd20e628"
+    },
+    {
+      "path": "Latin/endtables/ascii/conj1.asc",
+      "bytes": 7349,
+      "sha256": "b6d57866591bfcf6680bd703738701d4f0aec63e71a8f0a73a5dfcf68979a43e"
+    },
+    {
+      "path": "Latin/endtables/ascii/conj2.asc",
+      "bytes": 7332,
+      "sha256": "990f6a47e3bc24c95a5cefdc1318739334da536207beadfe9c22c443b5f21be7"
+    },
+    {
+      "path": "Latin/endtables/ascii/conj3.asc",
+      "bytes": 8760,
+      "sha256": "76de378266c20cac8316bd9c7b762f91c7f1179607bef557bb4795b0ee50619a"
+    },
+    {
+      "path": "Latin/endtables/ascii/conj3_io.asc",
+      "bytes": 9412,
+      "sha256": "4f3fa0e63d2d0bbe7e5fb7bb1cd325f16c77c6bbf82db06a033c588d06acabca"
+    },
+    {
+      "path": "Latin/endtables/ascii/conj4.asc",
+      "bytes": 9035,
+      "sha256": "47ed0503c82af616fc22e588d8bf1ac43c2a5f452490aae71ea1e6a478d5239b"
+    },
+    {
+      "path": "Latin/endtables/ascii/eLr_eLris.asc",
+      "bytes": 346,
+      "sha256": "f0bbf78aa891d2461ebcf87b7e0d397562496c6eabb2c95da53a7b52d89bca53"
+    },
+    {
+      "path": "Latin/endtables/ascii/eLs_eris.asc",
+      "bytes": 286,
+      "sha256": "df19b836e50fcd643d7a253fdc590e6cff82c328ea818addb3d3f76d63bcb749"
+    },
+    {
+      "path": "Latin/endtables/ascii/e_es.asc",
+      "bytes": 269,
+      "sha256": "4f664c2bdd1b3391680a6b7fd15fc4e79efcd95c12f8df854350236909908e1f"
+    },
+    {
+      "path": "Latin/endtables/ascii/e_is.asc",
+      "bytes": 250,
+      "sha256": "9463430b63c0385af67947af661c1ccf1de70cf42f7374fe9c08066ff0f82c78"
+    },
+    {
+      "path": "Latin/endtables/ascii/en_inis.asc",
+      "bytes": 276,
+      "sha256": "ebc12ee759697089ea96995ee6d0cee385e09d09f4c28e0ec02fae9c9e9b2cba"
+    },
+    {
+      "path": "Latin/endtables/ascii/ens_adj.asc",
+      "bytes": 3590,
+      "sha256": "1769025abb6bad4444c9354781a7f77815478cfa5115f487b8a44831480ecaf0"
+    },
+    {
+      "path": "Latin/endtables/ascii/ens_entis.asc",
+      "bytes": 659,
+      "sha256": "f40d9f1b43651e82be6978907bc8b401943e958909e98d78aa888cfdde519caf"
+    },
+    {
+      "path": "Latin/endtables/ascii/eps_ipis.asc",
+      "bytes": 278,
+      "sha256": "20eaa777abae08b84fccd0c22d43e76abb7a537aaff2c0683a18db92f5f73871"
+    },
+    {
+      "path": "Latin/endtables/ascii/eps_ipitis.asc",
+      "bytes": 631,
+      "sha256": "8abda81a28b2f4f34c35b5a8680ee40b4afdc12c9229f50a675549de3cf04245"
+    },
+    {
+      "path": "Latin/endtables/ascii/er_era_erum.asc",
+      "bytes": 2871,
+      "sha256": "6ccc2819fa3841ac260fedad12e18a1a96b1d562436420336fcf3bbf434eb6f4"
+    },
+    {
+      "path": "Latin/endtables/ascii/er_eris.asc",
+      "bytes": 304,
+      "sha256": "7d49c828b052acfbf5b45322296c7006f71fc4b7836d336fbd1ee68c8e9abbf0"
+    },
+    {
+      "path": "Latin/endtables/ascii/er_ra_rum.asc",
+      "bytes": 5312,
+      "sha256": "549c19658495923f610720d0c5825dd77ef577b502df582c9d0a87ba8f7b35b7"
+    },
+    {
+      "path": "Latin/endtables/ascii/er_ri.asc",
+      "bytes": 398,
+      "sha256": "9e3dabcb5a8b7deadde62ee4d9bd6fbd7fcc7cf1432c02d2961cdff6810c7560"
+    },
+    {
+      "path": "Latin/endtables/ascii/er_ris.asc",
+      "bytes": 258,
+      "sha256": "52e73c17bbabe66cbe93df94918f3a454111fc4682290fa9204d972cd42f962b"
+    },
+    {
+      "path": "Latin/endtables/ascii/er_ris_re.asc",
+      "bytes": 3839,
+      "sha256": "1ab4ad3ea3e139d5176b9733ae650e8ed66a297a6644e3b37612bac671ff5f3a"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_ae.asc",
+      "bytes": 334,
+      "sha256": "5ea46e17f9d3cfe69808b983ca44a9c9f633a95560719231fa0f03048746921c"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_eLdis.asc",
+      "bytes": 296,
+      "sha256": "935868d8c518b818064ff998dbd4c6d9a1f82d2c9b6d1be24a1be6389b44cdd2"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_eLi.asc",
+      "bytes": 222,
+      "sha256": "72a80ab6de56164a30590c5de18af2e0a7ffb905ca948cf41488ce8572e3e83f"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_eLtis.asc",
+      "bytes": 330,
+      "sha256": "32c5b333cca4fa0197819e183d5eb1a5315095ba36e7457bda28c8be2aaffc72"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_ei.asc",
+      "bytes": 268,
+      "sha256": "174b070a9cad4a5fbd646cd0d7f32dd6a150b42d7c469be57006f7873ed52fc0"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_is.asc",
+      "bytes": 272,
+      "sha256": "0e4469b66a31651fd354fadc061f9c3b5abcb4edce66eafd887d1fd169eafc6c"
+    },
+    {
+      "path": "Latin/endtables/ascii/es_itis.asc",
+      "bytes": 275,
+      "sha256": "f23fe9a658563d80057f0ebd19310d90c33c3bd8e5c089fd734fddad7880f373"
+    },
+    {
+      "path": "Latin/endtables/ascii/eus_ei.asc",
+      "bytes": 551,
+      "sha256": "6093b02c62f8016905679ec9b6fcb1b78b70b4b1733d5df9dc26eeef569647aa"
+    },
+    {
+      "path": "Latin/endtables/ascii/evperf.asc",
+      "bytes": 2525,
+      "sha256": "02ca5e90faad5fd9db3a8e47c5ca3b2d63ceba9474cc8c1cc256758e8029c62a"
+    },
+    {
+      "path": "Latin/endtables/ascii/ex_icis.asc",
+      "bytes": 266,
+      "sha256": "fe0a8b09fa3c7c2d16d5fefe84fc4e3be1bcfd4ede1a9d4c26269105bc0017f7"
+    },
+    {
+      "path": "Latin/endtables/ascii/ex_icis_adj.asc",
+      "bytes": 440,
+      "sha256": "d31c8e55a9e69c7f6fca5092270081d83aa7a7c25937759ff53691a8d3fe91fb"
+    },
+    {
+      "path": "Latin/endtables/ascii/ex_igis.asc",
+      "bytes": 266,
+      "sha256": "b746b6cf7d63ee4960276123c45a99de319c5ee11ae775696579131fa650dea4"
+    },
+    {
+      "path": "Latin/endtables/ascii/ior_ius_comp.asc",
+      "bytes": 526,
+      "sha256": "4f90b56e71b0930be3b317ba9f4cee9aa1fbcc5708c01148fa98899e9a88e636"
+    },
+    {
+      "path": "Latin/endtables/ascii/ios_i.asc",
+      "bytes": 474,
+      "sha256": "1a8bba3108610d0e4d3ef1d21c9c40e8a7333be944ce0a7d78a769a1bce32cbd"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_e.asc",
+      "bytes": 2947,
+      "sha256": "320ab8b858376b4ee05a730e213e3f40027383579eb56723644ef760867594ee"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_eos.asc",
+      "bytes": 429,
+      "sha256": "bc926d1071f09582aa9528f4177435784c7b73928cb63aa18c8f9947df9402cb"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_eris.asc",
+      "bytes": 306,
+      "sha256": "fc6043e1efeabdd35ee40971c527427217effffe93ab96e5d6f66902aaaac610"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_idis.asc",
+      "bytes": 285,
+      "sha256": "1b65820b5156f1ed34513f137b00696bfdb0ef58335701be0ed0006962dce881"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_idos.asc",
+      "bytes": 382,
+      "sha256": "e52dcd10df115b6b79a048e04a3497d1289755407ad123a95f51fe1c4ae64303"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_is.asc",
+      "bytes": 330,
+      "sha256": "109f7370580043d3ba07650f2a588984439309a21fc82fb71db062574a9e45fb"
+    },
+    {
+      "path": "Latin/endtables/ascii/is_is_C.asc",
+      "bytes": 294,
+      "sha256": "9c93fa736f471652be04fb64c611287d34b714f24be2643ddadddd874f343b86"
+    },
+    {
+      "path": "Latin/endtables/ascii/ius_i.asc",
+      "bytes": 511,
+      "sha256": "9b344dddfba31f92ec6dc40b0c97fbeb3a2c285fe9eccc8aebbf4b7d510b9ad3"
+    },
+    {
+      "path": "Latin/endtables/ascii/ius_ia_ium.asc",
+      "bytes": 4156,
+      "sha256": "49701a6b1e97f583afc9709de1f60bfbf971139c18f8203ccb36aa56cce4587f"
+    },
+    {
+      "path": "Latin/endtables/ascii/ivperf.asc",
+      "bytes": 2449,
+      "sha256": "f3953076257270e4cf6a3a6b77cc0420d35c6a3becc125ed6d0f37af67d0615f"
+    },
+    {
+      "path": "Latin/endtables/ascii/ix_adj.asc",
+      "bytes": 3217,
+      "sha256": "846d499612d73c69d55cde257dfe5ca2f2dfa2be97daec6cc5e702072937dd33"
+    },
+    {
+      "path": "Latin/endtables/ascii/ix_iLcis.asc",
+      "bytes": 291,
+      "sha256": "aac2ce649de654a12f398b8950ca82db9ee88f8429eb640ca03c76f48ecee7b5"
+    },
+    {
+      "path": "Latin/endtables/ascii/ix_icis.asc",
+      "bytes": 270,
+      "sha256": "1009fd5c126609bb20686b24a859683dcaf460f7e120488432cd9737f6da7631"
+    },
+    {
+      "path": "Latin/endtables/ascii/ma_matis.asc",
+      "bytes": 297,
+      "sha256": "136af1f70a3023b25872b2642ed484c2dd088f48ba59ca15533999bdcfbea6bc"
+    },
+    {
+      "path": "Latin/endtables/ascii/men_minis.asc",
+      "bytes": 339,
+      "sha256": "13baf124ed89d20a0c0ab8213633c8e5795ec3c41d87298b753a243b6aad25b0"
+    },
+    {
+      "path": "Latin/endtables/ascii/oLn_oLnis.asc",
+      "bytes": 402,
+      "sha256": "2615dfd4da9510815703513cca039da03f1671612d3ce7ad6c071c40c3f7fc01"
+    },
+    {
+      "path": "Latin/endtables/ascii/oLn_onis.asc",
+      "bytes": 319,
+      "sha256": "97c7d40d8f0dda83460b3406ac907bc0e318f54a78893fa03efab3e2a01ee452"
+    },
+    {
+      "path": "Latin/endtables/ascii/o_eLnis.asc",
+      "bytes": 276,
+      "sha256": "9d8122e156b52c0037b0874b8433b4a97ec49c7cdc9612f9a1e22e17f87e25f1"
+    },
+    {
+      "path": "Latin/endtables/ascii/o_inis.asc",
+      "bytes": 274,
+      "sha256": "374c2b0df63fd2b4f0099b7512f1f0bbc058a68a0a161d6e6b5861db453d6a1c"
+    },
+    {
+      "path": "Latin/endtables/ascii/o_oLnis.asc",
+      "bytes": 337,
+      "sha256": "d886b61fdfe8f13f410c41ca7f3e76401a2842594db0d0a1a61a4db855bd1185"
+    },
+    {
+      "path": "Latin/endtables/ascii/o_onis.asc",
+      "bytes": 254,
+      "sha256": "552eaea085de20f3b2ade87290facf7ce4d00c83747d63087b8c21b2c5debb6f"
+    },
+    {
+      "path": "Latin/endtables/ascii/o_us.asc",
+      "bytes": 161,
+      "sha256": "d3aee15b9edd67349f83cee6505153fb6e6961c7eb314b2b7476d3947af7d979"
+    },
+    {
+      "path": "Latin/endtables/ascii/on_ontis.asc",
+      "bytes": 366,
+      "sha256": "6bea8925fa7850862388b4cab059beb42b7924ecf529edbd0dd2d45ffde90647"
+    },
+    {
+      "path": "Latin/endtables/ascii/or_oLris.asc",
+      "bytes": 332,
+      "sha256": "71d6707b24889b9b0ea5f1a9603511a3beb0b96718b77bed4fbdc6bfcff06340"
+    },
+    {
+      "path": "Latin/endtables/ascii/or_oris.asc",
+      "bytes": 320,
+      "sha256": "066f005c8b122760a3f40732f5fd11064526870763df3ed568405a9a9ea7a4d4"
+    },
+    {
+      "path": "Latin/endtables/ascii/or_us_comp.asc",
+      "bytes": 398,
+      "sha256": "44629a1f7896a3bd985ce357493f6568647800c3de11f3f683d5981ad1a55a54"
+    },
+    {
+      "path": "Latin/endtables/ascii/os_i.asc",
+      "bytes": 413,
+      "sha256": "1d13f2f9ecc3aeacb7a5bafa7ed02377f8f396728914193a2760d7f652e3a1bf"
+    },
+    {
+      "path": "Latin/endtables/ascii/os_ois.asc",
+      "bytes": 338,
+      "sha256": "63d69d57fcf68a30bacfb5990965f09c85757f6f882f08dec697445fc46a8f64"
+    },
+    {
+      "path": "Latin/endtables/ascii/ox_adj.asc",
+      "bytes": 3217,
+      "sha256": "4aec75532333d520b6aa9e6069872b702c038eb127d979b2e8692caa4db51e21"
+    },
+    {
+      "path": "Latin/endtables/ascii/peLs_pedis.asc",
+      "bytes": 338,
+      "sha256": "3dd2f8e71a0fc524bdb67a65655a326c86d1cc5f48ce29320b3fc984867f989e"
+    },
+    {
+      "path": "Latin/endtables/ascii/peLs_pedis_adj.asc",
+      "bytes": 378,
+      "sha256": "4b319fcb5058347579a4d8b70a76a96db95bdbc5a70845760ae6f2ff260e761b"
+    },
+    {
+      "path": "Latin/endtables/ascii/perfstem.asc",
+      "bytes": 1153,
+      "sha256": "694c100f6c30008f628ab4a2b5d0d7538d17ea642efaa2da5e7105920025becd"
+    },
+    {
+      "path": "Latin/endtables/ascii/pp4.asc",
+      "bytes": 5142,
+      "sha256": "9ff4aed26c47b55ffa5ab3f8990d4fdac7a581f88a3be23d0f994cb1ded3073d"
+    },
+    {
+      "path": "Latin/endtables/ascii/s_dis.asc",
+      "bytes": 284,
+      "sha256": "c1b5f7f572fba9ee46219bd4a42cdcb9c4aa89cb714b04fb7b6c34c6c4a47a84"
+    },
+    {
+      "path": "Latin/endtables/ascii/s_is.asc",
+      "bytes": 339,
+      "sha256": "3b28e275a5c77ea562a12d8627d215dcb519cc622a4c359a6a9178e55d76d0f3"
+    },
+    {
+      "path": "Latin/endtables/ascii/s_nis.asc",
+      "bytes": 258,
+      "sha256": "9da38b20c5a512535b60abec0f4168e87be0b3573fd4cda2f3d7c56f5990d02f"
+    },
+    {
+      "path": "Latin/endtables/ascii/s_tis.asc",
+      "bytes": 482,
+      "sha256": "b40318c7ba308d6771939440eda47fb6dc8044bbba0699d556d6ca0dfaa3a41a"
+    },
+    {
+      "path": "Latin/endtables/ascii/s_tis_adj.asc",
+      "bytes": 3417,
+      "sha256": "c28a202c3930b2a75a9f5630734cd9c9e94e3ccb5fadc00f17b2ccb6cd401c3c"
+    },
+    {
+      "path": "Latin/endtables/ascii/tas_tatis.asc",
+      "bytes": 335,
+      "sha256": "147b6d60c98ce93e0463ce2169a3f2e9b93d768ea1711671ebf58d8adb5008d9"
+    },
+    {
+      "path": "Latin/endtables/ascii/uLs_uLris.asc",
+      "bytes": 312,
+      "sha256": "7a0745fcb37c8861bc8987db699ce00a4b07c3b69817717c9055b4b0b957a1fb"
+    },
+    {
+      "path": "Latin/endtables/ascii/uns_untis.asc",
+      "bytes": 571,
+      "sha256": "f77ca08857c698ccf4ec1f1488a76dd5469b5548f55c3bfdd81210907cf7324b"
+    },
+    {
+      "path": "Latin/endtables/ascii/ur_oris.asc",
+      "bytes": 351,
+      "sha256": "99ec3980c7603eb65df2dd00ff527247bab1c5795342646ee91fb292e4fbd57d"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_a_um.asc",
+      "bytes": 3696,
+      "sha256": "4df4bc99cfb90efed0b81d4332fc64a1a16047807586ea34222ebda597049aec"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_eris.asc",
+      "bytes": 274,
+      "sha256": "05eb1e1a416e61f98772471fff6b6f328085bfd97ff58134103da10e7c5927d6"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_i.asc",
+      "bytes": 421,
+      "sha256": "b1cdc37044dc2f80fa16b1873f74b8281984ce050e03fdab474adbb131506a5f"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_ius_adj.asc",
+      "bytes": 680,
+      "sha256": "2528cc03c558e45dbb34afe91b93fac191dc45175a4fff1c70644813bbc85711"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_oris.asc",
+      "bytes": 310,
+      "sha256": "fa3bbcc662818210b716914d0ab21c7440ea677b7620c47227e4c041f57180d4"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_untis.asc",
+      "bytes": 318,
+      "sha256": "e660c6fffaa43920520a60794d4459471b5dbb7cb5a0f98fdcc437a9cbefa093"
+    },
+    {
+      "path": "Latin/endtables/ascii/us_us.asc",
+      "bytes": 290,
+      "sha256": "44b824d165395a92ed61460198f3c663cf55086062485e4e0f0ad8d74e88fc19"
+    },
+    {
+      "path": "Latin/endtables/ascii/x_cis.asc",
+      "bytes": 284,
+      "sha256": "12deebf3817d975ea9a32535cac2ad7d9b245fcd4f9c325513f93ca83c61dd94"
+    },
+    {
+      "path": "Latin/endtables/ascii/x_ctis.asc",
+      "bytes": 341,
+      "sha256": "0aa189f3501b580df07bc5efbd6e8461646a6fb0721905d8a7ed1a285ea4c55d"
+    },
+    {
+      "path": "Latin/endtables/ascii/x_gis.asc",
+      "bytes": 284,
+      "sha256": "a18dc2098101a9ee2988f418ff82d39eadebca710891d850eca5a6b15c28e7a9"
+    },
+    {
+      "path": "Latin/endtables/ascii/ys_yos.asc",
+      "bytes": 210,
+      "sha256": "d6c8efcec42dc22f7a1c88388380b0bf731f0b1e3df2c3b3e359b4e03486eb2f"
+    },
+    {
+      "path": "Latin/endtables/basics/ambsub.end",
+      "bytes": 89,
+      "sha256": "f44f54a36c4d29e4112af706a08a866aa4889df770e0746e45a0dc00c62908d8"
+    },
+    {
+      "path": "Latin/endtables/basics/basvb2.end",
+      "bytes": 203,
+      "sha256": "b24e9b7c22792519eaba62502b4a7fa8020375bc70217420c40f82c70161854e"
+    },
+    {
+      "path": "Latin/endtables/basics/comp_adj.end",
+      "bytes": 75,
+      "sha256": "3d4a486917622b67d8fa24356799510cf98aea9bbfe8fb1f050793b3bd2b601a"
+    },
+    {
+      "path": "Latin/endtables/basics/decl1.end",
+      "bytes": 132,
+      "sha256": "04cd35ca14cc79a0928cc133f9256980da311578723fd7f3f5c5676aa06f6c4d"
+    },
+    {
+      "path": "Latin/endtables/basics/decl2.end",
+      "bytes": 268,
+      "sha256": "e5abe78130541abeac141977c949fdde42aca7e9cf783280cdb4cfcd5a2c10de"
+    },
+    {
+      "path": "Latin/endtables/basics/decl3.end",
+      "bytes": 149,
+      "sha256": "e41e859bc883d98c01c6776fe55a9c2164207858c0433046b29a2243f766c91a"
+    },
+    {
+      "path": "Latin/endtables/basics/decl3_i.end",
+      "bytes": 177,
+      "sha256": "b968d8cb267de86a03b83118da2b63ab66449d5290205225a715d364b9b0a8e0"
+    },
+    {
+      "path": "Latin/endtables/basics/emsub.end",
+      "bytes": 139,
+      "sha256": "9354f254dc3780a4be6354ddb81c64a0b5d2ae5518d1da415a5a9f60f021c0cc"
+    },
+    {
+      "path": "Latin/endtables/basics/future.end",
+      "bytes": 39,
+      "sha256": "47d5c571df0c5704900e53fc291c4be88bea45ae9d0178b15229171db494b3e1"
+    },
+    {
+      "path": "Latin/endtables/basics/future2.end",
+      "bytes": 197,
+      "sha256": "cc5371641cf79b7d76336fdf2913b87f915b8f6409c496a0c9303127de2337d7"
+    },
+    {
+      "path": "Latin/endtables/basics/ille.end",
+      "bytes": 283,
+      "sha256": "f0dad80630b606492424c1e8ea0248247686d5bbd15aa1a73d571777c195fa68"
+    },
+    {
+      "path": "Latin/endtables/basics/imperf.end",
+      "bytes": 98,
+      "sha256": "e359b3f209fd61e2270d95b63d25749ea18867c184e99e95bfff66a15cbb90ef"
+    },
+    {
+      "path": "Latin/endtables/basics/ofut.end",
+      "bytes": 263,
+      "sha256": "1a407919594ed9ac9a8608c2031b28b8c40e9f191abfd34f6a37e02a80a54dcf"
+    },
+    {
+      "path": "Latin/endtables/basics/past.end",
+      "bytes": 28,
+      "sha256": "d236b6ab404570c1aae4f4e42516a098a2b876ba6de6e0e1f0deceb2deb34967"
+    },
+    {
+      "path": "Latin/endtables/basics/peLs_pedis.end",
+      "bytes": 41,
+      "sha256": "a0ccf81b425b18decec3ff3f3cba935b2b81aa8e653598fe93cffdb6d83b99f4"
+    },
+    {
+      "path": "Latin/endtables/basics/perfind.end",
+      "bytes": 114,
+      "sha256": "3659f320380d76a2f3b8cbe379bdc2bffd76fb5be9e84da2a272b3e60a22ac71"
+    },
+    {
+      "path": "Latin/endtables/basics/quis.end",
+      "bytes": 366,
+      "sha256": "6494eb53f84df093f581878b043590a31ad9a91120e222228fe77fa9ea8368fe"
+    },
+    {
+      "path": "Latin/endtables/basics/superl_adj.end",
+      "bytes": 210,
+      "sha256": "980b1fe9ef768d227491982964e25d2ec769319a0cefeebbeb97f3f70ed188c9"
+    },
+    {
+      "path": "Latin/endtables/indices/nendind",
+      "bytes": 17264,
+      "sha256": "60fc1bb1fc7b959c83d95e05729d14db3e06951c12ab6d6674bd8ba9c22d296b"
+    },
+    {
+      "path": "Latin/endtables/indices/vbendind",
+      "bytes": 11174,
+      "sha256": "2f24346ac55a7203fe3e0b43499b701c679abc3196385effe366285d9aba23a3"
+    },
+    {
+      "path": "Latin/endtables/out/0_a_um.out",
+      "bytes": 6580,
+      "sha256": "148aebc043a4d17607595f050a6440180c67e8cbd34454cb4139bde6395472ff"
+    },
+    {
+      "path": "Latin/endtables/out/0_adj3.out",
+      "bytes": 788,
+      "sha256": "d78308112975657c4e23c075b513720a48e110668a25dc01b63a235910063fff"
+    },
+    {
+      "path": "Latin/endtables/out/0_i.out",
+      "bytes": 994,
+      "sha256": "b17d5d84143a9ecbcecda2ef3fb842d8d54da89c46b6bc17ab3a6f3239f82767"
+    },
+    {
+      "path": "Latin/endtables/out/0_is.out",
+      "bytes": 728,
+      "sha256": "5e6aca1b2364797d52108701912cd8dec6464daca10fb297a7c856335931435e"
+    },
+    {
+      "path": "Latin/endtables/out/0_ius_adj.out",
+      "bytes": 1503,
+      "sha256": "4cc76e17ed9e9a06fc877b09e73892831e66805c8720a7db12540d5f08f2e9d7"
+    },
+    {
+      "path": "Latin/endtables/out/a_ae.out",
+      "bytes": 635,
+      "sha256": "6d30e3df17594bed34a92c03b11d0223ca506dc5fe8ada37dc985334f57e1752"
+    },
+    {
+      "path": "Latin/endtables/out/an_aLnis.out",
+      "bytes": 728,
+      "sha256": "008f3b3a4aba69b460016fd7e541c3aabbb2956608d634886ab0666333b3172b"
+    },
+    {
+      "path": "Latin/endtables/out/ans_adj.out",
+      "bytes": 5793,
+      "sha256": "cb81e10d4127c5e03c36f090d1dc0832d7e88ca95a2064cf66ef90b5a6d8efb4"
+    },
+    {
+      "path": "Latin/endtables/out/ans_antis.out",
+      "bytes": 1129,
+      "sha256": "ff4bb123a7f524b7f732c300271b1c8654f5c4e8015c5dad450aabbf0bdc55e4"
+    },
+    {
+      "path": "Latin/endtables/out/as_adis.out",
+      "bytes": 788,
+      "sha256": "72b40862ad2e09a4ac152164b7fb2c40f020eb8860f1b5d9aa2a89700e906713"
+    },
+    {
+      "path": "Latin/endtables/out/as_ae.out",
+      "bytes": 920,
+      "sha256": "0d59e8d133ba955d78a4a8bee2db994b659d601e3d253e4a47907c8792afa563"
+    },
+    {
+      "path": "Latin/endtables/out/as_antis.out",
+      "bytes": 728,
+      "sha256": "c248703f21f204dfc57ad1eb2914d04c2629bc7cf23d3a62a539b701092bebcc"
+    },
+    {
+      "path": "Latin/endtables/out/avperf.out",
+      "bytes": 4364,
+      "sha256": "713f844129c26bcff909449a6f2bbfab94a96894a3fea103fd4278cff265165f"
+    },
+    {
+      "path": "Latin/endtables/out/ax_adj.out",
+      "bytes": 5403,
+      "sha256": "059b74d01e457480a21a636cbcdb463ee0428bddf06efa0a6326525f9f37d321"
+    },
+    {
+      "path": "Latin/endtables/out/conj1.out",
+      "bytes": 12813,
+      "sha256": "9340e93fdfd673a3351e5138bb1bdd46853da95361b2d28707408582b1592552"
+    },
+    {
+      "path": "Latin/endtables/out/conj2.out",
+      "bytes": 12748,
+      "sha256": "b426920a63e429bf3fee5cde542eb4b14132a8326bcabc5e89b6aebf0b996cc8"
+    },
+    {
+      "path": "Latin/endtables/out/conj3.out",
+      "bytes": 15478,
+      "sha256": "e0f3a701b1762b4b631e548b77ae00248680e9fa844f5221f14f19a5df8c89e6"
+    },
+    {
+      "path": "Latin/endtables/out/conj3_io.out",
+      "bytes": 15254,
+      "sha256": "e7f695746130a5c355553b940611e2985eafa6092b0c448a7aa9d0ad10ae775e"
+    },
+    {
+      "path": "Latin/endtables/out/conj4.out",
+      "bytes": 15716,
+      "sha256": "b054f3587ffa96fd0b8f80eb92e7640472305cbecae2fca122fc66aaeb21efd0"
+    },
+    {
+      "path": "Latin/endtables/out/eLr_eLris.out",
+      "bytes": 728,
+      "sha256": "35f1f31264bf2f876237a7afb25b08aee26c504bca0efbafdb8736d6fad37da0"
+    },
+    {
+      "path": "Latin/endtables/out/eLs_eris.out",
+      "bytes": 668,
+      "sha256": "89aff572c8111d6ad865846820603f27b6ec8f09e336c62421e9b7aa00f1de34"
+    },
+    {
+      "path": "Latin/endtables/out/e_es.out",
+      "bytes": 920,
+      "sha256": "f3d96f1c36265a2f43af95732838f65254fa788061fb7169a14bbf185f0bd5d6"
+    },
+    {
+      "path": "Latin/endtables/out/e_is.out",
+      "bytes": 716,
+      "sha256": "f1837a018cf433162d4daec26fbc143f663487e9de613901abfca5f346391557"
+    },
+    {
+      "path": "Latin/endtables/out/en_inis.out",
+      "bytes": 668,
+      "sha256": "294c78b4cb6d2f8a736354099862d7997817cf32c0e3d345a1736912ead0cdb5"
+    },
+    {
+      "path": "Latin/endtables/out/ens_adj.out",
+      "bytes": 5858,
+      "sha256": "189e9e38182cbe16b91dd600d5b3fbc8e838fa7b130828fcb44da528130a432b"
+    },
+    {
+      "path": "Latin/endtables/out/ens_entis.out",
+      "bytes": 1188,
+      "sha256": "f1b4255b2ae9c60738d3df633c34586d4ee44985daaf78faeedb15821525d564"
+    },
+    {
+      "path": "Latin/endtables/out/eps_ipis.out",
+      "bytes": 668,
+      "sha256": "32ffafcdd66be12efbe49edc53284aa877d3582607fa8985477f48c2c7fa1f6f"
+    },
+    {
+      "path": "Latin/endtables/out/eps_ipitis.out",
+      "bytes": 1373,
+      "sha256": "ee43a4e20c063bc4b40185e3f4ad32dd0f3d9c3d2b39f9fbb890c8f08259f844"
+    },
+    {
+      "path": "Latin/endtables/out/er_era_erum.out",
+      "bytes": 5143,
+      "sha256": "fad077b14e727cc6863b2be8b4d656aef1765b7cac1c461b0846da8e3f8b63ce"
+    },
+    {
+      "path": "Latin/endtables/out/er_eris.out",
+      "bytes": 728,
+      "sha256": "b6a08f0fad14e8316ba45b9491110c868d99d6c8dcad63c38b1f2c0181bd392d"
+    },
+    {
+      "path": "Latin/endtables/out/er_ra_rum.out",
+      "bytes": 8848,
+      "sha256": "7c41ff035014e3cbc4c6e80f951e0a44df486e7725c7956581eef0582791f7ed"
+    },
+    {
+      "path": "Latin/endtables/out/er_ri.out",
+      "bytes": 994,
+      "sha256": "fd1e599711123715f5494d2bbc691ef391eec3ad283c415fa981ec7d4b1553d8"
+    },
+    {
+      "path": "Latin/endtables/out/er_ris.out",
+      "bytes": 668,
+      "sha256": "fd6108862e8eab6d66af19dd57c14d75d5f1ed4930fd703abd56021731500e72"
+    },
+    {
+      "path": "Latin/endtables/out/er_ris_re.out",
+      "bytes": 6703,
+      "sha256": "9b27db34d01158e8bb6996f9b3a5a2eacf371ee117aa2a9af3ad73cc6491f9bc"
+    },
+    {
+      "path": "Latin/endtables/out/es_ae.out",
+      "bytes": 1091,
+      "sha256": "a8228972823f751344992902a6868deb9c2f49d6529440015aaeea35289c2891"
+    },
+    {
+      "path": "Latin/endtables/out/es_eLdis.out",
+      "bytes": 668,
+      "sha256": "f93277a8c2b3a5ae8344a1d7aa90d3a5857c899d52b347fdaa609834b338519c"
+    },
+    {
+      "path": "Latin/endtables/out/es_eLi.out",
+      "bytes": 608,
+      "sha256": "c67e9eabc5c2fc8b44655e7bae6bb2e013e6f0415fd40c20cf247ae52f7eb4dd"
+    },
+    {
+      "path": "Latin/endtables/out/es_eLtis.out",
+      "bytes": 728,
+      "sha256": "2868dd5dcf0e2d10ab048ef0ded7a021b40500eac78b85917b84b187bc0f59cf"
+    },
+    {
+      "path": "Latin/endtables/out/es_ei.out",
+      "bytes": 728,
+      "sha256": "2bce2be9a73bab115b6872a2696926411e5fb9e34481145467787a753a85d5d7"
+    },
+    {
+      "path": "Latin/endtables/out/es_is.out",
+      "bytes": 668,
+      "sha256": "a265e0018f981cdeff342798713250be4dce0b242af86fc5832a84b971cdaaf1"
+    },
+    {
+      "path": "Latin/endtables/out/es_itis.out",
+      "bytes": 668,
+      "sha256": "5567530a54ffde44d3553220b60365374bda0cf37f987c0d03a7e1e05901e0e2"
+    },
+    {
+      "path": "Latin/endtables/out/eus_ei.out",
+      "bytes": 1342,
+      "sha256": "f94ef47cda4ded6bcef6951b61f1ba4516ec91967e15ca7ef3f7c9387c87de59"
+    },
+    {
+      "path": "Latin/endtables/out/evperf.out",
+      "bytes": 4364,
+      "sha256": "f5b4e88723ff8409a55c186f8e7d79d10781fda6e40d8c7e35e3dc995b6cb6f6"
+    },
+    {
+      "path": "Latin/endtables/out/ex_icis.out",
+      "bytes": 668,
+      "sha256": "726be6eeab072d6745f91ab9a0407831466e5112c599a83f45ed478232b9cdbd"
+    },
+    {
+      "path": "Latin/endtables/out/ex_icis_adj.out",
+      "bytes": 788,
+      "sha256": "e35c2b55169725a430935600283fe5660e495ffc1d28b830ea0cb03cb104b5f2"
+    },
+    {
+      "path": "Latin/endtables/out/ex_igis.out",
+      "bytes": 668,
+      "sha256": "08bc86fdc27890340ef9d3a361d7f5d54f81c2a2514743be9c465298996371c1"
+    },
+    {
+      "path": "Latin/endtables/out/ior_ius_comp.out",
+      "bytes": 788,
+      "sha256": "d2f39a96b7688061afe08f7aa57217cb327bebdaf75a66376ddd7087b74a3f6d"
+    },
+    {
+      "path": "Latin/endtables/out/ios_i.out",
+      "bytes": 1168,
+      "sha256": "5493b392396562180efbfd9d0ef9abe8453a7b384bf33288da8b209064047987"
+    },
+    {
+      "path": "Latin/endtables/out/is_e.out",
+      "bytes": 5468,
+      "sha256": "1bcc1b2b7267be6a4b9f09143c9a615ee54f038000c1ad689d7f0d5b9fda00c4"
+    },
+    {
+      "path": "Latin/endtables/out/is_eos.out",
+      "bytes": 968,
+      "sha256": "996bc779f09fa9774516d65d756d2e122e1ee9882ed34469f0defe26873e6081"
+    },
+    {
+      "path": "Latin/endtables/out/is_eris.out",
+      "bytes": 608,
+      "sha256": "fa926cba77faa30f23a35b8943cec7871404ff141a7aff066c7ef6dbb713e783"
+    },
+    {
+      "path": "Latin/endtables/out/is_idis.out",
+      "bytes": 728,
+      "sha256": "3ed2de2738fcf9c28957181df6ebe5f58d6330c31646f1fd3804295e431ce36f"
+    },
+    {
+      "path": "Latin/endtables/out/is_idos.out",
+      "bytes": 788,
+      "sha256": "93bdc666787a041bb6699aa9ad2d55287df7f8e395c5d55467658eef372fc340"
+    },
+    {
+      "path": "Latin/endtables/out/is_is.out",
+      "bytes": 893,
+      "sha256": "06e72f25b8408a69662f70f7c8dd9840defed0ea87b26e48e2253e4656210c2a"
+    },
+    {
+      "path": "Latin/endtables/out/is_is_C.out",
+      "bytes": 788,
+      "sha256": "7438d2690ca442408c1dec040a8154c1f247a93a4aec77ef95191505367a80b8"
+    },
+    {
+      "path": "Latin/endtables/out/ius_i.out",
+      "bytes": 1284,
+      "sha256": "0f6415b606eabc3e7957e91f9be2a6305db7878dac94ab9c26f309917fae8ac9"
+    },
+    {
+      "path": "Latin/endtables/out/ius_ia_ium.out",
+      "bytes": 7028,
+      "sha256": "095a20408eaf347c2b7605c73da8d60134376218f452ccf1d9cbd1521665d642"
+    },
+    {
+      "path": "Latin/endtables/out/ivperf.out",
+      "bytes": 3968,
+      "sha256": "29f169ab360061df5b4a5bca87e9ce6ab3fb0f41cd4da8d3a750aca0c1f5d9a1"
+    },
+    {
+      "path": "Latin/endtables/out/ix_adj.out",
+      "bytes": 5338,
+      "sha256": "4e9bb4a7f5bc93ef2880d5c47f19ea9258fba753873d2f6e93bda0b1ac519b6d"
+    },
+    {
+      "path": "Latin/endtables/out/ix_iLcis.out",
+      "bytes": 668,
+      "sha256": "b8b0f23fea1223145b44c20bfbe0bb1c044e690071b77a49253b2183d0cc6095"
+    },
+    {
+      "path": "Latin/endtables/out/ix_icis.out",
+      "bytes": 668,
+      "sha256": "ee83ad687c5f462e23f7942fbd7adfa419ae39dbeeef6bc6f398fdb46e116136"
+    },
+    {
+      "path": "Latin/endtables/out/ma_matis.out",
+      "bytes": 668,
+      "sha256": "23c7480fb92e725d276455bcfe935f86fb2f7f5b91dd2a5ca50e2fd1196122b0"
+    },
+    {
+      "path": "Latin/endtables/out/men_minis.out",
+      "bytes": 728,
+      "sha256": "7ca11d98361bd08cc3b32540f97f3cd4a37d6ff09d147447d7041bc1b57bb86f"
+    },
+    {
+      "path": "Latin/endtables/out/oLn_oLnis.out",
+      "bytes": 848,
+      "sha256": "5dc4b2481121b6695118cc67d327bc5f14bb58584d304b591f5540c2ed702d3c"
+    },
+    {
+      "path": "Latin/endtables/out/oLn_onis.out",
+      "bytes": 728,
+      "sha256": "53a6cf7543355d1a73c16e7972e91e2f24f6d7fe676531625664cf1c963fef34"
+    },
+    {
+      "path": "Latin/endtables/out/o_eLnis.out",
+      "bytes": 668,
+      "sha256": "fc01e48a6e1e73a4fe521071f33e8bd6a8261cc20c885d29caf90f69afbcdf9e"
+    },
+    {
+      "path": "Latin/endtables/out/o_inis.out",
+      "bytes": 668,
+      "sha256": "ca7ed9929f58b7e98038627e8e4f176e3406ffe9eb730e4ad7b92cd79d891191"
+    },
+    {
+      "path": "Latin/endtables/out/o_oLnis.out",
+      "bytes": 788,
+      "sha256": "ffc8039e90a94c337117c698019a7766182e02b440c16ae128e9b972541e7e2b"
+    },
+    {
+      "path": "Latin/endtables/out/o_onis.out",
+      "bytes": 668,
+      "sha256": "9aa41ceb672ffd8c8a4d1b64aa01b921dcf6e68eca1d605065ee08c6e7ba486f"
+    },
+    {
+      "path": "Latin/endtables/out/o_us.out",
+      "bytes": 548,
+      "sha256": "a563d4062fcec1c0ac18b948482c7038ab133c4567e67e94b4ec060115709df0"
+    },
+    {
+      "path": "Latin/endtables/out/on_ontis.out",
+      "bytes": 788,
+      "sha256": "476c98ff90ccd58672c088f0c06c7f7f0a03c96d4851ca8860f97072e315fe21"
+    },
+    {
+      "path": "Latin/endtables/out/or_oLris.out",
+      "bytes": 728,
+      "sha256": "9294e4a1d7937e5af2701cff4c2e2df8cf736c5f42549e617d62a3c1554d16d1"
+    },
+    {
+      "path": "Latin/endtables/out/or_oris.out",
+      "bytes": 716,
+      "sha256": "eaf24f3806e6527273302cff6f6669a2550bef844a83d92ffe0d7177fb1580de"
+    },
+    {
+      "path": "Latin/endtables/out/or_us_comp.out",
+      "bytes": 788,
+      "sha256": "87b2d22846b25985785084f3b8cab071a7d329b5951047872b5b2113ff0b9f7b"
+    },
+    {
+      "path": "Latin/endtables/out/os_i.out",
+      "bytes": 1110,
+      "sha256": "038d45ed6f78058ac59dbb7112a52816a6a4a646b06914b9500cd2e7b55ce6f3"
+    },
+    {
+      "path": "Latin/endtables/out/os_ois.out",
+      "bytes": 728,
+      "sha256": "e01f4238f99ef93057c01361f22941c2c8178b03e50931b0401e746b03bda945"
+    },
+    {
+      "path": "Latin/endtables/out/ox_adj.out",
+      "bytes": 5338,
+      "sha256": "8e9eab5c971dc8ae958316b88419360e7d38425cef5c825da3b6df3b4d6e7e35"
+    },
+    {
+      "path": "Latin/endtables/out/peLs_pedis.out",
+      "bytes": 608,
+      "sha256": "894c4be12e88d13181d7150d01481daec4ef1a55e6a94ea04f023a98623a5c60"
+    },
+    {
+      "path": "Latin/endtables/out/peLs_pedis_adj.out",
+      "bytes": 658,
+      "sha256": "6ce880eb30423ea38cf296a21df9408108efe48bbd7eefa80860d61a8239d848"
+    },
+    {
+      "path": "Latin/endtables/out/perfstem.out",
+      "bytes": 2120,
+      "sha256": "9b56c8f287377b9f578f863b3cb34435ef994b9b497e28833c41fb54c28df7ec"
+    },
+    {
+      "path": "Latin/endtables/out/pp4.out",
+      "bytes": 9512,
+      "sha256": "738fec48a00aa327ca6de27a9456b01fd28a4cc653563705be98fc0cec48f682"
+    },
+    {
+      "path": "Latin/endtables/out/s_dis.out",
+      "bytes": 788,
+      "sha256": "5de185d3f3bb2b4a0d1e6b5c90bd2b1504ea44084b5adea14ee60c7394088e0d"
+    },
+    {
+      "path": "Latin/endtables/out/s_is.out",
+      "bytes": 834,
+      "sha256": "18a2aafca0bb8beed53f86c4f1903cef52250aa238c0f6b62dd25339754263b6"
+    },
+    {
+      "path": "Latin/endtables/out/s_nis.out",
+      "bytes": 728,
+      "sha256": "5f7a2337d7dd0e2da70af56fa1e8e6d4a9246caaf09634062243acd074875843"
+    },
+    {
+      "path": "Latin/endtables/out/s_tis.out",
+      "bytes": 1328,
+      "sha256": "171746bb72031ef2e129fcbaf4041f277556ac2b1ab585d44ba3f62a31cd074e"
+    },
+    {
+      "path": "Latin/endtables/out/s_tis_adj.out",
+      "bytes": 5403,
+      "sha256": "8d9a9fb4711c1f211c85e90e5b1cbbc511c20abee1fca0dd4124ab3ebcbbd71e"
+    },
+    {
+      "path": "Latin/endtables/out/tas_tatis.out",
+      "bytes": 728,
+      "sha256": "c482007f58a4e57e96738531ee274815c4deb3f689d0159dcc4ddcbd1990ffbc"
+    },
+    {
+      "path": "Latin/endtables/out/uLs_uLris.out",
+      "bytes": 668,
+      "sha256": "aeb24616763a0733d0a84d8cd75ce81b5a37105c09cf7ea9d1ea3de49af14b35"
+    },
+    {
+      "path": "Latin/endtables/out/uns_untis.out",
+      "bytes": 1088,
+      "sha256": "4eb8f5e4252b40dba501e418bd73a4a58dc4d8ff5526bf1f21a9fe1506b34c45"
+    },
+    {
+      "path": "Latin/endtables/out/ur_oris.out",
+      "bytes": 788,
+      "sha256": "5fc652be567c96b51d1c8e6012cd1c643b4c01ac9e28d00809baec74088d6c72"
+    },
+    {
+      "path": "Latin/endtables/out/us_a_um.out",
+      "bytes": 6642,
+      "sha256": "0bbf9fae2e582792d1c81cc8597f714fda91ccd0aa898867ee98f4709ad69695"
+    },
+    {
+      "path": "Latin/endtables/out/us_eris.out",
+      "bytes": 668,
+      "sha256": "6322cab57b6a6a59777efa1a940972966417ea00114768f5fa6a57237d3dba8f"
+    },
+    {
+      "path": "Latin/endtables/out/us_i.out",
+      "bytes": 1091,
+      "sha256": "4bf6b5049630c5ac82ce3175b5f7dc1e3f5b9e857ac8b464406a7f9f4caffadb"
+    },
+    {
+      "path": "Latin/endtables/out/us_ius_adj.out",
+      "bytes": 1503,
+      "sha256": "a35030b410b2eacfd9d5754ff8738b8b589f469e85cbb9274d679a9b38add975"
+    },
+    {
+      "path": "Latin/endtables/out/us_oris.out",
+      "bytes": 728,
+      "sha256": "0d023254dbe7131f386efdd515f8c47bfa11675ff03e966eea6172d955970068"
+    },
+    {
+      "path": "Latin/endtables/out/us_untis.out",
+      "bytes": 728,
+      "sha256": "fabf1836c03acad8e9a1bb1138163155f7cbc372672f606641ec0f0c2d0b46ee"
+    },
+    {
+      "path": "Latin/endtables/out/us_us.out",
+      "bytes": 848,
+      "sha256": "121d63042e9de2fc0b75108265b5ec68e771cc7bede253956b5bb52f13edc8b5"
+    },
+    {
+      "path": "Latin/endtables/out/x_cis.out",
+      "bytes": 788,
+      "sha256": "c72f1ac506da4b878eb423238720fbf9c1425eb3d2a35b290a1d47f78de075b4"
+    },
+    {
+      "path": "Latin/endtables/out/x_ctis.out",
+      "bytes": 788,
+      "sha256": "399c2e53c5830b988565960d3f1d4b4b441e833daa450128be63e4d09744fa61"
+    },
+    {
+      "path": "Latin/endtables/out/x_gis.out",
+      "bytes": 762,
+      "sha256": "f46532f8615e5b5a16042ace66390fee0999059e874a3688888962f5bfafa200"
+    },
+    {
+      "path": "Latin/endtables/out/ys_yos.out",
+      "bytes": 488,
+      "sha256": "ac5f6ee84a27352c378cc34cdfe28dff560ed03fa1b6a1de3e237d5f5083f37f"
+    },
+    {
+      "path": "Latin/endtables/source/0_a_um.end",
+      "bytes": 106,
+      "sha256": "f8adc75233b66ca879ee829e3f38f27d7825c88fb3d41f932469ff5be1a83e5b"
+    },
+    {
+      "path": "Latin/endtables/source/0_adj3.end",
+      "bytes": 64,
+      "sha256": "e8c4b5b01db0378766774aaa74ac9ac912b66101695f4b3bc4c859f573163f88"
+    },
+    {
+      "path": "Latin/endtables/source/0_i.end",
+      "bytes": 21,
+      "sha256": "c90462ff769f85ddf7fe5fe80d23161fd43af78ea227d62f6924d785ef812c9c"
+    },
+    {
+      "path": "Latin/endtables/source/0_is.end",
+      "bytes": 48,
+      "sha256": "a0db8b0f45f1f13885d5043db240ebb1d3312c7a4a7a8f9af2d8c2f1b4f65540"
+    },
+    {
+      "path": "Latin/endtables/source/0_ius_adj.end",
+      "bytes": 39,
+      "sha256": "2b86cc4bba8014109951091b259ce3f644661246198cf4de1fbaae2553a0e846"
+    },
+    {
+      "path": "Latin/endtables/source/a_ae.end",
+      "bytes": 7,
+      "sha256": "9eb10bb4ee385d242768882cd1682dba8ace15aa0dfaeac36b881ef136c185a4"
+    },
+    {
+      "path": "Latin/endtables/source/an_aLnis.end",
+      "bytes": 55,
+      "sha256": "e9c298544bb00eeb36351e2d8c591537754e5703f2c68f9eb712123d92040b63"
+    },
+    {
+      "path": "Latin/endtables/source/ans_adj.end",
+      "bytes": 170,
+      "sha256": "be2b6fe901e3a1432c3af831773d313f4931df78b3d9e181e3790b9b80e56ae7"
+    },
+    {
+      "path": "Latin/endtables/source/ans_antis.end",
+      "bytes": 140,
+      "sha256": "2687f43d45a91b385266fd564429ed89b3603caf37fb4a5b031e3b322b95a529"
+    },
+    {
+      "path": "Latin/endtables/source/as_adis.end",
+      "bytes": 44,
+      "sha256": "99c90d90b336e628f20ae23b79978ff76d85ed54ded46293cfe1451fb511af59"
+    },
+    {
+      "path": "Latin/endtables/source/as_ae.end",
+      "bytes": 62,
+      "sha256": "413cc6c45ef50c2dc0fc2bbd5503677461563ca33f1f648408c826762062f04b"
+    },
+    {
+      "path": "Latin/endtables/source/as_antis.end",
+      "bytes": 57,
+      "sha256": "55c2a576341136142af5b1e208e7b77bd423d193ceca9d33aa4be0f9305e69ef"
+    },
+    {
+      "path": "Latin/endtables/source/avperf.end",
+      "bytes": 670,
+      "sha256": "7de514cc308704c225fddb2228f545e4ffc83771970e4577d0c299bf9535668d"
+    },
+    {
+      "path": "Latin/endtables/source/ax_adj.end",
+      "bytes": 111,
+      "sha256": "88a3066d151e606cfb0cdae12275b8481ff18271ccdd2b15c968ac97b3735d53"
+    },
+    {
+      "path": "Latin/endtables/source/conj1.end",
+      "bytes": 1549,
+      "sha256": "9cc9b807535e3fef6c68b9d13397c05c1cdf2c20d41906106f306bb91af7cc62"
+    },
+    {
+      "path": "Latin/endtables/source/conj2.end",
+      "bytes": 1538,
+      "sha256": "ab6ffbc2a6e39cea4e704dd21eaa6ddc7c5bcf8f89c7b379fd4faa54a353c39a"
+    },
+    {
+      "path": "Latin/endtables/source/conj3.end",
+      "bytes": 1815,
+      "sha256": "84ede2bbad1a68efcad9108781e55ee208b3598e58badb4a0476af87484bbc70"
+    },
+    {
+      "path": "Latin/endtables/source/conj3_io.end",
+      "bytes": 1648,
+      "sha256": "ac923d18f9aa87b1a55facca5ea9a3c7da2cec6900f43b6115eebe2fdfd0f1a5"
+    },
+    {
+      "path": "Latin/endtables/source/conj4.end",
+      "bytes": 1723,
+      "sha256": "4c89483b863ddda3c3572d7718c9a29ae3815886b8219bddaad2260f20a1060d"
+    },
+    {
+      "path": "Latin/endtables/source/eLr_eLris.end",
+      "bytes": 58,
+      "sha256": "94cbf33dd5ce0e6a411650ad88f9ac028830be5a1083c1cf17d0930fadaf4d66"
+    },
+    {
+      "path": "Latin/endtables/source/eLs_eris.end",
+      "bytes": 28,
+      "sha256": "dddb654275467340eabf4f6581f9c8bd2c5b160812c8f83d258ec69d1806da34"
+    },
+    {
+      "path": "Latin/endtables/source/e_es.end",
+      "bytes": 66,
+      "sha256": "0a52e5505eb2d3f3d43134d89dc1190077028e45d0abe59cf09920155a504baa"
+    },
+    {
+      "path": "Latin/endtables/source/e_is.end",
+      "bytes": 39,
+      "sha256": "ad5a96a24bfaacd842a286da7677be5aa12dd3ae2a7618fba61540a4a857bd23"
+    },
+    {
+      "path": "Latin/endtables/source/en_inis.end",
+      "bytes": 20,
+      "sha256": "18a927a36f73bb49433ad40ce25d2b6e098215ca2682e310cbcf6f1e4ccdec16"
+    },
+    {
+      "path": "Latin/endtables/source/ens_adj.end",
+      "bytes": 196,
+      "sha256": "21ae918904e655e269a43a18e8311d0fa032ed1d6ddabdc8e27cd5c67fabc5dd"
+    },
+    {
+      "path": "Latin/endtables/source/ens_entis.end",
+      "bytes": 167,
+      "sha256": "fbe9c12ec4779239c0d70e7995ae1f23aaa8a701d7379ec6a9079f88580c7ba3"
+    },
+    {
+      "path": "Latin/endtables/source/eps_ipis.end",
+      "bytes": 20,
+      "sha256": "42c7eddc0b7ffbcc86c1467cdb1d45ff6a6da9a4390e9e6e2bd4592ec7d0098a"
+    },
+    {
+      "path": "Latin/endtables/source/eps_ipitis.end",
+      "bytes": 35,
+      "sha256": "1d9366f36d17af5dfa8e88d565329f711aa40f8334e196c8eed30b3701162d10"
+    },
+    {
+      "path": "Latin/endtables/source/er_era_erum.end",
+      "bytes": 244,
+      "sha256": "a6c5e1ba7c79c4330e7cc6fc68b900a68259a5370c646ad3caa6969e2ef3f680"
+    },
+    {
+      "path": "Latin/endtables/source/er_eris.end",
+      "bytes": 57,
+      "sha256": "a0532e0d021c9df00b0df22e2d9fe25a013e3d564ee75c2a046bc4d935300a19"
+    },
+    {
+      "path": "Latin/endtables/source/er_ra_rum.end",
+      "bytes": 260,
+      "sha256": "1b9bfc037621ab69c1adb8f0f74527558c3259ae2080010b0be91cd6635b1b0b"
+    },
+    {
+      "path": "Latin/endtables/source/er_ri.end",
+      "bytes": 23,
+      "sha256": "d334b62e2ad3f8a89a573d02ad2a14fca9eb5a3093ac4ec8c449d383b70f3203"
+    },
+    {
+      "path": "Latin/endtables/source/er_ris.end",
+      "bytes": 31,
+      "sha256": "040bad67664a32626aa24382f53eb0113c2f139342c64a60e3241cc7d4f0be17"
+    },
+    {
+      "path": "Latin/endtables/source/er_ris_re.end",
+      "bytes": 487,
+      "sha256": "30428b60bb8ea7fdb3180b613800788ea9fd16e6b6cb12a7a2da5fe4a171ca17"
+    },
+    {
+      "path": "Latin/endtables/source/es_ae.end",
+      "bytes": 98,
+      "sha256": "3fed620c577d31c3f147465a3f5bd5adc6d67f90c31522b23ae9b4e4b71feee8"
+    },
+    {
+      "path": "Latin/endtables/source/es_eLdis.end",
+      "bytes": 29,
+      "sha256": "5a0d11b7dc23028a564fafbfee0026c214bb9ec4cc054e79253d303c1d03d12a"
+    },
+    {
+      "path": "Latin/endtables/source/es_eLi.end",
+      "bytes": 154,
+      "sha256": "d53ab0de306bd3ca2db826269c5edbcce2789592cf7359a4f223884129aae125"
+    },
+    {
+      "path": "Latin/endtables/source/es_eLtis.end",
+      "bytes": 55,
+      "sha256": "19712e7552d4aecc53ebb0257c82d03c7fd9bd803f2c0fa8258a0875374be2b3"
+    },
+    {
+      "path": "Latin/endtables/source/es_ei.end",
+      "bytes": 199,
+      "sha256": "adad2f8e2b1497bafbd64eb5a3b61ad7d5e9ca0a32c05ef5f0020b74b2842771"
+    },
+    {
+      "path": "Latin/endtables/source/es_is.end",
+      "bytes": 54,
+      "sha256": "56de17407315115ff7644a99cee8e5ec5bbbd3c1f522630eecf8d7a0fa285d70"
+    },
+    {
+      "path": "Latin/endtables/source/es_itis.end",
+      "bytes": 28,
+      "sha256": "32c0edda20ed762e894f29d4d4c2ee675cd0903b080c4bc3355d157444bd1dda"
+    },
+    {
+      "path": "Latin/endtables/source/eus_ei.end",
+      "bytes": 116,
+      "sha256": "03e87ac6109f80a100106b1662148dd8874c6afb892370c0f96eaad3ce87f77f"
+    },
+    {
+      "path": "Latin/endtables/source/evperf.end",
+      "bytes": 636,
+      "sha256": "0e82808bb535739503856a485e4493880530ee6b8183f0ae817cf0f169c128be"
+    },
+    {
+      "path": "Latin/endtables/source/ex_icis.end",
+      "bytes": 19,
+      "sha256": "85774b4570de698fb35b4167443ce66f0038eb0bf14b51e6a1a7262d539a0c71"
+    },
+    {
+      "path": "Latin/endtables/source/ex_icis_adj.end",
+      "bytes": 75,
+      "sha256": "ef9e3265042044f525fd4c9eaa98230016de0244e5cd265ebb0355d1dc661920"
+    },
+    {
+      "path": "Latin/endtables/source/ex_igis.end",
+      "bytes": 19,
+      "sha256": "be207141f91daf9a3aa4effde80078dc4f46bea349949b4255697897e635f42f"
+    },
+    {
+      "path": "Latin/endtables/source/ior_ius_comp.end",
+      "bytes": 29,
+      "sha256": "e4c74f90aedea125479954d602ce9cb67ab804b55f4a0de712a7e0d30d2f5f19"
+    },
+    {
+      "path": "Latin/endtables/source/ios_i.end",
+      "bytes": 82,
+      "sha256": "ee8bd48420802881b739ca9141cbd466e9e31ac87e3bc5535be9241e092dc5b1"
+    },
+    {
+      "path": "Latin/endtables/source/is_e.end",
+      "bytes": 141,
+      "sha256": "4a243e8f2c2a6674a1818a718c27ab4f64bd0d4be902596851e734c142fc1858"
+    },
+    {
+      "path": "Latin/endtables/source/is_eos.end",
+      "bytes": 207,
+      "sha256": "e64ec39a76e63bc4d8bc51c17e0d21047319b115169c70c600b725296e9095d0"
+    },
+    {
+      "path": "Latin/endtables/source/is_eris.end",
+      "bytes": 38,
+      "sha256": "bf22e03a2d750e1eb62d4d949d2301d30cf61858a0bca517e8c23d6bd8daa435"
+    },
+    {
+      "path": "Latin/endtables/source/is_idis.end",
+      "bytes": 30,
+      "sha256": "90a29dd6cc0190d47430cb1ef7c09750cd73076ca219290b4dd07a8e1b7369d5"
+    },
+    {
+      "path": "Latin/endtables/source/is_idos.end",
+      "bytes": 98,
+      "sha256": "9d48b5c2e67ebc1ba0ae7ec0a0b764d4ad47b7faa692719a4275e9e7db4ad580"
+    },
+    {
+      "path": "Latin/endtables/source/is_is.end",
+      "bytes": 89,
+      "sha256": "4f64457896e9081e72b74c8087ff9248f3d771c48b309041736da4f695dad26a"
+    },
+    {
+      "path": "Latin/endtables/source/is_is_C.end",
+      "bytes": 49,
+      "sha256": "5d91352848d4c7251d08807807dbb5697d8abf0518b69e72a6c5c9878e834abd"
+    },
+    {
+      "path": "Latin/endtables/source/ius_i.end",
+      "bytes": 108,
+      "sha256": "4a8868bbd003d0fb9b09c1836581ad10b6d1ea7a31143891e7f6c6e72b6cae17"
+    },
+    {
+      "path": "Latin/endtables/source/ius_ia_ium.end",
+      "bytes": 141,
+      "sha256": "e21c2df1cb5ae87f0f73035e6eaf73110abb67b04848bbd782328b7386a8ac3c"
+    },
+    {
+      "path": "Latin/endtables/source/ivperf.end",
+      "bytes": 647,
+      "sha256": "38df47bd279e71d99ebc62457b83de99e5146fb55ced05a4b014d790c88421d5"
+    },
+    {
+      "path": "Latin/endtables/source/ix_adj.end",
+      "bytes": 93,
+      "sha256": "638c45248bfa897128e548ef520e376d3a232e67f553bd51e0f879cc7ec100d3"
+    },
+    {
+      "path": "Latin/endtables/source/ix_iLcis.end",
+      "bytes": 24,
+      "sha256": "c3fe46e42dc340216585ab1fecffef216a9136528803f64334f5a20f6247e604"
+    },
+    {
+      "path": "Latin/endtables/source/ix_icis.end",
+      "bytes": 23,
+      "sha256": "e841de368eb864643caa02567b2a6b7ab3f6d71cd68b282f840aa227d47bb0b3"
+    },
+    {
+      "path": "Latin/endtables/source/ma_matis.end",
+      "bytes": 21,
+      "sha256": "679efc4125c3d47e8cd456b622fd43ba0052bfa0c843d50cabd6cbbbaf0311ff"
+    },
+    {
+      "path": "Latin/endtables/source/men_minis.end",
+      "bytes": 43,
+      "sha256": "7f3728b97eb1b3d816788636f095896fa0fadfb413afaa18992bba728d9a716b"
+    },
+    {
+      "path": "Latin/endtables/source/oLn_oLnis.end",
+      "bytes": 94,
+      "sha256": "1e8824e2c87d69237d0b0bfa69fcc61b1104afd7804196ab42abc6ce8a5f26f5"
+    },
+    {
+      "path": "Latin/endtables/source/oLn_onis.end",
+      "bytes": 52,
+      "sha256": "a0fc820b6a72ad51108e3883a4faf63bbf7929a89705a6ff96f5760861f7265a"
+    },
+    {
+      "path": "Latin/endtables/source/o_eLnis.end",
+      "bytes": 20,
+      "sha256": "63d6fa3cf77b5f880138260b64433c3c2da5fa4a9410fbd3761a6fee4877e390"
+    },
+    {
+      "path": "Latin/endtables/source/o_inis.end",
+      "bytes": 29,
+      "sha256": "57f37de01d4be30d6d738d174cedafd5e05d1f6138ab580d8c28e051cc0304cf"
+    },
+    {
+      "path": "Latin/endtables/source/o_oLnis.end",
+      "bytes": 65,
+      "sha256": "c32282ce64bec2232ad8c5a9bfffd977795c861279b2d1818bc3d959b1fb0dea"
+    },
+    {
+      "path": "Latin/endtables/source/o_onis.end",
+      "bytes": 18,
+      "sha256": "77a41cba3df4ce6651e28cc3f7d1cd6e3ca0ec3bf415072f0d20ebe9499f4c2d"
+    },
+    {
+      "path": "Latin/endtables/source/o_us.end",
+      "bytes": 73,
+      "sha256": "59fbc30591342bfd7d87db270d39aac19ef4138a6ad0333fda18049c820bd1bf"
+    },
+    {
+      "path": "Latin/endtables/source/on_ontis.end",
+      "bytes": 81,
+      "sha256": "4429d9495d595792bdef71023e409c2bafebb6d29027478c6d81c1f4d4ab81cb"
+    },
+    {
+      "path": "Latin/endtables/source/or_oLris.end",
+      "bytes": 56,
+      "sha256": "b9045e27d17928dcf2d9a54d3be675f4686f34487d85efde09d51113d45051cc"
+    },
+    {
+      "path": "Latin/endtables/source/or_oris.end",
+      "bytes": 56,
+      "sha256": "32a99674c8b5fde52c5a217fe190d101bd94527eda8cfc94c090b6c4c09fbd0a"
+    },
+    {
+      "path": "Latin/endtables/source/or_us_comp.end",
+      "bytes": 62,
+      "sha256": "614884353968df2bf9b050cf17210f23e1dc14ac96d409e106e9a711d4c34225"
+    },
+    {
+      "path": "Latin/endtables/source/os_i.end",
+      "bytes": 59,
+      "sha256": "acb2d277021825b09ac7e7c45918d9c192119dd40526b453491297dd53a705d7"
+    },
+    {
+      "path": "Latin/endtables/source/os_ois.end",
+      "bytes": 176,
+      "sha256": "de268f5b46bb0b524765d6f5da0c7917d3fb0c2263a6e793e69cb43d422283a1"
+    },
+    {
+      "path": "Latin/endtables/source/ox_adj.end",
+      "bytes": 93,
+      "sha256": "45b5a949c3e144bdf39571600259fdf0179ad076b4edbcc49f6430710a885fd7"
+    },
+    {
+      "path": "Latin/endtables/source/peLs_pedis.end",
+      "bytes": 12,
+      "sha256": "81689da29d7ca7e699e8efa11d053e1c96413dc06704a27d3abe4406f63e5f1c"
+    },
+    {
+      "path": "Latin/endtables/source/peLs_pedis_adj.end",
+      "bytes": 12,
+      "sha256": "81689da29d7ca7e699e8efa11d053e1c96413dc06704a27d3abe4406f63e5f1c"
+    },
+    {
+      "path": "Latin/endtables/source/perfstem.end",
+      "bytes": 232,
+      "sha256": "72a9f31e195fe9786a8184b04e597bbd1b3398aca1069f040d3fefd453717948"
+    },
+    {
+      "path": "Latin/endtables/source/pp4.end",
+      "bytes": 358,
+      "sha256": "e46ac378ecb620f4b9a90f9d2e5f293c014c4d3cbb36bd08698c030ba0e5b60d"
+    },
+    {
+      "path": "Latin/endtables/source/s_dis.end",
+      "bytes": 56,
+      "sha256": "7010ea49ddb6f06136047af7e53cbad8795f2b1f718241c7d1fa482f8517bd65"
+    },
+    {
+      "path": "Latin/endtables/source/s_is.end",
+      "bytes": 104,
+      "sha256": "0c1b8be241a55d412005450439a9015bb8e7133ccbbbb4dffc859b0dc2654f4c"
+    },
+    {
+      "path": "Latin/endtables/source/s_nis.end",
+      "bytes": 36,
+      "sha256": "f2dcb44b1e62eee084d9dd2ea9a528bcd71ae06cb1bd39e25fa8b1eeb9c87eea"
+    },
+    {
+      "path": "Latin/endtables/source/s_tis.end",
+      "bytes": 39,
+      "sha256": "b0705d841abaa5c4bed8dc2247855fe0520e18f1cc5a624af7aea9ae7608b734"
+    },
+    {
+      "path": "Latin/endtables/source/s_tis_adj.end",
+      "bytes": 125,
+      "sha256": "29e0d45655b944d926e23e7f5fa6f0ca42765e8280aecf3a735661c990cffd3f"
+    },
+    {
+      "path": "Latin/endtables/source/tas_tatis.end",
+      "bytes": 44,
+      "sha256": "fbf972a4d269b9dbf2acbb3ad23e1d2d9e20530a002c24e855f4b3913b1dddef"
+    },
+    {
+      "path": "Latin/endtables/source/uLs_uLris.end",
+      "bytes": 35,
+      "sha256": "22c4ac76a5962180f22719f282edb1d8d208a039f28e4fd5364aa6a219d22bfc"
+    },
+    {
+      "path": "Latin/endtables/source/uns_untis.end",
+      "bytes": 83,
+      "sha256": "dc940395d81f8084e877c017702438b051c4e8efe801fca66281556806b63eea"
+    },
+    {
+      "path": "Latin/endtables/source/ur_oris.end",
+      "bytes": 79,
+      "sha256": "de4c0a89c3f94ce58911ec48540c91b3d68ad9fc8f0915f42adce3bca02ab1e2"
+    },
+    {
+      "path": "Latin/endtables/source/us_a_um.end",
+      "bytes": 112,
+      "sha256": "da221665cb2bb0d56216bb8c927ad27e4c817a45931104479b166354ad707014"
+    },
+    {
+      "path": "Latin/endtables/source/us_eris.end",
+      "bytes": 27,
+      "sha256": "12b8f2654655fbb973d34e8e19054693adc48f2817be2d5e8d7d20e1898f1f42"
+    },
+    {
+      "path": "Latin/endtables/source/us_i.end",
+      "bytes": 107,
+      "sha256": "1b4a89329757c31f66de807d347aa5b1f03bba94a58a65c7c500d673f3faae2f"
+    },
+    {
+      "path": "Latin/endtables/source/us_ius_adj.end",
+      "bytes": 44,
+      "sha256": "39c99edb2aece7006b4f8511e70fb14508d40f72f3abced12801d074d769dbac"
+    },
+    {
+      "path": "Latin/endtables/source/us_oris.end",
+      "bytes": 55,
+      "sha256": "db4eed7f146549a34d1b65ef1a69110dce7e5c398ed2e220249169e6c8ebf435"
+    },
+    {
+      "path": "Latin/endtables/source/us_untis.end",
+      "bytes": 42,
+      "sha256": "81adc79356c4100dde7b3689741e4fac2a3365b7f750a646846e28d8f959390d"
+    },
+    {
+      "path": "Latin/endtables/source/us_us.end",
+      "bytes": 207,
+      "sha256": "56a36e1559f619f5a503adb0db26c3a7bb5ce5dc607e9f5701e4d1e3b303d15f"
+    },
+    {
+      "path": "Latin/endtables/source/x_cis.end",
+      "bytes": 56,
+      "sha256": "b06eaa358397abf8329db21a29e167e44ecf5bc1fbce38792d99078243df7c65"
+    },
+    {
+      "path": "Latin/endtables/source/x_ctis.end",
+      "bytes": 80,
+      "sha256": "d55bb59dd4242e850ca620789cc58f842aec567e7cf3e20c87849bd73e4ee225"
+    },
+    {
+      "path": "Latin/endtables/source/x_gis.end",
+      "bytes": 56,
+      "sha256": "c1698cb5f58f0398d234fc16361f27af3586d0a32d49785b7aab153981ca2fd7"
+    },
+    {
+      "path": "Latin/endtables/source/ys_yos.end",
+      "bytes": 154,
+      "sha256": "24566694253afa9eef3e5890f9d58f03090a164dd73f0c2e697b75ec67c6eee1"
+    },
+    {
+      "path": "Latin/rule_files/conseuph.table",
+      "bytes": 67,
+      "sha256": "f0ba0adca646a4f7a0edf7d80c101c5f564cfa427159e5708e08367a95cbf9a1"
+    },
+    {
+      "path": "Latin/rule_files/derivtypes.table",
+      "bytes": 61,
+      "sha256": "5f732c2a87085d901a0e575e2df6a31634268db3d5d786147921cc9f338370a0"
+    },
+    {
+      "path": "Latin/rule_files/domainlist.table",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Latin/rule_files/raw_preverbs.table",
+      "bytes": 510,
+      "sha256": "d5d3ea2be919df02865fb84aa87fb2f6a13c902c24d2ccffa5ce7d3010738bbc"
+    },
+    {
+      "path": "Latin/rule_files/rawprev.src",
+      "bytes": 499,
+      "sha256": "404540f7837802892e2b0bdfab949832068a27072d2f1a6b40952c23d88f9038"
+    },
+    {
+      "path": "Latin/rule_files/stemtypes.table",
+      "bytes": 2620,
+      "sha256": "d477919e5afb02edf2f751ccdabe6ec20ef4c9198c7a0c90add6c5f679a363cd"
+    },
+    {
+      "path": "Latin/rule_files/viprevb",
+      "bytes": 58,
+      "sha256": "abbf4ad47f9a43e1a5ee512f89e00dd254ce7f94972f3472ff61bd3cc6ae4128"
+    },
+    {
+      "path": "Latin/rule_files/vowcontr.table",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Latin/steminds/entitylist.txt",
+      "bytes": 75084,
+      "sha256": "74df49b4226469b0feb22b062aa646177e32cb1d6412102d56376245bddf856e"
+    },
+    {
+      "path": "Latin/steminds/nomind",
+      "bytes": 1866958,
+      "sha256": "c72abe60f42cd01eb3be2dac19eabd5e7a2151c84f1cd73a8eeeba53b5c92497"
+    },
+    {
+      "path": "Latin/steminds/nomind.lindex",
+      "bytes": 56724,
+      "sha256": "578cc5995ff733e164840a9bf680de9e3d1214066bf4ebe093c028f42468a8c8"
+    },
+    {
+      "path": "Latin/steminds/vbind",
+      "bytes": 466960,
+      "sha256": "a348238d7af917dfc07a3d85c31d07a74a3719f3953c7481f0398d66cf50a9e0"
+    },
+    {
+      "path": "Latin/steminds/vbind.lindex",
+      "bytes": 16356,
+      "sha256": "14d25c41882858e2445322efc3807bc8a2e2fe826dd33809b34fe2b1f2aa6b12"
+    },
+    {
+      "path": "Latin/stemsrc/vbs.cmp.ml",
+      "bytes": 17969,
+      "sha256": "d02a893ebd1f567fa7e33c8940322a407947fe38f2a0fb438c988187a0815689"
+    }
+  ],
+  "patches": [
+    {
+      "patch": "native-derivation-overlap.patch",
+      "sha256": "cca76833a840f79639051c1414d9adc10f03bc01837d6027658d8bd3db668ad6"
+    },
+    {
+      "patch": "native-preverb-overlap.patch",
+      "sha256": "236b8e4617fa364e76cd77e63385666b6f5e54af3cdf9b082c6f97b6ed1735a3"
+    },
+    {
+      "patch": "wasm-derivation-overlap.patch",
+      "sha256": "cca76833a840f79639051c1414d9adc10f03bc01837d6027658d8bd3db668ad6"
+    },
+    {
+      "patch": "wasm-preverb-overlap.patch",
+      "sha256": "236b8e4617fa364e76cd77e63385666b6f5e54af3cdf9b082c6f97b6ed1735a3"
+    },
+    {
+      "patch": "indexer-paths.patch",
+      "sha256": "eb6b49cee0c68b612acdd4abc60225ac84e0edb5d9128f664c30d5963f30b25e"
+    },
+    {
+      "patch": "native-data-overlap.patch",
+      "sha256": "99c9aa09cacc0940125555b44157021efb1c838eff2423f650e04416b545b94d"
+    },
+    {
+      "patch": "wasm-call-arity.patch",
+      "sha256": "97dbcf7e801e513a2c3f4a2d96eab92283cdfd91598c91f92ac71613493d8be8"
+    }
+  ],
+  "tools": {
+    "clang": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+    "emscripten": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.6 (ce75e06884093bcefb86a6b8fd56a5d62a4cc245)\nCopyright (C) 2026 the Emscripten authors (see AUTHORS.txt)\nThis is free and open source software under the MIT license.\nThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "perl": "v5.34.1",
+    "system": "Darwin 27.0.0 arm64"
+  },
+  "commands": [
+    {
+      "argv": [
+        "make",
+        "all",
+        "CC=clang",
+        "CFLAGS=-O2 -std=gnu89 -I../includes -Wno-return-type -Wno-implicit-function-declaration -Wno-error=incompatible-function-pointer-types",
+        "LOADLIBES=-ll"
+      ],
+      "cwd": "$BUILD/native/src",
+      "log": "native.log"
+    },
+    {
+      "argv": [
+        "clang",
+        "-O2",
+        "-std=gnu89",
+        "-I../includes",
+        "-Wno-return-type",
+        "-Wno-implicit-function-declaration",
+        "-Wno-error=incompatible-function-pointer-types",
+        "-c",
+        "indexstems.c",
+        "-o",
+        "indexstems-isolated.o"
+      ],
+      "cwd": "$BUILD/native/src/gkdict",
+      "log": "indexers.log"
+    },
+    {
+      "argv": [
+        "clang",
+        "-o",
+        "indexnoms-isolated",
+        "indexnoms.main.o",
+        "indexstems-isolated.o",
+        "../morphlib/morphlib.a",
+        "../greeklib/greeklib.a"
+      ],
+      "cwd": "$BUILD/native/src/gkdict",
+      "log": "indexers.log"
+    },
+    {
+      "argv": [
+        "clang",
+        "-o",
+        "indexvbs-isolated",
+        "indexvbs.main.o",
+        "indexstems-isolated.o",
+        "../morphlib/morphlib.a",
+        "../greeklib/greeklib.a"
+      ],
+      "cwd": "$BUILD/native/src/gkdict",
+      "log": "indexers.log"
+    },
+    {
+      "argv": [
+        "/usr/bin/perl",
+        "addconstraints.pl",
+        "stemsrc/nom.algo1",
+        "stemsrc/nom.comp",
+        "stemsrc/nom.irreg",
+        "stemsrc/nom.proper",
+        "stemsrc/nom.smith.bio",
+        "stemsrc/nom.smith.geo",
+        "stemsrc/nom01",
+        "stemsrc/nom02",
+        "stemsrc/nom03",
+        "stemsrc/nom04",
+        "stemsrc/nom05",
+        "stemsrc/nom06",
+        "stemsrc/nom07",
+        "stemsrc/nom08.herod",
+        "stemsrc/nom09.homer",
+        "stemsrc/nom09.homer.pn",
+        "stemsrc/nom09.homer.tmp",
+        "stemsrc/nom10.crat",
+        "stemsrc/nom11.soph",
+        "stemsrc/nom12.tom",
+        "stemsrc/nom13.paus",
+        "stemsrc/nom14.aesch",
+        "stemsrc/nom15.plut",
+        "stemsrc/nom16.apollod",
+        "stemsrc/nom17.isoc",
+        "stemsrc/nom18.aeschin",
+        "stemsrc/nom19.isaeus",
+        "stemsrc/nom20.minor",
+        "stemsrc/nom21.lysias",
+        "stemsrc/nom22.heshom",
+        "stemsrc/nom23.hhymn",
+        "stemsrc/nom24.homerica",
+        "stemsrc/nom25.thuc",
+        "stemsrc/nom26.dem",
+        "stemsrc/nom27.xen",
+        "stemsrc/nom28.plato",
+        "stemsrc/nom30.aristoph",
+        "stemsrc/nom31.diod",
+        "stemsrc/nom32.smithbio",
+        "stemsrc/nom32.thuc.2",
+        "stemsrc/nom34.quint",
+        "stemsrc/nom36.plut",
+        "stemsrc/lsj.nom",
+        "stemsrc/lsj.byhand"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "/usr/bin/perl",
+        "getentities.pl",
+        "$BUILD/nommorph"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkdict/indexnoms-isolated"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/buildend",
+        "nom"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/indendtables",
+        "nom"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/buildend",
+        "verb"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/indendtables",
+        "verb"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/buildderiv",
+        "all"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/indderivtables"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "make",
+        "do_conj",
+        "CC=clang",
+        "CFLAGS=-O2 -std=gnu89 -I../includes -Wno-return-type -Wno-implicit-function-declaration -Wno-error=incompatible-function-pointer-types"
+      ],
+      "cwd": "$BUILD/native/src/gener",
+      "log": "conjugations.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gener/do_conj"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "conjugations.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkdict/indexvbs-isolated"
+      ],
+      "cwd": "$BUILD/native/stemlib/Greek",
+      "log": "data.log"
+    },
+    {
+      "argv": [
+        "/usr/bin/perl",
+        "../Greek/getentities.pl",
+        "$BUILD/nommorph"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkdict/indexnoms-isolated",
+        "-L"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/buildend",
+        "-L",
+        "nom"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/indendtables",
+        "-L",
+        "nom"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/buildend",
+        "-L",
+        "verb"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/indendtables",
+        "-L",
+        "verb"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/buildderiv",
+        "-L",
+        "all"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkends/indderivtables",
+        "-L"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "/usr/bin/perl",
+        "-pe",
+        "s/([a-z])([aei])_v[ \\t]+perfstem/$1\\t$2vperf/g;"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gener/do_conj",
+        "-L"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "$BUILD/native/src/gkdict/indexvbs-isolated",
+        "-L"
+      ],
+      "cwd": "$BUILD/native/stemlib/Latin",
+      "log": "latin.log"
+    },
+    {
+      "argv": [
+        "make",
+        "greeklib.a",
+        "CC=$EMSDK/upstream/emscripten/emcc",
+        "CFLAGS=-O2 -I../includes -std=gnu89 -Wno-return-type -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types -fno-common"
+      ],
+      "cwd": "$BUILD/wasm/src/greeklib",
+      "log": "wasm.log"
+    },
+    {
+      "argv": [
+        "make",
+        "morphlib.a",
+        "CC=$EMSDK/upstream/emscripten/emcc",
+        "CFLAGS=-O2 -I../includes -std=gnu89 -Wno-return-type -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types -fno-common"
+      ],
+      "cwd": "$BUILD/wasm/src/morphlib",
+      "log": "wasm.log"
+    },
+    {
+      "argv": [
+        "make",
+        "gkends.a",
+        "CC=$EMSDK/upstream/emscripten/emcc",
+        "CFLAGS=-O2 -I../includes -std=gnu89 -Wno-return-type -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types -fno-common"
+      ],
+      "cwd": "$BUILD/wasm/src/gkends",
+      "log": "wasm.log"
+    },
+    {
+      "argv": [
+        "make",
+        "gkdict.a",
+        "CC=$EMSDK/upstream/emscripten/emcc",
+        "CFLAGS=-O2 -I../includes -std=gnu89 -Wno-return-type -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types -fno-common"
+      ],
+      "cwd": "$BUILD/wasm/src/gkdict",
+      "log": "wasm.log"
+    },
+    {
+      "argv": [
+        "make",
+        "gener.a",
+        "CC=$EMSDK/upstream/emscripten/emcc",
+        "CFLAGS=-O2 -I../includes -std=gnu89 -Wno-return-type -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types -fno-common"
+      ],
+      "cwd": "$BUILD/wasm/src/gener",
+      "log": "wasm.log"
+    },
+    {
+      "argv": [
+        "make",
+        "anal.a",
+        "CC=$EMSDK/upstream/emscripten/emcc",
+        "CFLAGS=-O2 -I../includes -std=gnu89 -Wno-return-type -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types -fno-common"
+      ],
+      "cwd": "$BUILD/wasm/src/anal",
+      "log": "wasm.log"
+    },
+    {
+      "argv": [
+        "$EMSDK/upstream/emscripten/emcc",
+        "-O2",
+        "-I../includes",
+        "-std=gnu89",
+        "-Wno-return-type",
+        "-Wno-implicit-function-declaration",
+        "-Wno-int-conversion",
+        "-Wno-incompatible-function-pointer-types",
+        "-fno-common",
+        "stdiomorph.c",
+        "../gener/genwd.o",
+        "anal.a",
+        "../gener/gener.a",
+        "../gkends/gkends.a",
+        "../gkdict/gkdict.a",
+        "../morphlib/morphlib.a",
+        "../greeklib/greeklib.a",
+        "-o",
+        "../../../artifact/morpheus.mjs",
+        "-sMODULARIZE=1",
+        "-sEXPORT_ES6=1",
+        "-sINVOKE_RUN=0",
+        "-sALLOW_MEMORY_GROWTH=1",
+        "-sEXPORTED_RUNTIME_METHODS=callMain,FS,ENV",
+        "-sENVIRONMENT=web,worker,node",
+        "--preload-file",
+        "$BUILD/runtime@/morphlib"
+      ],
+      "cwd": "$BUILD/wasm/src/anal",
+      "log": "wasm-link.log"
+    },
+    {
+      "argv": [
+        "clang",
+        "-O2",
+        "-std=gnu89",
+        "-I../includes",
+        "-Wno-return-type",
+        "-Wno-implicit-function-declaration",
+        "-Wno-error=incompatible-function-pointer-types",
+        "stdiomorph.c",
+        "$BUILD/runtime-sort.c",
+        "../gener/genwd.o",
+        "anal.a",
+        "../gener/gener.a",
+        "../gkends/gkends.a",
+        "../gkdict/gkdict.a",
+        "../morphlib/morphlib.a",
+        "../greeklib/greeklib.a",
+        "-o",
+        "cruncher"
+      ],
+      "cwd": "$BUILD/native/src/anal",
+      "log": "native-runtime.log"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "morpheus.data",
+      "bytes": 11066684,
+      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030"
+    },
+    {
+      "file": "morpheus.mjs",
+      "bytes": 145693,
+      "sha256": "8d98e95e1456829befc21573068deba062d03dee9577cc48dada7b7378240058"
+    },
+    {
+      "file": "morpheus.wasm",
+      "bytes": 133601,
+      "sha256": "c91ddc0e424197e3d3cd4e4d396979367f0d37101f608bdd6e9205b841914273"
+    }
+  ],
+  "limitations": [
+    "Latin reconstruction explicitly uses the four retained verb sources; vbs.mpi is absent",
+    "Original checked-in morphology sources are inputs, not regenerated from lexica",
+    "No claim of current Tufts production equivalence or complete I/O coverage"
+  ],
+  "pathConvention": "Absolute build/SDK/project paths are replaced by $BUILD/$EMSDK/$PROJECT; patch hashes refer to these path-neutral copies."
+}

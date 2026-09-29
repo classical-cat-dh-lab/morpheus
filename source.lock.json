@@ -1,0 +1,73 @@
+{
+  "repository": "PerseusDL/morpheus",
+  "url": "https://github.com/PerseusDL/morpheus",
+  "revision": "b1b33c56ef2338fe0dcd1893628ed638f00c0986",
+  "commitDate": "2019-03-11T11:43:35-04:00",
+  "gitTree": "f54fdbbfd84c3b9f62a8816d865c58e79e3e1c04",
+  "role": "original-lineage candidate",
+  "localSnapshot": {
+    "directory": "build/extract/perseus",
+    "archive": "vendor/morpheus-original.tar.gz",
+    "archivePrefix": "perseus/",
+    "archiveBytes": 3232676,
+    "archiveSha256": "5de32ffaf97ee0c9ccf5a3a1ebaab140b227236b1a95094c26392d388d3c0836",
+    "gitBlobVerification": {
+      "checked": 1040,
+      "allMatched": true,
+      "note": "One documented non-runtime generated parser excluded from public source packaging."
+    },
+    "criticalFiles": [
+      {
+        "path": "README.md",
+        "sha256": "5c5342e0a67e1a1f9480eacf8d636df67544e2a019bec9688605cf74e1285fc0"
+      },
+      {
+        "path": "src/anal/stdiomorph.c",
+        "sha256": "b3124e92100cc03e6031bd5be4107ad3e4989cd232e41601794e900b62b855c3"
+      },
+      {
+        "path": "src/morphlib/fixacc.c",
+        "sha256": "e5ecfd7066d1ef91e56e714985f69cb020352e32ed8eccc62fcfbe173c811584"
+      },
+      {
+        "path": "src/greeklib/getsyll.c",
+        "sha256": "073b77dfb422483db14b4d7845d57b8b1f5a60b150ce250d0fa7cc1dca8bcf23"
+      },
+      {
+        "path": "src/gener/genermain.c",
+        "sha256": "914e5d32606bcde25af3bd5e7f3b1c726f0f39ab36aefbca73dd328be7f923cf"
+      },
+      {
+        "path": "src/gener/gensynform.c",
+        "sha256": "cb274f7cd7e03d7ab46ce0d522c90c3f2cc5f85fa27b37006400374a9fd94028"
+      },
+      {
+        "path": "src/anal/Makefile",
+        "sha256": "7d35b35fcadfed8caf20b3a90ec8743941f7c90ecd43b275d1f017479849a2b6"
+      },
+      {
+        "path": "src/gener/Makefile",
+        "sha256": "d676de82570a6b478daece32adbafd228d32709958fe0381400f394f7f78b7b9"
+      },
+      {
+        "path": "src/gkdict/Makefile",
+        "sha256": "3c51bf6659612e1093532910ee5b1f1998574b52e3455834ff59d9ac87fbe91e"
+      },
+      {
+        "path": "src/gkends/Makefile",
+        "sha256": "2690db1e0b1670fce7fee722661cb158fb5c2332c82bee8fc04503d715acc6d0"
+      },
+      {
+        "path": "stemlib/Latin/Makefile",
+        "sha256": "f012ee3511685dad60efc92d61b33031878ebef36a427a96899af68ba667ea57"
+      }
+    ]
+  },
+  "originalArchiveSha256": "a956321552a9efaa76d72a289a6bbbdeba951b15b27299823d9ca1a0111a8d30",
+  "distributionExclusions": [
+    {
+      "path": "src/play/y.tab.c",
+      "reason": "Unused generated OSF/1 yacc skeleton with a separate all-rights-reserved notice; not part of the engine or build targets."
+    }
+  ]
+}

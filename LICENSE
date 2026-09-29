@@ -1,0 +1,29 @@
+Morph 0.0.1 — CC BY-SA 3.0 US, except separately licensed components.
+
+Original Morpheus: Gregory Crane and contributors, Perseus Digital Library,
+Tufts University. Original notice: licenses/perseus-original.md.
+Source: https://github.com/PerseusDL/morpheus
+Revision: b1b33c56ef2338fe0dcd1893628ed638f00c0986
+
+The original source and morphology data, this adaptation, and original Lab code
+and documentation are distributed under Creative Commons Attribution-ShareAlike
+3.0 United States. The original has been modified for the recorded portable build.
+
+License: https://creativecommons.org/licenses/by-sa/3.0/us/
+Legal code: https://creativecommons.org/licenses/by-sa/3.0/us/legalcode.en
+Local legal code: licenses/CC-BY-SA-3.0-US.txt
+
+Adaptation and new application: Copyright 2026 Xinjie Fang,
+Classical Cat Digital Humanities Lab.
+
+Exceptions retain their own notices: Emscripten runtime (MIT/UIUC and component
+terms), musl sorting implementation (MIT), and bundled fonts (SIL OFL).
+See licenses/emscripten.txt, licenses/musl.txt, vendor/runtime/qsort.c and
+browser/design/fonts/licenses/. No font is relicensed by this declaration.
+
+The complete modifications are offered to the Perseus project and all recipients
+through the public source and release archive, including patches and build tools:
+https://github.com/classical-cat-dh-lab/morpheus
+
+This independent adaptation is not an official Tufts/Perseus service and does not
+claim their endorsement. The applicable licenses contain warranty disclaimers.
