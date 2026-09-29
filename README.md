@@ -10,6 +10,10 @@ to the unchanged 0.0.1 engine interface.
 It is an engineering reconstruction, not a completed source-faithful Rust port or
 a claim of exact equivalence to the presently deployed Perseus service.
 
+The development branch also contains a [Rust preservation candidate](rust/README.md).
+It is runnable, but a [known internal-fidelity blocker](rust/BLOCKERS.md) prevents
+replacement of the released engine. It is not a completed 1.0 port.
+
 ## Use and keep
 
 Open [morph.latingreek.org](https://morph.latingreek.org/), choose Greek or Latin, and enter a word or passage.

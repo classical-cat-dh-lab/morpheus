@@ -43,9 +43,9 @@ put('_headers',`/*\n  Content-Security-Policy: ${csp}\n  X-Content-Type-Options:
 const manifest={schema:1,id,version,files:files(site).filter(p=>!['_headers','sw.js'].includes(relative(site,p))).map(p=>({url:relative(site,p)==='index.html'?'/':'/'+relative(site,p).replace(/\/index\.html$/,'/'),bytes:readFileSync(p).length,sha256:sha(readFileSync(p))}))};
 put('.'+base+'/release.json',JSON.stringify(manifest,null,2)+'\n');
 put('release.json',JSON.stringify(manifest,null,2)+'\n');
-const artifacts=resolve(root,'build/releases',version);mkdirSync(artifacts,{recursive:true});
+const artifacts=resolve(root,process.env.MORPH_RELEASE_OUTPUT??'build/releases',version);mkdirSync(artifacts,{recursive:true});
 // Source delivery includes the frozen original archive and complete build inputs.
-archive(root,['README.md','LICENSE','.gitignore','package.json','source.lock.json','design.lock.json','dictionary-sources.lock.json','CITATION.cff','wrangler.jsonc'].map(p=>resolve(root,p)).concat(['.github','browser','engine','dictionaries','scripts','tests','vendor','licenses','docs','evidence','patches'].flatMap(p=>files(resolve(root,p)))),resolve(artifacts,`morph-${version}-source.tar.gz`));
+archive(root,['README.md','LICENSE','.gitignore','package.json','source.lock.json','design.lock.json','dictionary-sources.lock.json','CITATION.cff','wrangler.jsonc'].map(p=>resolve(root,p)).concat(['.github','browser','engine','dictionaries','scripts','tests','vendor','licenses','docs','evidence','patches','rust'].flatMap(p=>files(resolve(root,p)))),resolve(artifacts,`morph-${version}-source.tar.gz`));
 // The static export has no recursive copy of its own downloads.
 archive(site,files(site).filter(p=>!relative(site,p).startsWith('downloads/')),resolve(artifacts,`morph-${version}-static.tar.gz`));
 console.log(JSON.stringify({release:id,files:manifest.files.length,offlineBytes:manifest.files.reduce((n,f)=>n+f.bytes,0),site}));

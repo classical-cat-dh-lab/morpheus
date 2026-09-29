@@ -1,0 +1,597 @@
+[
+  {
+    "path": "anal/checkcrasis.c",
+    "lines": 349,
+    "sha256": "ab6a95951147bbd792ee8ded99d50a66bd399cbdaa3a14614cc2025e11203a2e"
+  },
+  {
+    "path": "anal/checkdict.c",
+    "lines": 175,
+    "sha256": "733a5b6c15f5d87fc7a09d51aaba1d4da3e05ee07195519e301c6d7ee26d59bb"
+  },
+  {
+    "path": "anal/checkgenwds.c",
+    "lines": 488,
+    "sha256": "d294c17935a7b1a56d79d271fb7c48aa171e340ce48aaea45c810e7922a6a571"
+  },
+  {
+    "path": "anal/checkhalf1.c",
+    "lines": 243,
+    "sha256": "497e02f397fdf4b1a82cb2f603c1cb92e65b621c6ec7a5b40c3b86cacc54a350"
+  },
+  {
+    "path": "anal/checkindecl.c",
+    "lines": 96,
+    "sha256": "960e5a3ad63586ef302d115b21cd142eb51a1d516876b5c43404d8af14f49155"
+  },
+  {
+    "path": "anal/checkirreg.c",
+    "lines": 313,
+    "sha256": "e905904659898d3ddc220b2edc8adca01ba64ff4ad80329c6801b639b41225fd"
+  },
+  {
+    "path": "anal/checknom.c",
+    "lines": 134,
+    "sha256": "d5f55c660e6e9c51a78f9263fcfc1780df5ee66ef9a1399e9d938c52292dcb51"
+  },
+  {
+    "path": "anal/checkpreverb.c",
+    "lines": 51,
+    "sha256": "b8f84787687748453e237715a77f5da499ca808401184f4649fc88c7f1310699"
+  },
+  {
+    "path": "anal/checkstem.c",
+    "lines": 273,
+    "sha256": "4e37552873b1e2b7df13c1d470c640b9df451d4441c015a731bd747ec8fd582f"
+  },
+  {
+    "path": "anal/checkstring.c",
+    "lines": 1052,
+    "sha256": "3b1e9e35590251b6663b813a9cf76bf15f5de4113e339d6ae96522cbb05e8320"
+  },
+  {
+    "path": "anal/checkverb.c",
+    "lines": 142,
+    "sha256": "a4a544457c626df9e289b315a467d75ac6a58117529266d7803a5042f2770107"
+  },
+  {
+    "path": "anal/checkword.c",
+    "lines": 62,
+    "sha256": "38a7c6b1a19bf20ac33337fd07dffd1fc55398b0433f6631349c1d8d6bc756a7"
+  },
+  {
+    "path": "anal/dictstems.c",
+    "lines": 124,
+    "sha256": "f7c1e0248bb00f0875b2dea5f2d5c39629078734c3ec35434e28523789473cee"
+  },
+  {
+    "path": "anal/prntanal.c",
+    "lines": 608,
+    "sha256": "f83c2f9e99597b42f90e23295ddab9325a713f7145fb5a2459cb8dcb0915a755"
+  },
+  {
+    "path": "anal/prvb.c",
+    "lines": 107,
+    "sha256": "d57b372f6c3e7214d9cc5e6901b81f0a5b9f23acf8e03939e1230491bda1cf20"
+  },
+  {
+    "path": "anal/stdiomorph.c",
+    "lines": 289,
+    "sha256": "b3124e92100cc03e6031bd5be4107ad3e4989cd232e41601794e900b62b855c3"
+  },
+  {
+    "path": "gener/genwd.c",
+    "lines": 775,
+    "sha256": "8f455a7bcb42a4f5bb673e4928daf3014762a0e5d3bd432781c4797953a84560"
+  },
+  {
+    "path": "gkdict/compnoun.c",
+    "lines": 95,
+    "sha256": "5efd1933235b4a076590a2c188dca94a0ba0511dc4c93b6672fc1a4d534845c9"
+  },
+  {
+    "path": "gkdict/derivio.c",
+    "lines": 588,
+    "sha256": "499244202e3af977f6483f7177a854b207999c6f504409ff10a74c88ef6b1faf"
+  },
+  {
+    "path": "gkdict/dictio.c",
+    "lines": 517,
+    "sha256": "42a12b9e9d7e3b8166dae5d4b33ff8f5b47b3a0806203267a9f6ef1a28716975"
+  },
+  {
+    "path": "gkends/acccompos.c",
+    "lines": 146,
+    "sha256": "bd996fea625e4e616a80430ae7b37a5a009553a3a96f0f7348d4534f0791c88b"
+  },
+  {
+    "path": "gkends/checkforbreath.c",
+    "lines": 18,
+    "sha256": "ff91f57ce6a7d8df4f8f7cbb67951a63acb0afc5021207a676ca699a5061612e"
+  },
+  {
+    "path": "gkends/contract.c",
+    "lines": 337,
+    "sha256": "d3c3089dcc1c65444a845930304bd2276b42416eaf4c20b506415a1c2d7e6a3b"
+  },
+  {
+    "path": "gkends/countendtables.c",
+    "lines": 105,
+    "sha256": "4fc1c19f6d9a1baefb2507ef94ab02521b5c815d6ad49aa90769e88d2b7d7617"
+  },
+  {
+    "path": "gkends/endindex.c",
+    "lines": 304,
+    "sha256": "08a5f09439e8ad8d585b0bbac8a46f87f86351c9803681dfbdeb1b46c6078eb1"
+  },
+  {
+    "path": "gkends/euphend.c",
+    "lines": 113,
+    "sha256": "b3934372d8b53b6c51b99c3c48fb8b6304226cf4f02be49b2144ea598f428ec3"
+  },
+  {
+    "path": "gkends/expendtable.c",
+    "lines": 199,
+    "sha256": "02b2a7ab77d3e1459858cf4ce3534aca8454f138c04059db8f0803fee684ea2c"
+  },
+  {
+    "path": "gkends/fixeta.c",
+    "lines": 196,
+    "sha256": "117c7ad404f0d428fbf36b2e298af0249849b217f81ca85a667e0566c0158159"
+  },
+  {
+    "path": "gkends/getcurrend.c",
+    "lines": 143,
+    "sha256": "42713037a4d5e7ae13473bb59e80fb416b1f8ccafb3ea3c971b77c9646b879b0"
+  },
+  {
+    "path": "gkends/indexendtables.c",
+    "lines": 189,
+    "sha256": "e12e1bddca4a29ac8723d54432039f4a1fabf86597b54d3d9cb81a515b41d085"
+  },
+  {
+    "path": "gkends/lcontr.c",
+    "lines": 32,
+    "sha256": "ee81d1d81d7e09e992df3956cd287c489c64b74b78104719ca41eb2a8e483fa1"
+  },
+  {
+    "path": "gkends/merge.c",
+    "lines": 17,
+    "sha256": "d1f2abbf2e92c845e6e8dc907c90ce3dfb72a84e8e6b8294c665d12e9666e9f9"
+  },
+  {
+    "path": "gkends/mkend.c",
+    "lines": 298,
+    "sha256": "ee3095d8e1a35dea5b67be96c37df34b555bfeaba41da651fb53c11ce5d6fc91"
+  },
+  {
+    "path": "gkends/nextsufftab.c",
+    "lines": 34,
+    "sha256": "90755a0b9533cc4cdc0e204ce8413a5f047380b9c040cd6a5333a1d8b8974db1"
+  },
+  {
+    "path": "gkends/retrends.c",
+    "lines": 801,
+    "sha256": "886e705d991fa7d82bf607196f4dcb6c1efd1726af9ff2337fe71a72fd57349e"
+  },
+  {
+    "path": "gkends/stor.c",
+    "lines": 183,
+    "sha256": "4e540ac0940ef86b8f614976a03ae5dbfd17e923c6605c76b37d78c1c1309540"
+  },
+  {
+    "path": "greeklib/Fclose.c",
+    "lines": 30,
+    "sha256": "913235b245082f22b2716c55048424b5c011d1230f635f70a7eda1be3357d549"
+  },
+  {
+    "path": "greeklib/addaccent.c",
+    "lines": 45,
+    "sha256": "61f770343e92b010afa582e4fd2a56bc175947b254b7ca7dd851a9a4de2f1937"
+  },
+  {
+    "path": "greeklib/addbreath.c",
+    "lines": 49,
+    "sha256": "ad6fb7ca68c9ac6eee85787a22deb78b5639335cbba22938dddd2a237370cab5"
+  },
+  {
+    "path": "greeklib/aspirate.c",
+    "lines": 28,
+    "sha256": "870fbb83636d4948680bfe2d41b6540eee18370cd288eea73f31b57b70418abb"
+  },
+  {
+    "path": "greeklib/beta_tolower.c",
+    "lines": 27,
+    "sha256": "9db0f26e71e04cb34dc1bedaceb42b00b676cce06917589bf1ff6bc144574fb2"
+  },
+  {
+    "path": "greeklib/binlook.c",
+    "lines": 57,
+    "sha256": "da6da020dc0cc061f39853b22de6fed6614f93e44d13f14a558ad1d4ccadc95a"
+  },
+  {
+    "path": "greeklib/checkaccent.c",
+    "lines": 26,
+    "sha256": "61beacd6e67dd9c65172103e71c691ae1ba174bb08531e31d4190198b44a3780"
+  },
+  {
+    "path": "greeklib/cinsert.c",
+    "lines": 17,
+    "sha256": "3610844f0a43737f7d08393b89127bdefa4590fb7248591eb0dcd7359e2582e6"
+  },
+  {
+    "path": "greeklib/do_dissim.c",
+    "lines": 81,
+    "sha256": "a28c779c5cf1a22d2903b122adc07447b99057ae8e0b5d3b91ce0598d59f97d9"
+  },
+  {
+    "path": "greeklib/endsinstr.c",
+    "lines": 48,
+    "sha256": "6f511ee7db11cfaa46c0dec4122510d69219f4fdcda4b59e1a04c46f51add925"
+  },
+  {
+    "path": "greeklib/getaccent.c",
+    "lines": 20,
+    "sha256": "985e8b6cfdfda175fc24a15bbd36696dc5fc6ff905d2eb36127c1fc27b150373"
+  },
+  {
+    "path": "greeklib/getaccp.c",
+    "lines": 21,
+    "sha256": "2a83afe2f6e797fe9946405aab4c442e9637db3a7c8f3fc88ff89859b073ea5d"
+  },
+  {
+    "path": "greeklib/getbreath.c",
+    "lines": 19,
+    "sha256": "638158fec6bb87d2dd4b171810d743593f76eac7e76554166bebf668baa17139"
+  },
+  {
+    "path": "greeklib/getquantity.c",
+    "lines": 34,
+    "sha256": "9d417fe2c16224ae01b7669e7aa8e3ca8e21db100b6cda302947d986adf96c85"
+  },
+  {
+    "path": "greeklib/getsyll.c",
+    "lines": 67,
+    "sha256": "073b77dfb422483db14b4d7845d57b8b1f5a60b150ce250d0fa7cc1dca8bcf23"
+  },
+  {
+    "path": "greeklib/gkstrlen.c",
+    "lines": 25,
+    "sha256": "f7af44bed3e7a3fe682d75deff64746d7355ab40f3c13ecdd93f57f2950b473a"
+  },
+  {
+    "path": "greeklib/hasaccent.c",
+    "lines": 17,
+    "sha256": "1f6fd23e2a159c84e8019258ff51181522ff88ec4912cb7d96c1e6012da8f7a4"
+  },
+  {
+    "path": "greeklib/hasdiaer.c",
+    "lines": 20,
+    "sha256": "901eea226acd5299a10f16278a53a173b6ef891d522b02f49b8e16f2187c5438"
+  },
+  {
+    "path": "greeklib/hasquant.c",
+    "lines": 20,
+    "sha256": "6cf7e7b400e69acf9ced0724fd33d6f72869c4ee6547eef3974de4cdecc5c44f"
+  },
+  {
+    "path": "greeklib/isblank.c",
+    "lines": 10,
+    "sha256": "35565e33c6ec6d6bdd8061f86f71ebbbfabd453a6c9dcab1ed72a5abb0985d1f"
+  },
+  {
+    "path": "greeklib/isdiphth.c",
+    "lines": 46,
+    "sha256": "3f0ee22a903f61a7ddf290999533bd7dc09ca8e4857ac6195a1bb00d5c4a0b0e"
+  },
+  {
+    "path": "greeklib/issubstring.c",
+    "lines": 38,
+    "sha256": "9b6e397469e863ce092866b38e935cffc2539499653c1722287075da30b9e186"
+  },
+  {
+    "path": "greeklib/keyio.c",
+    "lines": 28,
+    "sha256": "16e338ec59a04165ea9fba20d0a948f4d263418f32be509c14066a16aebb970b"
+  },
+  {
+    "path": "greeklib/longbyposition.c",
+    "lines": 28,
+    "sha256": "7b2de6f09e1216831d45618de2cbd962560735d50acbb29d5c0687c4d984938f"
+  },
+  {
+    "path": "greeklib/naccents.c",
+    "lines": 21,
+    "sha256": "3aa1c1b25a604bf891f82bb64e618bb7d360f6a7d0c9ab9f68c18333ca17af72"
+  },
+  {
+    "path": "greeklib/normucase.c",
+    "lines": 39,
+    "sha256": "f3bfb758e6ca62dadc07534487aa3500c220bfa45568117b12f58e5f4d8a9060"
+  },
+  {
+    "path": "greeklib/nsylls.c",
+    "lines": 22,
+    "sha256": "199389db65952756bc0a2846c07b03649945d44d0b692d46adbf7e05e312b670"
+  },
+  {
+    "path": "greeklib/quantprim.c",
+    "lines": 60,
+    "sha256": "6f533a48585e422d8fd2abe06adda1577f7bf2a6d0ad91687404737752f21795"
+  },
+  {
+    "path": "greeklib/shortanalog.c",
+    "lines": 25,
+    "sha256": "d1a2f5acb4d32266de194418ae6a211f34b04f24cd33b853cf6438859443de30"
+  },
+  {
+    "path": "greeklib/sprntGkflags.c",
+    "lines": 143,
+    "sha256": "d25e1f5cb9b080e413df59c5d85964c53964374463b052692a620051cd0f268c"
+  },
+  {
+    "path": "greeklib/standalpha.c",
+    "lines": 21,
+    "sha256": "db75b7ec40c6eff82736a7781ddb83096702ce29836d2ca2ad714bfeb8800c91"
+  },
+  {
+    "path": "greeklib/standword.c",
+    "lines": 120,
+    "sha256": "70e3e7a5f00fe8f0b031f790f7a153c934aeea3364e114d00e7b7153a3c8fbea"
+  },
+  {
+    "path": "greeklib/stripacc.c",
+    "lines": 34,
+    "sha256": "b68a5c68ca6a4dd7ac90bf42b1a11d4a798ddf441a2d9d71bbd64b4e42e769c4"
+  },
+  {
+    "path": "greeklib/stripacute.c",
+    "lines": 18,
+    "sha256": "5b8bb7b4e681f0874bc12c2f75667cba9c6c91b72f6a6848a2a357f50dd8eade"
+  },
+  {
+    "path": "greeklib/stripbreath.c",
+    "lines": 16,
+    "sha256": "e7bebda480cc6cb82120135c980c1c5ebf22756c6cdea7bb4516476c736ed9e4"
+  },
+  {
+    "path": "greeklib/stripchar.c",
+    "lines": 19,
+    "sha256": "730fab95525560f0d07c58be771a9f0cce41734c18f4b24a05de19954a75837e"
+  },
+  {
+    "path": "greeklib/stripdiaer.c",
+    "lines": 18,
+    "sha256": "2179f191f008749566a8778cb6952f8e1c088c92f863d0f6c115f7c27e9b8e99"
+  },
+  {
+    "path": "greeklib/stripmeta.c",
+    "lines": 15,
+    "sha256": "96b81dad6a4586e76ae3ff061f5bf502a67616173b0425bfdf5946e036cfe191"
+  },
+  {
+    "path": "greeklib/stripquant.c",
+    "lines": 34,
+    "sha256": "7407602bcd3fd347305aa766363219641bf1043c52298aef6e94850463b9d3c0"
+  },
+  {
+    "path": "greeklib/stripstemsep.c",
+    "lines": 15,
+    "sha256": "11c7f33a14aef0ef7f0fe72b1139c6ed5e0ee060e44eaf68728bf7bc0d4f6d35"
+  },
+  {
+    "path": "greeklib/stripzeroend.c",
+    "lines": 13,
+    "sha256": "2930dde9d44e5cf80f38300500f10350fcac3f3b8d1e744082c76f0d661aa7e4"
+  },
+  {
+    "path": "greeklib/strsqz.c",
+    "lines": 18,
+    "sha256": "05869d6c59af44845209350860d4602f6bf404917a64ea65685b5bf1296e23c8"
+  },
+  {
+    "path": "greeklib/subchar.c",
+    "lines": 17,
+    "sha256": "b67ba3dbdd45f8f340821e80c1d707596ade64420081fbc085bac3d50cadeece"
+  },
+  {
+    "path": "greeklib/vaxwords.c",
+    "lines": 266,
+    "sha256": "98cee80e903c4fe8bf116f07c0ded995784746f3cc29dba5f70279ee8cfde837"
+  },
+  {
+    "path": "greeklib/xstrings.c",
+    "lines": 78,
+    "sha256": "3faad991de8d2d8489cb1528bb931a5ca9c69fee59a65a55edc9fd4df7567d57"
+  },
+  {
+    "path": "greeklib/zap2ndbreath.c",
+    "lines": 76,
+    "sha256": "78433a892d7d65f9620d75d0f9b8287e4ee3980bd1ea8353ddb20d29f2df98cd"
+  },
+  {
+    "path": "morphlib/adddomain.c",
+    "lines": 20,
+    "sha256": "45d7a9dda1be8d06dd2af91a9116d05370a939e0686e7c08ddca0bf3f2448a8c"
+  },
+  {
+    "path": "morphlib/addninfix.c",
+    "lines": 32,
+    "sha256": "f312c4f367b968069c247d62d75d449b55fd92b468fb46745128c4e9823552a4"
+  },
+  {
+    "path": "morphlib/antepenform.c",
+    "lines": 12,
+    "sha256": "f1126366437957c5c16843a1d669ff8de572538f32c0f68d461018fc4035b7dd"
+  },
+  {
+    "path": "morphlib/augment.c",
+    "lines": 700,
+    "sha256": "b01aea8d5410cfed0e6372426402709af6c44a0841ed3d08b1029bacbab35b71"
+  },
+  {
+    "path": "morphlib/beta2rtf.c",
+    "lines": 188,
+    "sha256": "f368f632cabd553cce9f0427f9a1b2546a58773624376477d2c7f667881707df"
+  },
+  {
+    "path": "morphlib/beta2smarta.c",
+    "lines": 570,
+    "sha256": "5d1408997f311c49cc746feedbd6b83d583d068f153a0c0139050115cf1ecaea"
+  },
+  {
+    "path": "morphlib/cmpend.c",
+    "lines": 34,
+    "sha256": "7b1fa156610065f0cb4388b2a65f467cdedc70f3ad96efdea6cfa0ba3352f12a"
+  },
+  {
+    "path": "morphlib/conjstem.c",
+    "lines": 242,
+    "sha256": "5965fdadeb17d617be44fd014dd4498844eacaf91424d9181c346a0e86b4f854"
+  },
+  {
+    "path": "morphlib/endio.c",
+    "lines": 184,
+    "sha256": "8dd29e52bced90c5d839504214c6a08f330d5c4733a74a0b34691c3437615ed0"
+  },
+  {
+    "path": "morphlib/errormess.c",
+    "lines": 31,
+    "sha256": "3657ddfc2db662b8795e5b9568cb46f81971fb456ead5898b8de3872b055ba2b"
+  },
+  {
+    "path": "morphlib/fixacc.c",
+    "lines": 395,
+    "sha256": "6e7b67350dbd38e7319c61998240ae9d995b94b99d7a45a97d84039ff8d3d5b2"
+  },
+  {
+    "path": "morphlib/gkstring.c",
+    "lines": 812,
+    "sha256": "34aa460bf2aa35400b152f4bf98dc7b2cc97a64840def808f8a171a2eda01fe4"
+  },
+  {
+    "path": "morphlib/gktoasc.c",
+    "lines": 42,
+    "sha256": "9be2037f071d5ce5522ff68cb275d825f04e8cb38d7e019c2e3a81948cea84f6"
+  },
+  {
+    "path": "morphlib/indkeys.c",
+    "lines": 108,
+    "sha256": "67bdb5cab43817dcc85f3c1472777470f75feeb244a504c522d86c822e5dbd3d"
+  },
+  {
+    "path": "morphlib/is_thirdmono.c",
+    "lines": 161,
+    "sha256": "fe1fb82137cf79bbaeceb472b0afe3de52739fda8cadd2eb1d1f787137e22d2b"
+  },
+  {
+    "path": "morphlib/loadeuph.c",
+    "lines": 111,
+    "sha256": "bead08fe391be65c640432f63f329d5f2e13e39c342d4a565f5f4786ffe1ebae"
+  },
+  {
+    "path": "morphlib/markstem.c",
+    "lines": 52,
+    "sha256": "e62968eb428d813f70b4f5237b070d0dbda8bc851d19722369c5496e0ef5c144"
+  },
+  {
+    "path": "morphlib/morphflags.c",
+    "lines": 278,
+    "sha256": "02bde94ba4690acfa73345b2cedb9391e7f7329035e64411e42c770cacf75660"
+  },
+  {
+    "path": "morphlib/morphkeys.c",
+    "lines": 706,
+    "sha256": "0a986f3c18f0957be9ab8a2e833c301e34c088a610be6b2b5b6c0162e68946d8"
+  },
+  {
+    "path": "morphlib/morphpath.c",
+    "lines": 112,
+    "sha256": "bf05b5d58e064e7fc9280ae1dedc5d1a86538674e908db5afca1e83a4493c38b"
+  },
+  {
+    "path": "morphlib/morphstrcmp.c",
+    "lines": 145,
+    "sha256": "9fc240f6dd4c7bbf0b54baa21125e25143ebe4ca935fcfdfc0e48376f0b32b2b"
+  },
+  {
+    "path": "morphlib/new_val.c",
+    "lines": 105,
+    "sha256": "ae8925428153811e6fe5d5f51c96cd6a0cb354fa74b5ebc166177f907aa6dd8f"
+  },
+  {
+    "path": "morphlib/nextkey.c",
+    "lines": 22,
+    "sha256": "c9b11590bcc1453e7765877783698451b418bfd73ba6ca6e192f1f3e2ca61d42"
+  },
+  {
+    "path": "morphlib/numovable.c",
+    "lines": 42,
+    "sha256": "99033cb05e0624f8addee34176c4d924071f4bd8c9cc507abd1ecd977b8bb389"
+  },
+  {
+    "path": "morphlib/penultform.c",
+    "lines": 45,
+    "sha256": "76e65ec1e8e00b2dc97d8d6a74880c11d19eb4bf563bb066f610cb8a51699268"
+  },
+  {
+    "path": "morphlib/pres_redup.c",
+    "lines": 8,
+    "sha256": "f8137554fb628898576a07ee20adeeaee4f424b85ab1755c0d6c0ffca8e5af35"
+  },
+  {
+    "path": "morphlib/preverb.c",
+    "lines": 828,
+    "sha256": "3af2e542c853f110676592401172305a47f10543689c8e93e6d6ad19d857f40e"
+  },
+  {
+    "path": "morphlib/preverb2.c",
+    "lines": 520,
+    "sha256": "4ca59925a7ac04fdb1eb4e94c23cd60210c02f26b266d7a8a115da377e461d98"
+  },
+  {
+    "path": "morphlib/preverb3.c",
+    "lines": 115,
+    "sha256": "72ca15f2e3a97519fac1a2625e6fc736ca2e52d84b66db05b8ce4b6ece0fe989"
+  },
+  {
+    "path": "morphlib/retrentry.c",
+    "lines": 142,
+    "sha256": "a4011ed4d65edd39b2f737940b38ac85f691f21b87a727e1bc6cf51ba2e9cbc6"
+  },
+  {
+    "path": "morphlib/setlang.c",
+    "lines": 12,
+    "sha256": "4e4c890d42135cba0c042292681a97976f3d30c9f65fddd78a640c8023491ef0"
+  },
+  {
+    "path": "morphlib/smk2beta.c",
+    "lines": 296,
+    "sha256": "e268ff5e845c124f6ee7faa18fe296c32f595f729dad0b0dbd6099049056188d"
+  },
+  {
+    "path": "morphlib/sprntGkflags.c",
+    "lines": 242,
+    "sha256": "4c13cd3097b85cb97c330f9ba63665a642cc7ac77f3dd5b4b16c311ff1b8c347"
+  },
+  {
+    "path": "morphlib/standphon.c",
+    "lines": 71,
+    "sha256": "6767f43f2111f04c233ee01817a371ef5a89f282175560b8734087355633106e"
+  },
+  {
+    "path": "morphlib/trimwhite.c",
+    "lines": 14,
+    "sha256": "3a7af8b63a470e7cf84c03e0fc0e5e44cbe5e844b89e84069772d9b6ab5df18d"
+  },
+  {
+    "path": "morphlib/ultform.c",
+    "lines": 13,
+    "sha256": "04bc19b933a96d344e3b0e8ceaa16e72de47a9b83be9b26142722fcd2ca5db27"
+  },
+  {
+    "path": "morphlib/ulttakescirc.c",
+    "lines": 29,
+    "sha256": "535529c571993cbbfa43a0b8312d459515956fd3978a1de2e31df7ed17d4448a"
+  }
+]

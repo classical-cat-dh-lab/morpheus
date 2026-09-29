@@ -1,0 +1,44 @@
+[
+  {
+    "unit": "anal/checkword",
+    "function": "checkword",
+    "parameter": "Gkword",
+    "tag": "checkword:Gkword"
+  },
+  {
+    "unit": "anal/checknom",
+    "function": "checknom",
+    "parameter": "Gkword",
+    "tag": "checknom:Gkword"
+  },
+  {
+    "unit": "anal/checkverb",
+    "function": "checkverb",
+    "parameter": "Gkword",
+    "tag": "checkverb:Gkword"
+  },
+  {
+    "unit": "anal/checkgenwds",
+    "function": "CheckGenWords",
+    "parameter": "Gkword",
+    "tag": "CheckGenWords:Gkword"
+  },
+  {
+    "unit": "anal/checkgenwds",
+    "function": "AddAnalysis",
+    "parameter": "Gkword",
+    "tag": "AddAnalysis:Gkword"
+  },
+  {
+    "unit": "anal/checkgenwds",
+    "function": "AddAnalysis",
+    "parameter": "gkform",
+    "tag": "AddAnalysis:gkform"
+  },
+  {
+    "unit": "anal/prntanal",
+    "function": "PrntAnalyses",
+    "parameter": "Gkword",
+    "tag": "PrntAnalyses:Gkword"
+  }
+]

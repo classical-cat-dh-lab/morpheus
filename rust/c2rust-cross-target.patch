@@ -1,0 +1,25 @@
+diff --git a/c2rust-ast-exporter/src/AstExporter.cpp b/c2rust-ast-exporter/src/AstExporter.cpp
+index a81634c..38c0868 100644
+--- a/c2rust-ast-exporter/src/AstExporter.cpp
++++ b/c2rust-ast-exporter/src/AstExporter.cpp
+@@ -539,6 +539,7 @@ private:
+ #endif // CLANG_VERSION_MAJOR >= 17
+ 
+ #if CLANG_VERSION_MAJOR >= 20
++            case BuiltinType::WasmExternRef:
+             case BuiltinType::MFloat8:
+             case BuiltinType::SveMFloat8:
+             case BuiltinType::SveMFloat8x2:
+diff --git a/c2rust-transpile/src/lib.rs b/c2rust-transpile/src/lib.rs
+index c801150..19ba9b6 100644
+--- a/c2rust-transpile/src/lib.rs
++++ b/c2rust-transpile/src/lib.rs
+@@ -469,7 +469,7 @@ pub fn transpile(tcfg: TranspilerConfig, cc_db: &Path, extra_clang_args: &[&str]
+ /// the system headers we need by running `xcrun --show-sdk-path`.
+ fn get_extra_args_macos() -> Vec<String> {
+     let mut args = vec![];
+-    if cfg!(target_os = "macos") {
++    if cfg!(target_os = "macos") && std::env::var_os("C2RUST_CROSS_TARGET").is_none() {
+         let usr_incl = Path::new("/usr/include");
+         if !usr_incl.exists() {
+             let output = Command::new("xcrun")

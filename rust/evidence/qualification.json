@@ -1,0 +1,156 @@
+{
+  "status": "blocked",
+  "engineReplacementAccepted": false,
+  "sourceUnits": 119,
+  "sourceFunctions": 470,
+  "sourceRevision": "b1b33c56ef2338fe0dcd1893628ed638f00c0986",
+  "implementation": "perseus-b1b33c5-rust-candidate.1",
+  "data": "9309f9ae824ff8e2f0db3636e4896a959381c4b5540d314281d688e4451b226f",
+  "artifacts": [
+    {
+      "path": "artifact/cli.mjs",
+      "bytes": 1327,
+      "sha256": "d4a3cd5c1b6677c08ba3f35e1f6c32cae9bcee34b3ae4bd8134b4b21a673bf32"
+    },
+    {
+      "path": "artifact/identity.mjs",
+      "bytes": 854,
+      "sha256": "9c31c86ece5fb84712893790b330c926b12ee4154a0a9cb93258372cb42f2e2b"
+    },
+    {
+      "path": "artifact/morpheus.data",
+      "bytes": 11066684,
+      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030"
+    },
+    {
+      "path": "artifact/morpheus.mjs",
+      "bytes": 146147,
+      "sha256": "398890140cda0275a7df985e024a621182caefed30da930f832597bb1b61ecbb"
+    },
+    {
+      "path": "artifact/morpheus.wasm",
+      "bytes": 228281,
+      "sha256": "b1159b39b8c6bd01b53e911a4fb83b9616ad2dc47b841d83bc734d98656fbe7f"
+    },
+    {
+      "path": "artifact/runtime.mjs",
+      "bytes": 3702,
+      "sha256": "ce87bd12458be4d8f4c0badabb066fcda1ada3853c195217625cfcee8578bec5"
+    },
+    {
+      "path": "native/cruncher",
+      "bytes": 623520,
+      "sha256": "4fea2792fe3f0fe388ef2e2d801dbf940798a870b89ace2ac70a30364e5eaaba"
+    }
+  ],
+  "externalIO": {
+    "languages": [
+      "grc",
+      "lat"
+    ],
+    "formsPerLanguage": 20000,
+    "batchModeGroupsPerImplementation": 3200,
+    "implementations": [
+      "Rust/Wasm",
+      "native Rust on Apple Silicon"
+    ],
+    "mismatches": 0
+  },
+  "sourceAndOrder": {
+    "fixtures": 584,
+    "traceEvents": 79100,
+    "failures": 0
+  },
+  "optionsAndBoundaries": {
+    "fixtures": 1508,
+    "traceEvents": 110517,
+    "failures": 0
+  },
+  "corpusInternalTrace": {
+    "groups": 3200,
+    "cEvents": 1223188,
+    "failedGroups": 12,
+    "distinctFailedBatches": 6
+  },
+  "independentReadOnlyProbe": {
+    "input": "dictatoriis\nobiectivis\n",
+    "argv": [
+      "-T",
+      "-L"
+    ],
+    "operation": "cruncher-file",
+    "ioEqual": true,
+    "traceEqual": false,
+    "instrumentationChangesOutput": false
+  },
+  "browserEngines": [
+    {
+      "name": "chromium",
+      "version": "151.0.7922.34",
+      "checks": 19,
+      "offlineColdRestart": true
+    },
+    {
+      "name": "webkit",
+      "version": "26.5",
+      "checks": 11,
+      "offlineColdRestart": true
+    },
+    {
+      "name": "firefox",
+      "version": "153.0",
+      "checks": 11,
+      "offlineColdRestart": true
+    }
+  ],
+  "requiredDecision": "Full compiled-memory compatibility versus an explicitly adapted portable reference/profile; neither boundary change has been accepted.",
+  "receipts": {
+    "browser.json": "b147b4a685233500a7604d2e957b3447092f63fa714b83b9831293b119a717ec",
+    "build.json": "912ee44a7b2d69900055dd095933a630cc2f05098673754def549ac56708318d",
+    "internal-40000.json": "d0e694290d4ff4d0698fe0b1be58c53d11499ad7f47f510c00bf5ce4eecabe70",
+    "io-40000.json": "7e335d5b458d8802fc7462d4bbbaa3cda5310aaab94447fb9706f0484bc0b1ae",
+    "known-c.trace": "bdd70316c687564ac8691b5acd76fd948b79d42962ebc2203e2d1cef38e8367f",
+    "known-divergence.json": "33c64728f3b2f8215a40cdb7af780f7e3844d6f854fdefd9882a059c066640bc",
+    "known-rust.trace": "4c236707d62890a26bb8fe64f36ef0985c2abdde693a88c8d0fccd2ee479250e",
+    "native-40000.json": "96c7c13b8edd38d2dd175901a3f4b5376ea56f0a343eacedbf6596736fd68671",
+    "options-and-boundaries.json": "9531e5d122038b5b0ef262020eacb102df6d2eab370e052c5cd18bbc9a8007f2",
+    "source-and-order.json": "ca58d89fc294ee3233c77d4fe320b2bbb2d9be232436204046329e073d012ce9"
+  },
+  "instrumentedBuildArtifacts": [
+    {
+      "path": "artifact/cli.mjs",
+      "bytes": 1327,
+      "sha256": "d4a3cd5c1b6677c08ba3f35e1f6c32cae9bcee34b3ae4bd8134b4b21a673bf32"
+    },
+    {
+      "path": "artifact/identity.mjs",
+      "bytes": 854,
+      "sha256": "ab80ff70a7fa89162c4465972c469091f9cf124e59a409cdb68b4d865a73a594"
+    },
+    {
+      "path": "artifact/morpheus.data",
+      "bytes": 11066684,
+      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030"
+    },
+    {
+      "path": "artifact/morpheus.mjs",
+      "bytes": 146147,
+      "sha256": "398890140cda0275a7df985e024a621182caefed30da930f832597bb1b61ecbb"
+    },
+    {
+      "path": "artifact/morpheus.wasm",
+      "bytes": 239112,
+      "sha256": "d7785c8a6f02db94710498a418cf97660e8dee7acce00f170c37764e00eb1473"
+    },
+    {
+      "path": "artifact/runtime.mjs",
+      "bytes": 3702,
+      "sha256": "ce87bd12458be4d8f4c0badabb066fcda1ada3853c195217625cfcee8578bec5"
+    },
+    {
+      "path": "native/cruncher",
+      "bytes": 642864,
+      "sha256": "9691f77d17a6bac39df3e9dcd832a11ed56b56cd28241ab9281eebb5d99567a0"
+    }
+  ]
+}

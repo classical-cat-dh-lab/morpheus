@@ -1,0 +1,23 @@
+[workspace]
+[package]
+name = "morpheus-preservation"
+version = "0.1.0-alpha.1"
+edition = "2021"
+license = "CC-BY-SA-3.0-US"
+publish = false
+[lib]
+name = "morpheus_preservation"
+path = "lib.rs"
+crate-type = ["staticlib", "rlib"]
+[[bin]]
+name = "cruncher"
+path = "main.rs"
+[dependencies]
+c2rust-bitfields = "=0.22.1"
+[profile.release]
+panic = "abort"
+opt-level = 2
+overflow-checks = false
+
+[features]
+trace = []

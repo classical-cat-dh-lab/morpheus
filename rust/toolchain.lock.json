@@ -1,0 +1,48 @@
+{
+  "rust": "1.98.1",
+  "emscripten": "6.0.6",
+  "c2rust": {
+    "version": "0.22.1",
+    "revision": "e9ccd715597f7d63e8635629f4450e040a230118",
+    "repository": "https://github.com/immunant/c2rust",
+    "adaptation": "c2rust-cross-target.patch"
+  },
+  "downloads": [
+    {
+      "kind": "rust",
+      "directory": "extract-rustc-1.98.1-aarch64-apple-darwin",
+      "sha256": "738e3f60114b20550fcf4f8a57c9cea0544239f214709f45594ff3fde327f577",
+      "url": "https://static.rust-lang.org/dist/2026-09-03/rustc-1.98.1-aarch64-apple-darwin.tar.xz"
+    },
+    {
+      "kind": "rust",
+      "directory": "extract-cargo-1.98.1-aarch64-apple-darwin",
+      "sha256": "de51d4fade4f31ad8ec405261cc96bedc000d905f98980027610d6e288dbe21b",
+      "url": "https://static.rust-lang.org/dist/2026-09-03/cargo-1.98.1-aarch64-apple-darwin.tar.xz"
+    },
+    {
+      "kind": "rust",
+      "directory": "extract-rust-std-1.98.1-aarch64-apple-darwin",
+      "sha256": "2de831ef563ce772519a4d18ba2659f0f7428d497ef66dad24b5a35e8f8cd177",
+      "url": "https://static.rust-lang.org/dist/2026-09-03/rust-std-1.98.1-aarch64-apple-darwin.tar.xz"
+    },
+    {
+      "kind": "rust",
+      "directory": "extract-rust-std-1.98.1-wasm32-unknown-emscripten",
+      "sha256": "be2f3fbcd7cab27a74251d4324f8a0f0660f3ea33cb58876f04f82eff9eb0f86",
+      "url": "https://static.rust-lang.org/dist/2026-09-03/rust-std-1.98.1-wasm32-unknown-emscripten.tar.xz"
+    },
+    {
+      "kind": "cmake",
+      "directory": "extract-cmake-3.31.8-macos-universal",
+      "sha256": "d1449f969c54d5c00886d5b643340d493dfb3c81cb39ee29b35453395c11ebf7",
+      "url": "https://github.com/Kitware/CMake/releases/download/v3.31.8/cmake-3.31.8-macos-universal.tar.gz"
+    },
+    {
+      "kind": "llvm",
+      "directory": "extract-llvm-20.1.8-bottle",
+      "sha256": "f58e2963c383af35064c7aa47790799a0ca0974a471727c7b5f0b278fd4e1247",
+      "url": "https://ghcr.io/v2/homebrew/core/llvm/20/blobs/sha256:f58e2963c383af35064c7aa47790799a0ca0974a471727c7b5f0b278fd4e1247"
+    }
+  ]
+}

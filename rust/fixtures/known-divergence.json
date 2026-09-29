@@ -1,0 +1,14 @@
+{
+  "description": "Known internal fidelity failure; do not convert it into expected success.",
+  "fixtures": [
+    {
+      "id": "retired-stack:dictatoriis-obiectivis",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "operation": "cruncher-file",
+      "stdin": "ZGljdGF0b3JpaXMKb2JpZWN0aXZpcwo="
+    }
+  ]
+}

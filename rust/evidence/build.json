@@ -1,0 +1,551 @@
+{
+  "schema": 1,
+  "qualification": "candidate; run differential gates before use",
+  "source": {
+    "repository": "PerseusDL/morpheus",
+    "revision": "b1b33c56ef2338fe0dcd1893628ed638f00c0986",
+    "archiveSha256": "5de32ffaf97ee0c9ccf5a3a1ebaab140b227236b1a95094c26392d388d3c0836"
+  },
+  "data": "9309f9ae824ff8e2f0db3636e4896a959381c4b5540d314281d688e4451b226f",
+  "features": [],
+  "rustc": "rustc 1.98.1 (48a229cea 2026-09-01)",
+  "emscripten": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.6 (ce75e06884093bcefb86a6b8fd56a5d62a4cc245)\nCopyright (C) 2026 the Emscripten authors (see AUTHORS.txt)\nThis is free and open source software under the MIT license.\nThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "cargoLockSha256": "1f166783710ccdf3c6b8c573137feb65a9b6e88ff4d427c27a9b2dc26d0d2ace",
+  "sourceFiles": [
+    {
+      "path": "build.rs",
+      "sha256": "914abdcf24cc03e1da3cb7a8ab5e467f0a0a5a8ca7b214bfcffd63f9f47bb9b4"
+    },
+    {
+      "path": "legacy_stack.rs",
+      "sha256": "46ba50694b52eb9b5a3ba137b9830f7a173b27a6d5d81c9693c04ede1a39df82"
+    },
+    {
+      "path": "lib.rs",
+      "sha256": "94e565e5eac68150947f058b2357afded40796cbff23c8a90478dc65d33124b0"
+    },
+    {
+      "path": "main.rs",
+      "sha256": "23f5b01e1f7fc181fb921f002aac5d00c3b5ad1f8fcf0c40e86b2bac5130fb2c"
+    },
+    {
+      "path": "src/anal/checkcrasis.rs",
+      "sha256": "5fbf2afc33297ba4ad04a153d685735f705f88e04b504a9704303a4e1aaea7d9"
+    },
+    {
+      "path": "src/anal/checkdict.rs",
+      "sha256": "49a5ba4c414e911be32415d26199b92e021dac698d8701020548ae271e2cda96"
+    },
+    {
+      "path": "src/anal/checkgenwds.rs",
+      "sha256": "7d62bc89f974c33032ee2dc35f35e274a357dbb317ae53597fd0076246484cf7"
+    },
+    {
+      "path": "src/anal/checkhalf1.rs",
+      "sha256": "6bc2ed8189f781e8cc687dea908c7b4522a0145fcffbfdaff490f7b1459cd95e"
+    },
+    {
+      "path": "src/anal/checkindecl.rs",
+      "sha256": "ce9ee5dae919e5f20987684ae89c5ddf191cba6976404b40d6ebc03cf9146955"
+    },
+    {
+      "path": "src/anal/checkirreg.rs",
+      "sha256": "08b6ff8c8c165193557d7b87c5e2fcd43ac6920aea5b3b84eff30dfbbd2180aa"
+    },
+    {
+      "path": "src/anal/checknom.rs",
+      "sha256": "83cb2971d9cab341b8b5dd5db283ac95b7a07b19b1fe2fb9fde7e890b163519a"
+    },
+    {
+      "path": "src/anal/checkpreverb.rs",
+      "sha256": "a92be7fb7323783781c325216aee91742a2e0203f7e9f4dc3e66ff327b1a450c"
+    },
+    {
+      "path": "src/anal/checkstem.rs",
+      "sha256": "4e619626aafef944f352af5bd8f85699911c706b87c8ca5f1b53c1a13b6f11af"
+    },
+    {
+      "path": "src/anal/checkstring.rs",
+      "sha256": "5601d8a9b83e7d912fd82a5f322b0652635fdca92aa12061a7c9570ee65b7be4"
+    },
+    {
+      "path": "src/anal/checkverb.rs",
+      "sha256": "779e773f1638a6b96326365d0f0ae06aab1a93202ab21205d274e504d709830d"
+    },
+    {
+      "path": "src/anal/checkword.rs",
+      "sha256": "82b490c01b07090bf847ca7c2c1fd6e5eb42971e7607877d72b51aee3e56dbab"
+    },
+    {
+      "path": "src/anal/dictstems.rs",
+      "sha256": "9c7ace20cb9a98412137d3ac1ca49445be6603604d17b67d0d4d67d37d55b3db"
+    },
+    {
+      "path": "src/anal/prntanal.rs",
+      "sha256": "8c5b030f85a624fc6f2febc0b4d7ac5ff83adee0877e1a78e34c68de7769a0be"
+    },
+    {
+      "path": "src/anal/prvb.rs",
+      "sha256": "de03889a4b8094ef99c1ec9ee64f3d6de2f0a4de12eaced705e4ef9d0b746239"
+    },
+    {
+      "path": "src/anal/stdiomorph.rs",
+      "sha256": "32a26b9207576ac0c0445e66097bbe51812f16955451a2729c65276b4a169cdf"
+    },
+    {
+      "path": "src/gener/genwd.rs",
+      "sha256": "007eb0ebfbdfe5e64cca924aafa4f0e536baed6890522b6c000eb2b6e3310b60"
+    },
+    {
+      "path": "src/gkdict/compnoun.rs",
+      "sha256": "010d55a33527798587b9b93702278f501c1d2677ffd5b8c7bfa463501208af86"
+    },
+    {
+      "path": "src/gkdict/derivio.rs",
+      "sha256": "244d8a4ba7ce750c5cff5ca5ea0b7027c1e87db8bf32632e315ecc79701bb979"
+    },
+    {
+      "path": "src/gkdict/dictio.rs",
+      "sha256": "361b71dd07866be1e916a3b85ae2ade0eddf3524abeecee3bdb978fd0088b4e6"
+    },
+    {
+      "path": "src/gkends/acccompos.rs",
+      "sha256": "e2cd4f9f1e1f725f94fab1228909c034b2c593bb2831f27838eeb39da203a3f5"
+    },
+    {
+      "path": "src/gkends/checkforbreath.rs",
+      "sha256": "ade4dd8c5a0081ece97c077aad91532ff7b7328a2f72577b9611c136fe5ccf96"
+    },
+    {
+      "path": "src/gkends/contract.rs",
+      "sha256": "294438b28f30abf84214305257e8f75badcd59b53823822e241cda1d1f3759a6"
+    },
+    {
+      "path": "src/gkends/countendtables.rs",
+      "sha256": "5c2968ff6208d534c1cd0df4f135b50ed7e5aa3bc96cb8fc88a7a00f4a302937"
+    },
+    {
+      "path": "src/gkends/endindex.rs",
+      "sha256": "a257624f7c857aed3d870b6a63e7e4ed187c2a4e3ee27653bc57b4e5cd2383f0"
+    },
+    {
+      "path": "src/gkends/euphend.rs",
+      "sha256": "ca5af6962bcc5e4205bd1bfb837143f70cc9418571366f05c67f5c387ca78cac"
+    },
+    {
+      "path": "src/gkends/expendtable.rs",
+      "sha256": "6783a8ea1f5936fa6ca011f58026a04eced29de5df080e18c9bd5c70371d85dc"
+    },
+    {
+      "path": "src/gkends/fixeta.rs",
+      "sha256": "35748273eef67543aa09333748ca5230127475b508fc6def50563e9430de5fb8"
+    },
+    {
+      "path": "src/gkends/getcurrend.rs",
+      "sha256": "a7a95be02f6d348afd0b1bd41298746ba5cf0198516ae0d3a75eb377bedfec06"
+    },
+    {
+      "path": "src/gkends/indexendtables.rs",
+      "sha256": "7957c2cf3a2be45816f9fef00b1066909c45dba8adf5f531536d131aea361843"
+    },
+    {
+      "path": "src/gkends/lcontr.rs",
+      "sha256": "16e6c3b963b4cd2b50f3e2c9a45f78ffa4d8eb488f67c263fc9008773d2df0c4"
+    },
+    {
+      "path": "src/gkends/merge.rs",
+      "sha256": "22e275bf0dc1e6d34df581f77c97cf34de25f5331a837952d52818b1be68a8c9"
+    },
+    {
+      "path": "src/gkends/mkend.rs",
+      "sha256": "4f590b5cbe40dc1d390d8e075f25d7e94e25032db7b849c7a6a5579be37a022b"
+    },
+    {
+      "path": "src/gkends/nextsufftab.rs",
+      "sha256": "8a2e038c63e06d3b4f85df3aefa937aa61ad8ed16005eb2e7e5456a2ae732528"
+    },
+    {
+      "path": "src/gkends/retrends.rs",
+      "sha256": "6bf2fba3ca6459d31e56b8bd643b89f876ab3b7e90bfa2d5d1d7aff47b03023e"
+    },
+    {
+      "path": "src/gkends/stor.rs",
+      "sha256": "209b63ea0e3b52dbfa1dd3c632351b913cd5d05fce7789671835f56be9618c58"
+    },
+    {
+      "path": "src/greeklib/Fclose.rs",
+      "sha256": "d48f7f910dd579aeeb7fe56790003cd712e0aeda522fe0769517e77fb3efd8ea"
+    },
+    {
+      "path": "src/greeklib/addaccent.rs",
+      "sha256": "f46f3fff5e49ad07490b32d1b75e1a1b070a4d4d1257eeca40b6a24a76ccea1d"
+    },
+    {
+      "path": "src/greeklib/addbreath.rs",
+      "sha256": "d431ede993605d7e7f4be02faef4c553034303637bbf0a963b98e6e322bc3100"
+    },
+    {
+      "path": "src/greeklib/aspirate.rs",
+      "sha256": "9be42d658afc8823fea691b1e3932d3c6e4f7d3d1c857bb20731e7d787098210"
+    },
+    {
+      "path": "src/greeklib/beta_tolower.rs",
+      "sha256": "f99b72a621d534009dcc3bbb657c323f72fe963771154c92bac5ec6c3432a3ae"
+    },
+    {
+      "path": "src/greeklib/binlook.rs",
+      "sha256": "6b30c0bf1a88dacb3f36a6dd1c328979c26eba151aabf330fceb0daaff018604"
+    },
+    {
+      "path": "src/greeklib/checkaccent.rs",
+      "sha256": "487fe4b121c601525107c28bdc93bd7c248bafd3bee4ec619c6faaba0324e428"
+    },
+    {
+      "path": "src/greeklib/cinsert.rs",
+      "sha256": "353bc25fd4c4f4eb4d147a31be7c24d85d32acb36989813d898c2c896d0b624c"
+    },
+    {
+      "path": "src/greeklib/do_dissim.rs",
+      "sha256": "6b8ac7baf5344c37dd37b86332542eef27f7328163684bde05b42c1a6fb58f67"
+    },
+    {
+      "path": "src/greeklib/endsinstr.rs",
+      "sha256": "79c9b3b8af40cdc8fe72d9093c51b2d9638714592ee86114ce1639669d445531"
+    },
+    {
+      "path": "src/greeklib/getaccent.rs",
+      "sha256": "aaf0e7a3640d96db8f3cb98c52743e6babfc181060ca71efec6996f4acb049df"
+    },
+    {
+      "path": "src/greeklib/getaccp.rs",
+      "sha256": "34a83b8cd9a5e1c1aa5ac7e536521be57af38c5ae0b0d33fb2849cb03e9ac2dc"
+    },
+    {
+      "path": "src/greeklib/getbreath.rs",
+      "sha256": "7a58eef6139df07f63fdb52d39c5aefbfa34c357da1cfe79d9fd63584bb0aa41"
+    },
+    {
+      "path": "src/greeklib/getquantity.rs",
+      "sha256": "16ad0606641c85fe9c029e131ff8a1f41fc93a536b04f12446439c8c4c82f816"
+    },
+    {
+      "path": "src/greeklib/getsyll.rs",
+      "sha256": "e2b0c7304331ee4f55906c13c1696b16bd81ac2cff4e0c0ec175c7782b92f7be"
+    },
+    {
+      "path": "src/greeklib/gkstrlen.rs",
+      "sha256": "e38077916d2017f23411f0d13c42794cadf0ed3795b0a8274f82163305cc8b24"
+    },
+    {
+      "path": "src/greeklib/hasaccent.rs",
+      "sha256": "721109bd584d76a718cf4d3773237e55331110f251cd5021641a5381fb403f0b"
+    },
+    {
+      "path": "src/greeklib/hasdiaer.rs",
+      "sha256": "09a9063d2faea97f7c52c35b72a7f1423daf93a75039637c44917cb2d3731ad7"
+    },
+    {
+      "path": "src/greeklib/hasquant.rs",
+      "sha256": "7da582bd0970555f3c1ccf32f72a4895a1e0723379e2da4fc9965604ecd40d85"
+    },
+    {
+      "path": "src/greeklib/isblank.rs",
+      "sha256": "ba15a35d56443369149b9b25ee47859d8fab5f469444acd6a8076c8d16a6a316"
+    },
+    {
+      "path": "src/greeklib/isdiphth.rs",
+      "sha256": "9b152f38da02a8742e0b5f9baa5114fbc87e7f515a167249a7d7d1cc404ba183"
+    },
+    {
+      "path": "src/greeklib/issubstring.rs",
+      "sha256": "8f3ed1c09353db290a6e3d6006e2bb569d1fa76a7877e47e8f9bd4b46eaebaf3"
+    },
+    {
+      "path": "src/greeklib/keyio.rs",
+      "sha256": "455b5634e498ded79aa07ae43cca5c600c9f08e942e71ed93d47ba617d22e35e"
+    },
+    {
+      "path": "src/greeklib/longbyposition.rs",
+      "sha256": "61f954e7e81223a67cf97792c115734f2853a802d92c21cf970a7a1218602408"
+    },
+    {
+      "path": "src/greeklib/naccents.rs",
+      "sha256": "470f449cc740bfb281646312dd321854852f34cc1ea040250090debf1e417c09"
+    },
+    {
+      "path": "src/greeklib/normucase.rs",
+      "sha256": "03241172c5f3c78745f0d2fdd18e8870bd99185abd1957c57b990bdbaada9584"
+    },
+    {
+      "path": "src/greeklib/nsylls.rs",
+      "sha256": "1017f129dd33adc18c18022274e5a774a1b4c5540c43bd42083e32ac74677ed2"
+    },
+    {
+      "path": "src/greeklib/quantprim.rs",
+      "sha256": "bfd7468dc500b2d5356ab29c0c902e8081a0c2daed5360f8e7577949ed3e5453"
+    },
+    {
+      "path": "src/greeklib/shortanalog.rs",
+      "sha256": "88d6b9633b037d75cb70bdad936239eb815de2e7ca565be0f4eb72d9412b5766"
+    },
+    {
+      "path": "src/greeklib/sprntGkflags.rs",
+      "sha256": "31d15e194dc7048586e48f629629b104b25880c0735647af5ef3e22fff44931b"
+    },
+    {
+      "path": "src/greeklib/standalpha.rs",
+      "sha256": "5f4fff569cb32a269f51e1c4322f12fc6d96468dc35661f9a9b20c08bc89ac66"
+    },
+    {
+      "path": "src/greeklib/standword.rs",
+      "sha256": "0771fe55a5b2acfa0d22189280d999ccbe54307ec268037d09fb31551de030de"
+    },
+    {
+      "path": "src/greeklib/stripacc.rs",
+      "sha256": "c851b90bed58d5e7549deab4aadc1e019e828dbe3315d136f6fbfea2880dd159"
+    },
+    {
+      "path": "src/greeklib/stripacute.rs",
+      "sha256": "e25c9c0cd64fcb8f33a729724d02466ea9bd36a293e5666f145c9d48fe8316e4"
+    },
+    {
+      "path": "src/greeklib/stripbreath.rs",
+      "sha256": "da1894e4668f1b6091edb82892a70fcf48184b6adb8e708e9e534e58ad68b235"
+    },
+    {
+      "path": "src/greeklib/stripchar.rs",
+      "sha256": "942d8034e6b6314ceb1a753651f6ae4d163ab42c02796b37008410d69db24fdf"
+    },
+    {
+      "path": "src/greeklib/stripdiaer.rs",
+      "sha256": "b914ccb71e1d3277f3e4b71d5ca97c3db1d342e1a553fa55e1ec322638c80be6"
+    },
+    {
+      "path": "src/greeklib/stripmeta.rs",
+      "sha256": "9e26a6bd619524158e0be6bdbd2006a3266f161f6d8b5caecca525bbf82ed6f1"
+    },
+    {
+      "path": "src/greeklib/stripquant.rs",
+      "sha256": "00a93afec3cc440a3a1b27e0485881b69874fccbec733c481ba41639d744091b"
+    },
+    {
+      "path": "src/greeklib/stripstemsep.rs",
+      "sha256": "20d487348158da8a1d987f25dae5e5ccec600e0b04c8d8a809f10a6d5ffdf23b"
+    },
+    {
+      "path": "src/greeklib/stripzeroend.rs",
+      "sha256": "21356382420a08f9b92c4b9c1bf5cda8c6e6fd869c3b9b0e4d3cb2ff54d4ee42"
+    },
+    {
+      "path": "src/greeklib/strsqz.rs",
+      "sha256": "8dd431013f7a70a778b964cc5b777e0dbc10552f01d11434fff701734fc84e58"
+    },
+    {
+      "path": "src/greeklib/subchar.rs",
+      "sha256": "f6482dbe53dc2a4a313f1a3ab31d3562ddc11edfc40197f94e30cf8ce117d975"
+    },
+    {
+      "path": "src/greeklib/vaxwords.rs",
+      "sha256": "be3701ec6ae2c6288f975e53edb9438a2fd9f6990b0acc085950bae49c0e5692"
+    },
+    {
+      "path": "src/greeklib/xstrings.rs",
+      "sha256": "4035d013dc54a4a02a289263e6800d0024cfa8d96b281edc0303ffe9a610227b"
+    },
+    {
+      "path": "src/greeklib/zap2ndbreath.rs",
+      "sha256": "907de932424a411a9f82ed2f4ada9e9a743431c3524fe1d4c50b7c10f9e3ae45"
+    },
+    {
+      "path": "src/morphlib/adddomain.rs",
+      "sha256": "83c33e29f64ad4fe845a22133abdf104571cce0754e3bd075c8903ad3a65bb67"
+    },
+    {
+      "path": "src/morphlib/addninfix.rs",
+      "sha256": "d8ccbbdc9b69c6285455f635db444ba84d4808e4160c36ee2a2b89240707c42f"
+    },
+    {
+      "path": "src/morphlib/antepenform.rs",
+      "sha256": "bf5644567d26cc79394c2fc428012a5bea53dda6a677e7f9831cdb58e0d0a01a"
+    },
+    {
+      "path": "src/morphlib/augment.rs",
+      "sha256": "8b94ff8b72b9fc9750c0d0ad54792a58470911f84828b80285b028b0f32098a6"
+    },
+    {
+      "path": "src/morphlib/beta2rtf.rs",
+      "sha256": "8b6f067882e286323c263b8dc65cff30e62a6ec5e97b3cc1693cf915c282dfa6"
+    },
+    {
+      "path": "src/morphlib/beta2smarta.rs",
+      "sha256": "79fc1a3aa5d752a0fac0f9582663db5d410984784688ec77563d1c640e3cde03"
+    },
+    {
+      "path": "src/morphlib/cmpend.rs",
+      "sha256": "ecb3be00db4ed360b2426362c4c5fe7a1da4e9545f0a9c882e939bd78b87bd0c"
+    },
+    {
+      "path": "src/morphlib/conjstem.rs",
+      "sha256": "8161dab7c5999d4be0b97f271f33801fa7719e1d5a2004314b5d49e7c185afec"
+    },
+    {
+      "path": "src/morphlib/endio.rs",
+      "sha256": "74d27aeab40cb80b58397b780413f972ea97ebd779fe3005cd812f7f1950694b"
+    },
+    {
+      "path": "src/morphlib/errormess.rs",
+      "sha256": "11138d83ad22c21fe0240894f2e382fdc24e67f889cdb762f455f50706053e74"
+    },
+    {
+      "path": "src/morphlib/fixacc.rs",
+      "sha256": "6ae02c2531a4b0e641d13b5494119d456e7a9052fe2b198b5c0a48c7c92d8fdb"
+    },
+    {
+      "path": "src/morphlib/gkstring.rs",
+      "sha256": "ebf24224e158b63a501bac2207434718eda6614deb53931031d1e4953222ac19"
+    },
+    {
+      "path": "src/morphlib/gktoasc.rs",
+      "sha256": "2094850944a400f7758582101b5aa0a09c5b317265a263c1fc3b5240cdb11c95"
+    },
+    {
+      "path": "src/morphlib/indkeys.rs",
+      "sha256": "994cca4b2c43a4ff45fef3d38bc92594af94bff42242943f5b96d6d1c4d00568"
+    },
+    {
+      "path": "src/morphlib/is_thirdmono.rs",
+      "sha256": "0d8a4cf72976418c70ac56d6ce563eea30a06a125c15cb9ed11d7e6c97c8d8fe"
+    },
+    {
+      "path": "src/morphlib/loadeuph.rs",
+      "sha256": "4d0bd7ec63e82b244c85cd262dd46522200e3acc0db4cfd7609ad097fe32c845"
+    },
+    {
+      "path": "src/morphlib/markstem.rs",
+      "sha256": "1c59a07254245da736296bcea801d9fc071577add6f4bbe1ec59ac34e084acca"
+    },
+    {
+      "path": "src/morphlib/morphflags.rs",
+      "sha256": "e6d240afbd102875704381ec018c6401a1bbc4057f47b9f58166a139de103b3f"
+    },
+    {
+      "path": "src/morphlib/morphkeys.rs",
+      "sha256": "ecf405f32553a14bc3d2294cb7cca2ce6aea33fe6758584d81dbcf86bf0e1068"
+    },
+    {
+      "path": "src/morphlib/morphpath.rs",
+      "sha256": "30b875a049b1d66cdb927493dc2786b281110109a1eb30b3a1653ca45344c043"
+    },
+    {
+      "path": "src/morphlib/morphstrcmp.rs",
+      "sha256": "f77ebe4243d15e58159ef3d3631a86670e63c9f9f493325b63af3edca8d51ccb"
+    },
+    {
+      "path": "src/morphlib/new_val.rs",
+      "sha256": "4293c12e52c12b759cfbe4b9842b13a22bd2513e3252e10c5863acab6cbcf61e"
+    },
+    {
+      "path": "src/morphlib/nextkey.rs",
+      "sha256": "2edd9116c25909c7b2f3c41f77209faa562d8d2656e8ab9e82a3fb63b5e72a20"
+    },
+    {
+      "path": "src/morphlib/numovable.rs",
+      "sha256": "1a564f34265ee1b57d6591353ad68701f6c4b9fa2f9ea2d6653cb27ee50cbbfc"
+    },
+    {
+      "path": "src/morphlib/penultform.rs",
+      "sha256": "0bc327ce1b1cc84ac1f3f5c5c5484b39c6995e687d9744ea00b9a8d6b781002c"
+    },
+    {
+      "path": "src/morphlib/pres_redup.rs",
+      "sha256": "1b158f644a5c77a021c3bc8ba1ebcd71b979f0f32287bbd5808334288f9c9047"
+    },
+    {
+      "path": "src/morphlib/preverb.rs",
+      "sha256": "831987fe9a0ea4099a7b1279150afd9fda8b9815aa7716c4bbaad01d70976c0c"
+    },
+    {
+      "path": "src/morphlib/preverb2.rs",
+      "sha256": "25d7e4143c0549baeb9a293d19adc16c5950e1929b1ef7e1a2bdfa78929b98a0"
+    },
+    {
+      "path": "src/morphlib/preverb3.rs",
+      "sha256": "dd068c10edaa226a4bb4e4fe11f0005ec5b61bd7043c7c4ac2481702a8364d19"
+    },
+    {
+      "path": "src/morphlib/retrentry.rs",
+      "sha256": "98c30cfd9eec650a00adb461932808f498a88f641c1bcd9df810239989512a45"
+    },
+    {
+      "path": "src/morphlib/setlang.rs",
+      "sha256": "cbd5c3333557088e2f88c1deaeb4f4250c4b3e191f47b9c0330cd8b2793f9769"
+    },
+    {
+      "path": "src/morphlib/smk2beta.rs",
+      "sha256": "8bf89191c2bdd40557c3fec1d851444777078bf9219484a9f507c65f58f85bad"
+    },
+    {
+      "path": "src/morphlib/sprntGkflags.rs",
+      "sha256": "3f05dcadd757166283fd5069a13cd4805673a22595c4a36dc64d52fa31410444"
+    },
+    {
+      "path": "src/morphlib/standphon.rs",
+      "sha256": "8c1b5b61adb9cc562369efbc04fa7af1543d8375a1bcde04f1b1dce942451435"
+    },
+    {
+      "path": "src/morphlib/trimwhite.rs",
+      "sha256": "3c8182a63e175b4f74c271838937381e8dbd30246faf7450d2bf5615ef21a764"
+    },
+    {
+      "path": "src/morphlib/ultform.rs",
+      "sha256": "835d9c6c115bd5c97ac3c69a2f7042e769ec3b97db89f99c1d530c696504a358"
+    },
+    {
+      "path": "src/morphlib/ulttakescirc.rs",
+      "sha256": "6ed1e1f60aac5b3774e8fc946f98fc0e4b8f6b97afe2f2ad51903d51a8c8650b"
+    },
+    {
+      "path": "trace.rs",
+      "sha256": "7a7c8a92fc8bda3a906fbe34e4e212a095d2e73b76486ad149e399c8d9c6f1a7"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "artifact/cli.mjs",
+      "bytes": 1327,
+      "sha256": "d4a3cd5c1b6677c08ba3f35e1f6c32cae9bcee34b3ae4bd8134b4b21a673bf32"
+    },
+    {
+      "path": "artifact/identity.mjs",
+      "bytes": 854,
+      "sha256": "9c31c86ece5fb84712893790b330c926b12ee4154a0a9cb93258372cb42f2e2b"
+    },
+    {
+      "path": "artifact/morpheus.data",
+      "bytes": 11066684,
+      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030"
+    },
+    {
+      "path": "artifact/morpheus.mjs",
+      "bytes": 146147,
+      "sha256": "398890140cda0275a7df985e024a621182caefed30da930f832597bb1b61ecbb"
+    },
+    {
+      "path": "artifact/morpheus.wasm",
+      "bytes": 228281,
+      "sha256": "b1159b39b8c6bd01b53e911a4fb83b9616ad2dc47b841d83bc734d98656fbe7f"
+    },
+    {
+      "path": "artifact/runtime.mjs",
+      "bytes": 3702,
+      "sha256": "ce87bd12458be4d8f4c0badabb066fcda1ada3853c195217625cfcee8578bec5"
+    },
+    {
+      "path": "native/cruncher",
+      "bytes": 623520,
+      "sha256": "4fea2792fe3f0fe388ef2e2d801dbf940798a870b89ace2ac70a30364e5eaaba"
+    }
+  ],
+  "engineLinkage": "Rust static library only; Emscripten platform runtime; no original morphology C objects",
+  "nativeRuntime": "Pinned musl qsort, compiled separately from vendor/runtime; platform libc"
+}

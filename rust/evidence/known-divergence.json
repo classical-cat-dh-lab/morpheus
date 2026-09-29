@@ -1,0 +1,19 @@
+{
+  "fixtures": [
+    {
+      "id": "retired-stack:dictatoriis-obiectivis",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": false,
+      "transparent": true
+    }
+  ],
+  "failures": [
+    "retired-stack:dictatoriis-obiectivis"
+  ],
+  "events": 53
+}
