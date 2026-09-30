@@ -7,14 +7,14 @@ C program compiled to WebAssembly; it does not require a live Perseus service.
 
 Version **0.0.2** adds passage selection and complete offline LSJ/Lewis & Short dictionaries
 to the unchanged 0.0.1 engine interface.
-It is an engineering reconstruction, not a completed source-faithful Rust port or
-a claim of exact equivalence to the presently deployed Perseus service.
+That deployed edition is an engineering reconstruction, separate from the Rust
+core below, with no claim of exact equivalence to the present Perseus service.
 
-The development branch also contains a [Rust preservation candidate](rust/README.md).
-Candidate 2 resolves the initial retry-memory difference and passes the recorded
-raw I/O, internal-state and offline-browser gates. The [causal investigation](rust/CAUSALITY.md)
-retains the original defect and its preservation evidence. It is not a 1.0 release;
-the deployed engineering edition still uses C/Wasm.
+The development branch also contains the [accepted and frozen Rust core](rust/ACCEPTANCE.md).
+It passes the recorded raw I/O, internal-state and offline-browser gates, including
+the initial retry-memory regression. The [causal investigation](rust/CAUSALITY.md)
+retains the original defect and its preservation evidence. The planned application
+0.1.0 will integrate that core; the deployed edition still uses C/Wasm.
 
 ## Use and keep
 
@@ -84,8 +84,8 @@ on GitHub and Zenodo. They exceed the static host’s individual asset limit.
   `vbs.mpi` is not fabricated or replaced with another fork's data.
 
 Generation and historical companion executables remain in the source inventory,
-but are not advertised browser operations in 0.0.2. Full preservation qualification
-and the later Rust/Wasm implementation remain separate work toward 1.0.
+but are not advertised browser operations in 0.0.2 or implied by the Rust core
+acceptance. Application integration and frontend qualification continue toward 1.0.
 
 ## License and credit
 

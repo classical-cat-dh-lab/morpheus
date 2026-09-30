@@ -1,9 +1,10 @@
-# Rust preservation candidate
+# Rust preservation core
 
-**Status: candidate 2 passes the recorded preservation gates.** The original
-retry-memory blocker is resolved; see [CAUSALITY.md](CAUSALITY.md) and
-[the current qualification receipt](evidence/qualification.json). The deployed
-C/Wasm edition remains separate; this is not a 1.0 release.
+**Status: accepted and frozen on 2026-09-30.** See [the acceptance record](ACCEPTANCE.md)
+and [baseline manifest](preservation-baseline.json). The original retry-memory
+blocker is resolved; [CAUSALITY.md](CAUSALITY.md) and
+[the qualification receipt](evidence/qualification.json) retain the evidence.
+The deployed C/Wasm edition remains separate; this is not a 1.0 release.
 The candidate is a source translation, not a wrapper around original morphology
 C objects. All 119 selected compilation units and 470 source function definitions
 have Rust counterparts. The historical utilities outside the `cruncher` process
