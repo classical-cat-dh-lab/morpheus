@@ -2,19 +2,15 @@
 
 Ancient Greek and Latin morphology running locally in a modern browser.
 An independent preservation of Gregory Crane's **Morpheus**, from the Perseus
-Digital Library at Tufts University. The engineering edition uses the original
-C program compiled to WebAssembly; it does not require a live Perseus service.
+Digital Library at Tufts University. **Version 0.1.0 is the Rust beta**: the
+[accepted and frozen preservation core](rust/ACCEPTANCE.md) now runs through
+WebAssembly in the application, without a live Perseus service.
 
-Version **0.0.2** adds passage selection and complete offline LSJ/Lewis & Short dictionaries
-to the unchanged 0.0.1 engine interface.
-That deployed edition is an engineering reconstruction, separate from the Rust
-core below, with no claim of exact equivalence to the present Perseus service.
-
-The development branch also contains the [accepted and frozen Rust core](rust/ACCEPTANCE.md).
-It passes the recorded raw I/O, internal-state and offline-browser gates, including
-the initial retry-memory regression. The [causal investigation](rust/CAUSALITY.md)
-retains the original defect and its preservation evidence. The planned application
-0.1.0 will integrate that core; the deployed edition still uses C/Wasm.
+The declared Greek/Latin process boundary preserves raw I/O and source-led internal
+behavior against the retained portable C reference, including the original
+[retry-memory defect](rust/CAUSALITY.md). This does not claim exact equivalence to
+the present Tufts server. The original engine, data, profile and byte protocol
+remain traceable; there is no C fallback. Frontend refinement continues toward 1.0.
 
 ## Use and keep
 
@@ -24,10 +20,19 @@ removed only from the delivered input; the original text and conversion record
 remain available. Original input mode passes ASCII bytes through without rewriting.
 
 Choose **Save for offline** and wait for **Ready offline**. This saves the entire
-application, fonts, morphology data and both dictionaries (about 62 MB) after verifying their hashes. A previous
+application, fonts, morphology data and both dictionaries (about 63 MB) after verifying their hashes. A previous
 complete version survives interrupted updates. Browsers can clear stored data;
 download the source and static release archives as independently held copies.
-PWA installation and a verified complete offline copy are distinct states.
+Install Morph using your browser's Install app / Add to Home Screen command.
+Installation and a verified complete offline copy are distinct states; both are
+recommended for regular use. Opening the URL remains immediately usable, with
+all analysis on your own device.
+
+After saving, **Update & offline** opens compact maintenance controls. Check for
+updates fetches only a manifest. A download reuses hash-verified unchanged data,
+checks the saved Greek and Latin analyzer, and offers **Reload with update** when
+ready. Existing reading sessions retain their selected engine. No lookup account,
+server query allowance or periodic online authorization is required.
 
 The static archive works on ordinary HTTPS static hosting. End users need neither
 a compiler nor a local server. Opening a file URL is not the PWA installation path.
@@ -68,6 +73,16 @@ The unchanged XML files are retained as reproducible gzip files in `vendor/lexic
 archives are built under `build/releases/<version>/`; published downloads are held
 on GitHub and Zenodo. They exceed the static host’s individual asset limit.
 
+The separate `morph-0.1.0-macos-arm64.tar.gz` companion contains the unchanged
+qualified native Rust CLI and morphology data for Apple Silicon macOS. It needs
+neither a compiler nor Node.js. See its included README for `MORPHLIB` and original
+ASCII input. Other native platforms and CLI refinements are deferred.
+
+The Rust build route and pinned dependencies are documented in [rust/README.md](rust/README.md).
+The original C builder remains the preservation reference, not the shipped browser
+implementation. `node scripts/check-rust-baseline.mjs` guards the accepted source
+and evidence; the release's engine asset hashes identify the deployed core.
+
 ## Scope of this edition
 
 - Original `cruncher` analysis for Greek and Latin; raw stdout/stderr and execution
@@ -78,14 +93,14 @@ on GitHub and Zenodo. They exceed the static host’s individual asset limit.
   entries with original source IDs; no scholarly corrections or guessed mappings.
   See [dictionary contract](docs/dictionaries.md).
 - Up to 1,000 lines, 64 KiB per job and 48 ASCII bytes per line; unsupported input
-  is rejected before entering legacy fixed-size C buffers. No silent truncation.
+  is rejected before entering legacy preserved fixed-size buffers. No silent truncation.
 - Source pin `PerseusDL/morpheus@b1b33c56ef2338fe0dcd1893628ed638f00c0986`.
   Latin is reconstructed from its four retained verb inputs; the recipe's missing
   `vbs.mpi` is not fabricated or replaced with another fork's data.
 
 Generation and historical companion executables remain in the source inventory,
-but are not advertised browser operations in 0.0.2 or implied by the Rust core
-acceptance. Application integration and frontend qualification continue toward 1.0.
+but are not advertised browser operations in 0.1.0 or implied by the Rust core
+acceptance. Frontend qualification continues toward 1.0.
 
 ## License and credit
 
@@ -94,5 +109,5 @@ code, with separately licensed CC BY-SA 4.0 dictionaries and runtime/font compon
 The complete modifications are publicly offered to Perseus and other recipients.
 This is an independent Lab project; no Tufts/Perseus endorsement is implied.
 
-Use [CITATION.cff](CITATION.cff) to cite this edition (DOI: [10.5281/zenodo.23043494](https://doi.org/10.5281/zenodo.23043494)). Preserve the original Morpheus
+Use [CITATION.cff](CITATION.cff) for this edition’s metadata (software concept DOI: [10.5281/zenodo.23042200](https://doi.org/10.5281/zenodo.23042200)). Preserve the original Morpheus
 attribution when citing, adapting or redistributing the program and its data.

@@ -75,3 +75,12 @@ status. The wider sample identified the original runtime dependency on
 `stemsrc/vbs.cmp.ml`; the unchanged Greek/Latin compound-lemma maps are included
 in the runtime data. `evidence/` retains the receipts; only their recorded scope
 is claimed.
+
+## Rust beta application
+
+Application 0.1.0 selects the accepted Rust artifact and preserves the same data,
+profile and protocol. [The core acceptance](../rust/ACCEPTANCE.md) and its frozen
+manifest supersede the early engineering fixture counts above for the Rust claim.
+The UI, input converter and independent uncollated dictionary adapter remain
+outside the frozen analysis unit. No original morphology C object is linked into
+the Rust Wasm module; the qualified Emscripten platform runtime remains.

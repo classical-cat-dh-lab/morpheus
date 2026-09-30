@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {gzipSync} from 'node:zlib';
 import {csp} from './serve.mjs';
+import {identity} from '../engine/identity.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url)),site=resolve(root,'site');
 const sha=data=>createHash('sha256').update(data).digest('hex');
 function files(directory){return readdirSync(directory,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(resolve(directory,e.name)):[resolve(directory,e.name)]).sort();}
@@ -40,7 +41,7 @@ put('sw.js',readFileSync(resolve(root,'browser/sw.js')));
 put('icon.svg',readFileSync(resolve(root,'browser/icon.svg')));
 put('manifest.webmanifest',JSON.stringify({id:'/',name:'Morph — Greek & Latin morphology',short_name:'Morph',start_url:'/',scope:'/',display:'standalone',background_color:'#F4F5F0',theme_color:'#F4F5F0',icons:[192,512].map(size=>({src:base+`/browser/icon-${size}.png`,sizes:`${size}x${size}`,type:'image/png',purpose:'any'}))},null,2));
 put('_headers',`/*\n  Content-Security-Policy: ${csp}\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/releases/*\n  Cache-Control: public, max-age=31536000, immutable\n`+['/','/about/*','/licenses/*','/release.json','/manifest.webmanifest','/sw.js'].map(path=>`${path}\n  Cache-Control: no-cache\n`).join(''));
-const manifest={schema:1,id,version,files:files(site).filter(p=>!['_headers','sw.js'].includes(relative(site,p))).map(p=>({url:relative(site,p)==='index.html'?'/':'/'+relative(site,p).replace(/\/index\.html$/,'/'),bytes:readFileSync(p).length,sha256:sha(readFileSync(p))}))};
+const manifest={schema:1,id,version,engine:{protocol:'morph-engine/1',profile:identity.profile,implementation:identity.implementation,data:identity.data},files:files(site).filter(p=>!['_headers','sw.js'].includes(relative(site,p))).map(p=>({url:relative(site,p)==='index.html'?'/':'/'+relative(site,p).replace(/\/index\.html$/,'/'),bytes:readFileSync(p).length,sha256:sha(readFileSync(p))}))};
 put('.'+base+'/release.json',JSON.stringify(manifest,null,2)+'\n');
 put('release.json',JSON.stringify(manifest,null,2)+'\n');
 const artifacts=resolve(root,process.env.MORPH_RELEASE_OUTPUT??'build/releases',version);mkdirSync(artifacts,{recursive:true});

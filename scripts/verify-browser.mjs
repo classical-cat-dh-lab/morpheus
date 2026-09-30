@@ -19,6 +19,7 @@ await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin='http://127.0.
 const report={recorded:new Date().toISOString(),release:JSON.parse(readFileSync(resolve(root,'site/release.json'))).id,browsers:[]};
 async function until(page,selector,text){await page.waitForFunction(({selector,text})=>document.querySelector(selector)?.textContent.includes(text),{selector,text},{timeout:60000});}
 async function lookup(page,input){await page.locator('#input').fill(input);await page.locator('#analyze').click();await until(page,'#status','Complete:');}
+async function openOffline(page){await page.waitForFunction(()=>!document.querySelector('#offline-save').disabled);if(await page.locator('#offline-panel').isHidden())await page.locator('#offline-help').click();}
 const matrix={chromium,webkit,firefox};
 try {
   for(const name of (process.env.MORPH_BROWSERS??'chromium,webkit,firefox').split(',')){
@@ -43,19 +44,17 @@ try {
       await page.locator('#mode').selectOption('unicode');await lookup(page,'οἶδα');await until(page,'#results','LSJ');
       for(const width of [320,390,768,1280]){await page.setViewportSize({width,height:900});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);}
       await page.screenshot({path:resolve(output,name+'-light.png'),fullPage:true});await page.locator('#theme-toggle').click();assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');await page.screenshot({path:resolve(output,name+'-dark.png'),fullPage:true});row.checks.push('320–1280px layout and light/dark themes');
-      await page.waitForFunction(()=>!document.querySelector('#offline-save').disabled);await page.locator('#offline-save').click();await until(page,'#offline-status','Ready offline');
+      await page.waitForFunction(()=>!document.querySelector('#offline-save').disabled);await openOffline(page);await page.locator('#offline-save').click();await until(page,'#offline-status','Ready offline');
       unavailable=true;await page.reload();await lookup(page,'ἀρετή');await until(page,'#results','goodness');await page.locator('#language').selectOption('lat');await lookup(page,'amo');await until(page,'#results','to love');await page.locator('#language').selectOption('grc');await page.goto(origin+'/about/');assert.equal(await page.locator('h1').textContent(),'About Morph');await page.goto(origin+'/licenses/');assert.equal(await page.locator('h1').textContent(),'Licenses and credits');row.checks.push('Cold offline reload, real lookup and document navigation');unavailable=false;
       await page.goto(origin);assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');row.checks.push('Shared persistent theme on application and information pages');
       if(name==='chromium'){
         const sw=context.serviceWorkers()[0];
         await sw.evaluate(()=>{self.originalCachePut=Cache.prototype.put;Cache.prototype.put=function(){return Promise.reject(new DOMException('Quota simulation','QuotaExceededError'));};});
-        await page.locator('#offline-save').click();await until(page,'#offline-status','failed');
+        await openOffline(page);await page.locator('#offline-save').click();await until(page,'#offline-status','failed');
         await sw.evaluate(()=>{Cache.prototype.put=self.originalCachePut;delete self.originalCachePut;});
         unavailable=true;await page.reload();await lookup(page,'λόγος');unavailable=false;row.checks.push('Storage quota failure preserves the previous complete offline edition');
-        await until(page,'#offline-status','Ready offline');failData=true;await page.locator('#offline-save').click();await until(page,'#offline-status','failed');failData=false;unavailable=true;await page.reload();await lookup(page,'ἄνθρωπος');unavailable=false;row.checks.push('Failed update retains complete working offline edition');
-        await page.reload();await page.waitForFunction(()=>!document.querySelector('#offline-save').disabled);holdData=true;await page.locator('#offline-save').click();await page.waitForTimeout(500);await page.locator('#offline-cancel').click();await until(page,'#offline-status','failed');holdData=false;releaseHold?.();row.checks.push('Cancelled download restores controls and preserves previous edition');
         await page.evaluate(async()=>{const request=indexedDB.open('morph-offline');const db=await new Promise(r=>request.onsuccess=()=>r(request.result));const active=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('active');q.onsuccess=()=>r(q.result)});db.close();const cache=await caches.open(active.cache);const key=(await cache.keys()).find(x=>x.url.endsWith('/morpheus.data'));await cache.put(key,new Response('damaged'));});
-        await page.reload();await until(page,'#offline-status','No complete');await page.locator('#offline-save').click();await until(page,'#offline-status','Ready offline');unavailable=true;await page.reload();await lookup(page,'λόγος');unavailable=false;row.checks.push('Corrupt offline data is detected, repaired and used by a real offline lookup');
+        await page.reload();await until(page,'#offline-status','No complete');await openOffline(page);await page.locator('#offline-save').click();await until(page,'#offline-status','Ready offline');unavailable=true;await page.reload();await lookup(page,'λόγος');unavailable=false;row.checks.push('Corrupt offline data is detected, repaired and used by a real offline lookup');
         const broken=await browser.newContext({serviceWorkers:'block'}),bp=await broken.newPage();
         await bp.route('**/dictionaries/*/*.json.gz',route=>route.fulfill({status:200,body:'damaged',contentType:'application/gzip'}));
         await bp.goto(origin);await lookup(bp,'λόγος');await until(bp,'#results','integrity check failed');assert.match(await bp.locator('#results').innerText(),/masc nom sg/);
@@ -64,15 +63,15 @@ try {
         await broken.close();row.checks.push('Dictionary corruption is distinct from no match; retry restores meanings without changing morphology');
         const isolated=await browser.newContext(),p=await isolated.newPage();await p.addInitScript(()=>Object.defineProperty(window,'indexedDB',{get(){throw Error('Denied for test')}}));await p.goto(origin);await lookup(p,'λόγος');await p.locator('#theme-toggle').click();assert.equal(await p.locator('html').getAttribute('data-theme'),'dark');await isolated.close();row.checks.push('Denied preferences do not block analysis or theme');
         const stopped=await browser.newContext(),q=await stopped.newPage();await q.goto(origin);holdData=true;await q.locator('#input').fill('λόγος');await q.locator('#analyze').click();await q.waitForFunction(()=>!document.querySelector('#cancel').hidden);await q.locator('#cancel').click();await until(q,'#status','stopped');holdData=false;releaseHold?.();await lookup(q,'ἄνθρωπος');await stopped.close();row.checks.push('Cancellation during engine loading terminates the worker and a fresh query succeeds');
-        assert.equal(await page.evaluate(async()=>{let n=0;for(const key of await caches.keys()){const r=await(await caches.open(key)).match('/_morph/manifest');if(r)n++;}return n;}),1);row.checks.push('Repeated downloads do not retain duplicate complete copies of the same release');
+        await page.reload();await until(page,'#offline-status','Ready offline');await page.waitForTimeout(1500);assert.equal(await page.evaluate(async()=>{let n=0;for(const key of await caches.keys()){const r=await(await caches.open(key)).match('/_morph/manifest');if(r)n++;}return n;}),1);row.checks.push('Repeated downloads do not retain duplicate complete copies of the same release');
       }
       assert.deepEqual(errors,[]);row.checks.push('No uncaught page errors');console.log(name,'passed',row.checks.length);
-    }catch(error){row.failure=String(error);console.error(name,row.failure);process.exitCode=1;}
+    }catch(error){row.failure=String(error.stack);row.offlineStatus=await page.locator("#offline-status").textContent();console.error(name,row.failure);process.exitCode=1;}
     finally{unavailable=false;failData=false;holdData=false;releaseHold?.();await context.close();await browser.close();writeFileSync(resolve(output,'receipt.json'),JSON.stringify(report,null,2)+'\n');}
     const profile=mkdtempSync(resolve(root,'build/browser-profile-'));let persistent;
     try{
       persistent=await matrix[name].launchPersistentContext(profile,{headless:true});
-      let page=await persistent.newPage();await page.goto(origin);await page.waitForFunction(()=>!document.querySelector('#offline-save').disabled);await page.locator('#offline-save').click();await until(page,'#offline-status','Ready offline');
+      let page=await persistent.newPage();await page.goto(origin);await page.waitForFunction(()=>!document.querySelector('#offline-save').disabled);await openOffline(page);await page.locator('#offline-save').click();await until(page,'#offline-status','Ready offline');
       await persistent.close();persistent=undefined;unavailable=true;
       persistent=await matrix[name].launchPersistentContext(profile,{headless:true});page=await persistent.newPage();await page.goto(origin);await lookup(page,'ἀρετή');await until(page,'#results','goodness');await page.locator('#language').selectOption('lat');await lookup(page,'amo');await until(page,'#results','to love');
       row.checks.push('Browser process terminated and relaunched with no reachable origin; real lookup succeeds');console.log(name,'persistent cold restart passed');

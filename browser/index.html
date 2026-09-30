@@ -17,11 +17,18 @@
 </head>
 <body>
   <a class="skip" href="#lookup">Skip to lookup</a>
-  <header class="site-header"><div><a class="wordmark" href="/">Morph</a><span class="edition">0.0.2 · Engineering edition</span></div><button id="theme-toggle" type="button" aria-label="Switch to dark theme">Dark</button></header>
+  <header class="site-header"><div><a class="wordmark" href="/">Morph</a><span class="edition">0.1 · Beta</span></div><button id="offline-help" type="button" hidden>Update &amp; offline</button><button id="theme-toggle" type="button" aria-label="Switch to dark theme">Dark</button></header>
   <main id="main">
     <section aria-labelledby="title">
       <h1 id="title">Greek &amp; Latin morphology</h1>
       <p class="intro">Perseus Morpheus, running on your device.</p>
+      <aside id="offline-panel" class="offline" aria-labelledby="offline-title">
+        <h2 id="offline-title">Keep Morph on your device</h2>
+        <p class="help">For regular use, save the complete application and install Morph. Analysis always runs on your device; a saved copy also includes both dictionaries and works without the site.</p>
+        <div class="actions"><button id="offline-save" type="button" disabled>Save for offline</button><button id="offline-check" type="button" hidden>Check for updates</button><button id="offline-reload" type="button" hidden>Reload with update</button><button id="offline-install" type="button" hidden>Install Morph</button><button id="offline-cancel" type="button" hidden>Cancel download</button><button id="offline-close" type="button" hidden>Close</button></div>
+        <p id="offline-status" class="help" role="status">Checking offline support…</p>
+        <p class="help" id="install-help">After saving, choose Install app or Add to Home Screen in your browser menu. Installation alone does not save the complete data. You can also use Morph immediately in this tab.</p>
+      </aside>
       <form id="lookup">
         <div class="input-controls"><label>Language <select id="language"><option value="grc">Ancient Greek</option><option value="lat">Latin</option></select></label><label>Input <select id="mode"><option value="unicode">Reading text (Unicode)</option><option value="original">Original engine input</option></select></label></div>
         <label class="sr-only" for="input">Words to analyze</label>
@@ -35,7 +42,7 @@
     <section id="results" aria-label="Analysis results"></section>
     <button id="back-top" type="button" hidden>Back to top</button>
     <details id="raw" hidden><summary>Original output &amp; input record</summary><div class="actions"><button id="download-output" type="button">Download original output</button><button id="download-record" type="button">Download execution record</button></div><h2>Delivered input</h2><pre id="delivered"></pre><h2>Standard output</h2><pre id="stdout"></pre><h2>Standard error</h2><pre id="stderr"></pre><p id="engine-info" class="help"></p></details>
-    <section class="offline" aria-labelledby="offline-title"><h2 id="offline-title">Keep a copy</h2><p class="help">Save the complete application, morphology data and both dictionaries for offline use (about 62 MB).</p><div class="actions"><button id="offline-save" type="button" disabled>Save for offline</button><button id="offline-cancel" type="button" hidden>Cancel download</button></div><p id="offline-status" class="help" role="status">Checking offline support…</p></section>
+
   </main>
-  <footer><p>A preservation project by Classical Cat Digital Humanities Lab.</p><nav aria-label="Project information"><a href="/about/">About &amp; limitations</a><a href="/licenses/">Licenses &amp; credits</a><a href="https://github.com/classical-cat-dh-lab/morpheus">Source</a><a href="https://github.com/classical-cat-dh-lab/morpheus/releases/download/v0.0.2/morph-0.0.2-source.tar.gz">Download source</a><a href="https://github.com/classical-cat-dh-lab/morpheus/releases/download/v0.0.2/morph-0.0.2-static.tar.gz">Download application</a></nav></footer>
+  <footer><p>A preservation project by Classical Cat Digital Humanities Lab.</p><nav aria-label="Project information"><a href="/about/">About &amp; limitations</a><a href="/licenses/">Licenses &amp; credits</a><a href="https://github.com/classical-cat-dh-lab/morpheus">Source</a><a href="https://github.com/classical-cat-dh-lab/morpheus/releases/download/v0.1.0/morph-0.1.0-source.tar.gz">Download source</a><a href="https://github.com/classical-cat-dh-lab/morpheus/releases/download/v0.1.0/morph-0.1.0-static.tar.gz">Download application</a></nav></footer>
 </body></html>

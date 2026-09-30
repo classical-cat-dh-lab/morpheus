@@ -1,3 +1,4 @@
+import './offline.mjs';
 import {identity} from '../engine/identity.mjs';
 import {prepareInput} from './input.mjs';
 import {renderReading} from './reading.mjs';
@@ -5,7 +6,7 @@ import {getPreference, setPreference} from './preferences.mjs';
 
 const $ = id => document.getElementById(id);
 const release = document.querySelector('meta[name="morph-release"]').content;
-let worker, sequence = 0, timer, record, registration;
+let worker, sequence = 0, timer, record;
 const decode = bytes => new TextDecoder().decode(bytes);
 const bytes64 = bytes => { let text = ''; for (const byte of bytes) text += String.fromCharCode(byte); return btoa(text); };
 function status(message, error = false) { $('status').textContent = message; $('status').classList.toggle('error', error); }
@@ -59,7 +60,7 @@ $('lookup').onsubmit = event => {
     const result = data.result;
     record = {prepared, request, result};
     $('delivered').textContent = prepared.delivered; $('stdout').textContent = decode(result.stdout); $('stderr').textContent = decode(result.stderr);
-    $('engine-info').textContent = `Protocol ${result.protocol}; profile ${result.profile}; ${result.termination.kind}${result.termination.code === undefined ? '' : ' ' + result.termination.code}.`;
+    $('engine-info').textContent = `Protocol ${result.protocol}; profile ${result.profile}; implementation ${result.implementation}; ${result.termination.kind}${result.termination.code === undefined ? '' : ' ' + result.termination.code}.`;
     $('raw').hidden = !$('show-raw').checked;
     if (result.termination.kind !== 'exit' || result.termination.code !== 0) return status('Morpheus did not finish successfully. Original output is available in display options.', true);
     const hits = renderReading($('results'), prepared, result); $('back-top').hidden = prepared.records.length < 4; status(`Complete: ${hits} of ${prepared.records.length} ${prepared.records.length === 1 ? 'word' : 'words'} analyzed.`);
@@ -75,35 +76,3 @@ $('download-record').onclick = () => {
   download('morph-execution.json', JSON.stringify(saved,null,2)+'\n', 'application/json');
 };
 
-function offlineMessage(action, onProgress) {
-  return new Promise((resolve,reject) => {
-    const channel = new MessageChannel(); let deadline;
-    function renew() { clearTimeout(deadline); deadline = setTimeout(() => { channel.port1.close(); reject(new Error('Offline storage stopped responding. Please try again.')); },45000); }
-    renew();
-    channel.port1.onmessage = ({data}) => {
-      renew();
-      if (data.done) { clearTimeout(deadline); channel.port1.close(); data.error ? reject(new Error(data.error)) : resolve(data.result); }
-      else onProgress?.(data);
-    };
-    (navigator.serviceWorker.controller ?? registration.active).postMessage({action, release, manifest:`/releases/${release}/release.json`},[channel.port2]);
-  });
-}
-function offlineState(result) { $('offline-status').textContent = result.ready ? `Ready offline · ${result.release === release ? 'this edition' : 'saved edition ' + result.release}. Browser storage can still be cleared.` : 'No complete offline copy saved.'; }
-async function prepareOffline() {
-  try {
-    if (!('serviceWorker' in navigator)) throw new Error('Offline installation is unavailable in this browser. Online local analysis still works.');
-    registration = await navigator.serviceWorker.register('/sw.js');
-    await navigator.serviceWorker.ready; $('offline-save').disabled = false;
-    offlineState(await offlineMessage('status'));
-  } catch (error) { $('offline-status').textContent = error.message; }
-}
-$('offline-save').onclick = async () => {
-  $('offline-save').disabled = true; $('offline-cancel').hidden = false;
-  $('offline-status').textContent = 'Preparing offline copy…';
-  navigator.storage?.persist?.().catch(()=>{});
-  try { offlineState(await offlineMessage('save', p => { $('offline-status').textContent = `Saving ${p.completed} of ${p.total} files…`; })); }
-  catch (error) { $('offline-status').textContent = `Offline save failed: ${error.message} Your previous complete copy is retained.`; }
-  finally { $('offline-save').disabled = false; $('offline-cancel').hidden = true; }
-};
-$('offline-cancel').onclick = () => offlineMessage('cancel').catch(error => { $('offline-status').textContent = error.message; });
-prepareOffline();
