@@ -1,0 +1,41 @@
+{
+  "independentCleanBuild": true,
+  "artifacts": [
+    {
+      "path": "artifact/cli.mjs",
+      "sha256": "d4a3cd5c1b6677c08ba3f35e1f6c32cae9bcee34b3ae4bd8134b4b21a673bf32",
+      "equal": true
+    },
+    {
+      "path": "artifact/identity.mjs",
+      "sha256": "862904bf63f6e8822988c9e393b61c06477ebce8bb321a0d61c70e2b3d41f5a2",
+      "equal": true
+    },
+    {
+      "path": "artifact/morpheus.data",
+      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030",
+      "equal": true
+    },
+    {
+      "path": "artifact/morpheus.mjs",
+      "sha256": "398890140cda0275a7df985e024a621182caefed30da930f832597bb1b61ecbb",
+      "equal": true
+    },
+    {
+      "path": "artifact/morpheus.wasm",
+      "sha256": "5bc1f97c29cabc709bec02425618ec909c49caf98f01a503430274334ce83605",
+      "equal": true
+    },
+    {
+      "path": "artifact/runtime.mjs",
+      "sha256": "ce87bd12458be4d8f4c0badabb066fcda1ada3853c195217625cfcee8578bec5",
+      "equal": true
+    },
+    {
+      "path": "native/cruncher",
+      "sha256": "ea8bbe5c712583f33a0393d8197f731eeb27c0130b0882dab98758c48da5fee1",
+      "equal": true
+    }
+  ],
+  "allEqual": true
+}

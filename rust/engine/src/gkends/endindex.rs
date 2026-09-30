@@ -78,6 +78,8 @@ pub unsafe extern "C" fn chcknend(
 ) -> ::core::ffi::c_int {
     let mut startoff: ::core::ffi::c_long = 0;
     let mut tmpendstr: [::core::ffi::c_char; 61] = [0; 61];
+    let _frame = crate::legacy_stack::Frame::enter(128, [(0,(&raw mut tmpendstr).cast(),61)]);
+    let _tag_context = crate::legacy_stack::NominalIndexContext::enter();
     Xstrncpy(
         &raw mut tmpendstr as *mut ::core::ffi::c_char,
         endstr,
@@ -238,6 +240,7 @@ pub unsafe extern "C" fn chckend(
     mut endstring: *mut ::core::ffi::c_char,
 ) -> ::core::ffi::c_int {
     let mut tmp: [::core::ffi::c_char; 1024] = [0; 1024];
+    let _frame = crate::legacy_stack::Frame::enter(1024, [(0,(&raw mut tmp).cast(),1024)]);
     tmp[0 as ::core::ffi::c_int as usize] = 0 as ::core::ffi::c_char;
     return (chckvend(endstring, &raw mut tmp as *mut ::core::ffi::c_char) != 0
         || chcknend(endstring, &raw mut tmp as *mut ::core::ffi::c_char) != 0)
@@ -499,6 +502,7 @@ pub unsafe extern "C" fn checkendind(
     let mut i: ::core::ffi::c_int = 0;
     let mut ntags: ::core::ffi::c_int = 0;
     let mut curtag: [::core::ffi::c_char; 60] = [0; 60];
+    let _tag_slot = crate::legacy_stack::nominal_tag_slot(&raw mut curtag);
     let mut taglen: size_t = 0;
     let mut pp: *mut *mut ::core::ffi::c_char = ::core::ptr::null_mut::<
         *mut ::core::ffi::c_char,

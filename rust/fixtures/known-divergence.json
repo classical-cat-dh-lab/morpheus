@@ -1,5 +1,5 @@
 {
-  "description": "Known internal fidelity failure; do not convert it into expected success.",
+  "description": "Candidate-1 internal fidelity failure, resolved by the causally established candidate-2 memory model. Always require exact parity; never mark the mismatch as expected.",
   "fixtures": [
     {
       "id": "retired-stack:dictatoriis-obiectivis",

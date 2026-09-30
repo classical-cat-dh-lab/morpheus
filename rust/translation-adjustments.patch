@@ -29,10 +29,13 @@
 -}
 --- a/legacy_stack.rs
 +++ b/legacy_stack.rs
-@@ -0,0 +1,42 @@
+@@ -0,0 +1,78 @@
 +//! Preserve residual bytes in the frozen C/Wasm retry frames.
-+//! Sizes/offsets come from Emscripten 6.0.6 -O2 (see ../probes/retry-frames.s).
++//! Sizes/offsets come from the frozen linked C/Wasm, not the Rust compiler.
++//! See ../CAUSALITY.md and ../probes/retry-memory/ for byte-level evidence.
 +//! This is per-process state, just like the original engine's other globals.
++//! All modeled bytes are initialized Rust storage; no uninitialized Rust read
++//! or dependence on the host's stack allocator is required.
 +use core::ffi::c_char;
 +const CAPACITY: usize = 65_536;
 +static mut MEMORY: [c_char; CAPACITY] = [0; CAPACITY];
@@ -41,18 +44,18 @@
 +pub struct Frame<const N: usize> {
 +    sp: usize,
 +    size: usize,
-+    slots: [(usize, *mut [c_char; 60]); N],
++    slots: [(usize, *mut c_char, usize); N],
 +}
 +impl<const N: usize> Frame<N> {
-+    pub unsafe fn enter(size: usize, slots: [(usize, *mut [c_char; 60]); N]) -> Self {
++    pub unsafe fn enter(size: usize, slots: [(usize, *mut c_char, usize); N]) -> Self {
 +        assert!(SP >= size, "Legacy retry stack exhausted");
 +        SP -= size;
 +        let sp = SP;
-+        for &(offset, pointer) in &slots {
-+            assert!(offset + 60 <= size);
++        for &(offset, pointer, length) in &slots {
++            assert!(offset + length <= size);
 +            core::ptr::copy_nonoverlapping(
 +                (&raw const MEMORY).cast::<c_char>().add(sp + offset),
-+                pointer.cast::<c_char>(), 60,
++                pointer, length,
 +            );
 +        }
 +        Self { sp, size, slots }
@@ -62,15 +65,48 @@
 +    fn drop(&mut self) {
 +        unsafe {
 +            assert!(SP == self.sp, "Legacy retry frames must leave in stack order");
-+            for &(offset, pointer) in &self.slots {
++            for &(offset, pointer, length) in &self.slots {
 +                core::ptr::copy_nonoverlapping(
-+                    pointer.cast::<c_char>(),
-+                    (&raw mut MEMORY).cast::<c_char>().add(self.sp + offset), 60,
++                    pointer,
++                    (&raw mut MEMORY).cast::<c_char>().add(self.sp + offset), length,
 +                );
 +            }
 +            SP += self.size;
 +        }
 +    }
++}
++
++// In the frozen checkstring4/checkverb call path, analyzed_verb's temporary
++// string occupies the 64 bytes immediately below the current frame. It does
++// not call back into retry traversal while that temporary is live.
++pub struct EndStringSlot { position:usize, pointer:*mut [c_char;60] }
++impl EndStringSlot {
++ pub unsafe fn enter(pointer:*mut [c_char;60])->Self {
++  assert!(SP >= 64, "Legacy verb slot exhausted");
++  let position=SP-64;
++  core::ptr::copy_nonoverlapping((&raw const MEMORY).cast::<c_char>().add(position),pointer.cast::<c_char>(),60);
++  Self {position,pointer}
++ }
++}
++impl Drop for EndStringSlot {
++ fn drop(&mut self){unsafe{core::ptr::copy_nonoverlapping(self.pointer.cast::<c_char>(),(&raw mut MEMORY).cast::<c_char>().add(self.position),60);}}
++}
++
++// checkendind is inlined into chcknend in frozen function 28. Other callers
++// must not reuse this slot. Scope the location to that exact call path.
++static mut NOMINAL_TAG_POSITION: Option<usize> = None;
++pub struct NominalIndexContext { previous:Option<usize> }
++impl NominalIndexContext {
++ pub unsafe fn enter()->Self {
++  let previous=NOMINAL_TAG_POSITION;NOMINAL_TAG_POSITION=Some(SP+64);Self{previous}
++ }
++}
++impl Drop for NominalIndexContext {fn drop(&mut self){unsafe{NOMINAL_TAG_POSITION=self.previous;}}}
++pub unsafe fn nominal_tag_slot(pointer:*mut [c_char;60])->Option<EndStringSlot>{
++ NOMINAL_TAG_POSITION.map(|position|{
++  core::ptr::copy_nonoverlapping((&raw const MEMORY).cast::<c_char>().add(position),pointer.cast::<c_char>(),60);
++  EndStringSlot{position,pointer}
++ })
 +}
 --- a/lib.rs
 +++ b/lib.rs
@@ -258,6 +294,14 @@
      let mut rval: ::core::ffi::c_int = 0;
      if (*Gkword).gs_prntflags as ::core::ffi::c_int & VERBS_ONLY != 0 {
          return 0 as ::core::ffi::c_int;
+@@ -147,6 +149,7 @@
+     >();
+     let mut workword: [::core::ffi::c_char; 60] = [0; 60];
+     let mut half1: [::core::ffi::c_char; 60] = [0; 60];
++    let _frame = crate::legacy_stack::Frame::enter(128, [(64,(&raw mut workword).cast(),60),(0,(&raw mut half1).cast(),60)]);
+     let mut rval: ::core::ffi::c_int = 0 as ::core::ffi::c_int;
+     Xstrncpy(
+         &raw mut workword as *mut ::core::ffi::c_char,
 --- a/src/anal/checkpreverb.rs
 +++ b/src/anal/checkpreverb.rs
 @@ -1,7 +1,7 @@
@@ -346,7 +390,7 @@
  pub unsafe extern "C" fn checkstring3(mut Gkword: *mut gk_word) -> ::core::ffi::c_int {
      let mut saveword: [::core::ffi::c_char; 60] = [0; 60];
      let mut workword: [::core::ffi::c_char; 60] = [0; 60];
-+    let _frame = crate::legacy_stack::Frame::enter(128, [(64,&raw mut saveword),(0,&raw mut workword)]);
++    let _frame = crate::legacy_stack::Frame::enter(128, [(64,(&raw mut saveword).cast(),60),(0,(&raw mut workword).cast(),60)]);
      let mut string: *mut ::core::ffi::c_char = &raw mut (*Gkword).st_workword
          as *mut ::core::ffi::c_char;
      let mut rval: ::core::ffi::c_int = 0 as ::core::ffi::c_int;
@@ -354,7 +398,7 @@
      let mut saveword: [::core::ffi::c_char; 60] = [0; 60];
      let mut wordnoacc: [::core::ffi::c_char; 60] = [0; 60];
      let mut workword: [::core::ffi::c_char; 60] = [0; 60];
-+    let _frame = crate::legacy_stack::Frame::enter(192, [(128,&raw mut saveword),(64,&raw mut wordnoacc),(0,&raw mut workword)]);
++    let _frame = crate::legacy_stack::Frame::enter(192, [(128,(&raw mut saveword).cast(),60),(64,(&raw mut wordnoacc).cast(),60),(0,(&raw mut workword).cast(),60)]);
      let mut a: *mut ::core::ffi::c_char = ::core::ptr::null_mut::<::core::ffi::c_char>();
      let mut string: *mut ::core::ffi::c_char = &raw mut (*Gkword).st_workword
          as *mut ::core::ffi::c_char;
@@ -402,6 +446,14 @@
  }
  #[no_mangle]
  pub unsafe extern "C" fn GetWantDialect() -> Dialect {
+@@ -1847,6 +1850,7 @@
+ pub unsafe extern "C" fn u2v(mut s: *mut ::core::ffi::c_char) -> ::core::ffi::c_int {
+     let mut nchanges: ::core::ffi::c_int = 0 as ::core::ffi::c_int;
+     let mut half1: [::core::ffi::c_char; 1024] = [0; 1024];
++    let _frame = crate::legacy_stack::Frame::enter(1024, [(0,(&raw mut half1).cast(),1024)]);
+     let mut t: *mut ::core::ffi::c_char = ::core::ptr::null_mut::<::core::ffi::c_char>();
+     half1[0 as ::core::ffi::c_int as usize] = 0 as ::core::ffi::c_char;
+     t = &raw mut half1 as *mut ::core::ffi::c_char;
 --- a/src/anal/checkverb.rs
 +++ b/src/anal/checkverb.rs
 @@ -23,7 +23,7 @@
@@ -422,6 +474,14 @@
      let mut wp: *mut ::core::ffi::c_char = ::core::ptr::null_mut::<
          ::core::ffi::c_char,
      >();
+@@ -198,6 +200,7 @@
+ #[no_mangle]
+ pub unsafe extern "C" fn analyzed_verb(mut Gkword: *mut gk_word) -> ::core::ffi::c_int {
+     let mut tmpendstring: [::core::ffi::c_char; 60] = [0; 60];
++    let _endstring_slot = crate::legacy_stack::EndStringSlot::enter(&raw mut tmpendstring);
+     let mut endkeys: [::core::ffi::c_char; 1024] = [0; 1024];
+     let mut rval: ::core::ffi::c_int = 0;
+     *(&raw mut endkeys as *mut ::core::ffi::c_char) = 0 as ::core::ffi::c_char;
 --- a/src/anal/checkword.rs
 +++ b/src/anal/checkword.rs
 @@ -8,7 +8,7 @@
@@ -952,7 +1012,16 @@
      static stderr: *mut FILE;
      fn fseek(
          _: *mut FILE,
-@@ -162,7 +163,7 @@
+@@ -77,6 +78,8 @@
+ ) -> ::core::ffi::c_int {
+     let mut startoff: ::core::ffi::c_long = 0;
+     let mut tmpendstr: [::core::ffi::c_char; 61] = [0; 61];
++    let _frame = crate::legacy_stack::Frame::enter(128, [(0,(&raw mut tmpendstr).cast(),61)]);
++    let _tag_context = crate::legacy_stack::NominalIndexContext::enter();
+     Xstrncpy(
+         &raw mut tmpendstr as *mut ::core::ffi::c_char,
+         endstr,
+@@ -162,7 +165,7 @@
                  unsafe extern "C" fn(
                      *const ::core::ffi::c_char,
                      *const ::core::ffi::c_char,
@@ -961,7 +1030,7 @@
                  ) -> ::core::ffi::c_int,
              >,
              Option<unsafe extern "C" fn() -> ::core::ffi::c_int>,
-@@ -216,7 +217,7 @@
+@@ -216,7 +219,7 @@
                  unsafe extern "C" fn(
                      *const ::core::ffi::c_char,
                      *const ::core::ffi::c_char,
@@ -970,7 +1039,23 @@
                  ) -> ::core::ffi::c_int,
              >,
              Option<unsafe extern "C" fn() -> ::core::ffi::c_int>,
-@@ -517,7 +518,7 @@
+@@ -237,6 +240,7 @@
+     mut endstring: *mut ::core::ffi::c_char,
+ ) -> ::core::ffi::c_int {
+     let mut tmp: [::core::ffi::c_char; 1024] = [0; 1024];
++    let _frame = crate::legacy_stack::Frame::enter(1024, [(0,(&raw mut tmp).cast(),1024)]);
+     tmp[0 as ::core::ffi::c_int as usize] = 0 as ::core::ffi::c_char;
+     return (chckvend(endstring, &raw mut tmp as *mut ::core::ffi::c_char) != 0
+         || chcknend(endstring, &raw mut tmp as *mut ::core::ffi::c_char) != 0)
+@@ -498,6 +502,7 @@
+     let mut i: ::core::ffi::c_int = 0;
+     let mut ntags: ::core::ffi::c_int = 0;
+     let mut curtag: [::core::ffi::c_char; 60] = [0; 60];
++    let _tag_slot = crate::legacy_stack::nominal_tag_slot(&raw mut curtag);
+     let mut taglen: size_t = 0;
+     let mut pp: *mut *mut ::core::ffi::c_char = ::core::ptr::null_mut::<
+         *mut ::core::ffi::c_char,
+@@ -517,7 +522,7 @@
          mid = (low + high) / 2 as ::core::ffi::c_int;
          comp = ::core::mem::transmute::<
              _,

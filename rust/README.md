@@ -1,7 +1,9 @@
 # Rust preservation candidate
 
-**Status: builds and runs; preservation acceptance is blocked. Do not replace the
-released C/Wasm engine with this candidate.** See [BLOCKERS.md](BLOCKERS.md).
+**Status: candidate 2 passes the recorded preservation gates.** The original
+retry-memory blocker is resolved; see [CAUSALITY.md](CAUSALITY.md) and
+[the current qualification receipt](evidence/qualification.json). The deployed
+C/Wasm edition remains separate; this is not a 1.0 release.
 The candidate is a source translation, not a wrapper around original morphology
 C objects. All 119 selected compilation units and 470 source function definitions
 have Rust counterparts. The historical utilities outside the `cruncher` process
@@ -22,6 +24,8 @@ Use Rust 1.98.1 with the `wasm32-unknown-emscripten` standard library, Emscripte
 6.0.6, Python 3.14, and Apple Clang. Supply explicit paths; no global toolchain or
 OS configuration change is required. Cargo dependencies are vendored and locked.
 A completed original reference build supplies the **unchanged morphology data**.
+The builder also requires the exact C/Wasm reference hash used by the residual-byte
+model; a different compiled baseline requires explicit requalification.
 
 ```sh
 python3 scripts/build-engine.py --emsdk /path/to/emsdk --output build/reference
@@ -71,13 +75,14 @@ This is preserved, not replaced by a mathematically corrected bit operation.
 Unreachable missing-argument helpers and the undefined allocation-failure return
 explicitly refuse execution; the candidate does not invent their values.
 
-`legacy_stack.rs` is an **incomplete compatibility experiment**. Original Latin
+`legacy_stack.rs` explicitly retains the evidenced frozen stack reuse. Original Latin
 retry code reads after a terminator and shifts a string without moving its final
-NUL. Zero-initialized Rust arrays change observed results. The experiment retains
-bytes shared by the original 128-byte and 192-byte retry frames, whose offsets are
-recorded in `probes/retry-frames.s`. This recovers observed I/O differences without
-changing spelling rules, but it does not emulate every retired C frame. Residual
-internal mismatches remain, so this adapter is not accepted as a complete solution.
+NUL. Zero-initialized Rust arrays change observed results. Candidate 2 retains
+the retry, verb-ending and nominal-index slots and their intervening frame depths.
+Linked-binary observation identifies the actual writes and reads; a single-byte
+intervention in unchanged C reproduces the original candidate's extra traversal.
+This models concrete initialized bytes in Rust, not uninitialized Rust memory.
+Offsets, limitations and reproduction instructions are in `CAUSALITY.md`.
 
 ## Verify
 
@@ -106,9 +111,26 @@ without a C logging stack frame; native witnesses also exist. Traced outputs are
 compared with uninstrumented outputs. Failed comparisons remain failures: there
 is no normalization, ignored candidate order, ignored extra branch, or C fallback.
 
-Known-failing probes are in `fixtures/known-divergence.json`. Running them must
-remain a failed acceptance gate until the preservation blocker is resolved. Passing
-external I/O tests alone does not satisfy this project's internal fidelity rule.
+The historical failure remains a normal regression in `fixtures/known-divergence.json`.
+Additional retained-memory order matrices are `fixtures/retired-memory.json` and
+`fixtures/retired-memory-grid.json`; run them with `verify-rust-fixtures.mjs` too.
+Passing external I/O alone does not satisfy the internal fidelity rule.
+
+For an independent check unaffected by C recompilation, first run
+`diagnose-retry-memory.py` as documented in `CAUSALITY.md`, then:
+
+```sh
+node scripts/verify-frozen-checkpoints.mjs build/reference/artifact \
+  build/rust-trace/artifact build/retry-diagnosis/observed.wasm \
+  /path/to/frozen-corpus-input.json build/postlink-corpus.json
+```
+
+This compares all logical `checkword` entry fields against the **already linked**
+original, where `checkword` is inlined at `checkstring4` entry. It supplements the
+eight source checkpoints and verifies raw-I/O transparency on every job. Candidate 2
+matches 170,374 such entries across the 40,000-form corpus. Neither test replaces
+the other. Historical failed receipts are retained; current receipts are under
+`evidence/candidate-2/`.
 
 ## Licenses
 

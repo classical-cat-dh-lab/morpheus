@@ -1,0 +1,65 @@
+{
+  "recorded": "2026-09-30T03:34:49.276Z",
+  "release": "0.0.3-0d8944b113e96a89",
+  "browsers": [
+    {
+      "name": "chromium",
+      "version": "153.0.8010.12",
+      "checks": [
+        "Exact passage, repeated occurrence selection, keyboard/tabs, full Greek entry and morphology",
+        "Latin Unicode/macron adaptation and Lewis & Short definitions",
+        "Transparent delivered bytes and untouched raw output",
+        "Downloadable execution record",
+        "Original input mode and explicit length rejection",
+        "New lookup clears results and cancels stale work",
+        "320–1280px layout and light/dark themes",
+        "Cold offline reload, real lookup and document navigation",
+        "Shared persistent theme on application and information pages",
+        "Storage quota failure preserves the previous complete offline edition",
+        "Failed update retains complete working offline edition",
+        "Cancelled download restores controls and preserves previous edition",
+        "Corrupt offline data is detected, repaired and used by a real offline lookup",
+        "Dictionary corruption is distinct from no match; retry restores meanings without changing morphology",
+        "Denied preferences do not block analysis or theme",
+        "Cancellation during engine loading terminates the worker and a fresh query succeeds",
+        "Repeated downloads do not retain duplicate complete copies of the same release",
+        "No uncaught page errors",
+        "Browser process terminated and relaunched with no reachable origin; real lookup succeeds"
+      ]
+    },
+    {
+      "name": "webkit",
+      "version": "26.6",
+      "checks": [
+        "Exact passage, repeated occurrence selection, keyboard/tabs, full Greek entry and morphology",
+        "Latin Unicode/macron adaptation and Lewis & Short definitions",
+        "Transparent delivered bytes and untouched raw output",
+        "Downloadable execution record",
+        "Original input mode and explicit length rejection",
+        "New lookup clears results and cancels stale work",
+        "320–1280px layout and light/dark themes",
+        "Cold offline reload, real lookup and document navigation",
+        "Shared persistent theme on application and information pages",
+        "No uncaught page errors",
+        "Browser process terminated and relaunched with no reachable origin; real lookup succeeds"
+      ]
+    },
+    {
+      "name": "firefox",
+      "version": "155.0",
+      "checks": [
+        "Exact passage, repeated occurrence selection, keyboard/tabs, full Greek entry and morphology",
+        "Latin Unicode/macron adaptation and Lewis & Short definitions",
+        "Transparent delivered bytes and untouched raw output",
+        "Downloadable execution record",
+        "Original input mode and explicit length rejection",
+        "New lookup clears results and cancels stale work",
+        "320–1280px layout and light/dark themes",
+        "Cold offline reload, real lookup and document navigation",
+        "Shared persistent theme on application and information pages",
+        "No uncaught page errors",
+        "Browser process terminated and relaunched with no reachable origin; real lookup succeeds"
+      ]
+    }
+  ]
+}

@@ -961,7 +961,7 @@ pub static mut ItalianSuff: [enclitic_word; 19] = unsafe {
 pub unsafe extern "C" fn checkstring3(mut Gkword: *mut gk_word) -> ::core::ffi::c_int {
     let mut saveword: [::core::ffi::c_char; 60] = [0; 60];
     let mut workword: [::core::ffi::c_char; 60] = [0; 60];
-    let _frame = crate::legacy_stack::Frame::enter(128, [(64,&raw mut saveword),(0,&raw mut workword)]);
+    let _frame = crate::legacy_stack::Frame::enter(128, [(64,(&raw mut saveword).cast(),60),(0,(&raw mut workword).cast(),60)]);
     let mut string: *mut ::core::ffi::c_char = &raw mut (*Gkword).st_workword
         as *mut ::core::ffi::c_char;
     let mut rval: ::core::ffi::c_int = 0 as ::core::ffi::c_int;
@@ -1505,7 +1505,7 @@ unsafe extern "C" fn checkstring4(mut Gkword: *mut gk_word) -> ::core::ffi::c_in
     let mut saveword: [::core::ffi::c_char; 60] = [0; 60];
     let mut wordnoacc: [::core::ffi::c_char; 60] = [0; 60];
     let mut workword: [::core::ffi::c_char; 60] = [0; 60];
-    let _frame = crate::legacy_stack::Frame::enter(192, [(128,&raw mut saveword),(64,&raw mut wordnoacc),(0,&raw mut workword)]);
+    let _frame = crate::legacy_stack::Frame::enter(192, [(128,(&raw mut saveword).cast(),60),(64,(&raw mut wordnoacc).cast(),60),(0,(&raw mut workword).cast(),60)]);
     let mut a: *mut ::core::ffi::c_char = ::core::ptr::null_mut::<::core::ffi::c_char>();
     let mut string: *mut ::core::ffi::c_char = &raw mut (*Gkword).st_workword
         as *mut ::core::ffi::c_char;
@@ -1850,6 +1850,7 @@ pub unsafe extern "C" fn updateDialect(mut dial: Dialect) -> ::core::ffi::c_int 
 pub unsafe extern "C" fn u2v(mut s: *mut ::core::ffi::c_char) -> ::core::ffi::c_int {
     let mut nchanges: ::core::ffi::c_int = 0 as ::core::ffi::c_int;
     let mut half1: [::core::ffi::c_char; 1024] = [0; 1024];
+    let _frame = crate::legacy_stack::Frame::enter(1024, [(0,(&raw mut half1).cast(),1024)]);
     let mut t: *mut ::core::ffi::c_char = ::core::ptr::null_mut::<::core::ffi::c_char>();
     half1[0 as ::core::ffi::c_int as usize] = 0 as ::core::ffi::c_char;
     t = &raw mut half1 as *mut ::core::ffi::c_char;

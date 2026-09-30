@@ -200,6 +200,7 @@ pub unsafe extern "C" fn checkverb(mut Gkword: *mut gk_word) -> ::core::ffi::c_i
 #[no_mangle]
 pub unsafe extern "C" fn analyzed_verb(mut Gkword: *mut gk_word) -> ::core::ffi::c_int {
     let mut tmpendstring: [::core::ffi::c_char; 60] = [0; 60];
+    let _endstring_slot = crate::legacy_stack::EndStringSlot::enter(&raw mut tmpendstring);
     let mut endkeys: [::core::ffi::c_char; 1024] = [0; 1024];
     let mut rval: ::core::ffi::c_int = 0;
     *(&raw mut endkeys as *mut ::core::ffi::c_char) = 0 as ::core::ffi::c_char;

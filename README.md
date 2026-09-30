@@ -11,8 +11,10 @@ It is an engineering reconstruction, not a completed source-faithful Rust port o
 a claim of exact equivalence to the presently deployed Perseus service.
 
 The development branch also contains a [Rust preservation candidate](rust/README.md).
-It is runnable, but a [known internal-fidelity blocker](rust/BLOCKERS.md) prevents
-replacement of the released engine. It is not a completed 1.0 port.
+Candidate 2 resolves the initial retry-memory difference and passes the recorded
+raw I/O, internal-state and offline-browser gates. The [causal investigation](rust/CAUSALITY.md)
+retains the original defect and its preservation evidence. It is not a 1.0 release;
+the deployed engineering edition still uses C/Wasm.
 
 ## Use and keep
 

@@ -1,8 +1,10 @@
-# Preservation acceptance blocker: residual C stack state
+# Resolved preservation blocker: residual C stack state
 
-The current Rust implementation is **not qualified for engine replacement**.
-It builds, executes Greek/Latin queries and passes broad raw-output tests, but the
-required internal behavior comparison still has known failures.
+Candidate 1 failed internal preservation checks. Candidate 2 resolves those
+failures without changing the frozen original or waiving internal comparison.
+[CAUSALITY.md](CAUSALITY.md) contains the causal evidence and
+[qualification.json](evidence/qualification.json) records current acceptance.
+The facts below retain the failed candidate's history.
 
 ## Reproducible facts
 
@@ -27,23 +29,21 @@ with `strlen(p_word)`, omitting the NUL. Its `Xstrncpy` actually calls `strcpy` 
 does not clear the remaining buffer. Consequently, previous inputs, recursion and
 other functions' retired stack frames can influence subsequent analysis paths.
 
-## Why the gate remains closed
+## Initial inference and its correction
 
-The tested local frame adapters do not reproduce the entire frozen executable's
+The initial local frame adapters did not reproduce the entire frozen executable's
 memory reuse. Adding output filters, exceptions for individual words, ignoring
 extra trace events, or silently fixing the original C would change the approved
 preservation objective. None is accepted here. No online C service is involved,
 and no C engine is invoked by the Rust candidate.
 
-A complete executable-memory compatibility model is possible in principle. It
-would be substantially different from a source-led Rust baseline: frame layout,
-compiler transformations and potentially addresses become maintained semantics.
-Alternatively, a narrowly documented portability adaptation could establish a
-new defined reference for these indeterminate reads, while retaining the old
-C/Wasm edition as an explicit historical profile. That changes the preservation
-boundary and needs an owner decision. This task has not made that decision or
-claimed either route is already authorized.
+The initial report prematurely framed this as a choice between complete executable
+memory emulation and a changed reference profile. That inference is withdrawn.
+Direct observation of the linked original identifies missing verb/nominal string
+writes and two omitted 1,024-byte frame reservations. Extending the existing
+explicit model resolves the recorded failures while retaining source-level logic.
+There is no required owner decision to relax the preservation objective.
 
-The remaining independent work—source correspondence, vendored offline build,
-protocol packaging, differential tools and browser integration verification—is
-retained so the decision can resume construction rather than restart translation.
+All currently recorded candidate-2 gates pass. This is finite measured acceptance,
+not proof for every possible input, compiler or historical Tufts deployment.
+Any new discrepancy must receive causal analysis and an ordinary failing test.

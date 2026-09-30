@@ -1,0 +1,28 @@
+{
+  "binary": "original",
+  "input": "dictatoriis\nobiectivis\n",
+  "inject": null,
+  "injections": [],
+  "platform": {
+    "node": "v26.7.0",
+    "system": "darwin",
+    "architecture": "arm64"
+  },
+  "wasmSha256": "c91ddc0e424197e3d3cd4e4d396979367f0d37101f608bdd6e9205b841914273",
+  "fingerprint": {
+    "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+    "stderr": "e7371fb44c737312e144fe042bec7e9c14ead855057b4dea03d5e65859eecef1",
+    "termination": {
+      "kind": "exit",
+      "code": 0
+    },
+    "files": {
+      "input.morph": "47c8e0d2f587fc7e1d3dcaa3dc44b66044b1d03980cfa44eb4315efdcaece23e",
+      "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "input.stats": "da2f3130b1181bf6766cee4207a890a3099cb85edef6303b8438706efa831f91"
+    }
+  },
+  "memorySha256": "e4040d9007f5e98f3cd2d936efee2fb76fc2ae3b33df85741c2bcf8ec1961fd7",
+  "events": [],
+  "writes": []
+}

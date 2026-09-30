@@ -1,0 +1,218 @@
+[
+  {
+    "name": "frozen",
+    "input": "dictatoriis\nobiectivis\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "e7371fb44c737312e144fe042bec7e9c14ead855057b4dea03d5e65859eecef1",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "47c8e0d2f587fc7e1d3dcaa3dc44b66044b1d03980cfa44eb4315efdcaece23e",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "da2f3130b1181bf6766cee4207a890a3099cb85edef6303b8438706efa831f91"
+      }
+    },
+    "analyses": "dictatoriis\n<NL>N dicta_to_rii_s,dictatorius  neut abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  neut dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc dat pl\t\t\tius_ia_ium</NL>\nobiectivis\n<NL>P o_bjecti_,obicio  perf part pass neut gen sg\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc nom/voc pl\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc gen sg\t\t\tpp4</NL>\n"
+  },
+  {
+    "name": "frozen",
+    "input": "subiectus\nexto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "46d6848d828a79afec1d9d1db87c75b89963faf4eb1d75a6088eb38d42a34822",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "7a80ee70aa503f09e5b208bfae4eff237dedb4f9ca13a6f54baa49bc631e17cb",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "84f6da459a74f0c7fdddb9dcac48595d210ea4a15b2bc9afc5a2252441e764fd"
+      }
+    },
+    "analyses": "subiectus\n<NL>P su_bjectus,subicio  perf part pass masc nom sg\t\t\tpp4</NL><NL>N subjectus,subjectus  masc nom sg\t\t\tus_i</NL><NL>N subjectus,subjectus#2  masc nom sg\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc nom pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc acc pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc gen sg\t\t\tus_us</NL>\nexto\n<NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "frozen",
+    "input": "exto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "81d6e0413665017a0ac2743e84513eb4b6ca98805695ebba339ffee6795e7043",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "45b25cb5ce227394ad9e41420edbd14c12d4f5ae376ac7a3d8a66e3d9b8b4d73",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "2b170c08a52efbba1585cc5630a24422096d6208c0f7a0b792bcdcf640081133"
+      }
+    },
+    "analyses": "exto\n<NL>V exsto_,exsto  pres ind act 1st sg\t\t\tconj1</NL><NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "guard",
+    "input": "dictatoriis\nobiectivis\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "e7371fb44c737312e144fe042bec7e9c14ead855057b4dea03d5e65859eecef1",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "47c8e0d2f587fc7e1d3dcaa3dc44b66044b1d03980cfa44eb4315efdcaece23e",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "da2f3130b1181bf6766cee4207a890a3099cb85edef6303b8438706efa831f91"
+      }
+    },
+    "analyses": "dictatoriis\n<NL>N dicta_to_rii_s,dictatorius  neut abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  neut dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc dat pl\t\t\tius_ia_ium</NL>\nobiectivis\n<NL>P o_bjecti_,obicio  perf part pass neut gen sg\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc nom/voc pl\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc gen sg\t\t\tpp4</NL>\n"
+  },
+  {
+    "name": "guard",
+    "input": "subiectus\nexto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "46d6848d828a79afec1d9d1db87c75b89963faf4eb1d75a6088eb38d42a34822",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "7a80ee70aa503f09e5b208bfae4eff237dedb4f9ca13a6f54baa49bc631e17cb",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "84f6da459a74f0c7fdddb9dcac48595d210ea4a15b2bc9afc5a2252441e764fd"
+      }
+    },
+    "analyses": "subiectus\n<NL>P su_bjectus,subicio  perf part pass masc nom sg\t\t\tpp4</NL><NL>N subjectus,subjectus  masc nom sg\t\t\tus_i</NL><NL>N subjectus,subjectus#2  masc nom sg\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc nom pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc acc pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc gen sg\t\t\tus_us</NL>\nexto\n<NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "guard",
+    "input": "exto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "81d6e0413665017a0ac2743e84513eb4b6ca98805695ebba339ffee6795e7043",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "45b25cb5ce227394ad9e41420edbd14c12d4f5ae376ac7a3d8a66e3d9b8b4d73",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "2b170c08a52efbba1585cc5630a24422096d6208c0f7a0b792bcdcf640081133"
+      }
+    },
+    "analyses": "exto\n<NL>V exsto_,exsto  pres ind act 1st sg\t\t\tconj1</NL><NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "zero",
+    "input": "dictatoriis\nobiectivis\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "e7371fb44c737312e144fe042bec7e9c14ead855057b4dea03d5e65859eecef1",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "47c8e0d2f587fc7e1d3dcaa3dc44b66044b1d03980cfa44eb4315efdcaece23e",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "da2f3130b1181bf6766cee4207a890a3099cb85edef6303b8438706efa831f91"
+      }
+    },
+    "analyses": "dictatoriis\n<NL>N dicta_to_rii_s,dictatorius  neut abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  neut dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc dat pl\t\t\tius_ia_ium</NL>\nobiectivis\n<NL>P o_bjecti_,obicio  perf part pass neut gen sg\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc nom/voc pl\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc gen sg\t\t\tpp4</NL>\n"
+  },
+  {
+    "name": "zero",
+    "input": "subiectus\nexto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "9f0a828286f7fa6bc68cb36f705cb2186e66953286300cda91d7ad76bbac2633",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "54ea776ae78ff6b15838ecc971ce648199796d5f8266528907a1e7c7ff3df7a7",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "f02a8e9b4d4ea099060835601405791afcb485c611cfedbcf3c87c46966b24c7"
+      }
+    },
+    "analyses": "subiectus\n<NL>P su_bjectus,subicio  perf part pass masc nom sg\t\t\tpp4</NL><NL>N subjectus,subjectus  masc nom sg\t\t\tus_i</NL><NL>N subjectus,subjectus#2  masc nom sg\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc nom pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc acc pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc gen sg\t\t\tus_us</NL>\nexto\n<NL>V exsto_,exsto  pres ind act 1st sg\t\t\tconj1</NL><NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "zero",
+    "input": "exto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "81d6e0413665017a0ac2743e84513eb4b6ca98805695ebba339ffee6795e7043",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "45b25cb5ce227394ad9e41420edbd14c12d4f5ae376ac7a3d8a66e3d9b8b4d73",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "2b170c08a52efbba1585cc5630a24422096d6208c0f7a0b792bcdcf640081133"
+      }
+    },
+    "analyses": "exto\n<NL>V exsto_,exsto  pres ind act 1st sg\t\t\tconj1</NL><NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "pattern",
+    "input": "dictatoriis\nobiectivis\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "e7371fb44c737312e144fe042bec7e9c14ead855057b4dea03d5e65859eecef1",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "47c8e0d2f587fc7e1d3dcaa3dc44b66044b1d03980cfa44eb4315efdcaece23e",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "da2f3130b1181bf6766cee4207a890a3099cb85edef6303b8438706efa831f91"
+      }
+    },
+    "analyses": "dictatoriis\n<NL>N dicta_to_rii_s,dictatorius  neut abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc abl pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  neut dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  fem dat pl\t\t\tius_ia_ium</NL><NL>N dicta_to_rii_s,dictatorius  masc dat pl\t\t\tius_ia_ium</NL>\nobiectivis\n<NL>P o_bjecti_,obicio  perf part pass neut gen sg\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc nom/voc pl\t\t\tpp4</NL><NL>P o_bjecti_,obicio  perf part pass masc gen sg\t\t\tpp4</NL>\n"
+  },
+  {
+    "name": "pattern",
+    "input": "subiectus\nexto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "36383bc3b51c535826871988e12c5c0eb534e94240691a6a2a336f24d98e3f30",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "7a80ee70aa503f09e5b208bfae4eff237dedb4f9ca13a6f54baa49bc631e17cb",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "84f6da459a74f0c7fdddb9dcac48595d210ea4a15b2bc9afc5a2252441e764fd"
+      }
+    },
+    "analyses": "subiectus\n<NL>P su_bjectus,subicio  perf part pass masc nom sg\t\t\tpp4</NL><NL>N subjectus,subjectus  masc nom sg\t\t\tus_i</NL><NL>N subjectus,subjectus#2  masc nom sg\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc nom pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc acc pl\t\t\tus_us</NL><NL>N subjectu_s,subjectus#2  masc gen sg\t\t\tus_us</NL>\nexto\n<NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  },
+  {
+    "name": "pattern",
+    "input": "exto\n",
+    "fingerprint": {
+      "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+      "stderr": "007956295a7cbdb78b933562711a2c89fbf3d172b8b5e2ebf20205285968776a",
+      "termination": {
+        "kind": "exit",
+        "code": 0
+      },
+      "files": {
+        "input.morph": "7123abfa1d34db33e85583073144d651da8b149a8e26bf825d1817f71e232288",
+        "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "input.stats": "a0edd42981373eab94f8f4a4e405261a350835c807a4fe79134e27f29b574b6d"
+      }
+    },
+    "analyses": "exto\n<NL>V exto_,exsto  pres ind act 1st sg\t\t\tconj1</NL>\n"
+  }
+]

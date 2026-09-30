@@ -149,6 +149,7 @@ pub unsafe extern "C" fn checkregnom(mut Gkword: *mut gk_word) -> ::core::ffi::c
     >();
     let mut workword: [::core::ffi::c_char; 60] = [0; 60];
     let mut half1: [::core::ffi::c_char; 60] = [0; 60];
+    let _frame = crate::legacy_stack::Frame::enter(128, [(64,(&raw mut workword).cast(),60),(0,(&raw mut half1).cast(),60)]);
     let mut rval: ::core::ffi::c_int = 0 as ::core::ffi::c_int;
     Xstrncpy(
         &raw mut workword as *mut ::core::ffi::c_char,

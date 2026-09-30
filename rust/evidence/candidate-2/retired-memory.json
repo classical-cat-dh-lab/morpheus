@@ -1,0 +1,5638 @@
+{
+  "fixtures": [
+    {
+      "id": "retired:dictatoriis:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatoriis:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JpaXMKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:subiectus:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWVjdHVzCnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:dictatorjis:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGljdGF0b3JqaXMKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:loquebamini:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bG9xdWViYW1pbmkKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:Iliaci:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "SWxpYWNpCnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4Cm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4Cm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmlpaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmFpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCmFiaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:amo:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1vCnN1YmllY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwppaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwppaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwppaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwppaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwphaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwphaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwphYmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwphYmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpzdWJpZWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:obiectivis:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JpZWN0aXZpcwpzdWJpZWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwppaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwppaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwppaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwppaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwphaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwphaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwphYmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwphYmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpzdWJpZWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:exto:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXh0bwpzdWJpZWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQppaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQppaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQppaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQppaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQphaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQphaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQphYmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQphYmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpzdWJpZWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:quaequidem:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cXVhZXF1aWRlbQpzdWJpZWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0Kb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0Kb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0KYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0Kc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:cuiusquidem:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y3VpdXNxdWlkZW0Kc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:obiectivis:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:obiectivis:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:cuiusquidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:cuiusquidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:expeiuravi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:expeiuravi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXhwZWl1cmF2aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:abuiabamini:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:abuiabamini:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:quaequidem:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:quaequidem:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:Iliaci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:Iliaci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:exto:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:exto:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:extendo:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:extendo:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:extuli:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:extuli:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:qui:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:qui:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:i:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:i:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:ii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:ii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKaWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:iii:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:iii:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKaWlpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:ai:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:ai:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKYWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:abi:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:abi:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKYWJpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:subieci:cruncher",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired:abuiabamini:subieci:cruncher-file",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJ1aWFiYW1pbmkKc3ViaWVjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:0",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YmlvdGVjaG5vbG9naWEKZGljdGF0b3JpaXMKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:1",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dXJndWVhbXVyCnN1YmllY3R1cwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:2",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmVnbmFyaW11cwpkaWN0YXRvcmppcwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:3",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dmljaWFtCmxvcXVlYmFtaW5pCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:4",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXhzdWNhcmVtCklsaWFjaQpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:5",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJhZXNjaW5kYXMKeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4Cm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:6",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW5ob3JyZXRvdGUKYW1vCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:7",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29tbWFyY2ViYW11cwpvYmllY3RpdmlzCm9iaWVjdGl2aXMK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:8",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZWZmZXJhYmF0aXMKZXh0bwpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:9",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWxiYXJhbnQKcXVhZXF1aWRlbQpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:10",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dG9ycmVmYWN0YQpjdWl1c3F1aWRlbQpvYmllY3RpdmlzCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:11",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c2FyaWVuZGEKYWJ1aWFiYW1pbmkKb2JpZWN0aXZpcwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:12",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZnVtYWJhbXVzCmRpY3RhdG9yaWlzCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:13",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2JzZWNyYXZlcmUKc3ViaWVjdHVzCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:14",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3Blcm5lbnRpdW0KZGljdGF0b3JqaXMKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:15",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c2VydmFiaWxlCmxvcXVlYmFtaW5pCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:16",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Zm9sbGljYXJpdApJbGlhY2kKY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:17",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmltYWJhbXVyCnh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eApjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:18",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dmV0ZXJhbmRvcwphbW8KY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:19",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJzdW1wc2VyZQpvYmllY3RpdmlzCmN1aXVzcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:20",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWRmbHV4dXJpCmV4dG8KY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:21",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Z3VzdGF2ZXJpbnQKcXVhZXF1aWRlbQpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:22",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bmF2aWN1bGEKY3VpdXNxdWlkZW0KY3VpdXNxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:23",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2Jzb3JkZXNjZW50aQphYnVpYWJhbWluaQpjdWl1c3F1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:24",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW5ncmF2YWJhbQpkaWN0YXRvcmlpcwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:25",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJpbXVsdW0Kc3ViaWVjdHVzCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:26",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dHJhbnN2YWFsaWNpcwpkaWN0YXRvcmppcwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:27",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWJpdGlzCmxvcXVlYmFtaW5pCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:28",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZW5pY2V0aXMKSWxpYWNpCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:29",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWRwcm9waW5xdWF0YXMKeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:30",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmVidWxsaWVuZG9ydW0KYW1vCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:31",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJhZW9yZGluZXQKb2JpZWN0aXZpcwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:32",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGV0b3JxdWViYW50dXIKZXh0bwpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:33",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZHVjdGFucwpxdWFlcXVpZGVtCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:34",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGVkaWNhYnVudApjdWl1c3F1aWRlbQpleHBlaXVyYXZpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:35",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bGFzY2l2dWxvcnVtCmFidWlhYmFtaW5pCmV4cGVpdXJhdmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:36",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGlzdHJpbmdlbnRpCmRpY3RhdG9yaWlzCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:37",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YXZvbGFiZXJpcwpzdWJpZWN0dXMKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:38",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZnJ1bml0YWUKZGljdGF0b3JqaXMKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:39",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c2FsaXZvc28KbG9xdWViYW1pbmkKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:40",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZW1lbmRhCklsaWFjaQphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:41",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dHJ1bmN1bGF0aQp4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:42",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aGFlbWF0aW5hZQphbW8KYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:43",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cG9yb3Npb3J1bQpvYmllY3RpdmlzCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:44",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXhwdWduYXNzZW0KZXh0bwphYnVpYWJhbWluaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:45",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXhhdWN0b3JhdHVybwpxdWFlcXVpZGVtCmFidWlhYmFtaW5pCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:46",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c2NyaWJpbGxhYml0dXIKY3VpdXNxdWlkZW0KYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:47",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YXVzdHJvYXNpYXRpY2kKYWJ1aWFiYW1pbmkKYWJ1aWFiYW1pbmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:48",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZWRvbGFudApkaWN0YXRvcmlpcwpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:49",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "b2J2aWF2ZXJpcwpzdWJpZWN0dXMKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:50",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "em9kaWFjYWUKZGljdGF0b3JqaXMKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:51",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW1wZXJtaXN0YXJ1bQpsb3F1ZWJhbWluaQpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:52",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJvdGVuZGlzCklsaWFjaQpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:53",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWxpdG90ZQp4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:54",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c2VuYXRvcml1bQphbW8KcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:55",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXhzZWN1ZXJ1bnQKb2JpZWN0aXZpcwpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:56",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29tbXVsY2VhbnR1cgpleHRvCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:57",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3VianVueGVyYXMKcXVhZXF1aWRlbQpxdWFlcXVpZGVtCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:58",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmVjZXB0dXJlCmN1aXVzcXVpZGVtCnF1YWVxdWlkZW0K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:59",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaW50ZWxsZWN0aXMKYWJ1aWFiYW1pbmkKcXVhZXF1aWRlbQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:60",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3VibGltYXN0aQpkaWN0YXRvcmlpcwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:61",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZnVnYWNpdGFzCnN1YmllY3R1cwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:62",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "emVsaXMKZGljdGF0b3JqaXMKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:63",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJhZWlhY2llYmFtCmxvcXVlYmFtaW5pCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:64",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cGVyc3BpcmF0aW9uZQpJbGlhY2kKSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:65",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bXVjZW8KeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4CklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:66",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXBpc2NvcGFsZW0KYW1vCklsaWFjaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:67",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW5odW1hcmVyaXMKb2JpZWN0aXZpcwpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:68",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGVzdWRhdml0CmV4dG8KSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:69",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3VycmlzZXJvCnF1YWVxdWlkZW0KSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:70",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmVjZXBlcmF0aXMKY3VpdXNxdWlkZW0KSWxpYWNpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:71",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bWV0YWJpbWluaQphYnVpYWJhbWluaQpJbGlhY2kK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:72",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGlzc2VudGlyZXMKZGljdGF0b3JpaXMKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:73",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGlzc2ltdWxhcmVtdXMKc3ViaWVjdHVzCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:74",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cGVyZHVudHVyCmRpY3RhdG9yamlzCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:75",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Z2VudWluaQpsb3F1ZWJhbWluaQpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:76",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGl2ZW5kaWRpc3NlbnQKSWxpYWNpCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:77",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dGhvbHVtCnh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eApleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:78",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Z2VsaWRlCmFtbwpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:79",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWRsZWdhcmVyCm9iaWVjdGl2aXMKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:80",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29uZHVtbmFzCmV4dG8KZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:81",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29tbWFuZHVjYWJhcgpxdWFlcXVpZGVtCmV4dG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:82",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bXVuZGF2aXNzZQpjdWl1c3F1aWRlbQpleHRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:83",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29uZHVjdGl0aWFydW0KYWJ1aWFiYW1pbmkKZXh0bwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:84",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y2l2aXRhdHVtCmRpY3RhdG9yaWlzCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:85",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3VmZnVsZ2ViYXRpcwpzdWJpZWN0dXMKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:86",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "bGlxdWVmYWNlcmVudApkaWN0YXRvcmppcwpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:87",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cGhhcm1hY2V1dGljdXMKbG9xdWViYW1pbmkKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:88",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWNjaWRlbnMKSWxpYWNpCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:89",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3R1cG9yaQp4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:90",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aHVtYW5hZQphbW8KZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:91",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3Bpcml0dW9zYQpvYmllY3RpdmlzCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:92",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cGx1bWFudApleHRvCmV4dGVuZG8K",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:93",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJhZWNlcnBlYmFtdXIKcXVhZXF1aWRlbQpleHRlbmRvCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:94",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3BsZW5pY28KY3VpdXNxdWlkZW0KZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:95",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW5jb21taXNjaWJpbGlidXMKYWJ1aWFiYW1pbmkKZXh0ZW5kbwo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:96",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmVtaXNjZXJldHVyCmRpY3RhdG9yaWlzCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:97",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW50ZXJsaW5ldApzdWJpZWN0dXMKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:98",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aXJyZXB0dXJ1bQpkaWN0YXRvcmppcwpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:99",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmFkaWNhYnVudApsb3F1ZWJhbWluaQpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:100",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dmlzaXRhdHVybwpJbGlhY2kKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:101",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "dHJ1bmNhdHVsb3J1bQp4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:102",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW5waW5ndWF2aW11cwphbW8KZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:103",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29yb25hcmlzCm9iaWVjdGl2aXMKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:104",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y2lyY3VtcGxlY3RlbnRpYQpleHRvCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:105",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGlmZmVzc3VyYW0KcXVhZXF1aWRlbQpleHR1bGkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:106",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aHltZW5hZXVtCmN1aXVzcXVpZGVtCmV4dHVsaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:107",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3ViaWNpZW5kYXMKYWJ1aWFiYW1pbmkKZXh0dWxpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:108",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aXVjdW5kYXJldApkaWN0YXRvcmlpcwpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:109",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Z3lyYXRvcwpzdWJpZWN0dXMKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:110",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YXJtZW50CmRpY3RhdG9yamlzCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:111",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1wbGV4YW50ZXMKbG9xdWViYW1pbmkKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:112",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c3VwcmFkaWNlcmVtaW5pCklsaWFjaQpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:113",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YW1waGlib2xlCnh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eApxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:114",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "Y29uZGVsZWN0YXJldHVyCmFtbwpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:115",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YWJlcnJhcml0Cm9iaWVjdGl2aXMKcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:116",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXZpbmNlbmRhCmV4dG8KcXVpCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:117",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZGlzc2VwYXJldApxdWFlcXVpZGVtCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:118",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZXhzdGlycGFiYXJlCmN1aXVzcXVpZGVtCnF1aQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:119",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aGltYWxheWFuYXJ1bQphYnVpYWJhbWluaQpxdWkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:120",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cGFyc3VyYXMKZGljdGF0b3JpaXMKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:121",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "c2VyZW5hdG8Kc3ViaWVjdHVzCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:122",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZmlkaWNpbmVtdXIKZGljdGF0b3JqaXMKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:123",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "YXJlZmFjaW8KbG9xdWViYW1pbmkKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:124",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cHJvbGVjdGF2aXNzZW0KSWxpYWNpCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:125",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "ZWN1bGV1bQp4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgKaQo=",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:126",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "aW5jdXJzYXZlcmUKYW1vCmkK",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    },
+    {
+      "id": "retired-triplet:127",
+      "argv": [
+        "-T",
+        "-L"
+      ],
+      "stdin": "cmVsaW5lbnMKb2JpZWN0aXZpcwppCg==",
+      "io": true,
+      "tr": true,
+      "transparent": true
+    }
+  ],
+  "failures": [],
+  "events": 24940
+}

@@ -1,0 +1,467 @@
+{
+  "binary": "memory.wasm",
+  "input": "dictatoriis\nobiectivis\n",
+  "inject": 0,
+  "injections": [
+    {
+      "address": 93016,
+      "before": 0,
+      "after": 0
+    }
+  ],
+  "platform": {
+    "node": "v26.7.0",
+    "system": "darwin",
+    "architecture": "arm64"
+  },
+  "wasmSha256": "d8952d0e5224963c577034f770c8384232b4a58988c7380886149b4e966e2c43",
+  "fingerprint": {
+    "stdout": "d9b0a602e6841fb4015bda50d14eb56f2e116740ca6c64528c631b21c00f2d9f",
+    "stderr": "e7371fb44c737312e144fe042bec7e9c14ead855057b4dea03d5e65859eecef1",
+    "termination": {
+      "kind": "exit",
+      "code": 0
+    },
+    "files": {
+      "input.morph": "47c8e0d2f587fc7e1d3dcaa3dc44b66044b1d03980cfa44eb4315efdcaece23e",
+      "input.failed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "input.stats": "da2f3130b1181bf6766cee4207a890a3099cb85edef6303b8438706efa831f91"
+    }
+  },
+  "memorySha256": "e4040d9007f5e98f3cd2d936efee2fb76fc2ae3b33df85741c2bcf8ec1961fd7",
+  "events": [
+    {
+      "kind": "entry20",
+      "sequence": 809,
+      "frame": 93264,
+      "raw": "dictatoriis",
+      "word": "dictatoriis",
+      "work": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93264
+    },
+    {
+      "kind": "entry21",
+      "sequence": 816,
+      "frame": 93072,
+      "raw": "dictatoriis",
+      "word": "dictatoriis",
+      "work": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93072
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 101256,
+      "dest": 93008,
+      "source": "dictatoriis",
+      "sp": 92944,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 16 (wasm://wasm/000cebda:wasm-function[42]:0x740d)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xaff2)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 319262,
+      "dest": 93008,
+      "source": "dictatoriis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 326955,
+      "dest": 93008,
+      "source": "ictatoriis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 327226,
+      "dest": 93008,
+      "source": "ctatoriis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 327517,
+      "dest": 93008,
+      "source": "tatoriis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "read",
+      "sequence": 334309,
+      "frame": 93264,
+      "raw": "dictatoriis",
+      "word": "dictatoriis",
+      "work": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 1,
+      "address": 93267,
+      "next": 99,
+      "following": 116,
+      "before": 116,
+      "tail": false,
+      "lastWrite": {
+        "id": 3615,
+        "n": 4,
+        "address": 93264,
+        "sequence": 334303,
+        "type": "i32",
+        "value": "1952672100"
+      }
+    },
+    {
+      "kind": "read",
+      "sequence": 334310,
+      "frame": 93264,
+      "raw": "dictatoriis",
+      "word": "dictatoriis",
+      "work": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 8,
+      "address": 93274,
+      "next": 105,
+      "following": 115,
+      "before": 115,
+      "tail": false,
+      "lastWrite": {
+        "id": 3619,
+        "n": 1,
+        "address": 93274,
+        "sequence": 334307,
+        "type": "i32",
+        "value": "115"
+      }
+    },
+    {
+      "kind": "entry20",
+      "sequence": 334318,
+      "frame": 93136,
+      "raw": "dictatoriis",
+      "word": "dictatorjis",
+      "work": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93136
+    },
+    {
+      "kind": "entry21",
+      "sequence": 334325,
+      "frame": 92944,
+      "raw": "dictatoriis",
+      "word": "dictatorjis",
+      "work": "6469637461746f7269690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "2a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 92944
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 343211,
+      "dest": 93008,
+      "source": "dictatorjis",
+      "sp": 92944,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xbb4e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xae77)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "read",
+      "sequence": 343258,
+      "frame": 93136,
+      "raw": "dictatoriis",
+      "word": "dictatorjis",
+      "work": "6469637461746f726a697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f726a697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 1,
+      "address": 93139,
+      "next": 99,
+      "following": 116,
+      "before": 116,
+      "tail": false,
+      "lastWrite": {
+        "id": 3615,
+        "n": 4,
+        "address": 93136,
+        "sequence": 343252,
+        "type": "i32",
+        "value": "1952672100"
+      }
+    },
+    {
+      "kind": "read",
+      "sequence": 343259,
+      "frame": 93136,
+      "raw": "dictatoriis",
+      "word": "dictatorjis",
+      "work": "6469637461746f726a697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f726a697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 9,
+      "address": 93147,
+      "next": 115,
+      "following": 0,
+      "before": 0,
+      "tail": false,
+      "lastWrite": {
+        "id": 3619,
+        "n": 1,
+        "address": 93147,
+        "sequence": 343257,
+        "type": "i32",
+        "value": "0"
+      }
+    },
+    {
+      "kind": "read",
+      "sequence": 343267,
+      "frame": 93264,
+      "raw": "dictatoriis",
+      "word": "dictatorjis",
+      "work": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 9,
+      "address": 93275,
+      "next": 115,
+      "following": 0,
+      "before": 0,
+      "tail": false,
+      "lastWrite": {
+        "id": 3619,
+        "n": 1,
+        "address": 93275,
+        "sequence": 334308,
+        "type": "i32",
+        "value": "0"
+      }
+    },
+    {
+      "kind": "entry20",
+      "sequence": 345045,
+      "frame": 93264,
+      "raw": "obiectivis",
+      "word": "obiectivis",
+      "work": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f7269697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93264
+    },
+    {
+      "kind": "entry21",
+      "sequence": 345051,
+      "frame": 93072,
+      "raw": "obiectivis",
+      "word": "obiectivis",
+      "work": "6469637461746f726a697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6469637461746f726a697300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93072
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 345315,
+      "dest": 93008,
+      "source": "obiectivis",
+      "sp": 92944,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 16 (wasm://wasm/000cebda:wasm-function[42]:0x740d)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xaff2)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 347916,
+      "dest": 93008,
+      "source": "obiectivis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 348058,
+      "dest": 93008,
+      "source": "biectivis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "strcpy",
+      "sequence": 348341,
+      "dest": 93008,
+      "source": "iectivis",
+      "sp": 90896,
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22c32)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "kind": "entry20",
+      "sequence": 353140,
+      "frame": 93136,
+      "raw": "obiectivis",
+      "word": "obiecti",
+      "work": "6f6269656374697669730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6f6269656374697669730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93136
+    },
+    {
+      "kind": "entry21",
+      "sequence": 353146,
+      "frame": 92944,
+      "raw": "obiectivis",
+      "word": "obiecti",
+      "work": "6f6269656374697669000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "2a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 92944
+    },
+    {
+      "kind": "read",
+      "sequence": 359682,
+      "frame": 93136,
+      "raw": "obiectivis",
+      "word": "obiecti",
+      "work": "6f6269656374690069730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6f6269656374690069730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 2,
+      "address": 93140,
+      "next": 101,
+      "following": 99,
+      "before": 99,
+      "tail": false,
+      "lastWrite": {
+        "id": 3617,
+        "n": 1,
+        "address": 93140,
+        "sequence": 359678,
+        "type": "i32",
+        "value": "6911075"
+      }
+    },
+    {
+      "kind": "entry20",
+      "sequence": 359689,
+      "frame": 93008,
+      "raw": "obiectivis",
+      "word": "objecti",
+      "work": "6f6269656374690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6f6269656374690069730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 93008
+    },
+    {
+      "kind": "entry21",
+      "sequence": 359695,
+      "frame": 92816,
+      "raw": "obiectivis",
+      "word": "objecti",
+      "work": "6f6269656374000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "2a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sp": 92816
+    },
+    {
+      "kind": "read",
+      "sequence": 414242,
+      "frame": 93008,
+      "raw": "obiectivis",
+      "word": "objecti",
+      "work": "6f626a656374690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "save": "6f626a656374690069730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offset": 6,
+      "address": 93016,
+      "next": 0,
+      "following": 0,
+      "before": 0,
+      "tail": true,
+      "lastWrite": {
+        "id": 3619,
+        "n": 1,
+        "address": 93016,
+        "sequence": 348350,
+        "type": "i32",
+        "value": "0"
+      }
+    }
+  ],
+  "writes": [
+    {
+      "id": 3617,
+      "n": 1,
+      "address": 93016,
+      "sequence": 101259,
+      "type": "i32",
+      "value": "7563625",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d3c)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 16 (wasm://wasm/000cebda:wasm-function[42]:0x740d)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xaff2)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 319271,
+      "type": "i32",
+      "value": "105",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 326964,
+      "type": "i32",
+      "value": "105",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 327235,
+      "type": "i32",
+      "value": "115",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 327526,
+      "type": "i32",
+      "value": "0",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3617,
+      "n": 1,
+      "address": 93016,
+      "sequence": 343214,
+      "type": "i32",
+      "value": "7563626",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d3c)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xbb4e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xae77)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3617,
+      "n": 1,
+      "address": 93016,
+      "sequence": 345318,
+      "type": "i32",
+      "value": "29545",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d3c)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 16 (wasm://wasm/000cebda:wasm-function[42]:0x740d)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xaff2)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 347925,
+      "type": "i32",
+      "value": "105",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 348067,
+      "type": "i32",
+      "value": "115",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    },
+    {
+      "id": 3619,
+      "n": 1,
+      "address": 93016,
+      "sequence": 348350,
+      "type": "i32",
+      "value": "0",
+      "stack": "    at 206 (wasm://wasm/000cebda:wasm-function[232]:0x22d6f)\n    at 155 (wasm://wasm/000cebda:wasm-function[181]:0x1f770)\n    at 21 (wasm://wasm/000cebda:wasm-function[47]:0xb96e)\n    at 20 (wasm://wasm/000cebda:wasm-function[46]:0xa37f)\n    at 19 (wasm://wasm/000cebda:wasm-function[45]:0xa160)\n    at 18 (wasm://wasm/000cebda:wasm-function[44]:0x7aae)\n    at 1 (wasm://wasm/000cebda:wasm-function[27]:0x1346)"
+    }
+  ]
+}

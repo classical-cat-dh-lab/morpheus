@@ -1,10 +1,11 @@
 {
-  "status": "blocked",
-  "engineReplacementAccepted": false,
+  "status": "qualified-for-recorded-preservation-scope",
+  "engineReplacementAccepted": true,
+  "releaseVersionAssigned": false,
   "sourceUnits": 119,
   "sourceFunctions": 470,
   "sourceRevision": "b1b33c56ef2338fe0dcd1893628ed638f00c0986",
-  "implementation": "perseus-b1b33c5-rust-candidate.1",
+  "implementation": "perseus-b1b33c5-rust-candidate.2",
   "data": "9309f9ae824ff8e2f0db3636e4896a959381c4b5540d314281d688e4451b226f",
   "artifacts": [
     {
@@ -15,7 +16,7 @@
     {
       "path": "artifact/identity.mjs",
       "bytes": 854,
-      "sha256": "9c31c86ece5fb84712893790b330c926b12ee4154a0a9cb93258372cb42f2e2b"
+      "sha256": "862904bf63f6e8822988c9e393b61c06477ebce8bb321a0d61c70e2b3d41f5a2"
     },
     {
       "path": "artifact/morpheus.data",
@@ -29,8 +30,8 @@
     },
     {
       "path": "artifact/morpheus.wasm",
-      "bytes": 228281,
-      "sha256": "b1159b39b8c6bd01b53e911a4fb83b9616ad2dc47b841d83bc734d98656fbe7f"
+      "bytes": 230375,
+      "sha256": "5bc1f97c29cabc709bec02425618ec909c49caf98f01a503430274334ce83605"
     },
     {
       "path": "artifact/runtime.mjs",
@@ -39,8 +40,45 @@
     },
     {
       "path": "native/cruncher",
-      "bytes": 623520,
-      "sha256": "4fea2792fe3f0fe388ef2e2d801dbf940798a870b89ace2ac70a30364e5eaaba"
+      "bytes": 624000,
+      "sha256": "ea8bbe5c712583f33a0393d8197f731eeb27c0130b0882dab98758c48da5fee1"
+    }
+  ],
+  "instrumentedBuildArtifacts": [
+    {
+      "path": "artifact/cli.mjs",
+      "bytes": 1327,
+      "sha256": "d4a3cd5c1b6677c08ba3f35e1f6c32cae9bcee34b3ae4bd8134b4b21a673bf32"
+    },
+    {
+      "path": "artifact/identity.mjs",
+      "bytes": 854,
+      "sha256": "32be649964db670c74d0d8db02a5fd3a6a89b2c1808b9b8fe0a29d5427711f9e"
+    },
+    {
+      "path": "artifact/morpheus.data",
+      "bytes": 11066684,
+      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030"
+    },
+    {
+      "path": "artifact/morpheus.mjs",
+      "bytes": 146147,
+      "sha256": "398890140cda0275a7df985e024a621182caefed30da930f832597bb1b61ecbb"
+    },
+    {
+      "path": "artifact/morpheus.wasm",
+      "bytes": 242210,
+      "sha256": "8e5658fbe7e18a976a06c207e060ac6d148d909cd2d25fe91693004a911b4ff0"
+    },
+    {
+      "path": "artifact/runtime.mjs",
+      "bytes": 3702,
+      "sha256": "ce87bd12458be4d8f4c0badabb066fcda1ada3853c195217625cfcee8578bec5"
+    },
+    {
+      "path": "native/cruncher",
+      "bytes": 643968,
+      "sha256": "87c7fc988281978f5b23dbca5b90a640ad851b7467a9186619b57c5bc6da3a82"
     }
   ],
   "externalIO": {
@@ -56,101 +94,112 @@
     ],
     "mismatches": 0
   },
-  "sourceAndOrder": {
-    "fixtures": 584,
-    "traceEvents": 79100,
-    "failures": 0
-  },
-  "optionsAndBoundaries": {
-    "fixtures": 1508,
-    "traceEvents": 110517,
-    "failures": 0
-  },
   "corpusInternalTrace": {
     "groups": 3200,
-    "cEvents": 1223188,
-    "failedGroups": 12,
-    "distinctFailedBatches": 6
+    "cEvents": 1223194,
+    "failedGroups": 0
   },
-  "independentReadOnlyProbe": {
-    "input": "dictatoriis\nobiectivis\n",
-    "argv": [
-      "-T",
-      "-L"
-    ],
-    "operation": "cruncher-file",
-    "ioEqual": true,
-    "traceEqual": false,
-    "instrumentationChangesOutput": false
+  "independentPostLinkCheckpoints": {
+    "groups": 3200,
+    "checkwordEntries": 170374,
+    "failures": 0,
+    "rawIOTransparency": true,
+    "sourceRecompiled": false
+  },
+  "fixtures": {
+    "source-and-order": {
+      "fixtures": 584,
+      "sourceCheckpointEvents": 79100,
+      "failures": 0
+    },
+    "options-and-boundaries": {
+      "fixtures": 1508,
+      "sourceCheckpointEvents": 110517,
+      "failures": 0
+    },
+    "retired-memory": {
+      "fixtures": 512,
+      "sourceCheckpointEvents": 24940,
+      "failures": 0
+    },
+    "retired-memory-grid": {
+      "fixtures": 2048,
+      "sourceCheckpointEvents": 66584,
+      "failures": 0
+    },
+    "known-divergence": {
+      "fixtures": 1,
+      "sourceCheckpointEvents": 53,
+      "failures": 0
+    }
+  },
+  "postLinkFixtures": {
+    "source-and-order": {
+      "fixtures": 584,
+      "checkwordEntries": 14435,
+      "failures": 0
+    },
+    "options-and-boundaries": {
+      "fixtures": 1508,
+      "checkwordEntries": 17043,
+      "failures": 0
+    },
+    "retired-memory": {
+      "fixtures": 512,
+      "checkwordEntries": 5110,
+      "failures": 0
+    },
+    "retired-memory-grid": {
+      "fixtures": 2048,
+      "checkwordEntries": 12104,
+      "failures": 0
+    }
   },
   "browserEngines": [
     {
       "name": "chromium",
-      "version": "151.0.7922.34",
+      "version": "153.0.8010.12",
       "checks": 19,
       "offlineColdRestart": true
     },
     {
       "name": "webkit",
-      "version": "26.5",
+      "version": "26.6",
       "checks": 11,
       "offlineColdRestart": true
     },
     {
       "name": "firefox",
-      "version": "153.0",
+      "version": "155.0",
       "checks": 11,
       "offlineColdRestart": true
     }
   ],
-  "requiredDecision": "Full compiled-memory compatibility versus an explicitly adapted portable reference/profile; neither boundary change has been accepted.",
+  "requiredDecision": null,
+  "historicalQualification": "candidate-1-qualification.json",
+  "causality": "../CAUSALITY.md",
+  "scopeLimits": [
+    "Finite measured coverage, not proof over all possible input byte streams.",
+    "Frozen portable C/Wasm reference; live Tufts deployment equivalence remains unverified.",
+    "The production application remains the separately released C/Wasm edition."
+  ],
   "receipts": {
-    "browser.json": "b147b4a685233500a7604d2e957b3447092f63fa714b83b9831293b119a717ec",
-    "build.json": "912ee44a7b2d69900055dd095933a630cc2f05098673754def549ac56708318d",
-    "internal-40000.json": "d0e694290d4ff4d0698fe0b1be58c53d11499ad7f47f510c00bf5ce4eecabe70",
-    "io-40000.json": "7e335d5b458d8802fc7462d4bbbaa3cda5310aaab94447fb9706f0484bc0b1ae",
-    "known-c.trace": "bdd70316c687564ac8691b5acd76fd948b79d42962ebc2203e2d1cef38e8367f",
-    "known-divergence.json": "33c64728f3b2f8215a40cdb7af780f7e3844d6f854fdefd9882a059c066640bc",
-    "known-rust.trace": "4c236707d62890a26bb8fe64f36ef0985c2abdde693a88c8d0fccd2ee479250e",
-    "native-40000.json": "96c7c13b8edd38d2dd175901a3f4b5376ea56f0a343eacedbf6596736fd68671",
-    "options-and-boundaries.json": "9531e5d122038b5b0ef262020eacb102df6d2eab370e052c5cd18bbc9a8007f2",
-    "source-and-order.json": "ca58d89fc294ee3233c77d4fe320b2bbb2d9be232436204046329e073d012ce9"
+    "candidate-2/browser.json": "0d12eab73552d5b9fa9e996b3d67642b3dc72067e318a6198070186d7869aa4a",
+    "candidate-2/build.json": "acb1d17e6813504a4ac8b2d085713930fd329ff448662f86e96f80de0bf372a3",
+    "candidate-2/internal-and-io-40000.json": "b2da3985a150b41a1285fbc21d25f68b2e4ae380dfe7e1f62911d38623ba4a3b",
+    "candidate-2/known-divergence.json": "77dc31216c43306322d29d3a4f7664be3964626481b830f275420d609f7a0dcf",
+    "candidate-2/native-40000.json": "6b36bdc06401e95df975175e4c277cd988b5d77493458f2160254fd6a054dc40",
+    "candidate-2/options-and-boundaries.json": "9531e5d122038b5b0ef262020eacb102df6d2eab370e052c5cd18bbc9a8007f2",
+    "candidate-2/postlink-40000.json": "7aab59ba7f6fa10e3a90dfc445140972d97aede4ad9ec49beceda87ba8ab23a9",
+    "candidate-2/postlink-options-and-boundaries.json": "cd42e0b2069b9668e7ad7f66ce1b0adf40119be3884d872afa4f0f553632e87f",
+    "candidate-2/postlink-retired-memory-grid.json": "dc7408789c9f9d22fe7af62b31b8971d5ccc97d27ce03bb3950bd02a59f0d326",
+    "candidate-2/postlink-retired-memory.json": "bdfa3f27bdef99b7b858c64930581968692373f6a993fdad4b5fda3371fe7c82",
+    "candidate-2/postlink-source-and-order.json": "d00dab97bea4062f23839786543bb1e6a7420a44975f389bfa3cd816ac22be9f",
+    "candidate-2/retired-memory-grid.json": "e59e0c8c088be0fddfe814210235a968a5d82de817d30e9225233a6b0190ed3b",
+    "candidate-2/retired-memory.json": "f0b4cb3efff33aafbf84f5c07d6541fcabec948b47dc7511e93cac7926347633",
+    "candidate-2/source-and-order.json": "ca58d89fc294ee3233c77d4fe320b2bbb2d9be232436204046329e073d012ce9",
+    "candidate-2/trace-build.json": "26c5fdfdd84cab1ea135e6903a0fdbf07b50eead753a8af897300c91ca15d394",
+    "candidate-2/reproducible-build.json": "db27cb89068623ac6212a7a3f6ffbd5cea44db1ced2a764074f0150a91a0d71c"
   },
-  "instrumentedBuildArtifacts": [
-    {
-      "path": "artifact/cli.mjs",
-      "bytes": 1327,
-      "sha256": "d4a3cd5c1b6677c08ba3f35e1f6c32cae9bcee34b3ae4bd8134b4b21a673bf32"
-    },
-    {
-      "path": "artifact/identity.mjs",
-      "bytes": 854,
-      "sha256": "ab80ff70a7fa89162c4465972c469091f9cf124e59a409cdb68b4d865a73a594"
-    },
-    {
-      "path": "artifact/morpheus.data",
-      "bytes": 11066684,
-      "sha256": "2153ecd05b0c2c4cf98a9a39d6bdaf25534bb751f4bec660383479d5b48f1030"
-    },
-    {
-      "path": "artifact/morpheus.mjs",
-      "bytes": 146147,
-      "sha256": "398890140cda0275a7df985e024a621182caefed30da930f832597bb1b61ecbb"
-    },
-    {
-      "path": "artifact/morpheus.wasm",
-      "bytes": 239112,
-      "sha256": "d7785c8a6f02db94710498a418cf97660e8dee7acce00f170c37764e00eb1473"
-    },
-    {
-      "path": "artifact/runtime.mjs",
-      "bytes": 3702,
-      "sha256": "ce87bd12458be4d8f4c0badabb066fcda1ada3853c195217625cfcee8578bec5"
-    },
-    {
-      "path": "native/cruncher",
-      "bytes": 642864,
-      "sha256": "9691f77d17a6bac39df3e9dcd832a11ed56b56cd28241ab9281eebb5d99567a0"
-    }
-  ]
+  "reproducibleBuild": true
 }
