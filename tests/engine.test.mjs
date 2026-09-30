@@ -8,6 +8,12 @@ const request=(word,extra={})=>({protocol,id:'test',profile:identity.profile,imp
 const options={locateFile:name=>fileURLToPath(new URL('../engine/'+name,import.meta.url))};
 test('shipped engine/data identities match the artifact bytes',()=>{
   for(const[name,entry]of Object.entries(identity.assets)){const bytes=readFileSync(new URL('../engine/'+name,import.meta.url));assert.equal(bytes.length,entry.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),entry.sha256);}
+  const qualified=JSON.parse(readFileSync(new URL('../rust/evidence/qualification.json',import.meta.url)));
+  assert.equal(identity.implementation,qualified.implementation);assert.equal(identity.data,qualified.data);
+  for(const file of qualified.artifacts.filter(f=>f.path.startsWith('artifact/')&&!f.path.endsWith('/cli.mjs'))){
+    const bytes=readFileSync(new URL('../engine/'+file.path.slice('artifact/'.length),import.meta.url));
+    assert.equal(bytes.length,file.bytes,file.path);assert.equal(createHash('sha256').update(bytes).digest('hex'),file.sha256,file.path);
+  }
 });
 test('fresh Greek and Latin runs retain independent state and exact bytes',async()=>{
   const greek=await runEngine(request('lo/gos\n'),options);

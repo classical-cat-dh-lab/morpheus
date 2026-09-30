@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "applicationVersion": "0.1.0",
+  "engine": {
+    "implementation": "perseus-b1b33c5-rust-candidate.2",
+    "data": "9309f9ae824ff8e2f0db3636e4896a959381c4b5540d314281d688e4451b226f",
+    "wasmSha256": "5bc1f97c29cabc709bec02425618ec909c49caf98f01a503430274334ce83605"
+  },
+  "sourceFreeze": "rust/preservation-baseline.json",
+  "portableTests": 11,
+  "browsers": [
+    {
+      "name": "chromium",
+      "version": "153.0.8010.12",
+      "checks": [
+        "Exact passage, repeated occurrence selection, keyboard/tabs, full Greek entry and morphology",
+        "Latin Unicode/macron adaptation and Lewis & Short definitions",
+        "Transparent delivered bytes and untouched raw output",
+        "Downloadable execution record",
+        "Original input mode and explicit length rejection",
+        "New lookup clears results and cancels stale work",
+        "320–1280px layout and light/dark themes",
+        "Cold offline reload, real lookup and document navigation",
+        "Shared persistent theme on application and information pages",
+        "Storage quota failure preserves the previous complete offline edition",
+        "Corrupt offline data is detected, repaired and used by a real offline lookup",
+        "Dictionary corruption is distinct from no match; retry restores meanings without changing morphology",
+        "Denied preferences do not block analysis or theme",
+        "Cancellation during engine loading terminates the worker and a fresh query succeeds",
+        "Repeated downloads do not retain duplicate complete copies of the same release",
+        "No uncaught page errors",
+        "Browser process terminated and relaunched with no reachable origin; real lookup succeeds"
+      ],
+      "passed": true
+    },
+    {
+      "name": "webkit",
+      "version": "26.6",
+      "checks": [
+        "Exact passage, repeated occurrence selection, keyboard/tabs, full Greek entry and morphology",
+        "Latin Unicode/macron adaptation and Lewis & Short definitions",
+        "Transparent delivered bytes and untouched raw output",
+        "Downloadable execution record",
+        "Original input mode and explicit length rejection",
+        "New lookup clears results and cancels stale work",
+        "320–1280px layout and light/dark themes",
+        "Cold offline reload, real lookup and document navigation",
+        "Shared persistent theme on application and information pages",
+        "No uncaught page errors",
+        "Browser process terminated and relaunched with no reachable origin; real lookup succeeds"
+      ],
+      "passed": true
+    },
+    {
+      "name": "firefox",
+      "version": "155.0",
+      "checks": [
+        "Exact passage, repeated occurrence selection, keyboard/tabs, full Greek entry and morphology",
+        "Latin Unicode/macron adaptation and Lewis & Short definitions",
+        "Transparent delivered bytes and untouched raw output",
+        "Downloadable execution record",
+        "Original input mode and explicit length rejection",
+        "New lookup clears results and cancels stale work",
+        "320–1280px layout and light/dark themes",
+        "Cold offline reload, real lookup and document navigation",
+        "Shared persistent theme on application and information pages",
+        "No uncaught page errors",
+        "Browser process terminated and relaunched with no reachable origin; real lookup succeeds"
+      ],
+      "passed": true
+    }
+  ],
+  "upgradeChecks": [
+    "Failed Rust download retains a complete, usable original C edition",
+    "Cancellation preserves the previous selection and restores controls",
+    "Upgrade reuses verified morphology and all 256 dictionary shards without network transfer",
+    "The already-open C page continues using its original immutable engine",
+    "Explicit activation and reload work with an unreachable origin and select Rust",
+    "Update check downloads only the manifest; no runtime data",
+    "Twenty online local queries produce zero origin requests after full save",
+    "Subsequent frontend update is discovered explicitly, reuses engine/data/dictionaries, waits for reload and activates offline"
+  ],
+  "reusedDataBytes": 58140163,
+  "warm20QueriesMs": 1998,
+  "nativePlatform": "macOS arm64",
+  "originalEngineChanged": false,
+  "physicalMobileAcceptance": false
+}

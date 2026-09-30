@@ -75,4 +75,3 @@ $('download-record').onclick = () => {
   const saved = {schema:'morph-execution-record/1', conversion:{...prepared,bytes:undefined}, request:{...request,stdin:bytes64(request.stdin)}, result:{...result,stdout:bytes64(result.stdout),stderr:bytes64(result.stderr),files:Object.fromEntries(Object.entries(result.files).map(([k,v])=>[k,bytes64(v)]))},byteEncoding:'base64'};
   download('morph-execution.json', JSON.stringify(saved,null,2)+'\n', 'application/json');
 };
-
